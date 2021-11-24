@@ -1,0 +1,1455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReplayLastGameRecordButton" xml:space="preserve">
+    <value>Воспроизвести последнюю запись игры</value>
+  </data>
+  <data name="ConnectToRemoteServer" xml:space="preserve">
+    <value>Подключение к удаленному серверу</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Сеть</value>
+  </data>
+  <data name="Live" xml:space="preserve">
+    <value>Лайв</value>
+  </data>
+  <data name="ReplaySpeed" xml:space="preserve">
+    <value>Скорость воспроизведения</value>
+  </data>
+  <data name="Replay" xml:space="preserve">
+    <value>Переиграть</value>
+  </data>
+  <data name="RecordToolTip" xml:space="preserve">
+    <value>Записать данные игры для воспроизведения позже в режиме оффлайн</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="AdminPrivilegesAlert" xml:space="preserve">
+    <value>Для правильной работы SimHub требуются права администратора, вы хотите применить их сейчас ?</value>
+  </data>
+  <data name="EnableItNow" xml:space="preserve">
+    <value>Включить сейчас</value>
+  </data>
+  <data name="NoThanks" xml:space="preserve">
+    <value>Нет, спасибо</value>
+  </data>
+  <data name="RestoreSimHub" xml:space="preserve">
+    <value>Восстановить SimHub</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Всегда вверху</value>
+  </data>
+  <data name="ExitSimHub" xml:space="preserve">
+    <value>Покинуть SimHub</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Игры</value>
+  </data>
+  <data name="Carssettings" xml:space="preserve">
+    <value>Настройки автомобиля</value>
+  </data>
+  <data name="ControlsAndEvents" xml:space="preserve">
+    <value>Элементы управления и события</value>
+  </data>
+  <data name="AvailableProperties" xml:space="preserve">
+    <value>Доступные свойства</value>
+  </data>
+  <data name="AdditionalPlugins" xml:space="preserve">
+    <value>Дополнительные плагины</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SystemLog" xml:space="preserve">
+    <value>Системный журнал</value>
+  </data>
+  <data name="GameDisconnected" xml:space="preserve">
+    <value>Игра отключена</value>
+  </data>
+  <data name="GameConnected" xml:space="preserve">
+    <value>Игра подключена</value>
+  </data>
+  <data name="AdministratorPrivilegesTitle" xml:space="preserve">
+    <value>Права администратора</value>
+  </data>
+  <data name="AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>Вы уверены, что хотите работать без прав администратора ? У вас могут быть проблемы с распознаванием игр и некоторыми функциями, такими как отказ работы системной информации. Вы можете включить права администратора в любое время в настройках SimHub.</value>
+  </data>
+  <data name="NewPluginDetectedTitle" xml:space="preserve">
+    <value>Обнаружен новый плагин</value>
+  </data>
+  <data name="NewPluginDetectedMessage" xml:space="preserve">
+    <value>SimHub обнаружил новый плагин : {0}
+Вы хотите включить его сейчас ? Вы можете сделать это в любое время в настройках</value>
+  </data>
+  <data name="MoreTab" xml:space="preserve">
+    <value>Подробнее...</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>Начать игру</value>
+  </data>
+  <data name="AboutSDK" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="GameNeedsConfiguration" xml:space="preserve">
+    <value>Эта игра требует дополнительной настройки</value>
+  </data>
+  <data name="SettingsDeveloperToolsTab" xml:space="preserve">
+    <value>Инструменты разработки</value>
+  </data>
+  <data name="SettingsGamesTab" xml:space="preserve">
+    <value>Игры</value>
+  </data>
+  <data name="PasteLicenseContent" xml:space="preserve">
+    <value>Вставить содержимое лицензии :</value>
+  </data>
+  <data name="LoadLicenseButton" xml:space="preserve">
+    <value>Загрузить лицензию</value>
+  </data>
+  <data name="PasteLicenseButton" xml:space="preserve">
+    <value>Вставить номер лицензии</value>
+  </data>
+  <data name="ClearLicenseButton" xml:space="preserve">
+    <value>Очистить номер лицензии</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SettingsGeneralSection" xml:space="preserve">
+    <value>ОБЩЕЕ</value>
+  </data>
+  <data name="StartWithWindows" xml:space="preserve">
+    <value>Начать с windows</value>
+  </data>
+  <data name="RunAsAdministratorOption" xml:space="preserve">
+    <value>Запуск от имени администратора</value>
+  </data>
+  <data name="RunAsAdministratorOptionComment" xml:space="preserve">
+    <value>Полезно, когда нужно получить всю информацию о системе (например, температуру) или решить некоторые проблемы с обнаружением игры</value>
+  </data>
+  <data name="DonatorLicense" xml:space="preserve">
+    <value>LICENSE</value>
+  </data>
+  <data name="StartMinimized" xml:space="preserve">
+    <value>Запуск в свернутом виде</value>
+  </data>
+  <data name="FeatureIncludedInDonatorVersion" xml:space="preserve">
+    <value>Функция включена в версию Licensed</value>
+  </data>
+  <data name="MinimizeInTray" xml:space="preserve">
+    <value>Сворачивание в трей</value>
+  </data>
+  <data name="ShowSimhubFps" xml:space="preserve">
+    <value>Показать SimHub FPS</value>
+  </data>
+  <data name="ShowSimHubFpsComment" xml:space="preserve">
+    <value>Показать счетчик скорости обновления данных в нижней части окна SimHub</value>
+  </data>
+  <data name="HigherProcessPriority" xml:space="preserve">
+    <value>Более высокий приоритет процесса</value>
+  </data>
+  <data name="HigherProcessPriorityComment" xml:space="preserve">
+    <value>Полезно для ресурсоёмких игр для процессора, не включайте, если это вам не нужно</value>
+  </data>
+  <data name="AutoDetectCurrentGame" xml:space="preserve">
+    <value>Автоматическое определение текущей игры</value>
+  </data>
+  <data name="SettingsGeneralTab" xml:space="preserve">
+    <value>Общее</value>
+  </data>
+  <data name="SettingsPluginsTab" xml:space="preserve">
+    <value>Плагины</value>
+  </data>
+  <data name="SettingsDebugModeOption" xml:space="preserve">
+    <value>Режим отладки</value>
+  </data>
+  <data name="SettingsDebugModeOptionComment" xml:space="preserve">
+    <value>Включите ведение подробного журнала, используйте его только для устранения неполадок</value>
+  </data>
+  <data name="SettingsWebServerPortOption" xml:space="preserve">
+    <value>Порт веб-сервера (TCP)</value>
+  </data>
+  <data name="SettingsRequiresASimhubRestart" xml:space="preserve">
+    <value>Требуется перезапуск SimHub</value>
+  </data>
+  <data name="SettingsWebSocketPort" xml:space="preserve">
+    <value>Порт веб-сокета (TCP)</value>
+  </data>
+  <data name="SettingsLapTrackingAndLeaderboardsSesction" xml:space="preserve">
+    <value>ОТСЛЕЖИВАНИЕ КРУГОВ И ТАБЛИЦЫ ЛИДЕРОВ</value>
+  </data>
+  <data name="SettingsUseAllTimeBestWhenNoSessionBestIsAvailableOption" xml:space="preserve">
+    <value>Лучше всего использовать все время, когда нет лучшего сеанса</value>
+  </data>
+  <data name="SettingsUseAllTimeBestWhenNoSessionBestIsAvailableOptionComment" xml:space="preserve">
+    <value>Позволяет всегда получать время начала отсчета и интервал сеанса в лучших относительных данных </value>
+  </data>
+  <data name="SettingsGapComputationModeOption" xml:space="preserve">
+    <value>Режим расчета интервала</value>
+  </data>
+  <data name="SettingsPreferredUnitsSection" xml:space="preserve">
+    <value>ИЗБРАННЫЕ ЕДИНИЦЫ</value>
+  </data>
+  <data name="SettingsChangeSpeedlocalPropertyUnitOption" xml:space="preserve">
+    <value>Изменение свойств единицы "SpeedLocal"</value>
+  </data>
+  <data name="SettingsTemperatureUnitOption" xml:space="preserve">
+    <value>Единица температуры</value>
+  </data>
+  <data name="SettingsSpeedUnitOption" xml:space="preserve">
+    <value>Единица скорости</value>
+  </data>
+  <data name="SettingsPressureUnitOption" xml:space="preserve">
+    <value>Единица давления</value>
+  </data>
+  <data name="SettingsFuelUnitOption" xml:space="preserve">
+    <value>Топливная единица</value>
+  </data>
+  <data name="SettingsAdjustMinimumTyreWearOption" xml:space="preserve">
+    <value>Регулировка минимального износа шин (% от заявленных игровых данных)</value>
+  </data>
+  <data name="SettingsCurrentGameSettingsSectionTitle" xml:space="preserve">
+    <value>{0} НАСТРОЙКИ</value>
+  </data>
+  <data name="SettingsLooknfeelSection" xml:space="preserve">
+    <value>LOOK'N'FEEL</value>
+  </data>
+  <data name="SettingsThemeOption" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="SettingsRemoteSimhubServerSection" xml:space="preserve">
+    <value>УДАЛЕННЫЙ СЕРВЕР SIMHUB</value>
+  </data>
+  <data name="SettingsEnableNetworkOption" xml:space="preserve">
+    <value>Включить сеть (требуется перезапуск)</value>
+  </data>
+  <data name="SettingsServerAddressOption" xml:space="preserve">
+    <value>Адрес сервера</value>
+  </data>
+  <data name="OpenGameInstructions" xml:space="preserve">
+    <value>Открыть инструкции</value>
+  </data>
+  <data name="SettingsGameShowInstructions" xml:space="preserve">
+    <value>(Показать инструкции)</value>
+  </data>
+  <data name="SettingsGamesTitle" xml:space="preserve">
+    <value>ИГРЫ</value>
+  </data>
+  <data name="SettingShowGameOption" xml:space="preserve">
+    <value>Показать игру на главной странице</value>
+  </data>
+  <data name="SettingsGameUdpPort" xml:space="preserve">
+    <value>UDP-порт</value>
+  </data>
+  <data name="SettingsRestoreDefaultPort" xml:space="preserve">
+    <value>Восстановить порт по умолчанию</value>
+  </data>
+  <data name="SettingsForwardUdpTo" xml:space="preserve">
+    <value>Вперед к</value>
+  </data>
+  <data name="SettingsRestoreDefaultForwardPort" xml:space="preserve">
+    <value>Восстановить прямой порт по умолчанию</value>
+  </data>
+  <data name="SettingsEnabledPluginsSection" xml:space="preserve">
+    <value>ПОДКЛЮЧАЕМЫЕ ПЛАГИНЫ</value>
+  </data>
+  <data name="PropertiesAvailablePropertiesSection" xml:space="preserve">
+    <value>Доступные свойства</value>
+  </data>
+  <data name="PropertiesNcalcTesterButton" xml:space="preserve">
+    <value>Ncalc тестер</value>
+  </data>
+  <data name="PropertiesNewWindowButton" xml:space="preserve">
+    <value>Новое окно</value>
+  </data>
+  <data name="PropertiesNotSupportedLabel" xml:space="preserve">
+    <value>Не поддерживается</value>
+  </data>
+  <data name="PropertiesNotSupportedLabelTooltip" xml:space="preserve">
+    <value>Это свойство не поддерживается в текущей игре</value>
+  </data>
+  <data name="PropertiesComputedLabelTooltip" xml:space="preserve">
+    <value>Это свойство может быть вычислено SimHub для текущей игры</value>
+  </data>
+  <data name="MainWindowPaneWidth" xml:space="preserve">
+    <value>190</value>
+  </data>
+  <data name="SettingsLangageOption" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="MainWindowToolbarNewVersionAvailable" xml:space="preserve">
+    <value>Доступна новая версия  :</value>
+  </data>
+  <data name="MainWindowToolbarRefreshRate" xml:space="preserve">
+    <value>Частота обновления :</value>
+  </data>
+  <data name="MainWindowToolbarDonatorEditionStatus" xml:space="preserve">
+    <value>Donator Edition статус:</value>
+  </data>
+  <data name="MainWindowToolbarDonatorEditionUnlicensed" xml:space="preserve">
+    <value>Нелицензированный</value>
+  </data>
+  <data name="MainWindowToolbarDonatorEditionLicensed" xml:space="preserve">
+    <value>Лицензированный</value>
+  </data>
+  <data name="AboutPluginSDKLine1" xml:space="preserve">
+    <value>- Создать новые данные</value>
+  </data>
+  <data name="AboutPluginSDKLine2" xml:space="preserve">
+    <value>- Создать новые действия</value>
+  </data>
+  <data name="AboutPluginSDKLine3" xml:space="preserve">
+    <value>- Обработка игровых данных</value>
+  </data>
+  <data name="AboutPluginSDKLine4" xml:space="preserve">
+    <value>И многое другое !</value>
+  </data>
+  <data name="AboutPluginSDKLine5" xml:space="preserve">
+    <value>Создайте свой собственный плагин, используя предоставленный C # SDK</value>
+  </data>
+  <data name="AboutPluginSdkOpenSDK" xml:space="preserve">
+    <value>ОТКРЫТЬ SIMHUB SDK</value>
+  </data>
+  <data name="MainWindowToolbarWikiLink" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="LogsClearLogsButton" xml:space="preserve">
+    <value>Очистить логи</value>
+  </data>
+  <data name="LogsOpenLogFolderButton" xml:space="preserve">
+    <value>Открыть папку логов</value>
+  </data>
+  <data name="PropertiesShowGameSpecificPropertiesCheckbox" xml:space="preserve">
+    <value>Показать специфические свойства игры (\"исходные данные\")</value>
+  </data>
+  <data name="PropertiesFilterTextBoxWatermark" xml:space="preserve">
+    <value>Фильтр свойств ...</value>
+  </data>
+  <data name="MainWindowStatusbarListeningPort" xml:space="preserve">
+    <value>Прослушивание UDP-порта {0}</value>
+  </data>
+  <data name="MainWindowStatusbarUDPForwardedTo" xml:space="preserve">
+    <value>отправлено в {0}</value>
+  </data>
+  <data name="PluginName_AudioControlPlugin" xml:space="preserve">
+    <value>Управление звуком</value>
+  </data>
+  <data name="PluginName_NextionPlugin" xml:space="preserve">
+    <value>Дисплей Nextion</value>
+  </data>
+  <data name="PluginName_DataCorePlugin" xml:space="preserve">
+    <value>Основные данные</value>
+  </data>
+  <data name="PluginName_JoystickPlugin" xml:space="preserve">
+    <value>Входной сигнал регуляторов</value>
+  </data>
+  <data name="PluginDescription_JoystickPlugin" xml:space="preserve">
+    <value>Позволяет читать данные игровых контроллеров (руль, геймпад, кнопка)</value>
+  </data>
+  <data name="PluginName_KeyboardReaderPlugin" xml:space="preserve">
+    <value>Ввод с клавиатуры</value>
+  </data>
+  <data name="PluginDescription_KeyboardReaderPlugin" xml:space="preserve">
+    <value>Позволяет читать ввод с клавиатуры (используйте с осторожностью)</value>
+  </data>
+  <data name="PluginDescription_AudioControlPlugin" xml:space="preserve">
+    <value>Управление звуком</value>
+  </data>
+  <data name="PluginDescription_NextionPlugin" xml:space="preserve">
+    <value>Поддержка экранов Nextion</value>
+  </data>
+  <data name="PluginName_ThrustmastersPlugin" xml:space="preserve">
+    <value>Управление Thrustmaster FFB</value>
+  </data>
+  <data name="PluginDescription_ThrustmastersPlugin" xml:space="preserve">
+    <value>Позволяет вам контролировать свой thrustmaster FFB в игре</value>
+  </data>
+  <data name="PluginName_GmailPlugin" xml:space="preserve">
+    <value>Gmail</value>
+  </data>
+  <data name="PluginName_SerialDashPlugin" xml:space="preserve">
+    <value>Arduino</value>
+  </data>
+  <data name="PluginDescription_UDPRelayPlugin" xml:space="preserve">
+    <value>Плагин UDP Relay позволяет получать UDP-данные из игры (например, codemaster) и отправлять их на несколько целей</value>
+  </data>
+  <data name="PluginName_AfterburnerPlugin" xml:space="preserve">
+    <value>Коннектор Afterburner</value>
+  </data>
+  <data name="PluginDescription_AfterburnerPlugin" xml:space="preserve">
+    <value>Подключиться к Afterburner и предоставить данные центрального процессора, графического процессора и частоты кадров</value>
+  </data>
+  <data name="PluginName_SystemInfoPlugin" xml:space="preserve">
+    <value>Информация о системе</value>
+  </data>
+  <data name="PluginDescription_SystemInfoPlugin" xml:space="preserve">
+    <value>Предоставление сведений о системном мониторинге (на основе OpenHardwareMonitor API)</value>
+  </data>
+  <data name="PluginDescription_GmailPlugin" xml:space="preserve">
+    <value>Подключитесь к своей учетной записи gmail и получите доступ к последним письмам</value>
+  </data>
+  <data name="PluginName_ShakeItPlugin" xml:space="preserve">
+    <value>ShakeIt</value>
+  </data>
+  <data name="PluginName_UDPRelayPlugin" xml:space="preserve">
+    <value>Узел сети UDP</value>
+  </data>
+  <data name="PluginDescription_ShakeItPlugin" xml:space="preserve">
+    <value>Предоставить функции ShakeIt (шум мотора)</value>
+  </data>
+  <data name="PluginName_HeadsetInfo" xml:space="preserve">
+    <value>Информация О Гарнитуре</value>
+  </data>
+  <data name="PluginDescription_HeadsetInfo" xml:space="preserve">
+    <value>Предоставить информацию об уровне заряда батареи G533 (тестово)</value>
+  </data>
+  <data name="PluginName_KeyboardEmulatorPlugin" xml:space="preserve">
+    <value>Эмулятор Клавиатуры</value>
+  </data>
+  <data name="PluginDescription_KeyboardEmulatorPlugin" xml:space="preserve">
+    <value>Позволяют имитировать нажатие клавиши из любого входа SimHub </value>
+  </data>
+  <data name="PluginName_PersistantTrackerPlugin" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="PluginName_ShakeItBassShakersPlugin" xml:space="preserve">
+    <value>ShakeIt бас-шейкер</value>
+  </data>
+  <data name="PluginDescription_ShakeItBassShakersPlugin" xml:space="preserve">
+    <value>Предоставить функции ShakeIt (шум мотора) для бас-шейкеров</value>
+  </data>
+  <data name="OverlayEditor_HideWhenNotInRaceCheckbox" xml:space="preserve">
+    <value>Скрыть, когда не в гонке</value>
+  </data>
+  <data name="OverlayEditor_WaitingForGame" xml:space="preserve">
+    <value>Ожидание игры</value>
+  </data>
+  <data name="OverlayEditor_WindowedBorderlessModeAlert" xml:space="preserve">
+    <value>Убедитесь, что игра настроена в оконном или безграничном режиме</value>
+  </data>
+  <data name="OverlayEditor_SaveLayoutbutton" xml:space="preserve">
+    <value>Сохранить макет</value>
+  </data>
+  <data name="OverlayEditor_EditLayoutButton" xml:space="preserve">
+    <value>Редактировать макет</value>
+  </data>
+  <data name="OverlayEditor_AddParts_OkButton" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OverlayEditor_AddParts_AddButton" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="OverlayEditor_SaveLayout_Cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="OverlayEditor_SaveLayout_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="OverlayEditor_WindowTitle" xml:space="preserve">
+    <value>Редактор макета оверлея</value>
+  </data>
+  <data name="OverlayEditor_AddOverlay" xml:space="preserve">
+    <value>Добавить оверлей</value>
+  </data>
+  <data name="OverlayEditor_StopEdit" xml:space="preserve">
+    <value>Завершить редактирование</value>
+  </data>
+  <data name="Laphistory_RECENTSESSIONS" xml:space="preserve">
+    <value>ПОСЛЕДНИЕ СЕССИИ</value>
+  </data>
+  <data name="Laphistory_DeleteSessionMenuItem" xml:space="preserve">
+    <value>Удалить сессию</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemDashboards" xml:space="preserve">
+    <value>Приборные панели</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemOverlays" xml:space="preserve">
+    <value>Оверлеи</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemSettings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemUSBD480" xml:space="preserve">
+    <value>USBD480</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleAVAILABLEDASHBOARDS" xml:space="preserve">
+    <value>ДОСТУПНЫЕ ПРИБОРНЫЕ ПАНЕЛИ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSAVEDOVERLAYLAYOUTS" xml:space="preserve">
+    <value>СОХРАНЕННЫЕ МАКЕТЫ ОВЕРЛЕЕВ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleAVAILABLEOVERLAYS" xml:space="preserve">
+    <value>ДОСТУПНЫЕ ОВЕРЛЕИ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDASHDISPLAY" xml:space="preserve">
+    <value>ДИСПЛЕЙ ПРИБОРНЫХ ПАНЕЛЕЙ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsOVERLAYDISPLAY" xml:space="preserve">
+    <value>ДИСПЛЕЙ ОВЕРЛЕЕВ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsLEADERBOARDS" xml:space="preserve">
+    <value>ТАБЛИЦА ЛИДЕРОВ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsPERFORMANCE" xml:space="preserve">
+    <value>ПРОИЗВОДИТЕЛЬНОСТЬ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDEFAULTCONTROLS" xml:space="preserve">
+    <value>ЭЛЕМЕНТЫ УПРАВЛЕНИЯ ПО УМОЛЧАНИЮ</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDEVICECONTROLS" xml:space="preserve">
+    <value>УПРАВЛЕНИЕ УСТРОЙСТВОМ (ПЛАНШЕТ / ТЕЛЕФОН ...)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_LASTUSED" xml:space="preserve">
+    <value>ПОСЛЕДНЕЕ ИСПОЛЬЗОВАНИЕ</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_Uncategorized" xml:space="preserve">
+    <value>Без категории</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenPhoneTablet" xml:space="preserve">
+    <value>Открыть с помощью телефона или планшета</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenInBrowser" xml:space="preserve">
+    <value>Открыть в браузере</value>
+  </data>
+  <data name="GraphicalDashPluginList_SaveLayoutButton" xml:space="preserve">
+    <value>Сохранить Макет</value>
+  </data>
+  <data name="GraphicalDashPluginList_RestoreLayoutButton" xml:space="preserve">
+    <value>Восстановить Макет</value>
+  </data>
+  <data name="GraphicalDashPluginList_CloseAllButton" xml:space="preserve">
+    <value>Закрыть всё</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_Windowed" xml:space="preserve">
+    <value>Оконный режим</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SecondaryMonitor" xml:space="preserve">
+    <value>На дополнительном мониторе</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SpecificMonitor" xml:space="preserve">
+    <value>На конкретном мониторе</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_PhoneTablet" xml:space="preserve">
+    <value>На телефоне или планшете</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_USBD480Screen" xml:space="preserve">
+    <value>На экране USBD480</value>
+  </data>
+  <data name="GraphicalDashPluginList_StartButton" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulTitle" xml:space="preserve">
+    <value>Настройка выполнена успешно !</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedTitle" xml:space="preserve">
+    <value>Ошибка настройки !</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulMessage" xml:space="preserve">
+    <value>Теперь вы можете использовать {0} с SimHub.</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedMessage" xml:space="preserve">
+    <value>Что-то пошло не так, убедитесь, что игра не была запущена или попробуйте установить вручную.</value>
+  </data>
+  <data name="GameList_AutomaticSetup_AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>Автоматическая настройка доступна только при запуске от имени администратора, включить сейчас ?</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredWarnMessage" xml:space="preserve">
+    <value>{0} телеметрия не настроена</value>
+  </data>
+  <data name="GameList_NetworkModeMessage" xml:space="preserve">
+    <value>Сетевой режим</value>
+  </data>
+  <data name="GameList_WaitingRemoteData" xml:space="preserve">
+    <value>Ожидание удаленных данных</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItAutomatically" xml:space="preserve">
+    <value>Исправить автоматически</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItManually" xml:space="preserve">
+    <value>Исправить вручную</value>
+  </data>
+  <data name="CarSettings_SectionTitle_DefaultCarSettingsForTheCurrentGame" xml:space="preserve">
+    <value>НАСТРОЙКИ ПО УМОЛЧАНИЮ (ДЛЯ ТЕКУЩЕЙ ИГРЫ)</value>
+  </data>
+  <data name="CarSettings_Label_MinimumDisplayedRpmPercentOfMaxRpm" xml:space="preserve">
+    <value>Минимальное отображаемое RPM (процент от максимального RPM)</value>
+  </data>
+  <data name="CarSettings_Label_RedLinePercentOfMaxRpm" xml:space="preserve">
+    <value>Красная линия (процент максимального RPM)</value>
+  </data>
+  <data name="CarSettings_SectionTitle_Controls" xml:space="preserve">
+    <value>УПРАВЛЕНИЕ</value>
+  </data>
+  <data name="CarSettings_ActionPicker_IncrementRedlineValue" xml:space="preserve">
+    <value>Увеличить значение красной линии</value>
+  </data>
+  <data name="CarSettings_ActionPicker_DecrementRedlineValue" xml:space="preserve">
+    <value>Уменьшить значение красной линии</value>
+  </data>
+  <data name="CarSettings_Label_RedlineChangeStepsWhenCarIsKnownRpm" xml:space="preserve">
+    <value>Ступенчатое изменение Красной линии, когда автомобиль известен (RPM)</value>
+  </data>
+  <data name="CarSettings_Label_RedlineChangeStepsWhenCarIsNotKnownPercents" xml:space="preserve">
+    <value>Ступенчатое изменение Красной линии, когда автомобиль не известен (в процентах)</value>
+  </data>
+  <data name="CarSettings_SectionTitle_CarSettingsOverrides" xml:space="preserve">
+    <value>РУЧНАЯ КОРРЕКЦИЯ НАСТРОЕК АВТОМОБИЛЯ</value>
+  </data>
+  <data name="CarSettings_CheckBox_MaxRpm" xml:space="preserve">
+    <value>Максимум PRM</value>
+  </data>
+  <data name="CarSettings_Label_Auto" xml:space="preserve">
+    <value>авто</value>
+  </data>
+  <data name="CarSettings_CheckBox_MaxFuel" xml:space="preserve">
+    <value>Максимум топлива</value>
+  </data>
+  <data name="CarSettings_CheckBox_RedLine" xml:space="preserve">
+    <value>Красная линия</value>
+  </data>
+  <data name="CarSettings_CheckBox_MinimumDisplayedRpm" xml:space="preserve">
+    <value>Минимальная отображаемая RPM</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewDashboard" xml:space="preserve">
+    <value>Новая приборная панель
+</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_DashStudioAlsoWorksInYourBrowserOrPhone" xml:space="preserve">
+    <value>Dash Studio также работает в вашем браузере или на вашем телефоне</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_Auto" xml:space="preserve">
+    <value>АВТО</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_EditDashboard" xml:space="preserve">
+    <value>Редактировать приборную панель</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DuplicateDashboard" xml:space="preserve">
+    <value>Дублировать панель управления
+</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ExportDashboard" xml:space="preserve">
+    <value>Экспортировать приборную панель</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ConvertToOverlay" xml:space="preserve">
+    <value>Конвертировать в наложение слоя</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_AllowRedlineFlash" xml:space="preserve">
+    <value>Разрешить высвечивание красной линии</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_UseHtmlEngineCanBeMoreSmooth" xml:space="preserve">
+    <value>Использовать HTML Engine (может быть более плавным)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_More" xml:space="preserve">
+    <value>БОЛЬШЕ</value>
+  </data>
+  <data name="GraphicalDashPluginList_LinkButton_OnlyShowFavouritesDashboards" xml:space="preserve">
+    <value>Показывать только избранные приборные панели</value>
+  </data>
+  <data name="GraphicalDashPluginList_LinkButton_ShowAllDashboards" xml:space="preserve">
+    <value>Показать все приборные панели</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewOverlayLayout" xml:space="preserve">
+    <value>Новый макет оверлея</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Auto" xml:space="preserve">
+    <value>АВТО</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Load" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewOverlay" xml:space="preserve">
+    <value>Новый оверлей</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_NewLayout" xml:space="preserve">
+    <value>НОВЫЙ МАКЕТ</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DuplicateOverlay" xml:space="preserve">
+    <value>Дублировать оверлей</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DeleteOverlay" xml:space="preserve">
+    <value>Удалить оверлей</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ExportOverlay" xml:space="preserve">
+    <value>Экспортировать оверлей</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_UseHtmlEngine" xml:space="preserve">
+    <value>Используйте HTML (может быть более плавным)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ThisOverlayIsTooLargeAlert" xml:space="preserve">
+    <value>Этот оверлей слишком большой и не может быть запущен, пожалуйста, разбейте его на несколько частей</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowLastUsedDashsOnTopOfTheList" xml:space="preserve">
+    <value>Показывать последние использованные панели вверху списка</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RecentUsedDashsToKeepOnTopOfTheList" xml:space="preserve">
+    <value>Последние использованные панели, чтобы оставаться наверху списка </value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_StartDashInAlwaysOnTopModeByDefault" xml:space="preserve">
+    <value>Запуск вспышки в режиме "всегда сверху" по умолчанию</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_FlashDashWhenRedlineIsReached" xml:space="preserve">
+    <value>Вспышка панели при достижении красной линии</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RedlineFlashColor" xml:space="preserve">
+    <value>RedLine цвет вспышки</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RedlineFlashOpacity" xml:space="preserve">
+    <value>Непрозрачность вспышки RedLine
+</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableOnDashNotifications" xml:space="preserve">
+    <value>Включить на панели уведомления (красной линии/ Thrustmaster объема фидбека...)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_KeepOverlayLayoutEditorMinimizedOnLayoutLoad" xml:space="preserve">
+    <value>Минимизировать редактор компоновки наложения при загрузке компоновки</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowLeaderboardGapRelativeToPlayer" xml:space="preserve">
+    <value>Показывать разрыв в таблице лидеров относительно игрока (либо относительно лидера)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_UsePlayerCarClassLeaderboards" xml:space="preserve">
+    <value>Используйте списки лидеров класса автомобилей игрока (когда класс автомобиля доступен)</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedVeryFast" xml:space="preserve">
+    <value>Очень быстро</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedFast" xml:space="preserve">
+    <value>Быстро</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedSlow" xml:space="preserve">
+    <value>Медленно</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EngineSpeedUseDataUpdateControlExperimental" xml:space="preserve">
+    <value>Использовать управление обновления данных (экспериментально)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_TheseSettingsAppliesOnlyToDonatorEdition" xml:space="preserve">
+    <value>Эти настройки применяются только к Licensed Edition и высокой скорости обновления игровых данных (см. Настройки SimHub)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_CycleNextDashTemplate" xml:space="preserve">
+    <value>Циклический следующий дизайн панели</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_CyclePreviousDashTemplate" xml:space="preserve">
+    <value>Циклический предыдущий дизайн панели</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_CycleOnlyThroughFavouritesDash" xml:space="preserve">
+    <value>Переходить циклически между избранными панелями</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowNextDashScreen" xml:space="preserve">
+    <value>Показать следующий экран панели</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowPreviousDashScreen" xml:space="preserve">
+    <value>Показать предыдущий экран панели </value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionADependsOfTheDashDesign" xml:space="preserve">
+    <value>Изменение нажатия действий A на панели (зависит от дизайна панели)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionBDependsOfTheDashDesign" xml:space="preserve">
+    <value>Изменение нажатия действий B на панели (зависит от дизайна панели)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionCDependsOfTheDashDesign" xml:space="preserve">
+    <value>Изменение нажатия действий C на панели (зависит от дизайна панели)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionDDependsOfTheDashDesign" xml:space="preserve">
+    <value>Изменение нажатия действий D на панели (зависит от дизайна панели)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_DiscardCurrentMapAndRedrawIt" xml:space="preserve">
+    <value>Сбросить текущую карту и перерисовать ее</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ClearLapHistoryForTheCurrentTrackAndCar" xml:space="preserve">
+    <value>Очистить историю заездов для текущего трека и автомобиля</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDevice" xml:space="preserve">
+    <value>ВЕБ-УСТРОЙСТВО :</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDeviceLastSeen" xml:space="preserve">
+    <value> (последнее посещение : {0})</value>
+  </data>
+  <data name="GraphicalDashPluginList_LinkButton_WebDeviceForget" xml:space="preserve">
+    <value>Пропустить</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableDedicatedControls" xml:space="preserve">
+    <value>Включить выделенные элементы управления</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Usbd480Lcd" xml:space="preserve">
+    <value>USBD480 LCD</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480EnableUsbd480Display" xml:space="preserve">
+    <value>Включить дисплей USBD480</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480FlipDisplay180" xml:space="preserve">
+    <value>Перевернуть дисплей (180°)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480EnableTouchscreen" xml:space="preserve">
+    <value>Включить сенсорный экран</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480StopBacklightWhenNotPlaying" xml:space="preserve">
+    <value>Остановить подсветку при остановке игры </value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480StopBacklightOnExit" xml:space="preserve">
+    <value>Остановить подсветку при выходе (заднюю)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480DisplayedDashboard" xml:space="preserve">
+    <value>Отображенная панель</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480SpecificIdleDashboard" xml:space="preserve">
+    <value>Особая неактивная панель</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480Brightness" xml:space="preserve">
+    <value>Яркость</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Usbd480Controls" xml:space="preserve">
+    <value>СРЕДСТВА УПРАВЛЕНИЯ USBD480</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DeleteDashboard" xml:space="preserve">
+    <value>Удаление панели</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_SavesAllTheOppenedDashboardAndPositions_ToolTip" xml:space="preserve">
+    <value>Сохраняет все открытые панели и позиции</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_Favourite_ToolTip" xml:space="preserve">
+    <value>Избранное</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_OpenTheDashOnStartup_ToolTip" xml:space="preserve">
+    <value>Открывать панель при запуске </value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_DashboardActionsEditDeleteDuplicate_ToolTip" xml:space="preserve">
+    <value>Действия на приборной панели, редактирование, удаление, дублирование</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_CreateANewLayoutAndSavesMultipleOverlaysPositions_ToolTip" xml:space="preserve">
+    <value>Создание нового макета и сохранение нескольких макетов наложения</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_OpenOverlayOnStartup_ToolTip" xml:space="preserve">
+    <value>Открытие наложения при запуске</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_OverlayActions_ToolTip" xml:space="preserve">
+    <value>Наложение действий, редактирование, удаление, дублирование</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ArduinoDisabled" xml:space="preserve">
+    <value>Arduino выключен</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SingleArduino" xml:space="preserve">
+    <value>Один ARDUINO</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_MultipleArduinos" xml:space="preserve">
+    <value>Несколько ARDUINO</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_ChooseHowManyArduinosYouWantToConnectToSimhub" xml:space="preserve">
+    <value>Выберите, как много ARDUINO вы хотите подключить к SIMHUB</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MultipleUsbInfo" xml:space="preserve">
+    <value>Несколько usb объединят несколько arduino в одну линию, обязательно ознакомьтесь с настройками нескольких arduino ниже.</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_UploadSketchInfo" xml:space="preserve">
+    <value>Перед использованием ARDUINO необходимо загрузить эскиз</value>
+  </data>
+  <data name="ArduinoHardwareSettings_LinkButton_MoreInfos" xml:space="preserve">
+    <value>Более подробная информация ...</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_OpenArduinoSetupTool" xml:space="preserve">
+    <value>Открыть инструменты настройки ARDUINO</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_MultipleArduinoSettings" xml:space="preserve">
+    <value>РАЗЛИЧНЫЕ НАСТРОЙКИ ARDUINO</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_NoDevicesConfigured" xml:space="preserve">
+    <value>Устройства не настроены</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Connected" xml:space="preserve">
+    <value>Подключено</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NotConnected" xml:space="preserve">
+    <value>Отсутствует подключение</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_DeviceName" xml:space="preserve">
+    <value>Название девайса</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SerialSpeed" xml:space="preserve">
+    <value>Серийная скорость</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_7SegmentsMod" xml:space="preserve">
+    <value>Модуль 7ми сегментов</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RgbLeds" xml:space="preserve">
+    <value>RGB подсветка</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Motors" xml:space="preserve">
+    <value>Моторы</value>
+  </data>
+  <data name="ArduinoHardwareSettings_CheckBox_ReadButtons" xml:space="preserve">
+    <value>Читать клавиши</value>
+  </data>
+  <data name="ArduinoHardwareSettings_CheckBox_DisableDevice" xml:space="preserve">
+    <value>Отключить устройство</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_CustomProtocol" xml:space="preserve">
+    <value>Пользовательский протокол</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ApplyChangesNow" xml:space="preserve">
+    <value>Применить изменения сейчас</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ScanForNewDevicesNow" xml:space="preserve">
+    <value>Начать сканирование на наличие новых устройств</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_GeneralArduinoSettings" xml:space="preserve">
+    <value>ОБЩИЕ НАСТРОЙКИ ARDUINO</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_SerialSpeed" xml:space="preserve">
+    <value>Серийная скорость</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixRotations" xml:space="preserve">
+    <value>Матрица вращения</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixFont" xml:space="preserve">
+    <value>Шрифт Матрицы</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixRedlineBlink" xml:space="preserve">
+    <value>сигнал красной линии (отсечки)</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_LcdRefreshSpeed" xml:space="preserve">
+    <value>обновление скорости LCD</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_ArduinoScanSettings" xml:space="preserve">
+    <value>ПАРАМЕТРЫ СКАНИРОВАНИЯ ARDUINO</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_ScanAllSerialPorts" xml:space="preserve">
+    <value>Просканировать все Серийный порты </value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_ScanOnlySelectedPorts" xml:space="preserve">
+    <value>Сканировать только выбранные порты</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Unplugged" xml:space="preserve">
+    <value>- Отключен</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_NeverScanSelectedPorts" xml:space="preserve">
+    <value>Никогда не сканировать выбранные порты</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_DetectedHardware" xml:space="preserve">
+    <value>Обнаруженное оборудование</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NoDevicesDetected" xml:space="preserve">
+    <value>Устройства не обнаружены</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ScanInProgress" xml:space="preserve">
+    <value>Выполняется сканирование ...</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_DevicesScan" xml:space="preserve">
+    <value>Сканирование устройств</value>
+  </data>
+  <data name="GameList_MenuItem_HideGame" xml:space="preserve">
+    <value>Скрыть игру</value>
+  </data>
+  <data name="PropertiesPicker_Title" xml:space="preserve">
+    <value>Подборщик свойств</value>
+  </data>
+  <data name="PropertiesPicker_CheckBox_ShowGameSpecificPropertiesRawdata" xml:space="preserve">
+    <value>Показать заданные свойства игры ('исходные данные')</value>
+  </data>
+  <data name="PropertiesPicker_TextBoxWatermark_TypeToFilter" xml:space="preserve">
+    <value>Начать печатать...</value>
+  </data>
+  <data name="ControlsEditor_MenuItem_TriggerNow" xml:space="preserve">
+    <value>Запуск сейчас </value>
+  </data>
+  <data name="ControlsEditor_LinkButton_ClickToConfigure" xml:space="preserve">
+    <value>Нажмите для настройки</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Change" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="ControlPicker_WindowTitle" xml:space="preserve">
+    <value>Выберите управление</value>
+  </data>
+  <data name="ControlPicker_Label_WaitingForInput" xml:space="preserve">
+    <value>Ожидание ввода</value>
+  </data>
+  <data name="ControlPicker_Label_PressType" xml:space="preserve">
+    <value>Тип печати (нажмите для печати)</value>
+  </data>
+  <data name="ControlPicker_Button_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ArduinoScreenList_SectionTitle_ManageYourArduinoTextDisplays" xml:space="preserve">
+    <value>УПРАВЛЕНИЕ ТЕКСТОВЫМИ ДИСПЛЕЯМИ ARDUINO</value>
+  </data>
+  <data name="ArduinoScreenList_CheckBox_EnableLivePreview" xml:space="preserve">
+    <value>реальный пред просмотр </value>
+  </data>
+  <data name="ArduinoScreenList_Button_NewScreen" xml:space="preserve">
+    <value>Новое окно</value>
+  </data>
+  <data name="ArduinoScreenList_Label_OrderingInfo" xml:space="preserve">
+    <value>Детали заказа!Используйте Drag'n'Drop чтобы переделать ваши скрины | Двойной щелчок для редактирования</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Ingame" xml:space="preserve">
+    <value>В игре</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Idle" xml:space="preserve">
+    <value>неактивный </value>
+  </data>
+  <data name="ArduinoScreenList_ForcedLedLayout_ToolTip" xml:space="preserve">
+    <value>вынужденный макет подсветки</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_SectionTitle_ManageYourRgbAndTm1638LedsLayouts" xml:space="preserve">
+    <value>Управлять вашими макетами подсветки RGB TM1638</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Label_OrderingInfo" xml:space="preserve">
+    <value>Детали заказа! Используйте Drag'n'Drop для изменения порядка расположения светодиодов | двойной щелчок для редактирования
+</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_TextBlock_RgbLedsBrightness" xml:space="preserve">
+    <value>яркость подсветки LEDS RGB</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Button_NewLayout" xml:space="preserve">
+    <value>Новый макет</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Button_GotoCarSettingsRedline" xml:space="preserve">
+    <value>Настройки автомобиля (красная линия...)</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Indicator_Common" xml:space="preserve">
+    <value>Общий</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Indicator_Ingame" xml:space="preserve">
+    <value>В игре</value>
+  </data>
+  <data name="ArduinoLedsLayoutsList_Indicator_Idle" xml:space="preserve">
+    <value>Неактивный </value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_Matrix" xml:space="preserve">
+    <value>МАТРИЦА</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_MatrixIntensity" xml:space="preserve">
+    <value>Яркость матрицы</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_RgbMatrixExperimental" xml:space="preserve">
+    <value>Матрица RGB (Экспериментально)</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_RgbMatrixBrightness" xml:space="preserve">
+    <value>Яркость матрицы RGB</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_RgbMatrixLowRpmColor" xml:space="preserve">
+    <value>Низкий уровень RPM цвет</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_RgbMatrixHighRpmColor" xml:space="preserve">
+    <value>Высокий уровень RPM цвет</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_Alerts" xml:space="preserve">
+    <value>ОПОВЕЩЕНИЯ</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_ScreenDisplayAnnounce" xml:space="preserve">
+    <value>Оповещение экрана дисплея </value>
+  </data>
+  <data name="DisplaySettings_TextBlock_LowFuelAlert" xml:space="preserve">
+    <value>Сигнал о низком уровне топлива</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_RepeatLowFuelAlert" xml:space="preserve">
+    <value>Повторения сигнала о низком уровне топлива</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_SevenSegmentModules" xml:space="preserve">
+    <value>СЕМЬ СЕГМЕНТНЫХ МОДУЛЕЙ</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_BrightnessColumnTitle" xml:space="preserve">
+    <value>Яркость</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_OrientationColumnTitle" xml:space="preserve">
+    <value>Ориентация</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_Checkbox_ReverseDisplay" xml:space="preserve">
+    <value>Перевернуть экран</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_MainIntensity" xml:space="preserve">
+    <value>Основная яркость</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Button_LoadDefaults" xml:space="preserve">
+    <value>Загрузить параметры по умолчанию</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_GroupSimilarEffectsSettings" xml:space="preserve">
+    <value>Группировать схожие настройки эффектов</value>
+  </data>
+  <data name="ShakeItSettingsWPF_TabItem_BassShakerSettings" xml:space="preserve">
+    <value>Настройки Bass Shaker</value>
+  </data>
+  <data name="ShakeItSettingsWPF_SectionTitle_Output" xml:space="preserve">
+    <value>ВЫХОД</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_PoweredBy" xml:space="preserve">
+    <value>Питание от</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_SoundCard" xml:space="preserve">
+    <value>Звуковая карта</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_AudioMode" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_InterfaceConnected" xml:space="preserve">
+    <value>Интерфейс подключен</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_ConnectedChannels" xml:space="preserve">
+    <value>{0} каналы)</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_InterfaceDisconnected" xml:space="preserve">
+    <value>Интерфейс отключен</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channels" xml:space="preserve">
+    <value>Каналы</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channel1" xml:space="preserve">
+    <value>Канал 1 </value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channel2" xml:space="preserve">
+    <value>Канал 2</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channel3" xml:space="preserve">
+    <value>Канал 3</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channel4" xml:space="preserve">
+    <value>Канал 4</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channel5" xml:space="preserve">
+    <value>Канал 5</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channel6" xml:space="preserve">
+    <value>Канал 6</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channel7" xml:space="preserve">
+    <value>Канал 7</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Channel8" xml:space="preserve">
+    <value>Канал 8</value>
+  </data>
+  <data name="ShakeItSettingsWPF_LinkButton_TestNow" xml:space="preserve">
+    <value>Тестировать сейчас</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_TestAndBalance" xml:space="preserve">
+    <value>Тестирование и настройка</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_AudioConnected" xml:space="preserve">
+    <value>Аудио подключено</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_AudioDisconnected" xml:space="preserve">
+    <value>Аудио отключено</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Slider_ChannelVolume_ToolTip" xml:space="preserve">
+    <value>Уровень звукового канала</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_AutomaticallyReconnectAudioOutputSAfterGameEnterExitExperimentalUseIfYouHaveIssuesWithHmd" xml:space="preserve">
+    <value>Автоматически восстанавливать соединение аудио выхода(ов) после входа/выхода в игру (ТЕСТОВО, используйте если у вас проблемы с HMD) 
+</value>
+  </data>
+  <data name="ShakeItSettingsWPF_TabItem_Effects" xml:space="preserve">
+    <value>Эффекты</value>
+  </data>
+  <data name="ShakeItSettingsWPF_SectionTitle_ManageEffects" xml:space="preserve">
+    <value>Управление эффектами</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Button_Export" xml:space="preserve">
+    <value>Экспортировать</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Button_Import" xml:space="preserve">
+    <value>Импортировать</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_UseGameSpecifcSettings" xml:space="preserve">
+    <value>Использовать заданные настройки игры</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_EnableLiveOutputPreview" xml:space="preserve">
+    <value>Включить выход в реальном времени</value>
+  </data>
+  <data name="ShakeItSettingsWPF_TabItem_MotorsOutputsMixer" xml:space="preserve">
+    <value>Выход микшера на моторы</value>
+  </data>
+  <data name="ShakeItSettingsWPF_SectionTitle_OutputsMixer" xml:space="preserve">
+    <value>Выход на микшер</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Outputs" xml:space="preserve">
+    <value>Выходы</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_GeneralPower" xml:space="preserve">
+    <value>Общая мощность :</value>
+  </data>
+  <data name="ShakeItSettingsWPF_ToggleButton_RenameOutput_ToolTip" xml:space="preserve">
+    <value>Переименовать выход</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_SendToFanatecBrake" xml:space="preserve">
+    <value>Отправить в тормоз fanatec</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_SendToFanatecThrottle" xml:space="preserve">
+    <value>Отправить в дроссель fanatec</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_MuteMotor" xml:space="preserve">
+    <value>Приглушить мотор</value>
+  </data>
+  <data name="ShakeItSettingsWPF_Label_Gain" xml:space="preserve">
+    <value>Усиление</value>
+  </data>
+  <data name="ShakeItSettingsWPF_TabItem_ShakeitSettings" xml:space="preserve">
+    <value>Настройки ShakeIt</value>
+  </data>
+  <data name="ShakeItSettingsWPF_SectionTitle_Options" xml:space="preserve">
+    <value>ОПЦИИ</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_ActiveOnReplays" xml:space="preserve">
+    <value>Активен при повторах</value>
+  </data>
+  <data name="ShakeItSettingsWPF_SectionTitle_Controls" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="ShakeItSettingsWPF_ActionPicker_IncreaseOverallShakeitPowerGain" xml:space="preserve">
+    <value>Увеличить общее усиление мощности ShakeIt</value>
+  </data>
+  <data name="ShakeItSettingsWPF_ActionPicker_DecreaseOverallShakeitPowerGain" xml:space="preserve">
+    <value>Уменьшить общее усиление мощности ShakeIt</value>
+  </data>
+  <data name="PluginDescription_BA63Plugin" xml:space="preserve">
+    <value>подключить к Diebold Nixdorf BA63 Display</value>
+  </data>
+  <data name="PluginName_BA63Plugin" xml:space="preserve">
+    <value>BA63 USB Экранный plugin</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Screens" xml:space="preserve">
+    <value>Экраны</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Leds" xml:space="preserve">
+    <value>Светодиоды</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_DisplayAlerts" xml:space="preserve">
+    <value>Дисплей и оповещения</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Gauges" xml:space="preserve">
+    <value>Измерительные приборы</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Controls" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_7Segments20X4LcdControls" xml:space="preserve">
+    <value>7 сегментов / 20х4 ЖК-LCD КОНТРОЛЬ</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowNextScreen" xml:space="preserve">
+    <value>Показать следующий экран</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowPreviousScreen" xml:space="preserve">
+    <value>Показать предыдущий экран</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowFirstScreen" xml:space="preserve">
+    <value>Показать первый экран</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_Brightness" xml:space="preserve">
+    <value>Яркость +</value>
+  </data>
+  <data name="SettingsControlWPF_Label_MoreActionsAvailableInControlsAndEventsControlsSection" xml:space="preserve">
+    <value>Дополнительные действия доступны в разделе «Элементы управления и события»&gt; раздел «Элементы управления».</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_RgbLedsControl" xml:space="preserve">
+    <value>Управление светодиодами RGB</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowNextLedLayout" xml:space="preserve">
+    <value>Показать следующий светодиодный макет</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowPreviousLedLayout" xml:space="preserve">
+    <value>Показать предыдущий светодиодный макет</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowFirstLedLayout" xml:space="preserve">
+    <value>Показать первый светодиодный макет</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_MyHardware" xml:space="preserve">
+    <value>Моё оборудование</value>
+  </data>
+  <data name="NextionSettingsControlWPF_SectionTitle_ManageYourNextionScreens" xml:space="preserve">
+    <value>УПРАВЛЕНИЕ ВАШИМИ ЭКРАНАМИ Nextion</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Nextion" xml:space="preserve">
+    <value>Nextion № </value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_Enabled" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Latency" xml:space="preserve">
+    <value>Задержка</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Leds" xml:space="preserve">
+    <value>Светодиоды</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_PowerOffScreenWhenNotInGame" xml:space="preserve">
+    <value>Выключить питание экрана, когда не в игре</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_DebugMode" xml:space="preserve">
+    <value>Режим отладки</value>
+  </data>
+  <data name="NextionSettingsItem_Button_Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="NextionSettingsItem_Button_Apply" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="NextionSettingsItem_Label_SerialPort" xml:space="preserve">
+    <value>Серийный порт</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Template" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Mapping" xml:space="preserve">
+    <value>Раскладка</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_UseEditor" xml:space="preserve">
+    <value>Использовать редактор</value>
+  </data>
+  <data name="NextionSettingsItem_Button_EditMapping" xml:space="preserve">
+    <value>Редактировать раскладку</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Controls" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_NextPage" xml:space="preserve">
+    <value>Следующая страница</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_PreviousPage" xml:space="preserve">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="NextionSettingsItem_CustomNumericUpDown_HowManyLedsAreInstalled_ToolTip" xml:space="preserve">
+    <value>Сколько светодиодов установлено (только для Arduino)</value>
+  </data>
+  <data name="GameList_Label_YouCanNowShowHideAndReorganizeGames" xml:space="preserve">
+    <value>Теперь вы можете показывать, скрывать и реорганизовывать игры</value>
+  </data>
+  <data name="GameList_Button_StopReorganize" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="GameList_MenuItem_ManageShownGames" xml:space="preserve">
+    <value>Управление показанными играми</value>
+  </data>
+  <data name="ShakeItSettingsWPF_CheckBox_EnableDynamicRangeCompression" xml:space="preserve">
+    <value>Включить сжатие динамического диапазона</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_BrightnessMinus" xml:space="preserve">
+    <value>Яркость -</value>
+  </data>
+  <data name="SettingsLangageAuthor" xml:space="preserve">
+    <value>Translation made by Nikolay Romanov. Email : daimodice@gmail.com. Discord: @daimodice. Instagram : daimodice </value>
+  </data>
+</root>

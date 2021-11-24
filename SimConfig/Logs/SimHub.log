@@ -1,0 +1,283 @@
+[2021-11-22 12:00:08,705] INFO - Starting SimHub v7.4.12 (build time : 20/11/2021 08:26:22)
+[2021-11-22 12:00:08,706] INFO - Administrator privileges : True 
+[2021-11-22 12:00:08,706] INFO - OS version : Microsoft Windows NT 10.0.19043.0, Windows 10.0.19043
+[2021-11-22 12:00:08,706] INFO - License status : Licensed
+[2021-11-22 12:00:08,706] INFO - Process priority : Normal
+[2021-11-22 12:00:09,476] INFO - (Re)Starting CodemastersDirtRally2 Game Manager and plugin manager
+[2021-11-22 12:00:09,477] INFO - Creating Codemasters Dirt Rally 2.0 game manager (CodemastersReader.CodemastersDirtRally2Manager)
+[2021-11-22 12:00:09,483] INFO - CodemastersDirtRally2 game manager created
+[2021-11-22 12:00:09,484] INFO - Setting listening UDP to 20777
+[2021-11-22 12:00:09,487] INFO - Setting UDP forwarding port to 20778
+[2021-11-22 12:00:09,496] INFO - Checking configuration status for CodemastersDirtRally2
+[2021-11-22 12:00:09,508] INFO - Configuration status for CodemastersDirtRally2: GameConfigured
+[2021-11-22 12:00:09,508] INFO - Creating plugin manager with plugins : JoystickPlugin, CustomSerialPlugin, GraphicalDashPlugin, NextionPlugin, SerialPortMonitorPlugin
+[2021-11-22 12:00:09,526] INFO - Creating SimHub.Plugins.AudioControl.AudioPlayPlugin plugin
+[2021-11-22 12:00:09,529] INFO - Creating SimHub.Plugins.DataPlugins.SystemInfosProvider plugin
+[2021-11-22 12:00:09,530] INFO - Creating SimHub.Plugins.DataPlugins.Shell.ShellPlugin plugin
+[2021-11-22 12:00:09,535] INFO - Creating SimHub.Plugins.DataPlugins.PersistantTracker.PersistantTrackerPlugin plugin
+[2021-11-22 12:00:09,536] INFO - Creating SimHub.Plugins.DataPlugins.DataCore.DataCorePlugin plugin
+[2021-11-22 12:00:09,537] INFO - Creating SimHub.Plugins.Web.WebPlugin plugin
+[2021-11-22 12:00:09,538] INFO - Creating SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin plugin
+[2021-11-22 12:00:09,539] INFO - Creating SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin plugin
+[2021-11-22 12:00:09,539] INFO - Creating SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin plugin
+[2021-11-22 12:00:09,540] INFO - Creating SimHub.Plugins.InputPlugins.JoystickPlugin plugin
+[2021-11-22 12:00:09,541] INFO - Creating SimHub.Plugins.DataPlugins.SerialPortMonitor.SerialPortMonitorPlugin plugin
+[2021-11-22 12:00:09,541] INFO - Initialising SimHub.Plugins.DataPlugins.DataCore.DataCorePlugin plugin
+[2021-11-22 12:00:10,266] INFO - Initialising SimHub.Plugins.DataPlugins.SystemInfosProvider plugin
+[2021-11-22 12:00:10,284] INFO - Initialising SimHub.Plugins.DataPlugins.PersistantTracker.PersistantTrackerPlugin plugin
+[2021-11-22 12:00:10,286] INFO - Initialising SimHub.Plugins.AudioControl.AudioPlayPlugin plugin
+[2021-11-22 12:00:10,287] INFO - Initialising SimHub.Plugins.DataPlugins.Shell.ShellPlugin plugin
+[2021-11-22 12:00:10,288] INFO - Initialising SimHub.Plugins.InputPlugins.JoystickPlugin plugin
+[2021-11-22 12:00:10,508] INFO - JoystickManager : Starting game controllers detection
+[2021-11-22 12:00:10,552] INFO - Initialising SimHub.Plugins.DataPlugins.SerialPortMonitor.SerialPortMonitorPlugin plugin
+[2021-11-22 12:00:10,553] INFO - Initialising SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin plugin
+[2021-11-22 12:00:10,591] INFO - JoystickManager : Found Razer_Orbweaver_Chroma
+[2021-11-22 12:00:10,596] INFO - JoystickManager : End of detection
+[2021-11-22 12:00:10,691] INFO - Initialising SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin plugin
+[2021-11-22 12:00:10,761] INFO - Initialising SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin plugin
+[2021-11-22 12:00:11,265] INFO - Loading font list
+[2021-11-22 12:00:11,413] INFO - Font list loading successful
+[2021-11-22 12:00:11,471] INFO - Initialising SimHub.Plugins.Web.WebPlugin plugin
+[2021-11-22 12:00:11,622] INFO - Web suggested IP :192.168.86.200
+[2021-11-22 12:00:11,715] INFO - Web font-faces up to date
+[2021-11-22 12:00:11,715] INFO - Regenerating Web font-faces
+[2021-11-22 12:00:11,951] INFO - Font-faces definitions extracted successfully
+[2021-11-22 12:00:11,953] INFO - Font-faces updated successfully
+[2021-11-22 12:00:11,953] INFO - Plugin manager correctly initialised
+[2021-11-22 12:00:11,955] INFO - Loading plugins controls
+[2021-11-22 12:00:11,986] INFO - Game successfully loaded
+[2021-11-22 12:02:25,117] INFO - Game paused : true
+[2021-11-22 12:02:25,365] INFO - Game connected
+[2021-11-22 12:02:32,550] INFO - Game paused : true
+[2021-11-22 12:05:32,183] INFO - Game paused : false
+[2021-11-22 12:05:33,550] INFO - Game paused : true
+[2021-11-22 12:05:35,366] INFO - Game paused : false
+[2021-11-22 12:06:38,783] INFO - Game paused : true
+[2021-11-22 12:53:23,816] INFO - Game paused : false
+[2021-11-22 12:53:36,883] INFO - Game paused : true
+[2021-11-22 12:53:48,066] INFO - Game paused : false
+[2021-11-22 12:53:52,516] INFO - Game paused : true
+[2021-11-22 12:54:07,449] INFO - Game paused : false
+[2021-11-22 12:54:09,433] INFO - Game paused : true
+[2021-11-22 12:57:03,283] ERROR - Expression 'PITCH:' + [OrientationPitch] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 12:57:15,183] ERROR - Expression 'HEAVE:' + [AccelerationHeave] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 12:57:26,233] ERROR - Expression 'YAW:' + [OrientationYaw] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 12:57:33,333] ERROR - Expression 'PITCH:' + [OrientationPitch] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 12:57:45,216] ERROR - Expression 'HEAVE:' + [AccelerationHeave] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 12:57:56,266] ERROR - Expression 'YAW:' + [OrientationYaw] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 12:58:03,366] ERROR - Expression 'PITCH:' + [OrientationPitch] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 12:58:15,249] ERROR - Expression 'HEAVE:' + [AccelerationHeave] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 12:58:26,283] ERROR - Expression 'YAW:' + [OrientationYaw] + '\n\0' has generated an error (NCalc.EvaluationException: no viable alternative at input '<EOF>' at line 0:-1
+   at NCalc.Expression.Evaluate()
+   at SimHub.Plugins.OutputPlugins.Dash.TemplatingCommon.NCalcEngineBase.ParseValueNcalc(ExpressionValue value))and wont be run again for 30s
+[2021-11-22 13:29:50,567] INFO - Game paused : false
+[2021-11-22 13:31:49,583] INFO - Game paused : true
+[2021-11-22 14:08:41,783] INFO - Game paused : false
+[2021-11-22 14:09:18,316] INFO - Game paused : true
+[2021-11-22 14:22:53,543] INFO - JoystickManager : Starting game controllers detection
+[2021-11-22 14:22:53,625] INFO - JoystickManager : Found Bluetooth_XINPUT_compatible_input_device
+[2021-11-22 14:22:53,627] INFO - JoystickManager : Found Razer_Orbweaver_Chroma
+[2021-11-22 14:22:53,627] INFO - JoystickManager : End of detection
+[2021-11-22 14:23:21,950] INFO - Game paused : false
+[2021-11-22 14:25:14,317] INFO - Game paused : true
+[2021-11-22 14:25:21,588] INFO - Game disconnected
+[2021-11-22 14:25:50,666] INFO - Game paused : true
+[2021-11-22 14:25:50,707] INFO - Game connected
+[2021-11-22 14:34:08,920] INFO - Old map quality score : 0 / New map quality score : 5
+[2021-11-22 14:34:08,921] INFO - New map record saved
+[2021-11-22 14:34:08,921] INFO - New All time best recorded 00:08:13.2020000
+[2021-11-22 14:34:08,931] INFO - New session best recorded 00:08:13.2020000
+[2021-11-22 14:34:08,944] INFO - Persistent tracker plugin TrackNewLap execution time : 25.7273ms
+[2021-11-22 14:34:08,944] INFO - New valid lap detected : 00:08:13.2020000, (LapId :6f119cb0-da56-4ca8-8d26-2f05478d3dee)
+[2021-11-22 14:34:08,957] INFO - Fuel stats tracking resetted
+[2021-11-22 14:34:08,957] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 14:34:09,466] INFO - Game paused : true
+[2021-11-22 14:34:14,005] INFO - Game disconnected
+[2021-11-22 14:34:28,533] INFO - Game paused : true
+[2021-11-22 14:34:28,549] INFO - Game paused : true
+[2021-11-22 14:35:25,650] INFO - Game paused : true
+[2021-11-22 14:35:25,691] INFO - CurrentLap invalidated for Fuel stats
+[2021-11-22 14:35:25,691] INFO - Game connected
+[2021-11-22 14:39:59,350] INFO - Game paused : true
+[2021-11-22 14:39:59,351] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 14:40:06,751] INFO - Game disconnected
+[2021-11-22 14:41:37,450] INFO - Game paused : true
+[2021-11-22 14:41:37,520] INFO - Game connected
+[2021-11-22 14:45:02,700] INFO - Game paused : true
+[2021-11-22 14:45:02,700] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 14:45:03,517] INFO - Game paused : false
+[2021-11-22 14:47:26,166] INFO - Game paused : true
+[2021-11-22 14:47:26,166] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 14:47:32,183] INFO - Game paused : false
+[2021-11-22 14:47:32,183] INFO - Persistent tracker plugin TrackNewLap execution time : 0.0125ms
+[2021-11-22 14:47:32,183] INFO - New invalid lap detected : 00:00:00, (LapId :756ef695-541b-44b4-84a4-a8f7d1779da7)
+[2021-11-22 14:47:32,193] INFO - Fuel stats tracking resetted
+[2021-11-22 14:55:57,099] INFO - Game paused : true
+[2021-11-22 14:55:57,099] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 14:56:01,636] INFO - Game disconnected
+[2021-11-22 14:56:27,133] INFO - Game paused : true
+[2021-11-22 14:56:27,150] INFO - Game paused : true
+[2021-11-22 14:57:39,033] INFO - Game paused : true
+[2021-11-22 14:57:39,075] INFO - CurrentLap invalidated for Fuel stats
+[2021-11-22 14:57:39,076] INFO - Game connected
+[2021-11-22 15:00:08,133] INFO - Game paused : true
+[2021-11-22 15:00:08,133] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:00:15,661] INFO - Game disconnected
+[2021-11-22 15:01:11,233] INFO - Game paused : true
+[2021-11-22 15:01:11,281] INFO - Game connected
+[2021-11-22 15:01:57,075] INFO - Old map quality score : 0 / New map quality score : 6
+[2021-11-22 15:01:57,075] INFO - New map record saved
+[2021-11-22 15:01:57,075] INFO - New All time best recorded 00:00:44.2690000
+[2021-11-22 15:01:57,076] INFO - New session best recorded 00:00:44.2690000
+[2021-11-22 15:01:57,076] INFO - Persistent tracker plugin TrackNewLap execution time : 10.6046ms
+[2021-11-22 15:01:57,077] INFO - New valid lap detected : 00:00:44.2690000, (LapId :ef645210-3277-4be8-859e-f1a71c06f970)
+[2021-11-22 15:01:57,079] INFO - Fuel stats tracking resetted
+[2021-11-22 15:01:57,079] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:02:36,383] INFO - Old map quality score : 6 / New map quality score : 7
+[2021-11-22 15:02:36,383] INFO - New map record saved
+[2021-11-22 15:02:36,384] INFO - New All time best recorded 00:00:39.3390000
+[2021-11-22 15:02:36,384] INFO - New session best recorded 00:00:39.3390000
+[2021-11-22 15:02:36,385] INFO - Persistent tracker plugin TrackNewLap execution time : 1.6354ms
+[2021-11-22 15:02:36,385] INFO - New valid lap detected : 00:00:39.3390000, (LapId :27a3c26d-346e-48e1-bde9-bb2cd53acc02)
+[2021-11-22 15:02:36,386] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:03:14,383] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:03:14,383] INFO - New All time best recorded 00:00:38.0130000
+[2021-11-22 15:03:14,384] INFO - New session best recorded 00:00:38.0130000
+[2021-11-22 15:03:14,384] INFO - Persistent tracker plugin TrackNewLap execution time : 1.1927ms
+[2021-11-22 15:03:14,384] INFO - New valid lap detected : 00:00:38.0130000, (LapId :d522b7e1-52d6-41cd-a5d5-64763d724ee2)
+[2021-11-22 15:03:14,385] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:03:53,615] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:03:53,615] INFO - Persistent tracker plugin TrackNewLap execution time : 0.6855ms
+[2021-11-22 15:03:53,615] INFO - New valid lap detected : 00:00:39.1960000, (LapId :e2eff36f-e10f-4d17-b9c4-faccbcf61f2f)
+[2021-11-22 15:03:53,617] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:04:31,833] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:04:31,833] INFO - Persistent tracker plugin TrackNewLap execution time : 0.5622ms
+[2021-11-22 15:04:31,834] INFO - New valid lap detected : 00:00:38.2420000, (LapId :1063a57f-a416-4167-8619-67455e644470)
+[2021-11-22 15:04:31,835] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:05:10,132] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:05:10,132] INFO - Persistent tracker plugin TrackNewLap execution time : 0.7265ms
+[2021-11-22 15:05:10,133] INFO - New valid lap detected : 00:00:38.2880000, (LapId :a7efb3ea-4709-49ec-a525-fe5488fe82b1)
+[2021-11-22 15:05:10,134] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:05:48,782] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:05:48,783] INFO - Persistent tracker plugin TrackNewLap execution time : 0.8006ms
+[2021-11-22 15:05:48,783] INFO - New valid lap detected : 00:00:38.6480000, (LapId :242046db-acf3-4602-9b4c-c4d075a3ee36)
+[2021-11-22 15:05:48,784] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:06:27,182] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:06:27,182] INFO - Persistent tracker plugin TrackNewLap execution time : 0.6457ms
+[2021-11-22 15:06:27,182] INFO - New valid lap detected : 00:00:38.3790000, (LapId :5e6892fe-1bde-4d27-9991-91e2db5d6ea4)
+[2021-11-22 15:06:27,184] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:06:27,716] INFO - Game paused : true
+[2021-11-22 15:06:32,257] INFO - Game disconnected
+[2021-11-22 15:06:41,799] INFO - Game paused : true
+[2021-11-22 15:06:41,844] INFO - CurrentLap invalidated for Fuel stats
+[2021-11-22 15:06:41,844] INFO - Game connected
+[2021-11-22 15:06:41,866] INFO - All time best found : 00:00:38.0130000 recorded at 11/22/2021 3:03:14 PM
+[2021-11-22 15:07:22,583] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:07:22,583] INFO - New session best recorded 00:00:38.9520000
+[2021-11-22 15:07:22,583] INFO - Persistent tracker plugin TrackNewLap execution time : 0.6769ms
+[2021-11-22 15:07:22,583] INFO - New valid lap detected : 00:00:38.9520000, (LapId :4085f091-4095-4c3c-b82a-a5ecfe546ac5)
+[2021-11-22 15:07:22,585] INFO - Fuel stats tracking resetted
+[2021-11-22 15:07:22,585] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:08:01,183] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:08:01,183] INFO - New session best recorded 00:00:38.5790000
+[2021-11-22 15:08:01,184] INFO - Persistent tracker plugin TrackNewLap execution time : 0.8792ms
+[2021-11-22 15:08:01,184] INFO - New valid lap detected : 00:00:38.5790000, (LapId :739a979c-5d00-469d-ab82-440ffec8aff1)
+[2021-11-22 15:08:01,185] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:08:39,800] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:08:39,800] INFO - Persistent tracker plugin TrackNewLap execution time : 0.4443ms
+[2021-11-22 15:08:39,800] INFO - New valid lap detected : 00:00:38.6320000, (LapId :a485c5ab-8c87-4ee8-b723-c027f155a3dd)
+[2021-11-22 15:08:39,801] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:09:17,467] INFO - Old map quality score : 7 / New map quality score : 6
+[2021-11-22 15:09:17,467] INFO - New All time best recorded 00:00:37.6740000
+[2021-11-22 15:09:17,470] INFO - New session best recorded 00:00:37.6740000
+[2021-11-22 15:09:17,470] INFO - Persistent tracker plugin TrackNewLap execution time : 3.4313ms
+[2021-11-22 15:09:17,470] INFO - New valid lap detected : 00:00:37.6740000, (LapId :0b238c43-033c-47fe-b5a8-672be27cbc09)
+[2021-11-22 15:09:17,471] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:09:55,532] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:09:55,532] INFO - Persistent tracker plugin TrackNewLap execution time : 0.4866ms
+[2021-11-22 15:09:55,532] INFO - New valid lap detected : 00:00:38.0480000, (LapId :80c885a6-6523-4c3b-aec8-2dfb5fc2abac)
+[2021-11-22 15:09:55,533] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:10:34,150] INFO - Old map quality score : 7 / New map quality score : 7
+[2021-11-22 15:10:34,150] INFO - Persistent tracker plugin TrackNewLap execution time : 0.4571ms
+[2021-11-22 15:10:34,150] INFO - New valid lap detected : 00:00:38.6160000, (LapId :43e946ab-d733-4623-b2d2-e065aef617e8)
+[2021-11-22 15:10:34,151] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:11:19,016] INFO - Session restarted
+[2021-11-22 15:11:19,016] INFO - CurrentLap invalidated for Fuel stats
+[2021-11-22 15:11:19,016] INFO - New session best recorded 00:00:44.8680000
+[2021-11-22 15:11:19,024] INFO - Persistent tracker plugin TrackNewLap execution time : 7.9823ms
+[2021-11-22 15:11:19,024] INFO - New valid lap detected : 00:00:44.8680000, (LapId :ae9eab10-6827-4c31-803a-63ba15183f55)
+[2021-11-22 15:11:19,026] INFO - Fuel stats tracking resetted
+[2021-11-22 15:11:19,028] INFO - All time best found : 00:00:37.6740000 recorded at 11/22/2021 3:09:17 PM
+[2021-11-22 15:11:57,416] INFO - Old map quality score : 7 / New map quality score : 6
+[2021-11-22 15:11:57,416] INFO - Persistent tracker plugin TrackNewLap execution time : 0.4855ms
+[2021-11-22 15:11:57,416] INFO - New valid lap detected : 00:00:38.4060000, (LapId :d508146f-5512-4b6c-84ee-33b86fd12516)
+[2021-11-22 15:11:57,417] INFO - New fuel stat aggregated 0.00/lap
+[2021-11-22 15:11:57,983] INFO - Game paused : true
+[2021-11-22 15:12:02,507] INFO - Game disconnected
+[2021-11-22 15:12:23,750] INFO - Game paused : true
+[2021-11-22 15:12:23,766] INFO - Game paused : true
+[2021-11-22 15:12:32,112] ERROR - JoystickManager : Error during reading of Bluetooth_XINPUT_compatible_input_device SharpDX.SharpDXException: HRESULT: [0x8007001E], Module: [SharpDX.DirectInput], ApiCode: [DIERR_INPUTLOST/InputLost], Message: The system cannot read from the specified device.
+
+   at SharpDX.Result.CheckError()
+   at SharpDX.DirectInput.Device.GetDeviceState(Int32 arg0, IntPtr arg1)
+   at SharpDX.DirectInput.CustomDevice`3.GetCurrentState(T& data)
+   at SharpDX.DirectInput.CustomDevice`3.GetCurrentState()
+   at ACToolsUtilities.JoystickManagerSlimDX.GetState()
+[2021-11-22 15:12:34,971] INFO - JoystickManager : Starting game controllers detection
+[2021-11-22 15:12:35,047] INFO - JoystickManager : Found Razer_Orbweaver_Chroma
+[2021-11-22 15:12:35,049] INFO - JoystickManager : End of detection
+[2021-11-22 15:12:39,319] INFO - Application exit
+[2021-11-22 15:12:39,378] INFO - Stopping game manager
+[2021-11-22 15:12:39,385] INFO - Stopping plugin manager
+[2021-11-22 15:12:39,446] INFO - Saving plugin settings SimHub.Plugins.DataPlugins.DataCore.DataCorePlugin
+[2021-11-22 15:12:39,446] INFO - SimHub.Plugins.DataPlugins.DataCore.DataCorePlugin plugin settings saved
+[2021-11-22 15:12:39,447] INFO - Saving plugin settings SimHub.Plugins.DataPlugins.SystemInfosProvider
+[2021-11-22 15:12:39,468] INFO - SimHub.Plugins.DataPlugins.SystemInfosProvider plugin settings saved
+[2021-11-22 15:12:39,468] INFO - Saving plugin settings SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin
+[2021-11-22 15:12:39,547] INFO - SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin plugin settings saved
+[2021-11-22 15:12:39,547] INFO - Saving plugin settings SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin
+[2021-11-22 15:12:39,578] INFO - SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin plugin settings saved
+[2021-11-22 15:12:39,578] INFO - Stopping plugin SimHub.Plugins.DataPlugins.DataCore.DataCorePlugin
+[2021-11-22 15:12:39,579] INFO - Stopping plugin SimHub.Plugins.DataPlugins.SystemInfosProvider
+[2021-11-22 15:12:39,580] INFO - Stopping plugin SimHub.Plugins.DataPlugins.PersistantTracker.PersistantTrackerPlugin
+[2021-11-22 15:12:39,581] INFO - Stopping plugin SimHub.Plugins.AudioControl.AudioPlayPlugin
+[2021-11-22 15:12:39,581] INFO - Stopping plugin SimHub.Plugins.DataPlugins.Shell.ShellPlugin
+[2021-11-22 15:12:39,581] INFO - Finalizing plugin SimHub.Plugins.DataPlugins.Shell.ShellPlugin
+[2021-11-22 15:12:39,581] INFO - Stopping plugin SimHub.Plugins.InputPlugins.JoystickPlugin
+[2021-11-22 15:12:39,582] INFO - Stopping plugin SimHub.Plugins.DataPlugins.SerialPortMonitor.SerialPortMonitorPlugin
+[2021-11-22 15:12:39,582] INFO - Finalizing plugin SimHub.Plugins.DataPlugins.SerialPortMonitor.SerialPortMonitorPlugin
+[2021-11-22 15:12:39,582] INFO - Stopping plugin SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin
+[2021-11-22 15:12:39,587] INFO - Finalizing plugin SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin
+[2021-11-22 15:12:39,589] INFO - Stopping plugin SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin
+[2021-11-22 15:12:39,597] INFO - Stopping plugin SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin
+[2021-11-22 15:12:39,632] INFO - Finalizing plugin SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin
+[2021-11-22 15:12:39,643] INFO - Stopping plugin SimHub.Plugins.Web.WebPlugin
+[2021-11-22 15:12:39,643] INFO - Finalizing plugin SimHub.Plugins.Web.WebPlugin
+[2021-11-22 15:12:39,643] INFO - Stopped all plugins
+[2021-11-22 15:12:39,643] INFO - Performance dump
+[2021-11-22 15:12:39,644] INFO - SimHub.Plugins.DataPlugins.PersistantTracker.PersistantTrackerPlugin::DataUpdate	692740calls	7841.017ms	692740calls	0.011ms/call
+[2021-11-22 15:12:39,644] INFO - SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin::DataUpdate	692740calls	27504.834ms	692740calls	0.040ms/call
+[2021-11-22 15:12:39,644] INFO - SimHub.Plugins.DataPlugins.DataCore.DataCorePlugin::DataUpdate	692740calls	44844.057ms	692740calls	0.065ms/call
+[2021-11-22 15:12:39,644] INFO - SimHub.Plugins.Web.WebPlugin::DataUpdate	692740calls	583.453ms	692740calls	0.001ms/call
+[2021-11-22 15:12:39,644] INFO - SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin::DataUpdate	692740calls	2719.805ms	692740calls	0.004ms/call
+[2021-11-22 15:12:39,644] INFO - SimHub.Plugins.DataPlugins.SystemInfosProvider::DataUpdate	692740calls	6571.567ms	692740calls	0.009ms/call
+[2021-11-22 15:12:39,644] INFO - JoystickPlugin::PollThread	550940calls	18116.178ms	550940calls	0.033ms/call
+[2021-11-22 15:12:39,644] INFO - JoystickManager::DetectJoysticks	4calls	577.553ms	4calls	144.388ms/call
+[2021-11-22 15:12:39,644] INFO - SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin::DataUpdate	692740calls	351.652ms	692740calls	0.001ms/call
+[2021-11-22 15:12:39,658] INFO - Final Exit

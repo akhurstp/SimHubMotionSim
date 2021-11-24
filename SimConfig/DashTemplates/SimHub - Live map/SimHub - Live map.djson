@@ -1,0 +1,245 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "8a03e4b1-7161-4425-9f14-6302f1c31577",
+  "BaseHeight": 310,
+  "BaseWidth": 300,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "RenderingSkip": 0,
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "ScreenScript": {
+          "$id": "4",
+          "Interpreter": 1
+        },
+        "BackgroundColor": "#18000000",
+        "IsSelected": true,
+        "Items": {
+          "$id": "5",
+          "$values": [
+            {
+              "$id": "6",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "7",
+                "AllBorders": 2,
+                "AllCornerRadius": 0,
+                "BorderColor": "#69FFFFFF",
+                "BorderTop": 2,
+                "BorderBottom": 2,
+                "BorderLeft": 2,
+                "BorderRight": 2,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "8"
+                },
+                "BindingsFast": {
+                  "$ref": "8"
+                }
+              },
+              "Height": 310.0,
+              "Left": 0.0,
+              "Opacity": 100.0,
+              "Top": 0.0,
+              "Visible": true,
+              "Width": 300.0,
+              "BorderBottom": 2,
+              "BorderColor": "#69FFFFFF",
+              "BorderLeft": 2,
+              "BorderRight": 2,
+              "BorderTop": 2,
+              "Id": "5cc3513b-aaa1-47ea-9d5d-6f793943ecf9",
+              "IsFreezed": false,
+              "IsSelected": false,
+              "Name": "RectangleItem0",
+              "RenderingSkip": 0,
+              "Sid": 0,
+              "Bindings": {
+                "$id": "9"
+              },
+              "BindingsFast": {
+                "$ref": "9"
+              }
+            },
+            {
+              "$id": "10",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.GeneratedMapItem, SimHub.Plugins",
+              "BaseMapScale": 1.2,
+              "SpeedUnzoomEnabled": true,
+              "SpeedUnzoomStartSpeed": 60.0,
+              "SpeedUnzoomPercent": 50.0,
+              "AlternateTrackSectorColor": "#FF000000",
+              "CursorColor": "#FFFF0000",
+              "DisplayScale": 1.0,
+              "MapShadow": true,
+              "MinimumTrackBorderWidth": 0.0,
+              "MinimumTrackWidth": 5.0,
+              "OpponentStyle": {
+                "$id": "11",
+                "LabelFontSize": 17.0,
+                "LabelColor": "#FF000000",
+                "DotColor": "#FFB0E0E6",
+                "DotBorderThickness": 2.0,
+                "DotBordercolor": "#FFFFFFFF",
+                "DotRadius": 30.0,
+                "Bindings": {
+                  "$id": "12"
+                },
+                "BindingsFast": {
+                  "$ref": "12"
+                }
+              },
+              "PlayerPulse": false,
+              "PlayerPulseColor": "#FFFF0000",
+              "PlayerPulseRadius": 0.0,
+              "PlayerPulseThickness": 4.0,
+              "PlayerStyle": {
+                "$id": "13",
+                "LabelFontSize": 17.0,
+                "LabelColor": "#FFFFFFFF",
+                "DotColor": "#FFFF0000",
+                "DotBorderThickness": 2.0,
+                "DotBordercolor": "#FFFFFFFF",
+                "DotRadius": 30.0,
+                "Bindings": {
+                  "$id": "14"
+                },
+                "BindingsFast": {
+                  "$ref": "14"
+                }
+              },
+              "RenderImageHeight": 445.06211034979617,
+              "RenderImageWidth": 621.08667534207507,
+              "StartLine": {
+                "$id": "15",
+                "Color": "#FFFF0000",
+                "Enabled": true,
+                "Height": 40.0,
+                "Width": 5.0,
+                "Bindings": {
+                  "$id": "16"
+                },
+                "BindingsFast": {
+                  "$ref": "16"
+                }
+              },
+              "TrackBorderColor": "#FFFFFFFF",
+              "TrackBorderWidth": 2.0,
+              "TrackColor": "#FF000000",
+              "TrackWidth": 10.0,
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "17",
+                "AllBorders": 0,
+                "AllCornerRadius": 0,
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "18"
+                },
+                "BindingsFast": {
+                  "$ref": "18"
+                }
+              },
+              "Height": 310.0,
+              "Left": 0.0,
+              "Opacity": 100.0,
+              "Top": 0.0,
+              "Visible": true,
+              "Width": 300.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "96b5e2c4-f34e-419e-afd3-b5fab6c9b6a3",
+              "IsFreezed": false,
+              "IsSelected": true,
+              "Name": "GeneratedMapItem0",
+              "RenderingSkip": 0,
+              "Sid": 1,
+              "Bindings": {
+                "$id": "19"
+              },
+              "BindingsFast": {
+                "$ref": "19"
+              }
+            }
+          ]
+        },
+        "Id": "1e1695b5-a77f-40b2-8c63-f59db66b33af",
+        "Name": "Screen1",
+        "Sid": 0,
+        "Bindings": {
+          "$id": "20"
+        },
+        "BindingsFast": {
+          "$ref": "20"
+        }
+      }
+    ]
+  },
+  "SnapToGrid": true,
+  "HideLabels": false,
+  "ShowBoundingRectangles": false,
+  "GridSize": 10,
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "21",
+    "$values": []
+  },
+  "Metadata": {
+    "$id": "22",
+    "ScreenCount": 1.0,
+    "InGameScreensIndexs": {
+      "$id": "23",
+      "$values": [
+        0
+      ]
+    },
+    "IdleScreensIndexs": {
+      "$id": "24",
+      "$values": []
+    },
+    "MainPreviewIndex": 0,
+    "IsOverlay": true,
+    "Width": 300.0,
+    "Height": 310.0,
+    "OverlaySizeWarning": false,
+    "MetadataVersion": 2.0
+  },
+  "ShowOnScreenControls": true,
+  "IsOverlay": true,
+  "EnableClickThroughOverlay": true
+}

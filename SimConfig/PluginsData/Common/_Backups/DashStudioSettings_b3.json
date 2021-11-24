@@ -1,0 +1,613 @@
+{
+  "DashParameters": {
+    "AudiConcept": {
+      "Category": "AUDI",
+      "UseWebEngine": true
+    },
+    "ConceptDash_v4": {
+      "Category": "Generic",
+      "UseWebEngine": true
+    },
+    "ControlCenter": {
+      "LastUse": "2018-05-10T09:12:04.477578-04:00",
+      "Category": "Generic"
+    },
+    "Ferrari-599xx": {
+      "Category": "Ferrari",
+      "UseWebEngine": true
+    },
+    "GaugeLand": {
+      "Category": "Generic",
+      "UseWebEngine": true
+    },
+    "MapOverlay": {},
+    "MYTEC": {
+      "Category": "MYTEC",
+      "UseWebEngine": true
+    },
+    "MobileDash": {
+      "Category": "Generic",
+      "UseWebEngine": true
+    },
+    "MobileDashWithRelativeTimings": {
+      "Category": "Generic",
+      "UseWebEngine": true
+    },
+    "AIM GS-DASH": {
+      "LastUse": "2019-05-11T13:54:02.574685-04:00",
+      "Category": "AIM"
+    },
+    "LEDS MODEL": {},
+    "MYTEC C127": {
+      "Category": "MYTEC"
+    },
+    "MYTEC C127 - System Info": {
+      "Category": "System Infos"
+    },
+    "System Info": {
+      "Category": "System Infos"
+    },
+    "AIM MXS": {
+      "Category": "AIM"
+    },
+    "SimHub - Fuel Box": {},
+    "SimHub - Global map": {},
+    "SimHub - Hud 1": {},
+    "SimHub - Leaderboard": {},
+    "SimHub - Live map": {},
+    "SimHub - Wheels Infos": {},
+    "SimHub Leaderboard": {
+      "Category": "LEADERBOARD"
+    },
+    "MYTEC D153": {
+      "Category": "MYTEC"
+    },
+    "SimHub - Sector Box": {},
+    "SimHub - Mini Leaderboard": {},
+    "SimHub - BOSCH DDU8": {
+      "Category": "BOSCH"
+    },
+    "Simhub - FordGT": {
+      "Category": "Generic"
+    },
+    "SimHub - FordGT": {},
+    "SimHub - Truck Route Advisor": {}
+  },
+  "LayoutParameters": null,
+  "KnownWebDevices": [
+    {
+      "Name": "192.168.0.30, Generic Smartphone, Android, Chrome",
+      "Id": "4703bd26-7d18-4c36-9900-00fa36cb38eb",
+      "LastSeen": "0001-01-01T00:00:00"
+    },
+    {
+      "Name": "127.0.0.1, Other, Windows, Chrome",
+      "Id": "f0cd64cf-7a1f-4371-b736-14d579222774",
+      "LastSeen": "2019-02-13T15:40:57.0405601-05:00"
+    }
+  ],
+  "MonitorSettings": {
+    "SecondaryMonitor": {
+      "WarnIfMonitorNotFound": true,
+      "MonitorChoice": {
+        "Bounds": "0, 0, 0, 0",
+        "DeviceName": null,
+        "IsSet": false
+      },
+      "EnableAutostart": false,
+      "AutostartDashboard": {
+        "Dashboard": null
+      }
+    },
+    "ThirdMonitor": {
+      "WarnIfMonitorNotFound": true,
+      "MonitorChoice": {
+        "Bounds": "0, 0, 0, 0",
+        "DeviceName": null,
+        "IsSet": false
+      },
+      "EnableAutostart": false,
+      "AutostartDashboard": {
+        "Dashboard": null
+      }
+    }
+  },
+  "LedModules": {
+    "PSEDDU": {
+      "IsEnabled": false,
+      "HandleDisplay": true
+    },
+    "PSELMX": {
+      "IsEnabled": false,
+      "HandleDisplay": true
+    },
+    "SIMLABRACEX": {
+      "IsEnabled": false,
+      "HandleDisplay": true
+    },
+    "ProRace": {
+      "IsEnabled": false,
+      "HandleDisplay": true
+    },
+    "Modules": [
+      {
+        "IsEnabled": false,
+        "HandleDisplay": true
+      },
+      {
+        "IsEnabled": false,
+        "HandleDisplay": true
+      },
+      {
+        "IsEnabled": false,
+        "HandleDisplay": true
+      },
+      {
+        "IsEnabled": false,
+        "HandleDisplay": true
+      }
+    ]
+  },
+  "CycleOnlyFavourites": true,
+  "AlwaysStartDashOnTop": true,
+  "EnableOnDashMessaging": true,
+  "MinimizeOverlayEditorOnLoad": false,
+  "RedlineFlashColor": "#FFFF0000",
+  "RedlineFlashOpacity": 76,
+  "SaveAndRestoreOppenedDashboards": false,
+  "Layouts": null,
+  "RedlineDashFlash": false,
+  "ShowFavouritesOnly": false,
+  "ShowRecentDashOntop": true,
+  "ShowRecentDashOntop_Count": 2,
+  "UsePlayerClassLeaderBoards": false,
+  "ShowGapFromPlayerLeaderboard": false,
+  "USBDisplaysSettings": [
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": true,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": "AIM GS-DASH",
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 7,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 3,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": "SimHub - CorsairNexus",
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "RefreshRateLimit": 60,
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 7,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    },
+    {
+      "ShowDriverWarning": false,
+      "TouchMode": 0,
+      "RequestedId": null,
+      "AttachToSpecificId": false,
+      "Brightness": 255,
+      "IdleMode": 0,
+      "UseIdleMode": false,
+      "Enabled": false,
+      "EnableTouch": true,
+      "FlipDisplay": false,
+      "Portrait": false,
+      "RefreshRateLimit": 60,
+      "CurrentDashboard": null,
+      "CycleFavoriteOnly": false,
+      "CurrentIdleDashboard": null
+    }
+  ],
+  "CorsairNexusSettings": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 3,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": "SimHub - CorsairNexus",
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "TSSSettings": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "TSSSettings_2": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "AX206Settings": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 7,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "VoCoreSettings": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": true,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": "AIM GS-DASH",
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "VoCoreSettings_2": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "VoCoreSettings_3": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "VoCoreSettings_4": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "USBD480Settings": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "USBD480Settings_2": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "USBD480Settings_3": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "USBD480Settings_4": {
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 255,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "ESP32Settings": {
+    "RefreshRateLimit": 60,
+    "ShowDriverWarning": false,
+    "TouchMode": 0,
+    "RequestedId": null,
+    "AttachToSpecificId": false,
+    "Brightness": 7,
+    "IdleMode": 0,
+    "UseIdleMode": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": false,
+    "Portrait": false,
+    "CurrentDashboard": null,
+    "CycleFavoriteOnly": false,
+    "CurrentIdleDashboard": null
+  },
+  "MapOnlineSuggestionDiscarded": false,
+  "RefreshSpeed_WebEx": 0,
+  "RefreshSpeed_DesktopEx": 0,
+  "UseWebSync": false
+}

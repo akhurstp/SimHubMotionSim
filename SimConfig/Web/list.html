@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SimHub</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SimHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style type="text/css">
+        body {
+            margin: 0;
+            background: #2c2c2c;
+            font-family: 'Segoe UI';
+            font-size: 20px;
+            background: url(/assets/background.png);
+        }
+
+        a, a:hover a:visited {
+            color: black;
+            text-decoration: none;
+            background-color: white;
+            margin-top: 0;
+            margin-bottom: 0;
+            display: block;
+            padding: 5px;
+            border-radius: 10px;
+            font-weight: bold;
+            box-shadow: 1px 4px rgba(0, 0, 0, 0.1);
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 10px;
+            line-height: 15px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            margin-left: 15px;
+            font-family: "Sui Generis Free"
+        }
+
+        ul {
+            padding: 0px;
+        }
+
+        li {
+            margin: 10px;
+            list-style-type: none;
+        }
+
+        .pic img {
+            margin: 5px;
+            vertical-align: middle;
+            max-height: 57px;
+            max-width: 90px;
+        }
+
+        .pic {
+            width: 90px;
+            display: inline-block;
+            margin: 10px;
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="/FontFaces.css">
+    <!--<script src="/iosfix.js"></script>-->
+</head>
+<body>
+    <div style="text-align:center;margin-top:10px;margin-bottom:-10px;">
+        <img src="/assets/gamehub-icon-small-text-2.png" width="280" />
+    </div>
+    <div class="ios" style="background:white;padding:0 20px;display:none;margin:10px; border-radius:10px">
+        <div style="color:black;font-size:16px;padding:10px;text-align:center">
+            You are using IOS, please add this page to your homescreen to allow fullscreen dashs
+        </div>
+        <img src="/assets/ios.png" width="260">
+    </div>
+
+    <div class="android" style="background:white;padding:0 20px;display:none;margin:10px; border-radius:10px">
+        <div style="color:black;font-size:16px;padding:10px;text-align:center">
+            You are using Android, you may want to try the android app ! <a href="http://www.simhubdash.com/android/Simhub-Android-App-Experimental.apk">Download here</a>
+        </div>
+
+    </div>
+
+    <div id="container"></div>
+    <!--Script references. -->
+    <!--Reference the jQuery library. -->
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
+    <script src="/Scripts/jquery-3.1.1.js"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            //alert(window.navigator.userAgent);
+            if (window.navigator.userAgent.indexOf('iPhone') != -1 || navigator.userAgent.match(/iPad/i) != null) {
+                if (window.navigator.standalone == true) {
+
+                } else {
+                    $(".ios").show();
+                }
+            }
+
+            if (navigator.userAgent.indexOf('Android') >= 0)
+                $(".android").show();
+
+
+            $.getJSON("/DashTemplates/List", function (data) {
+                data.ShownItemsNoFilter.forEach(function (group) {
+
+                    var title = $("<h2></h2>");
+                    title.html(group.Key);
+
+                    var list = $("<ul></ul>");
+
+                    group.Value.forEach(function (element) {
+
+                        var elt = encodeURIComponent(element.Code);
+                        var item = $("<li><a href='/Dash#" + elt + "'><div class='pic'><img src='DashTemplates/Preview?filename=" + encodeURI(elt) + "' /></div>" + element.Name + "</a>");
+                        item.click(function () {
+                            window.location = "/Dash#" + elt;
+                            return false;
+                        });
+                        item.appendTo(list);
+                    });
+                    title.appendTo($("#container"));
+                    list.appendTo($("#container"));
+                });
+            });
+
+        });
+    </script>
+</body>
+</html>

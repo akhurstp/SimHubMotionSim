@@ -1,0 +1,462 @@
+{
+  "Games": [
+    {
+      "WheelSpeedDeltaHighbound": 0.1,
+      "GameCodes": "F12017;F12016;F12015;F12014;F12013;F12012",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.1513
+        }
+      }
+    },
+    {
+      "GameCodes": "F12021;F12020;F12019;F12018",
+      "PrecalibrationData": {
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.0746
+        },
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.1752
+        }
+      }
+    },
+    {
+      "GameCodes": "PCars",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.3
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.16
+        }
+      }
+    },
+    {
+      "GameCodes": "PCars2",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1000.0
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.2
+        }
+      }
+    },
+    {
+      "GameCodes": "PCars3",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 0.3,
+          "MeasuredMaximum": 1220.0
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.58
+        }
+      }
+    },
+    {
+      "GameCodes": "AssettoCorsa",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.2527
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.0
+        }
+      }
+    },
+    {
+      "GameCodes": "IRacing",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.3
+        }
+      }
+    },
+    {
+      "GameCodes": "ATS;ETS2",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 2.64
+        }
+      }
+    },
+    {
+      "GameCodes": "AssettoCorsaCompetizione",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.6418
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 2.0
+        }
+      }
+    },
+    {
+      "GameCodes": "Automobilista",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.4
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.7
+        }
+      }
+    },
+    {
+      "WheelSpeedDeltaLowbound": 0.04,
+      "WheelSpeedDeltaLowLockbound": 0.08,
+      "GameCodes": "CodemastersDirt2;CodemastersDirt3",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.8
+        }
+      }
+    },
+    {
+      "GameCodes": "CodemastersDirtRally2;CodemastersDirtRally",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.2
+        }
+      }
+    },
+    {
+      "WheelSpeedDeltaLowbound": 0.005,
+      "WheelSpeedDeltaLowLockbound": 0.01,
+      "GameCodes": "RFactor2",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.2743
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.9991
+        },
+        "RollDelta": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.988
+        }
+      }
+    },
+    {
+      "GameCodes": "Automobilista2",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 270.0
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 2.0
+        }
+      }
+    },
+    {
+      "GameCodes": "BeamNg",
+      "PrecalibrationData": {}
+    },
+    {
+      "WheelSpeedDeltaLowbound": 0.04,
+      "WheelSpeedDeltaLowLockbound": 0.08,
+      "GameCodes": "CodemastersDirt4",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.5
+        }
+      }
+    },
+    {
+      "WheelSpeedDeltaLowbound": 0.04,
+      "WheelSpeedDeltaLowLockbound": 0.08,
+      "GameCodes": "CodemastersDirtShowdown",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.35
+        }
+      }
+    },
+    {
+      "WheelSpeedDeltaLowbound": 0.04,
+      "WheelSpeedDeltaLowLockbound": 0.08,
+      "GameCodes": "CodemastersGrid2019",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.2
+        }
+      }
+    },
+    {
+      "GameCodes": "CodemastersGrid2",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.25
+        }
+      }
+    },
+    {
+      "WheelSpeedDeltaLowbound": 0.05,
+      "WheelSpeedDeltaLowLockbound": 0.08,
+      "GameCodes": "CodemastersGridAutosport",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.3
+        }
+      }
+    },
+    {
+      "GameCodes": "FH4",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 15760.0
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 3.0
+        }
+      }
+    },
+    {
+      "GameCodes": "FM7",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 10000.0
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.62
+        }
+      }
+    },
+    {
+      "GameCodes": "FURIDASHIDriftCyberSport",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 7.93
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.0
+        }
+      }
+    },
+    {
+      "GameCodes": "KartRacingPro",
+      "PrecalibrationData": {
+        "RollDelta": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.5
+        }
+      }
+    },
+    {
+      "GameCodes": "KartKraft",
+      "PrecalibrationData": {
+        "RollDelta": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.5
+        }
+      }
+    },
+    {
+      "GameCodes": "LFS",
+      "PrecalibrationData": {
+        "RollDelta": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.1
+        },
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.6118
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.5
+        }
+      }
+    },
+    {
+      "GameCodes": "MOTOGP18",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 300.0
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.2
+        }
+      }
+    },
+    {
+      "GameCodes": "NASCARHeat4;NASCARHeat5",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 8.0
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.7147
+        }
+      }
+    },
+    {
+      "GameCodes": "NoLimits2",
+      "PrecalibrationData": {}
+    },
+    {
+      "GameCodes": "RRRE",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.66
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.78
+        }
+      }
+    },
+    {
+      "GameCodes": "RFactor1;StockCarExtreme",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.2808
+        },
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.9724
+        }
+      }
+    },
+    {
+      "GameCodes": "RBR",
+      "PrecalibrationData": {
+        "RollDelta": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.3
+        },
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.8
+        }
+      }
+    },
+    {
+      "GameCodes": "TrackmaniaTurbo;Trackmania",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 2.22
+        }
+      }
+    },
+    {
+      "GameCodes": "TonyStewartsAllAmericanRacing;TonyStewartsSprintCarRacing;SRXTheGame",
+      "PrecalibrationData": {
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.25
+        },
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 8.02
+        }
+      }
+    },
+    {
+      "GameCodes": "SIMBINGTR2",
+      "PrecalibrationData": {
+        "Slip": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.0
+        },
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.0
+        }
+      }
+    },
+    {
+      "GameCodes": "GPBikes",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 0.8164
+        }
+      }
+    },
+    {
+      "GameCodes": "MXBikes",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.87
+        }
+      }
+    },
+    {
+      "GameCodes": "WRCX",
+      "PrecalibrationData": {
+        "Suspension": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 1.0
+        }
+      }
+    },
+    {
+      "GameCodes": "GRally",
+      "PrecalibrationData": {}
+    },
+    {
+      "GameCodes": "TMLTheBus",
+      "PrecalibrationData": {}
+    },
+    {
+      "GameCodes": "WRC10",
+      "PrecalibrationData": {}
+    },
+    {
+      "GameCodes": "FH5",
+      "PrecalibrationData": {}
+    },
+    {
+      "GameCodes": "FlightSimulator2020",
+      "PrecalibrationData": {
+        "RollDelta": {
+          "CorrectionFactor": 1.0,
+          "MeasuredMaximum": 5.87
+        }
+      }
+    }
+  ]
+}

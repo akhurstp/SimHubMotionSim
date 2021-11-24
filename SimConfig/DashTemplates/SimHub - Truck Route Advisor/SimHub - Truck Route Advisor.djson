@@ -1,0 +1,2377 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "46613543-6f7c-4f06-b713-2b2898a33e7f",
+  "BaseHeight": 720,
+  "BaseWidth": 1280,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "RenderingSkip": 0,
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "PitScreen": false,
+        "ScreenScript": {
+          "$id": "4",
+          "Interpreter": 1
+        },
+        "BackgroundColor": "#FF000000",
+        "IsSelected": true,
+        "Items": {
+          "$id": "5",
+          "$values": [
+            {
+              "$id": "6",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+              "Repetitions": 0.0,
+              "RepeatLeftOffset": 0.0,
+              "RepeatTopOffset": 30.0,
+              "Height": 725.0,
+              "Width": 1280.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "Rotation": 0.0,
+              "BorderStyle": {
+                "$id": "7",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "8"
+                }
+              },
+              "RenderingSkip": 0,
+              "ShowSelection": true,
+              "CanResize": false,
+              "Childrens": {
+                "$id": "9",
+                "$values": [
+                  {
+                    "$id": "10",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.GradientItem, SimHub.Plugins",
+                    "Color": {
+                      "LinearGradientBrush": {
+                        "@StartPoint": "0.5,0",
+                        "@EndPoint": "0.5,1",
+                        "@MappingMode": "RelativeToBoundingBox",
+                        "@SpreadMethod": "Pad",
+                        "@Opacity": "1",
+                        "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                        "LinearGradientBrush.GradientStops": {
+                          "GradientStop": [
+                            {
+                              "@Color": "#FF1F1F1F",
+                              "@Offset": "0"
+                            },
+                            {
+                              "@Color": "#FF2F2F2F",
+                              "@Offset": "1"
+                            },
+                            {
+                              "@Color": "#FF474747",
+                              "@Offset": "0.51724137931034486"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "11",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "12"
+                      }
+                    },
+                    "Height": 70.0,
+                    "Left": 0.0,
+                    "Opacity": 100.0,
+                    "Top": 0.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 1280.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "9f8f23e2-81c2-4997-8909-eeca0d731c08",
+                    "IsFreezed": true,
+                    "IsSelected": false,
+                    "Name": "GradientItem0",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "13"
+                    }
+                  },
+                  {
+                    "$id": "14",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.GradientItem, SimHub.Plugins",
+                    "Color": {
+                      "LinearGradientBrush": {
+                        "@StartPoint": "0.5,0",
+                        "@EndPoint": "0.5,1",
+                        "@MappingMode": "RelativeToBoundingBox",
+                        "@SpreadMethod": "Pad",
+                        "@Opacity": "1",
+                        "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                        "LinearGradientBrush.GradientStops": {
+                          "GradientStop": [
+                            {
+                              "@Color": "#FF1F1F1F",
+                              "@Offset": "0"
+                            },
+                            {
+                              "@Color": "#FF2F2F2F",
+                              "@Offset": "1"
+                            },
+                            {
+                              "@Color": "#FF474747",
+                              "@Offset": "0.51724137931034486"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "15",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "16"
+                      }
+                    },
+                    "Height": 70.0,
+                    "Left": 0.0,
+                    "Opacity": 100.0,
+                    "Top": 650.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 1280.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "9f8f23e2-81c2-4997-8909-eeca0d731c08",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "GradientItem1",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "17"
+                    }
+                  },
+                  {
+                    "$id": "18",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+                    "IsRectangleItem": true,
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#FF000000",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "19",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "20"
+                      }
+                    },
+                    "Height": 70.0,
+                    "Left": 0.0,
+                    "Opacity": 54.0,
+                    "Top": 0.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 235.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "3865bb72-2249-4317-979d-23f66a09c3b6",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "RectangleItem0",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "21"
+                    }
+                  },
+                  {
+                    "$id": "22",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+                    "IsRectangleItem": true,
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#FF000000",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "23",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "24"
+                      }
+                    },
+                    "Height": 75.0,
+                    "Left": 985.0,
+                    "Opacity": 54.0,
+                    "Top": -5.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 295.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "3865bb72-2249-4317-979d-23f66a09c3b6",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "RectangleItem2",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "25"
+                    }
+                  }
+                ]
+              },
+              "Group": true,
+              "UseRotation": false,
+              "EnableBlur": false,
+              "Left": 0.0,
+              "Opacity": 100.0,
+              "Top": -5.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "c0c4b1a8-f768-4745-add9-ec6d8c369f58",
+              "IsSelected": false,
+              "Name": "BarsBackground",
+              "Sid": 0,
+              "Bindings": {
+                "$id": "26"
+              }
+            },
+            {
+              "$id": "27",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+              "Repetitions": 0.0,
+              "RepeatLeftOffset": 0.0,
+              "RepeatTopOffset": 30.0,
+              "Height": 70.0,
+              "Width": 1280.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "Rotation": 0.0,
+              "BorderStyle": {
+                "$id": "28",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "29"
+                }
+              },
+              "RenderingSkip": 0,
+              "ShowSelection": true,
+              "CanResize": false,
+              "Childrens": {
+                "$id": "30",
+                "$values": [
+                  {
+                    "$id": "31",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Repetitions": 0.0,
+                    "RepeatLeftOffset": 0.0,
+                    "RepeatTopOffset": 30.0,
+                    "Height": 70.0,
+                    "Width": 235.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "BorderStyle": {
+                      "$id": "32",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "33"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": true,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "34",
+                      "$values": [
+                        {
+                          "$id": "35",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "Font": "Lato",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 50.0,
+                          "Text": "50 km/h",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 1,
+                          "VerticalAlignment": 1,
+                          "UseMonospacedText": false,
+                          "CharWidth": 40.0,
+                          "SpecialCharsWidth": 20.0,
+                          "SpecialChars": ".,:;",
+                          "TextMask": "",
+                          "TextMaskColor": "#FF808080",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "36",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "37"
+                            }
+                          },
+                          "Height": 70.0,
+                          "Left": 0.0,
+                          "Opacity": 100.0,
+                          "Top": 0.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 235.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "a320ffc6-5e29-44ff-ac68-4d0562364ef3",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "SpeedLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "38",
+                            "Text": {
+                              "$id": "39",
+                              "Formula": {
+                                "$id": "40",
+                                "Expression": "format([DataCorePlugin.GameData.NewData.SpeedLocal],'0') + ' ' + lcase(isnull([DataCorePlugin.GameData.NewData.SpeedLocalUnit],'km/h'))"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Group": true,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 0.0,
+                    "Opacity": 100.0,
+                    "Top": 0.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "ee0b0d69-1486-4848-8c83-5639b8743be0",
+                    "IsSelected": false,
+                    "Name": "Speed",
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "41"
+                    }
+                  },
+                  {
+                    "$id": "42",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Repetitions": 0.0,
+                    "RepeatLeftOffset": 0.0,
+                    "RepeatTopOffset": 30.0,
+                    "Height": 70.0,
+                    "Width": 120.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "BorderStyle": {
+                      "$id": "43",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "44"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": true,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "45",
+                      "$values": [
+                        {
+                          "$id": "46",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ImageItem, SimHub.Plugins",
+                          "Image": "HShifter",
+                          "AutoSize": false,
+                          "AutoSizeScale": 1.0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "47",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "48"
+                            }
+                          },
+                          "Height": 50.0,
+                          "Left": 270.0,
+                          "Opacity": 80.0,
+                          "Top": 10.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 50.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "c1136f91-7ecb-4085-bdd0-a89cbe97aa63",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "GearIcon",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "49"
+                          }
+                        },
+                        {
+                          "$id": "50",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "Font": "Lato",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 50.0,
+                          "Text": "N",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 1,
+                          "VerticalAlignment": 1,
+                          "UseMonospacedText": false,
+                          "CharWidth": 40.0,
+                          "SpecialCharsWidth": 20.0,
+                          "SpecialChars": ".,:;",
+                          "TextMask": "",
+                          "TextMaskColor": "#FF808080",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "51",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "52"
+                            }
+                          },
+                          "Height": 70.0,
+                          "Left": 320.0,
+                          "Opacity": 100.0,
+                          "Top": 0.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 70.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "20ba8565-eed1-46f5-8207-73c7a41cbc8b",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "GearLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "53",
+                            "Text": {
+                              "$id": "54",
+                              "Formula": {
+                                "$id": "55",
+                                "Expression": "isnull([DataCorePlugin.GameData.NewData.Gear],'N')"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Group": true,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 270.0,
+                    "Opacity": 100.0,
+                    "Top": 0.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "2729be4a-6817-4e52-82b3-3721a47d2234",
+                    "IsSelected": false,
+                    "Name": "Gear",
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "56"
+                    }
+                  },
+                  {
+                    "$id": "57",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Repetitions": 0.0,
+                    "RepeatLeftOffset": 0.0,
+                    "RepeatTopOffset": 30.0,
+                    "Height": 40.0,
+                    "Width": 55.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "BorderStyle": {
+                      "$id": "58",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "59"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": true,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "60",
+                      "$values": [
+                        {
+                          "$id": "61",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.VerticalLinearGaugeItem, SimHub.Plugins",
+                          "GaugeAlignment": 2,
+                          "BackgroundImage": "SleepOK",
+                          "AutoSize": false,
+                          "AutoSizeScale": 1.0,
+                          "GaugeImage": "SleepKO",
+                          "GaugeColor": "#00FFFFFF",
+                          "Minimum": 0.0,
+                          "Maximum": 120.0,
+                          "Value": 20.0,
+                          "Steps": 0.0,
+                          "PAW": 7.0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "62",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "63"
+                            }
+                          },
+                          "Height": 40.0,
+                          "Left": 895.0,
+                          "Opacity": 64.0,
+                          "Top": 15.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 55.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "2714d58c-9cd6-422f-9b74-98dadc1a04e2",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "Sleep",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "64",
+                            "Value": {
+                              "$id": "65",
+                              "Formula": {
+                                "$id": "66",
+                                "Expression": "120 - timespantoseconds([DataCorePlugin.GameRawData.NextRestStopTime])/60 "
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Value"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Group": true,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 895.0,
+                    "Opacity": 100.0,
+                    "Top": 15.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "8d57b944-b2f9-4882-b63d-b156f89f5909",
+                    "IsSelected": false,
+                    "Name": "Sleep",
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "67"
+                    }
+                  },
+                  {
+                    "$id": "68",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Repetitions": 0.0,
+                    "RepeatLeftOffset": 0.0,
+                    "RepeatTopOffset": 30.0,
+                    "Height": 50.0,
+                    "Width": 70.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "BorderStyle": {
+                      "$id": "69",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "70"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": true,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "71",
+                      "$values": [
+                        {
+                          "$id": "72",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ImageItem, SimHub.Plugins",
+                          "Image": "fuel-512",
+                          "AutoSize": false,
+                          "AutoSizeScale": 1.0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "73",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "74"
+                            }
+                          },
+                          "Height": 50.0,
+                          "Left": 430.0,
+                          "Opacity": 100.0,
+                          "Top": 10.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 35.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "c4574865-6a47-4ed1-a247-8aa1e6d306e3",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "FuelIcon",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "75"
+                          }
+                        },
+                        {
+                          "$id": "76",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.VerticalLinearGaugeItem, SimHub.Plugins",
+                          "GaugeAlignment": 2,
+                          "AutoSize": false,
+                          "AutoSizeScale": 1.0,
+                          "GaugeColor": "#FFFF7F50",
+                          "Minimum": 0.0,
+                          "Maximum": 100.0,
+                          "Value": 31.0,
+                          "Steps": 0.0,
+                          "PAW": 16.0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#FF000000",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "77",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 2,
+                            "BorderBottom": 2,
+                            "BorderLeft": 2,
+                            "BorderRight": 2,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "78"
+                            }
+                          },
+                          "Height": 50.0,
+                          "Left": 480.0,
+                          "Opacity": 80.0,
+                          "Top": 10.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 20.0,
+                          "BorderBottom": 2,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 2,
+                          "BorderRight": 2,
+                          "BorderTop": 2,
+                          "Id": "daa6bb98-019a-4715-9378-8f9b39757a07",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "FuelGauge",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "79",
+                            "Value": {
+                              "$id": "80",
+                              "Formula": {
+                                "$id": "81",
+                                "Expression": "[DataCorePlugin.GameData.NewData.FuelPercent]"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Value"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Group": true,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 430.0,
+                    "Opacity": 100.0,
+                    "Top": 10.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "c2edde62-13f2-4a62-92c9-55ec49f04cc7",
+                    "IsSelected": false,
+                    "Name": "Fuel",
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "82"
+                    }
+                  },
+                  {
+                    "$id": "83",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ImageItem, SimHub.Plugins",
+                    "Image": "blinkers",
+                    "AutoSize": false,
+                    "AutoSizeScale": 1.0,
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "84",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "85"
+                      }
+                    },
+                    "Height": 40.0,
+                    "Left": 645.0,
+                    "Opacity": 100.0,
+                    "Top": 15.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 85.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "23abf96d-885a-4f3e-83d0-cf79166e1e59",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "Blinkers Indicator",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "86",
+                      "Visible": {
+                        "$id": "87",
+                        "Formula": {
+                          "$id": "88",
+                          "Expression": "[DataCorePlugin.GameData.NewData.TurnIndicatorLeft] || [DataCorePlugin.GameData.NewData.TurnIndicatorRight]"
+                        },
+                        "Mode": 2,
+                        "TargetPropertyName": "Visible"
+                      }
+                    }
+                  },
+                  {
+                    "$id": "89",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                    "IsTextItem": true,
+                    "ShadowDepth": 0,
+                    "ShadowBlur": 0,
+                    "ShadowDirection": 315,
+                    "ShadowColor": "#FF808080",
+                    "Font": "Lato",
+                    "FontWeight": "Normal",
+                    "TextWrapping": 1,
+                    "FontStyle": "Normal",
+                    "FontSize": 50.0,
+                    "Text": "10:00",
+                    "TextColor": "#FFFFFFFF",
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "UseMonospacedText": false,
+                    "CharWidth": 40.0,
+                    "SpecialCharsWidth": 20.0,
+                    "SpecialChars": ".,:;",
+                    "TextMask": "",
+                    "TextMaskColor": "#FF808080",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "90",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "91"
+                      }
+                    },
+                    "Height": 70.0,
+                    "Left": 985.0,
+                    "Opacity": 100.0,
+                    "Top": 0.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 295.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "a320ffc6-5e29-44ff-ac68-4d0562364ef3",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "Clock",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "92",
+                      "Text": {
+                        "$id": "93",
+                        "FormatString": "",
+                        "Formula": {
+                          "$id": "94",
+                          "Expression": "format([DataCorePlugin.GameRawData.TimeAbsolute],'hh\\\\:mm')"
+                        },
+                        "Mode": 2,
+                        "TargetPropertyName": "Text"
+                      }
+                    }
+                  }
+                ]
+              },
+              "Group": true,
+              "UseRotation": false,
+              "EnableBlur": false,
+              "Left": 0.0,
+              "Opacity": 100.0,
+              "Top": 0.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "396f5f91-0d48-4f88-972f-cf14f8c819a6",
+              "IsSelected": false,
+              "Name": "TopBar",
+              "Sid": 0,
+              "Bindings": {
+                "$id": "95"
+              }
+            },
+            {
+              "$id": "96",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+              "Repetitions": 0.0,
+              "RepeatLeftOffset": 0.0,
+              "RepeatTopOffset": 30.0,
+              "Height": 70.0,
+              "Width": 1260.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "Rotation": 0.0,
+              "BorderStyle": {
+                "$id": "97",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "98"
+                }
+              },
+              "RenderingSkip": 0,
+              "ShowSelection": true,
+              "CanResize": false,
+              "Childrens": {
+                "$id": "99",
+                "$values": [
+                  {
+                    "$id": "100",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Repetitions": 0.0,
+                    "RepeatLeftOffset": 0.0,
+                    "RepeatTopOffset": 30.0,
+                    "Height": 70.0,
+                    "Width": 160.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "BorderStyle": {
+                      "$id": "101",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "102"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": true,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "103",
+                      "$values": [
+                        {
+                          "$id": "104",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.VerticalLinearGaugeItem, SimHub.Plugins",
+                          "GaugeAlignment": 2,
+                          "BackgroundImage": "TruckHealth100",
+                          "AutoSize": true,
+                          "AutoSizeScale": 0.21,
+                          "GaugeImage": "TruckHealth000",
+                          "GaugeColor": "#00FFFFFF",
+                          "Minimum": 0.0,
+                          "Maximum": 100.0,
+                          "Value": 20.0,
+                          "Steps": 0.0,
+                          "PAW": 10.0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "105",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "106"
+                            }
+                          },
+                          "Height": 50.840549697539146,
+                          "Left": 755.0,
+                          "Opacity": 64.0,
+                          "Top": 660.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 69.9582770631427,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "2714d58c-9cd6-422f-9b74-98dadc1a04e2",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "TruckWearIcon",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "107",
+                            "Value": {
+                              "$id": "108",
+                              "Formula": {
+                                "$id": "109",
+                                "Expression": "[DataCorePlugin.GameRawData.Damage.WearChassis] * 100"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Value"
+                            }
+                          }
+                        },
+                        {
+                          "$id": "110",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "Font": "Lato",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 35.0,
+                          "Text": "100%",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 1,
+                          "VerticalAlignment": 1,
+                          "UseMonospacedText": false,
+                          "CharWidth": 40.0,
+                          "SpecialCharsWidth": 20.0,
+                          "SpecialChars": ".,:;",
+                          "TextMask": "",
+                          "TextMaskColor": "#FF808080",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "111",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "112"
+                            }
+                          },
+                          "Height": 70.0,
+                          "Left": 825.0,
+                          "Opacity": 100.0,
+                          "Top": 650.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 90.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "a320ffc6-5e29-44ff-ac68-4d0562364ef3",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "TruckWearLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "113",
+                            "Text": {
+                              "$id": "114",
+                              "FormatString": "0\\%",
+                              "Formula": {
+                                "$id": "115",
+                                "Expression": "truncate([DataCorePlugin.GameRawData.Damage.WearChassis] * 100)"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Group": true,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 755.0,
+                    "Opacity": 100.0,
+                    "Top": 650.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "df0ad838-5049-44ef-b9b5-0d7ea35433ab",
+                    "IsSelected": false,
+                    "Name": "TruckWear",
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "116"
+                    }
+                  },
+                  {
+                    "$id": "117",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Repetitions": 0.0,
+                    "RepeatLeftOffset": 0.0,
+                    "RepeatTopOffset": 30.0,
+                    "Height": 70.0,
+                    "Width": 170.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "BorderStyle": {
+                      "$id": "118",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "119"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": true,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "120",
+                      "$values": [
+                        {
+                          "$id": "121",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.VerticalLinearGaugeItem, SimHub.Plugins",
+                          "GaugeAlignment": 2,
+                          "BackgroundImage": "TrailerHealth100",
+                          "AutoSize": true,
+                          "AutoSizeScale": 0.18,
+                          "GaugeImage": "TrailerHealth000",
+                          "GaugeColor": "#00FFFFFF",
+                          "Minimum": 0.0,
+                          "Maximum": 100.0,
+                          "Value": 20.0,
+                          "Steps": 0.0,
+                          "PAW": 9.0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "122",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "123"
+                            }
+                          },
+                          "Height": 46.446481808189972,
+                          "Left": 925.0,
+                          "Opacity": 64.0,
+                          "Top": 665.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 81.911431095838893,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "2714d58c-9cd6-422f-9b74-98dadc1a04e2",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "TrailerWearIcon",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "124",
+                            "Value": {
+                              "$id": "125",
+                              "Formula": {
+                                "$id": "126",
+                                "Expression": "[GameRawData.TrailerValues01.DamageValues.Chassis] * 100"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Value"
+                            }
+                          }
+                        },
+                        {
+                          "$id": "127",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "Font": "Lato",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 35.0,
+                          "Text": "100%",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 1,
+                          "VerticalAlignment": 1,
+                          "UseMonospacedText": false,
+                          "CharWidth": 40.0,
+                          "SpecialCharsWidth": 20.0,
+                          "SpecialChars": ".,:;",
+                          "TextMask": "",
+                          "TextMaskColor": "#FF808080",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "128",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "129"
+                            }
+                          },
+                          "Height": 70.0,
+                          "Left": 1005.0,
+                          "Opacity": 100.0,
+                          "Top": 650.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 90.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "a320ffc6-5e29-44ff-ac68-4d0562364ef3",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "TrailerWearLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "130",
+                            "Text": {
+                              "$id": "131",
+                              "FormatString": "0\\%",
+                              "Formula": {
+                                "$id": "132",
+                                "Expression": "truncate([GameRawData.TrailerValues01.DamageValues.Chassis] * 100)"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Group": true,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 925.0,
+                    "Opacity": 100.0,
+                    "Top": 650.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "23572cf3-1f04-4297-9918-814b38f65ae6",
+                    "IsSelected": false,
+                    "Name": "TrailerWear",
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "133"
+                    }
+                  },
+                  {
+                    "$id": "134",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                    "IsTextItem": true,
+                    "ShadowDepth": 0,
+                    "ShadowBlur": 0,
+                    "ShadowDirection": 315,
+                    "ShadowColor": "#FF808080",
+                    "Font": "Lato",
+                    "FontWeight": "Normal",
+                    "TextWrapping": 1,
+                    "FontStyle": "Normal",
+                    "FontSize": 31.0,
+                    "Text": "50 km/h",
+                    "TextColor": "#FFFFFFFF",
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "UseMonospacedText": false,
+                    "CharWidth": 40.0,
+                    "SpecialCharsWidth": 20.0,
+                    "SpecialChars": ".,:;",
+                    "TextMask": "",
+                    "TextMaskColor": "#FF808080",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#8E000000",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "135",
+                      "BorderColor": "#C5000000",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 12,
+                      "RadiusTopRight": 12,
+                      "RadiusBottomLeft": 12,
+                      "RadiusBottomRight": 12,
+                      "Bindings": {
+                        "$id": "136"
+                      }
+                    },
+                    "Height": 50.0,
+                    "Left": 15.0,
+                    "Opacity": 100.0,
+                    "Top": 660.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 730.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#C5000000",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "a320ffc6-5e29-44ff-ac68-4d0562364ef3",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "Destination",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "137",
+                      "Text": {
+                        "$id": "138",
+                        "Formula": {
+                          "$id": "139",
+                          "Expression": "isnull([DataCorePlugin.GameRawData.Job.CityDestination],'') + ' ' +isnull([DataCorePlugin.GameRawData.Job.CompanyDestination],'') +\r\nif([DataCorePlugin.GameRawData.Job.Income] >0,\r\n format([DataCorePlugin.GameRawData.Job.Income],' (0€)'),'') "
+                        },
+                        "Mode": 2,
+                        "TargetPropertyName": "Text"
+                      }
+                    }
+                  },
+                  {
+                    "$id": "140",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+                    "Repetitions": 0.0,
+                    "RepeatLeftOffset": 0.0,
+                    "RepeatTopOffset": 30.0,
+                    "Height": 70.0,
+                    "Width": 162.0,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "Rotation": 0.0,
+                    "BorderStyle": {
+                      "$id": "141",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "142"
+                      }
+                    },
+                    "RenderingSkip": 0,
+                    "ShowSelection": true,
+                    "CanResize": false,
+                    "Childrens": {
+                      "$id": "143",
+                      "$values": [
+                        {
+                          "$id": "144",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.VerticalLinearGaugeItem, SimHub.Plugins",
+                          "GaugeAlignment": 2,
+                          "BackgroundImage": "CargoWear",
+                          "AutoSize": true,
+                          "AutoSizeScale": 0.4,
+                          "GaugeImage": "CargoWear_full",
+                          "GaugeColor": "#00FFFFFF",
+                          "Minimum": 0.0,
+                          "Maximum": 100.0,
+                          "Value": 60.0,
+                          "Steps": 0.0,
+                          "PAW": 30.0,
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "145",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "146"
+                            }
+                          },
+                          "Height": 50.0,
+                          "Left": 1113.0,
+                          "Opacity": 64.0,
+                          "Top": 663.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 60.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "2714d58c-9cd6-422f-9b74-98dadc1a04e2",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "TrailerWearIcon",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "147",
+                            "Value": {
+                              "$id": "148",
+                              "Formula": {
+                                "$id": "149",
+                                "Expression": "[DataCorePlugin.GameRawData.Damage.WearTrailer] * 100"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Value"
+                            }
+                          }
+                        },
+                        {
+                          "$id": "150",
+                          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                          "IsTextItem": true,
+                          "ShadowDepth": 0,
+                          "ShadowBlur": 0,
+                          "ShadowDirection": 315,
+                          "ShadowColor": "#FF808080",
+                          "Font": "Lato",
+                          "FontWeight": "Normal",
+                          "TextWrapping": 1,
+                          "FontStyle": "Normal",
+                          "FontSize": 35.0,
+                          "Text": "100%",
+                          "TextColor": "#FFFFFFFF",
+                          "HorizontalAlignment": 1,
+                          "VerticalAlignment": 1,
+                          "UseMonospacedText": false,
+                          "CharWidth": 40.0,
+                          "SpecialCharsWidth": 20.0,
+                          "SpecialChars": ".,:;",
+                          "TextMask": "",
+                          "TextMaskColor": "#FF808080",
+                          "Rotation": 0.0,
+                          "UseRotation": false,
+                          "CanResize": true,
+                          "BackgroundColor": "#00FFFFFF",
+                          "BlurRadius": 0.0,
+                          "EnableBlur": false,
+                          "BorderStyle": {
+                            "$id": "151",
+                            "BorderColor": "#FFFFFFFF",
+                            "BorderTop": 0,
+                            "BorderBottom": 0,
+                            "BorderLeft": 0,
+                            "BorderRight": 0,
+                            "RadiusTopLeft": 0,
+                            "RadiusTopRight": 0,
+                            "RadiusBottomLeft": 0,
+                            "RadiusBottomRight": 0,
+                            "Bindings": {
+                              "$id": "152"
+                            }
+                          },
+                          "Height": 70.0,
+                          "Left": 1185.0,
+                          "Opacity": 100.0,
+                          "Top": 650.0,
+                          "Visible": true,
+                          "BlinkDelay": 250.0,
+                          "BlinkEnabled": false,
+                          "Width": 90.0,
+                          "BorderBottom": 0,
+                          "BorderColor": "#FFFFFFFF",
+                          "BorderLeft": 0,
+                          "BorderRight": 0,
+                          "BorderTop": 0,
+                          "Id": "a320ffc6-5e29-44ff-ac68-4d0562364ef3",
+                          "IsFreezed": false,
+                          "IsSelected": false,
+                          "Name": "TrailerWearLabel",
+                          "RenderingSkip": 0,
+                          "Sid": 0,
+                          "Bindings": {
+                            "$id": "153",
+                            "Text": {
+                              "$id": "154",
+                              "FormatString": "0\\%",
+                              "Formula": {
+                                "$id": "155",
+                                "Expression": "truncate([DataCorePlugin.GameRawData.Damage.WearTrailer] * 100)"
+                              },
+                              "Mode": 2,
+                              "TargetPropertyName": "Text"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Group": true,
+                    "UseRotation": false,
+                    "EnableBlur": false,
+                    "Left": 1113.0,
+                    "Opacity": 100.0,
+                    "Top": 650.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "23572cf3-1f04-4297-9918-814b38f65ae6",
+                    "IsSelected": false,
+                    "Name": "TrailerWear",
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "156"
+                    }
+                  }
+                ]
+              },
+              "Group": true,
+              "UseRotation": false,
+              "EnableBlur": false,
+              "Left": 15.0,
+              "Opacity": 100.0,
+              "Top": 650.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "854f4926-ec44-4441-b876-3fef29ad55b8",
+              "IsSelected": false,
+              "Name": "BottomBar",
+              "Sid": 0,
+              "Bindings": {
+                "$id": "157"
+              }
+            },
+            {
+              "$id": "158",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+              "Repetitions": 0.0,
+              "RepeatLeftOffset": 0.0,
+              "RepeatTopOffset": 30.0,
+              "Height": 580.0,
+              "Width": 1280.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "Rotation": 0.0,
+              "BorderStyle": {
+                "$id": "159",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "160"
+                }
+              },
+              "RenderingSkip": 0,
+              "ShowSelection": true,
+              "CanResize": false,
+              "Childrens": {
+                "$id": "161",
+                "$values": [
+                  {
+                    "$id": "162",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ETSMap, SimHub.Plugins",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "163",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "164"
+                      }
+                    },
+                    "Height": 580.0,
+                    "Left": 0.0,
+                    "Opacity": 100.0,
+                    "Top": 70.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 1280.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "73350250-402f-4168-94a0-ad436d527b61",
+                    "IsFreezed": true,
+                    "IsSelected": false,
+                    "Name": "Map",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "165"
+                    }
+                  }
+                ]
+              },
+              "Group": true,
+              "UseRotation": false,
+              "EnableBlur": false,
+              "Left": 0.0,
+              "Opacity": 100.0,
+              "Top": 70.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "b307e8d2-72e6-4eed-923b-50ce49815041",
+              "IsSelected": false,
+              "Name": "Map",
+              "Sid": 0,
+              "Bindings": {
+                "$id": "166"
+              }
+            },
+            {
+              "$id": "167",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
+              "Repetitions": 0.0,
+              "RepeatLeftOffset": 0.0,
+              "RepeatTopOffset": 30.0,
+              "Height": 165.0,
+              "Width": 170.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "Rotation": 0.0,
+              "BorderStyle": {
+                "$id": "168",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "169"
+                }
+              },
+              "RenderingSkip": 0,
+              "ShowSelection": false,
+              "CanResize": false,
+              "Childrens": {
+                "$id": "170",
+                "$values": [
+                  {
+                    "$id": "171",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.EllipseItem, SimHub.Plugins",
+                    "FillColor": "#FFFFFFFF",
+                    "EllipseColor": "#FFFF0000",
+                    "EllipseThickness": 13.0,
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "172",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "173"
+                      }
+                    },
+                    "Height": 165.0,
+                    "Left": 25.0,
+                    "Opacity": 80.0,
+                    "Top": 455.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 170.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "2bb81a79-db8e-40a8-906b-e829e57e6e62",
+                    "IsFreezed": false,
+                    "IsSelected": false,
+                    "Name": "Circle",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "174"
+                    }
+                  },
+                  {
+                    "$id": "175",
+                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+                    "IsTextItem": true,
+                    "ShadowDepth": 0,
+                    "ShadowBlur": 0,
+                    "ShadowDirection": 315,
+                    "ShadowColor": "#FF808080",
+                    "Font": "Lato",
+                    "FontWeight": "Normal",
+                    "TextWrapping": 1,
+                    "FontStyle": "Normal",
+                    "FontSize": 71.0,
+                    "Text": "50",
+                    "TextColor": "#FF000000",
+                    "HorizontalAlignment": 1,
+                    "VerticalAlignment": 1,
+                    "UseMonospacedText": false,
+                    "CharWidth": 40.0,
+                    "SpecialCharsWidth": 20.0,
+                    "SpecialChars": ".,:;",
+                    "TextMask": "",
+                    "TextMaskColor": "#FF808080",
+                    "Rotation": 0.0,
+                    "UseRotation": false,
+                    "CanResize": true,
+                    "BackgroundColor": "#00FFFFFF",
+                    "BlurRadius": 0.0,
+                    "EnableBlur": false,
+                    "BorderStyle": {
+                      "$id": "176",
+                      "BorderColor": "#FFFFFFFF",
+                      "BorderTop": 0,
+                      "BorderBottom": 0,
+                      "BorderLeft": 0,
+                      "BorderRight": 0,
+                      "RadiusTopLeft": 0,
+                      "RadiusTopRight": 0,
+                      "RadiusBottomLeft": 0,
+                      "RadiusBottomRight": 0,
+                      "Bindings": {
+                        "$id": "177"
+                      }
+                    },
+                    "Height": 75.0,
+                    "Left": 50.0,
+                    "Opacity": 100.0,
+                    "Top": 500.0,
+                    "Visible": true,
+                    "BlinkDelay": 250.0,
+                    "BlinkEnabled": false,
+                    "Width": 115.0,
+                    "BorderBottom": 0,
+                    "BorderColor": "#FFFFFFFF",
+                    "BorderLeft": 0,
+                    "BorderRight": 0,
+                    "BorderTop": 0,
+                    "Id": "a320ffc6-5e29-44ff-ac68-4d0562364ef3",
+                    "IsFreezed": false,
+                    "IsSelected": true,
+                    "Name": "Limit",
+                    "RenderingSkip": 0,
+                    "Sid": 0,
+                    "Bindings": {
+                      "$id": "178",
+                      "Text": {
+                        "$id": "179",
+                        "FormatString": "0",
+                        "Formula": {
+                          "$id": "180",
+                          "Expression": "  [DataCorePlugin.GameData.NewData.SpeedLocalUnit] =='KMH'?isnull([DataCorePlugin.GameRawData.Job.SpeedLimitKmh],0):isnull([DataCorePlugin.GameRawData.Job.SpeedLimitMph],0)"
+                        },
+                        "Mode": 2,
+                        "TargetPropertyName": "Text"
+                      }
+                    }
+                  }
+                ]
+              },
+              "Group": true,
+              "UseRotation": false,
+              "EnableBlur": false,
+              "Left": 25.0,
+              "Opacity": 100.0,
+              "Top": 455.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "84334ac7-d372-4a99-9ae5-3b1de3cb168c",
+              "IsSelected": false,
+              "Name": "SpeedLimitIndicator",
+              "Sid": 0,
+              "Bindings": {
+                "$id": "181",
+                "Opacity": {
+                  "$id": "182",
+                  "Formula": {
+                    "$id": "183",
+                    "Expression": "-(isnull([DataCorePlugin.GameRawData.Job.SpeedLimitKmh],0)+1 - [DataCorePlugin.GameData.NewData.SpeedKmh]) *15"
+                  },
+                  "Mode": 2,
+                  "TargetPropertyName": "Opacity"
+                },
+                "Visible": {
+                  "$id": "184",
+                  "Formula": {
+                    "$id": "185",
+                    "Expression": "isnull([GameRawData.NavigationValues.SpeedLimit.Kph],0)>0"
+                  },
+                  "Mode": 2,
+                  "TargetPropertyName": "Visible"
+                }
+              }
+            },
+            {
+              "$id": "186",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "IsTextItem": true,
+              "ShadowDepth": 0,
+              "ShadowBlur": 0,
+              "ShadowDirection": 315,
+              "ShadowColor": "#FF808080",
+              "Font": "Lato",
+              "FontWeight": "Normal",
+              "TextWrapping": 1,
+              "FontStyle": "Normal",
+              "FontSize": 29.0,
+              "Text": "ETA : 01:00",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "UseMonospacedText": false,
+              "CharWidth": 40.0,
+              "SpecialCharsWidth": 20.0,
+              "SpecialChars": ".,:;",
+              "TextMask": "",
+              "TextMaskColor": "#FF808080",
+              "Rotation": 0.0,
+              "UseRotation": false,
+              "CanResize": true,
+              "BackgroundColor": "#8E000000",
+              "BlurRadius": 0.0,
+              "EnableBlur": false,
+              "BorderStyle": {
+                "$id": "187",
+                "BorderColor": "#C5000000",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 12,
+                "RadiusBottomRight": 12,
+                "Bindings": {
+                  "$id": "188"
+                }
+              },
+              "Height": 50.0,
+              "Left": 1055.0,
+              "Opacity": 100.0,
+              "Top": 69.0,
+              "Visible": true,
+              "BlinkDelay": 250.0,
+              "BlinkEnabled": false,
+              "Width": 165.0,
+              "BorderBottom": 0,
+              "BorderColor": "#C5000000",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Id": "a320ffc6-5e29-44ff-ac68-4d0562364ef3",
+              "IsFreezed": false,
+              "IsSelected": false,
+              "Name": "Destination",
+              "RenderingSkip": 0,
+              "Sid": 0,
+              "Bindings": {
+                "$id": "189",
+                "Text": {
+                  "$id": "190",
+                  "Formula": {
+                    "$id": "191",
+                    "Expression": "'ETA : ' + format([DataCorePlugin.GameRawData.Job.NavigationTime],'hh\\\\:mm')"
+                  },
+                  "Mode": 2,
+                  "TargetPropertyName": "Text"
+                },
+                "Visible": {
+                  "$id": "192",
+                  "Formula": {
+                    "$id": "193",
+                    "Expression": "timespantoseconds( [DataCorePlugin.GameRawData.Job.NavigationTime])>100"
+                  },
+                  "Mode": 2,
+                  "TargetPropertyName": "Visible"
+                }
+              }
+            }
+          ]
+        },
+        "Id": "734c30d9-18be-4196-a060-a5f3b12e9437",
+        "Name": "Screen1",
+        "Sid": 0,
+        "Bindings": {
+          "$id": "194"
+        }
+      }
+    ]
+  },
+  "SnapToGrid": true,
+  "HideLabels": false,
+  "ShowBoundingRectangles": true,
+  "GridSize": 5,
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "195",
+    "$values": [
+      {
+        "$id": "196",
+        "Name": "HShifter",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "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"
+      },
+      {
+        "$id": "197",
+        "Name": "TruckHealth000",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "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"
+      },
+      {
+        "$id": "198",
+        "Name": "TruckHealth100",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "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"
+      },
+      {
+        "$id": "199",
+        "Name": "TrailerHealth100",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "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"
+      },
+      {
+        "$id": "200",
+        "Name": "TrailerHealth000",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "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"
+      },
+      {
+        "$id": "201",
+        "Name": "fuel-512",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "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"
+      },
+      {
+        "$id": "202",
+        "Name": "SleepOK",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "iVBORw0KGgoAAAANSUhEUgAAAnIAAAF/CAMAAAD6htTkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURQAAAMDAvsHBv8DAwMHBwcPDwcLCwsPDw8TExMXFxcbGxMfHxcbGxsfHx8jIxsjIyMnJycrKyMvLycrKysvLy8zMzM3Nzc7OzM/Pzc7Ozs/Pz9DQztHRz9DQ0NHR0dLS0NPT0dLS0tPT09TU0tXV09TU1NXV1dfX1dbW1tfX19jY1tnZ19jY2NnZ2dra2Nvb2dra2tvb29zc2t3d29zc3N3d3d7e3N/f3d7e3t/f3+Dg3uHh3+Dg4OHh4eLi4OPj4eLi4uPj4+Tk4uXl4+Tk5OXl5ebm5Ofn5ebm5ufn5+jo5unp5+jo6Onp6erq6Ovr6erq6uvr6+zs6u3t6+zs7O3t7e7u7O/v7e7u7u/v7/Dw7vHx7/Dw8PHx8fLy8PPz8fLy8vPz8/T08vX18/T09PX19fb29Pf39fb29vf39/j49vn59/j4+Pn5+fr6+Pv7+fr6+vv7+/z8+v39+/7/+vz8/P39/f7+/P///f7+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8SyU4AAAEAdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wBT9wclAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGHRFWHRTb2Z0d2FyZQBwYWludC5uZXQgNC4xLjVkR1hSAAAXqElEQVR4Xu3djWPbRJrH8cByB+zysncLW67H6/LOFSjLtby/7FLotuWtQNPS0qTpS9LYsWRrTtJo/nnf84wfm9S2Yo9HM3Hc3wfaJoolp/G3I0uWpbU+QFRIDiKbmtyxD77fbLU3v/r7CzIBoDETyT34s9alSrJSa6W1TjoPyxcAGjGW3Eu7pW5tU26UnVJZqrTpmZPyRYAG3JPcZ5UxVJvWGY1yg+7Kolf1zCW5AYC3/cl1tkxe0Bq1TAe5ZarUKs+N2TUX5SYAvvYld77UqVblGJ6gdetnuRGAp9+T+zgpdUKD2zjajKDBrvWD3AzAzyi5a/Y53GRxtNmqMv7aNbkhgJdhct+nHFemabPhXpSbXbmq9NYTclsAD5Lcun3KltU8lyMZBbkzuC2Aj0Fy39GGA41mtLU6kRzvoOMNWJ0o/Y29MYCPQXK3aZ2aKhrIpLN9hsnRCjbJ7I0BfNjk7hpef1JvKp2IzvamKMeMfm3aeQA82ORy05oyvt2LRjv6/0E7E8DiOLlep6e3pax6NNi1dWswF8DCKLmHTJEnM0c5PrQk0+plmQ9gQZTce6ZjJvfHjdNlQr9n2GgFT5TcHdOp9M4grHo0wvEmrfqLzAiwmLX+a9UdU+zMXrHaPSgq+VVmBFjMWv9TUxmTzrFizRJ+rXVLZgRYzFr/nDF7ZtpO4HuphPcHp3pXZgRYzNoDP2u7E1jKmmkX74UAL2vHNrSaP7iy7D4ncwIsZO3zhJLjo8/nVJ2ROQEWsrbJr2TN3Hj4nbkjcwIsZI2PyqT/5161GiNzAixkjXqbejRwnQrJgRebnMuqtSpkToCFrClN/9H/UtRM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"
+      },
+      {
+        "$id": "203",
+        "Name": "SleepKO",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "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"
+      },
+      {
+        "$id": "204",
+        "Name": "blinkers",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "iVBORw0KGgoAAAANSUhEUgAAAJ0AAABICAYAAADs1fdKAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS41ZEdYUgAABKpJREFUeF7tnEFu20YUhn2InCHZqkDiAtl10wt42QMo2dTuIifpRXqIbLty0X3tIBdIAButAZWfxQdLTyNySD5KJOf/gQ+GLXI48+ODSQ0gXZw7m0/vX21+ffv7w3p1//nqzS2/1y8pA0OXdPq4Xt3Rsbqt8izczeUf1c/NDj/VLysDQ5d73W67Llc8Fp8QDiRdUOjSdVuueCz6iHAg6YJCl67bLaWJx2IbhANJFxS6dN2+UIp4LLJFOJB0QaFL1+0+SxePxWUIB5IuKHTpuj1kqeKxqEzhQNIFhS5dt2mWJh6L6SAcSLqg0KXr9jhLEY9FdBQOJF1Q6NJ128zcxWPyPYQDSRcUunTdtjNX8Zh0T+FA0gWFLl23ecxNPCY7QDiQdEGhS9dtPnMRj0kOFA4kXVDo0nXbjamLx+QChANJFxS6dN12Z6riMakg4UDSBYUuXbf9mJp4TCZQOJB0QaFL121/piIekwgWDiRdUOjSdTuMc4vHxUcQDiRdUOjSdTucc4nHRUcSDiRdUOjSdRvDqcXjYiMKB5IuKHTpuo3jVOJxkZGF22yu333ZfPzhz8nyy+uf6zoaU63l+QNHyTFOBV2mOo5ibPEYfHThZsDjevVPXUlj6k9fJcdYFGOJx6ASrqb6D1LX0pjn/zSp85dItHgMJuF2qP6D1dU05r8Pq7+T5y+VKPEYRMK98PTbj/9WP1uL5Zj62OQ4i2WoeJws4fZ5+rD6q66nMcU8z6XoKx4nSbgEep7Lo6t4HCzhjpDxPFcd9+rp5vL7wbmlkSseB0m4NE/Xl9+qn+3PcyXfWj1t4vGihGtAt9Z+HBOPP0q4FjK3Sqo3G2VtleTgxeMXCdeMtkoC2BVPwrWjrZIgTLyDF8Qhep6Lg8eU5AtiH22VhPGwXn2VdC1oqyQWSZeDbq2xPN9e9UaimYxbK9FWSQY7byS0ZXIEbZUEYsJZ+EXiHaKtkiC8cBb+KPEcep4bzjHhLLwo8XbI3SrZvsNNj1EybcJZOEjiaatkMLnCWTi4ePF0a+1PV+EsnFS0eNoq6Udf4SycXKJ42irpyVDhLAxSmnjaKulBlHAWBitKPD3PdSNaOAuDFiNe5vMcXzGRPL8kxhLOwuCji3fuL9DZ3jKzSuTLdJJjTIW5f4GOhYuMLJ6+KiwodOm6jeNUwlm42IjiSbqg0KXrNoZTC2fhoiOJJ+mCQpeu2+GcSzgLFx9BPEkXFLp03Q7j3MJZmESweJIuKHTpuu3PVISzMJlA8SRdUOjSdduPqQlnYVJB4km6oNCl67Y7UxXOwuQCxJN0QaFL1203pi6chUkOFE/SBYUuXbf5zEU4C5MdIJ6kCwpdum7zmJtwFibdUzxJFxS6dN22M1fhLEy+h3iSLih06bptZu7CWVhER/EkXVDo0nV7nKUIZ2ExHcSTdEGhS9dtmqUJZ2FRmeJJuqDQpev2kKUKZ2FxGeJJuqDQpet2n6ULZ2GRLeJJuqDQpev2hVKEs7DYBvEkXVDo0nW7pTThLCz6iHiSLih06botVzgLi0+IJ+mCQpd73ZYunIUS+DDMw3p1//nqza1KiQtd0unjenXX5QNH4+bi4n+EqXi5DN+rMgAAAABJRU5ErkJggg=="
+      },
+      {
+        "$id": "205",
+        "Name": "CargoWear",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "iVBORw0KGgoAAAANSUhEUgAAAJYAAAB9CAYAAABAgpqjAAABmElEQVR4nO3dWwrCMBRAwVS6/y3HDfhRMEf7mFlATeFwQQnebc45Flv+wD/ZDn7s0973kFd3Tp5MWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERWIPHrr0/8Iv4Gnve4iJRUJYJIRFQlgkhEVCWCSERUJYJIRFovjl3YbVa7JhlfMTFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkbBh9Xs2rH5gYpEQFglhkRAWCWGREBYJYZEQFglhkdhvtCGUEzGxSAiLhLBICIvEHlz7WP1l4BfXUpx58ZlNLBLCIiEsEsIiISwSwiIhLBLCIiEsEsIiISwSwiIhLBLCIrHNOd15ZzkTi4SwSAiLhLBYb4zxBmE6EABvhCpcAAAAAElFTkSuQmCC"
+      },
+      {
+        "$id": "206",
+        "Name": "CargoWear_full",
+        "Extension": ".png",
+        "Optimized": true,
+        "Data": "iVBORw0KGgoAAAANSUhEUgAAAJYAAAB9CAYAAABAgpqjAAABnElEQVR4nO3dUQrCMBQAwVT66/2PWy/gR8GsNnbmADWF5YESfNvxHLMd05/4G9vJT73b+57y6M7JnQmLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBI7MFDp/5f+ALu9r6nmFgkhEVCWCSERUJYJIRFQlgkhEVCWCSKX95tWF2TDatcn7BICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEsEgIi4SwSAiLhLBICIuEDaufs2H1DROLhLBICIuEsEgIi4SwSAiLhLBICIvE/kcbQrkQE4uEsEgIi4SwSOzBtY/ZXwa+cS3FmSef2cQiISwSwiIhLBLCIiEsEsIiISwSwiIhLBLCIiEsEsIiISwSK9x5X/FO/u3PbGKREBYJYZEQFvONMV6xjQ4SmtqwdwAAAABJRU5ErkJggg=="
+      }
+    ]
+  },
+  "Metadata": {
+    "$id": "207",
+    "ScreenCount": 1.0,
+    "InGameScreensIndexs": {
+      "$id": "208",
+      "$values": [
+        0
+      ]
+    },
+    "IdleScreensIndexs": {
+      "$id": "209",
+      "$values": []
+    },
+    "MainPreviewIndex": 0,
+    "IsOverlay": false,
+    "ShowInTaskBar": true,
+    "Width": 1280.0,
+    "Height": 720.0,
+    "OverlaySizeWarning": true,
+    "MetadataVersion": 2.0,
+    "EnableOnDashboardMessaging": true,
+    "PitScreensIndexs": {
+      "$id": "210",
+      "$values": []
+    }
+  },
+  "ShowOnScreenControls": true,
+  "ShowInTaskBar": true,
+  "IsOverlay": false,
+  "EnableClickThroughOverlay": true,
+  "EnableOnDashboardMessaging": true
+}

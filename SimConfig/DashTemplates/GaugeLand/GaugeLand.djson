@@ -1,0 +1,1807 @@
+{
+  "$id": "1",
+  "Version": 2,
+  "Id": "3d445db7-8966-4281-8bca-a88df327bea6",
+  "BaseHeight": 720,
+  "BaseWidth": 1280,
+  "BackgroundColor": "#FF000000",
+  "Screens": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "IsFreezed": false,
+        "InGameScreen": true,
+        "IdleScreen": false,
+        "BackgroundColor": "#FF000000",
+        "IsSelected": true,
+        "Items": {
+          "$id": "4",
+          "$values": [
+            {
+              "$id": "5",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.EllipseItem, SimHub.Plugins",
+              "FillColor": "#34808080",
+              "EllipseColor": "#1AFFFFFF",
+              "EllipseThickness": 5.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "6",
+                "BorderColor": "#19FFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "7"
+                }
+              },
+              "Height": 840.0,
+              "Left": -360.0,
+              "Opacity": 100.0,
+              "Position": "-360,-563,0,0",
+              "Top": -563.0,
+              "Visible": true,
+              "Width": 2000.0,
+              "BorderBottom": 0,
+              "BorderColor": "#19FFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 180.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": true,
+              "Id": "bbdc8e73-2b71-40c8-bf44-22e45d7b8528",
+              "IsSelected": false,
+              "Name": "EllipseItem11",
+              "Bindings": {
+                "$id": "8"
+              }
+            },
+            {
+              "$id": "9",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.DialGaugeItem, SimHub.Plugins",
+              "ShowRadialGauge": false,
+              "RadialGaugeStartOffset": 0.0,
+              "RadialGaugeRadius": 110.0,
+              "RadialGaugeThickness": 20.0,
+              "RadialGaugeColor": "#FFFFFF00",
+              "RangeOptimalStartValue": 0.125,
+              "RangeOptimalEndValue": 4.0,
+              "RangeIndicatorRadius": 110.0,
+              "RangeIndicatorThickness": 20.0,
+              "BelowOptimalStyle": {
+                "$id": "10",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "11"
+                }
+              },
+              "OptimalStyle": {
+                "$id": "12",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "13"
+                }
+              },
+              "AboveOptimalStyle": {
+                "$id": "14",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "15"
+                }
+              },
+              "ShowNeedle": true,
+              "NeedleLength": 125.0,
+              "NeedleOffset": 0.0,
+              "NeedleThickness": 10.0,
+              "CapRadius": 82.0,
+              "Value": 4.0,
+              "Minimum": 0.0,
+              "Maximum": 1.0,
+              "OuterRadius": 150.0,
+              "InnerRadius": 40.0,
+              "OuterStrokeThickness": 10.0,
+              "InnerStrokeThickness": 5.0,
+              "DialStrokeColor": {
+                "SolidColorBrush": {
+                  "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                  "#text": "#FF808080"
+                }
+              },
+              "DialBackgroundColor": {
+                "SolidColorBrush": {
+                  "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                  "#text": "#2AFFFFFF"
+                }
+              },
+              "ShowDialGlassEffect": true,
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "ScaleGlowRadius": 0.0,
+              "ScaleGlowColor": "#FFFF0000",
+              "StartAngle": 102.0,
+              "SweepAngle": 148.0,
+              "ScaleLabelStyle": {
+                "$id": "16",
+                "LabelFontSize": 20.0,
+                "LabelColor": "#FFFFFFFF",
+                "LabelRadius": 83.0,
+                "LabelSize": "80,30",
+                "Bindings": {
+                  "$id": "17"
+                }
+              },
+              "AlternateScaleLabelStyle": {
+                "$id": "18",
+                "Enabled": false,
+                "LabelFontSize": 20.0,
+                "LabelColor": "#FFFFFFFF",
+                "LabelRadius": 100.0,
+                "LabelSize": "80,30",
+                "Bindings": {
+                  "$id": "19"
+                }
+              },
+              "TicksPerLabel": 2.0,
+              "MajorTickRadius": 120.0,
+              "MajorDivisionsCount": 0.25,
+              "MajorTickColor": "#FFFFFFFF",
+              "MajorTickSize": "20,4",
+              "MinorTickColor": "#FFFFFFFF",
+              "MinorTickRadius": 120.0,
+              "MinorTickSize": "20,2",
+              "MinorDivisionsCount": 3.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "20",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "21"
+                }
+              },
+              "Height": 375.0,
+              "Left": 201.0,
+              "Opacity": 100.0,
+              "Position": "201,159,0,0",
+              "Top": 159.0,
+              "Visible": true,
+              "Width": 379.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "fa35a42c-ce42-4c6e-b81e-c02fa7536aad",
+              "IsSelected": false,
+              "Name": "DialGaugeItem0",
+              "Bindings": {
+                "$id": "22",
+                "Value": {
+                  "$id": "23",
+                  "TargetPropertyName": "Value",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "24",
+                    "Expression": "[DataCorePlugin.Computed.Fuel_Percent] / 100"
+                  }
+                }
+              }
+            },
+            {
+              "$id": "25",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.EllipseItem, SimHub.Plugins",
+              "FillColor": "#34808080",
+              "EllipseColor": "#1AFFFFFF",
+              "EllipseThickness": 5.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "26",
+                "BorderColor": "#19FFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "27"
+                }
+              },
+              "Height": 840.0,
+              "Left": -360.0,
+              "Opacity": 100.0,
+              "Position": "-360,525,0,0",
+              "Top": 525.0,
+              "Visible": true,
+              "Width": 2000.0,
+              "BorderBottom": 0,
+              "BorderColor": "#19FFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 180.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": true,
+              "Id": "bbdc8e73-2b71-40c8-bf44-22e45d7b8528",
+              "IsSelected": false,
+              "Name": "EllipseItem1",
+              "Bindings": {
+                "$id": "28"
+              }
+            },
+            {
+              "$id": "29",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.DialGaugeItem, SimHub.Plugins",
+              "ShowRadialGauge": true,
+              "RadialGaugeStartOffset": 0.0,
+              "RadialGaugeRadius": 110.0,
+              "RadialGaugeThickness": 20.0,
+              "RadialGaugeColor": "#FFFFFF00",
+              "RangeOptimalStartValue": 3.0,
+              "RangeOptimalEndValue": 5.0,
+              "RangeIndicatorRadius": 226.0,
+              "RangeIndicatorThickness": 14.0,
+              "BelowOptimalStyle": {
+                "$id": "30",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "31"
+                }
+              },
+              "OptimalStyle": {
+                "$id": "32",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "33"
+                }
+              },
+              "AboveOptimalStyle": {
+                "$id": "34",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "35"
+                }
+              },
+              "ShowNeedle": true,
+              "NeedleImage": "MoTeC-ND-01890",
+              "NeedleLength": 170.0,
+              "NeedleOffset": 0.0,
+              "NeedleThickness": 24.0,
+              "CapRadius": 59.0,
+              "Value": 3.95,
+              "Minimum": 0.0,
+              "Maximum": 6.0,
+              "OuterRadius": 292.0,
+              "InnerRadius": 40.0,
+              "OuterStrokeThickness": 10.0,
+              "InnerStrokeThickness": 5.0,
+              "DialStrokeColor": {
+                "LinearGradientBrush": {
+                  "@StartPoint": "0.5,0",
+                  "@EndPoint": "0.5,1",
+                  "@MappingMode": "RelativeToBoundingBox",
+                  "@SpreadMethod": "Pad",
+                  "@Opacity": "1",
+                  "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                  "LinearGradientBrush.GradientStops": {
+                    "GradientStop": [
+                      {
+                        "@Color": "#FF5D5D5D",
+                        "@Offset": "0.3801652892561983"
+                      },
+                      {
+                        "@Color": "#FF8F8E8E",
+                        "@Offset": "0.52479338842975209"
+                      }
+                    ]
+                  }
+                }
+              },
+              "DialBackgroundColor": {
+                "LinearGradientBrush": {
+                  "@StartPoint": "0.5,0",
+                  "@EndPoint": "0.5,1",
+                  "@MappingMode": "RelativeToBoundingBox",
+                  "@SpreadMethod": "Pad",
+                  "@Opacity": "1",
+                  "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                  "LinearGradientBrush.GradientStops": {
+                    "GradientStop": [
+                      {
+                        "@Color": "#FFB3B3B3",
+                        "@Offset": "0.441860465116279"
+                      },
+                      {
+                        "@Color": "#FFD3D3D3",
+                        "@Offset": "0.61627906976744184"
+                      }
+                    ]
+                  }
+                }
+              },
+              "ShowDialGlassEffect": true,
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "ScaleGlowRadius": 0.0,
+              "ScaleGlowColor": "#FFFF0000",
+              "StartAngle": 80.0,
+              "SweepAngle": 249.0,
+              "ScaleLabelStyle": {
+                "$id": "36",
+                "LabelFont": "Sui Generis",
+                "LabelFontSize": 34.0,
+                "LabelColor": "#FF000000",
+                "LabelRadius": 207.0,
+                "LabelSize": "1,1",
+                "Bindings": {
+                  "$id": "37"
+                }
+              },
+              "AlternateScaleLabelStyle": {
+                "$id": "38",
+                "Enabled": false,
+                "LabelFontSize": 20.0,
+                "LabelColor": "#FFFFFFFF",
+                "LabelRadius": 100.0,
+                "LabelSize": "80,30",
+                "Bindings": {
+                  "$id": "39"
+                }
+              },
+              "TicksPerLabel": 2.0,
+              "MajorTickRadius": 268.0,
+              "MajorDivisionsCount": 0.5,
+              "MajorTickColor": "#FF808080",
+              "MajorTickSize": "16,5",
+              "MinorTickColor": "#FF808080",
+              "MinorTickRadius": 267.0,
+              "MinorTickSize": "16,2.5",
+              "MinorDivisionsCount": 4.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "40",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "41"
+                }
+              },
+              "Height": 594.0,
+              "Left": 323.16666666666663,
+              "Opacity": 100.0,
+              "Position": "323.166666666667,25.3333333333333,0,0",
+              "Top": 25.333333333333314,
+              "Visible": true,
+              "Width": 684.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "f714ebbc-8ada-4c72-8344-fbd000af0179",
+              "IsSelected": false,
+              "Name": "DialGaugeItem212",
+              "Bindings": {
+                "$id": "42",
+                "Maximum": {
+                  "$id": "43",
+                  "TargetPropertyName": "Maximum",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "44",
+                    "Expression": "max(6,[DataCorePlugin.GameData.NewData.MaxRpm]/1000)"
+                  }
+                },
+                "RangeOptimalEndValue": {
+                  "$id": "45",
+                  "TargetPropertyName": "RangeOptimalEndValue",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "46",
+                    "Expression": "ceiling([DataCorePlugin.GameData.NewData.MaxRpm] / 1000 - 2)"
+                  }
+                }
+              }
+            },
+            {
+              "$id": "47",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.CircularGaugeItem, SimHub.Plugins",
+              "StrokeThickness": 13.0,
+              "Value": 20.0,
+              "Steps": 0.0,
+              "ValueEx": 48.6,
+              "MinValue": 0.0,
+              "MinAngle": 166.0,
+              "MaxValue": 100.0,
+              "MaxAngle": 409.0,
+              "CircleGaugeBackgroundColor": "#00000000",
+              "CircleGaugeColor": "#BDFF0000",
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "48",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "49"
+                }
+              },
+              "Height": 548.0,
+              "Left": 302.66666666666663,
+              "Opacity": 100.0,
+              "Position": "302.666666666667,49.3333333333333,0,0",
+              "Top": 49.333333333333314,
+              "Visible": true,
+              "Width": 725.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "e0941f29-ed4f-4f12-99a8-e840627fdccb",
+              "IsSelected": false,
+              "Name": "CircularGaugeItem0",
+              "Bindings": {
+                "$id": "50",
+                "Value": {
+                  "$id": "51",
+                  "TargetPropertyName": "Value",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "52",
+                    "Expression": "[SerialDashPlugin.ComputedTurboPercent]"
+                  }
+                }
+              }
+            },
+            {
+              "$id": "53",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.DialGaugeItem, SimHub.Plugins",
+              "ShowRadialGauge": false,
+              "RadialGaugeStartOffset": 0.0,
+              "RadialGaugeRadius": 110.0,
+              "RadialGaugeThickness": 28.0,
+              "RadialGaugeColor": "#FFFFFF00",
+              "RangeOptimalStartValue": 3.0,
+              "RangeOptimalEndValue": 250.0,
+              "RangeIndicatorRadius": 226.0,
+              "RangeIndicatorThickness": 14.0,
+              "BelowOptimalStyle": {
+                "$id": "54",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "55"
+                }
+              },
+              "OptimalStyle": {
+                "$id": "56",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "57"
+                }
+              },
+              "AboveOptimalStyle": {
+                "$id": "58",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "59"
+                }
+              },
+              "ShowNeedle": true,
+              "NeedleImage": "MoTeC-ND-01890",
+              "NeedleLength": 264.0,
+              "NeedleOffset": -33.0,
+              "NeedleThickness": 24.0,
+              "CapRadius": 59.0,
+              "Value": 3.95,
+              "Minimum": 0.0,
+              "Maximum": 300.0,
+              "OuterRadius": 263.0,
+              "InnerRadius": 40.0,
+              "OuterStrokeThickness": 10.0,
+              "InnerStrokeThickness": 5.0,
+              "DialStrokeColor": {
+                "LinearGradientBrush": {
+                  "@StartPoint": "0.5,0",
+                  "@EndPoint": "0.5,1",
+                  "@MappingMode": "RelativeToBoundingBox",
+                  "@SpreadMethod": "Pad",
+                  "@Opacity": "1",
+                  "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                  "LinearGradientBrush.GradientStops": {
+                    "GradientStop": [
+                      {
+                        "@Color": "#FF5D5D5D",
+                        "@Offset": "0.3801652892561983"
+                      },
+                      {
+                        "@Color": "#FF8F8E8E",
+                        "@Offset": "0.52479338842975209"
+                      }
+                    ]
+                  }
+                }
+              },
+              "DialBackgroundColor": {
+                "LinearGradientBrush": {
+                  "@StartPoint": "0.5,0",
+                  "@EndPoint": "0.5,1",
+                  "@MappingMode": "RelativeToBoundingBox",
+                  "@SpreadMethod": "Pad",
+                  "@Opacity": "1",
+                  "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                  "LinearGradientBrush.GradientStops": {
+                    "GradientStop": [
+                      {
+                        "@Color": "#FFB3B3B3",
+                        "@Offset": "0.441860465116279"
+                      },
+                      {
+                        "@Color": "#FFD3D3D3",
+                        "@Offset": "0.61627906976744184"
+                      }
+                    ]
+                  }
+                }
+              },
+              "ShowDialGlassEffect": true,
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "ScaleGlowRadius": 10.0,
+              "ScaleGlowColor": "#FF808080",
+              "StartAngle": 281.0,
+              "SweepAngle": 194.0,
+              "ScaleLabelStyle": {
+                "$id": "60",
+                "LabelFont": "Sui Generis",
+                "LabelFontSize": 33.0,
+                "LabelColor": "#FF000000",
+                "LabelRadius": 176.0,
+                "LabelSize": "1,1",
+                "Bindings": {
+                  "$id": "61"
+                }
+              },
+              "AlternateScaleLabelStyle": {
+                "$id": "62",
+                "Enabled": false,
+                "LabelFontSize": 20.0,
+                "LabelColor": "#FFFFFFFF",
+                "LabelRadius": 100.0,
+                "LabelSize": "80,30",
+                "Bindings": {
+                  "$id": "63"
+                }
+              },
+              "TicksPerLabel": 2.0,
+              "MajorTickRadius": 234.0,
+              "MajorDivisionsCount": 25.0,
+              "MajorTickColor": "#FF000000",
+              "MajorTickSize": "16,5",
+              "MinorTickColor": "#FF000000",
+              "MinorTickRadius": 233.0,
+              "MinorTickSize": "16,2.5",
+              "MinorDivisionsCount": 4.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "64",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "65"
+                }
+              },
+              "Height": 544.0,
+              "Left": 597.0,
+              "Opacity": 100.0,
+              "Position": "597,170,0,0",
+              "Top": 170.0,
+              "Visible": true,
+              "Width": 684.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "f714ebbc-8ada-4c72-8344-fbd000af0179",
+              "IsSelected": false,
+              "Name": "DialGaugeItem211",
+              "Bindings": {
+                "$id": "66",
+                "Value": {
+                  "$id": "67",
+                  "TargetPropertyName": "Value",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "68",
+                    "Expression": "[DataCorePlugin.GameData.NewData.SpeedKmh]"
+                  }
+                }
+              }
+            },
+            {
+              "$id": "69",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+              "BackgroundColor": "#FF000000",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "70",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 15,
+                "BorderBottom": 15,
+                "BorderLeft": 15,
+                "BorderRight": 15,
+                "CornerRadius": "15,15,15,15",
+                "RadiusTopLeft": 15,
+                "RadiusTopRight": 15,
+                "RadiusBottomLeft": 15,
+                "RadiusBottomRight": 15,
+                "Bindings": {
+                  "$id": "71"
+                }
+              },
+              "Height": 107.0,
+              "Left": 814.0,
+              "Opacity": 100.0,
+              "Position": "814,387,0,0",
+              "Top": 387.0,
+              "Visible": true,
+              "Width": 239.0,
+              "BorderBottom": 15,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 15,
+              "BorderRight": 15,
+              "BorderTop": 15,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "eb50c568-1cb2-4da3-aad4-25b08cbc108f",
+              "IsSelected": false,
+              "Name": "RectangleItem0",
+              "Bindings": {
+                "$id": "72"
+              }
+            },
+            {
+              "$id": "73",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.DialGaugeItem, SimHub.Plugins",
+              "ShowRadialGauge": true,
+              "RadialGaugeStartOffset": -5.0,
+              "RadialGaugeRadius": 205.0,
+              "RadialGaugeThickness": 47.0,
+              "RadialGaugeColor": "#77FFFF00",
+              "RangeOptimalStartValue": 3.0,
+              "RangeOptimalEndValue": 5.0,
+              "RangeIndicatorRadius": 221.0,
+              "RangeIndicatorThickness": 0.0,
+              "BelowOptimalStyle": {
+                "$id": "74",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "75"
+                }
+              },
+              "OptimalStyle": {
+                "$id": "76",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "77"
+                }
+              },
+              "AboveOptimalStyle": {
+                "$id": "78",
+                "ArcColor": "#00FFFFFF",
+                "EnableLabelColor": false,
+                "LabelColor": "#FFFF0000",
+                "EnableMajorColor": false,
+                "MajorColor": "#FFFF0000",
+                "EnableMinorColor": false,
+                "MinorColor": "#FFFF0000",
+                "Bindings": {
+                  "$id": "79"
+                }
+              },
+              "ShowNeedle": true,
+              "NeedleImage": "MoTeC-ND-01890",
+              "NeedleLength": 263.0,
+              "NeedleOffset": -37.0,
+              "NeedleThickness": 24.0,
+              "CapRadius": 59.0,
+              "Value": 3.95,
+              "Minimum": 0.0,
+              "Maximum": 6.0,
+              "OuterRadius": 263.0,
+              "InnerRadius": 40.0,
+              "OuterStrokeThickness": 10.0,
+              "InnerStrokeThickness": 5.0,
+              "DialStrokeColor": {
+                "LinearGradientBrush": {
+                  "@StartPoint": "0.5,0",
+                  "@EndPoint": "0.5,1",
+                  "@MappingMode": "RelativeToBoundingBox",
+                  "@SpreadMethod": "Pad",
+                  "@Opacity": "1",
+                  "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                  "LinearGradientBrush.GradientStops": {
+                    "GradientStop": [
+                      {
+                        "@Color": "#FF5D5D5D",
+                        "@Offset": "0.3801652892561983"
+                      },
+                      {
+                        "@Color": "#FF8F8E8E",
+                        "@Offset": "0.52479338842975209"
+                      }
+                    ]
+                  }
+                }
+              },
+              "DialBackgroundColor": {
+                "LinearGradientBrush": {
+                  "@StartPoint": "0.5,0",
+                  "@EndPoint": "0.5,1",
+                  "@MappingMode": "RelativeToBoundingBox",
+                  "@SpreadMethod": "Pad",
+                  "@Opacity": "1",
+                  "@xmlns": "http://schemas.microsoft.com/winfx/2006/xaml/presentation",
+                  "LinearGradientBrush.GradientStops": {
+                    "GradientStop": [
+                      {
+                        "@Color": "#FFB3B3B3",
+                        "@Offset": "0.441860465116279"
+                      },
+                      {
+                        "@Color": "#FFD3D3D3",
+                        "@Offset": "0.61627906976744184"
+                      }
+                    ]
+                  }
+                }
+              },
+              "ShowDialGlassEffect": true,
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "ScaleGlowRadius": 14.0,
+              "ScaleGlowColor": "#FF808080",
+              "StartAngle": 144.0,
+              "SweepAngle": 200.0,
+              "ScaleLabelStyle": {
+                "$id": "80",
+                "LabelFont": "Sui Generis",
+                "LabelFontSize": 52.0,
+                "LabelColor": "#FF000000",
+                "LabelRadius": 176.0,
+                "LabelSize": "60,60",
+                "Bindings": {
+                  "$id": "81"
+                }
+              },
+              "AlternateScaleLabelStyle": {
+                "$id": "82",
+                "Enabled": false,
+                "LabelFontSize": 20.0,
+                "LabelColor": "#FFFFFFFF",
+                "LabelRadius": 100.0,
+                "LabelSize": "80,30",
+                "Bindings": {
+                  "$id": "83"
+                }
+              },
+              "TicksPerLabel": 2.0,
+              "MajorTickRadius": 228.0,
+              "MajorDivisionsCount": 0.5,
+              "MajorTickColor": "#FF000000",
+              "MajorTickSize": "20,5",
+              "MinorTickColor": "#FF000000",
+              "MinorTickRadius": 228.0,
+              "MinorTickSize": "20,2.5",
+              "MinorDivisionsCount": 4.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "84",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "85"
+                }
+              },
+              "Height": 544.0,
+              "Left": 323.16666666666663,
+              "Opacity": 100.0,
+              "Position": "323.166666666667,50.3333333333333,0,0",
+              "Top": 50.333333333333314,
+              "Visible": true,
+              "Width": 684.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "f714ebbc-8ada-4c72-8344-fbd000af0179",
+              "IsSelected": false,
+              "Name": "DialGaugeItem21",
+              "Bindings": {
+                "$id": "86",
+                "Value": {
+                  "$id": "87",
+                  "TargetPropertyName": "Value",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "88",
+                    "Expression": "[DataCorePlugin.GameData.NewData.Rpms] / 1000"
+                  }
+                },
+                "Maximum": {
+                  "$id": "89",
+                  "TargetPropertyName": "Maximum",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "90",
+                    "Expression": "max(6,[DataCorePlugin.GameData.NewData.MaxRpm]/1000)"
+                  }
+                },
+                "RangeOptimalEndValue": {
+                  "$id": "91",
+                  "TargetPropertyName": "RangeOptimalEndValue",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "92",
+                    "Expression": "ceiling([DataCorePlugin.GameData.NewData.MaxRpm] / 1000 - 2)"
+                  }
+                }
+              }
+            },
+            {
+              "$id": "93",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.EllipseItem, SimHub.Plugins",
+              "FillColor": "#FF000000",
+              "EllipseColor": "#FF708090",
+              "EllipseThickness": 15.0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "94",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "95"
+                }
+              },
+              "Height": 212.0,
+              "Left": 559.0,
+              "Opacity": 100.0,
+              "Position": "559,215,0,0",
+              "Top": 215.0,
+              "Visible": true,
+              "Width": 212.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "8e38c88f-e206-41f2-ab61-c9382250a107",
+              "IsSelected": false,
+              "Name": "EllipseItem0",
+              "Bindings": {
+                "$id": "96"
+              }
+            },
+            {
+              "$id": "97",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.GearText, SimHub.Plugins",
+              "Category": "Engine",
+              "GearBlinkText": false,
+              "GearBlinkDelay": 100,
+              "TextColor": "#FFFFFFFF",
+              "BackgroundColor": "#00FFFFFF",
+              "GearBackgoundColor": "#00FFFFFF",
+              "GearBlinkBackgroundColor": "#FFFF0000",
+              "GearBlinkBackground": false,
+              "GearTextColor": "#FFFFFFFF",
+              "GearBlinkTextColor": "#FFFF0000",
+              "DesignerText": "N",
+              "NoDataText": "N",
+              "Font": "Sui Generis",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 126.0,
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "98",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "99"
+                }
+              },
+              "Height": 100.0,
+              "Left": 615.0,
+              "Opacity": 100.0,
+              "Position": "615,275,0,0",
+              "Top": 275.0,
+              "Visible": true,
+              "Width": 100.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "35882102-5ae1-4280-904a-d140435bbdc6",
+              "IsSelected": false,
+              "Name": "GearText0",
+              "Bindings": {
+                "$id": "100"
+              }
+            },
+            {
+              "$id": "101",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.SpeedText, SimHub.Plugins",
+              "Category": "Engine",
+              "UseMph": false,
+              "Format": "0",
+              "NoDataText": "0",
+              "Font": "Sui Generis",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 40.0,
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 2,
+              "VerticalAlignment": 1,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "102",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "103"
+                }
+              },
+              "Height": 97.0,
+              "Left": 852.0,
+              "Opacity": 100.0,
+              "Position": "852,393,0,0",
+              "Top": 393.0,
+              "Visible": true,
+              "Width": 181.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "f02db30f-630f-42b4-9896-f4ccabe9e00c",
+              "IsSelected": false,
+              "Name": "SpeedText0",
+              "Bindings": {
+                "$id": "104"
+              }
+            },
+            {
+              "$id": "105",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.BestLapTime, SimHub.Plugins",
+              "Category": "Lap",
+              "TimeFormat": "mm\\:ss\\.fff",
+              "EmptyTimeText": "--:--:---",
+              "Font": "Electronic Highway Sign",
+              "FontWeight": "ExtraLight",
+              "FontStyle": "Normal",
+              "FontSize": 51.0,
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "106",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "107"
+                }
+              },
+              "Height": 100.0,
+              "Left": -16.0,
+              "Opacity": 100.0,
+              "Position": "-16,632,0,0",
+              "Top": 632.0,
+              "Visible": true,
+              "Width": 359.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "18bcbab1-4be4-48d5-bed6-3e0263aee105",
+              "IsSelected": false,
+              "Name": "BestLapTime0",
+              "Bindings": {
+                "$id": "108"
+              }
+            },
+            {
+              "$id": "109",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.CurrentLapTime, SimHub.Plugins",
+              "Category": "Lap",
+              "TimeFormat": "mm\\:ss\\.fff",
+              "EmptyTimeText": "--:--:---",
+              "Font": "Electronic Highway Sign",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 51.0,
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 2,
+              "VerticalAlignment": 1,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "110",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "111"
+                }
+              },
+              "Height": 100.0,
+              "Left": 948.0,
+              "Opacity": 100.0,
+              "Position": "948,20,0,0",
+              "Top": 20.0,
+              "Visible": true,
+              "Width": 313.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "5a6130b0-9f6c-4175-8d3b-de2dda29ed88",
+              "IsSelected": true,
+              "Name": "CurrentLapTime0",
+              "Bindings": {
+                "$id": "112"
+              }
+            },
+            {
+              "$id": "113",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.RacePositionText, SimHub.Plugins",
+              "Category": "Race",
+              "Format": "0",
+              "NoDataText": "1",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 88.0,
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "114",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "115"
+                }
+              },
+              "Height": 104.0,
+              "Left": 10.0,
+              "Opacity": 100.0,
+              "Position": "10,10,0,0",
+              "Top": 10.0,
+              "Visible": true,
+              "Width": 137.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "08662457-5768-4a0a-8100-9d6a60e4dbfe",
+              "IsSelected": false,
+              "Name": "RacePositionText0",
+              "Bindings": {
+                "$id": "116"
+              }
+            },
+            {
+              "$id": "117",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 20.0,
+              "Text": "Best",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 0,
+              "VerticalAlignment": 0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "118",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "119"
+                }
+              },
+              "Height": 39.0,
+              "Left": 25.0,
+              "Opacity": 100.0,
+              "Position": "25,620,0,0",
+              "Top": 620.0,
+              "Visible": true,
+              "Width": 99.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "53615123-3d17-4ab8-9d36-d53a0480635e",
+              "IsSelected": false,
+              "Name": "TextItem0",
+              "Bindings": {
+                "$id": "120"
+              }
+            },
+            {
+              "$id": "121",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 20.0,
+              "Text": "Current",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 2,
+              "VerticalAlignment": 0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "122",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "123"
+                }
+              },
+              "Height": 39.0,
+              "Left": 1164.0,
+              "Opacity": 100.0,
+              "Position": "1164,11,0,0",
+              "Top": 11.0,
+              "Visible": true,
+              "Width": 99.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "53615123-3d17-4ab8-9d36-d53a0480635e",
+              "IsSelected": false,
+              "Name": "TextItem01",
+              "Bindings": {
+                "$id": "124"
+              }
+            },
+            {
+              "$id": "125",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 20.0,
+              "Text": "Pos",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 0,
+              "VerticalAlignment": 0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "126",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "127"
+                }
+              },
+              "Height": 39.0,
+              "Left": 12.0,
+              "Opacity": 100.0,
+              "Position": "12,-4,0,0",
+              "Top": -4.0,
+              "Visible": true,
+              "Width": 99.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "53615123-3d17-4ab8-9d36-d53a0480635e",
+              "IsSelected": false,
+              "Name": "TextItem02",
+              "Bindings": {
+                "$id": "128"
+              }
+            },
+            {
+              "$id": "129",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 20.0,
+              "Text": "Last",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 0,
+              "VerticalAlignment": 0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "130",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "131"
+                }
+              },
+              "Height": 39.0,
+              "Left": 360.0,
+              "Opacity": 100.0,
+              "Position": "360,620,0,0",
+              "Top": 620.0,
+              "Visible": true,
+              "Width": 99.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "53615123-3d17-4ab8-9d36-d53a0480635e",
+              "IsSelected": false,
+              "Name": "TextItem03",
+              "Bindings": {
+                "$id": "132"
+              }
+            },
+            {
+              "$id": "133",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LastLapTime, SimHub.Plugins",
+              "Category": "Lap",
+              "TimeFormat": "mm\\:ss\\.fff",
+              "EmptyTimeText": "--:--:---",
+              "Font": "Electronic Highway Sign",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 51.0,
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 1,
+              "VerticalAlignment": 1,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "134",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "135"
+                }
+              },
+              "Height": 100.0,
+              "Left": 321.0,
+              "Opacity": 100.0,
+              "Position": "321,632,0,0",
+              "Top": 632.0,
+              "Visible": true,
+              "Width": 359.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "51b7cea6-acce-474e-bcbc-717ed4fb18c3",
+              "IsSelected": false,
+              "Name": "LastLapTime0",
+              "Bindings": {
+                "$id": "136"
+              }
+            },
+            {
+              "$id": "137",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "Font": "Electronic Highway Sign",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 51.0,
+              "Text": "N/A",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 2,
+              "VerticalAlignment": 1,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "138",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "139"
+                }
+              },
+              "Height": 100.0,
+              "Left": 948.0,
+              "Opacity": 100.0,
+              "Position": "948,103,0,0",
+              "Top": 103.0,
+              "Visible": true,
+              "Width": 313.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "a01bfe67-c244-43a5-9aa2-d490c53a4d89",
+              "IsSelected": false,
+              "Name": "TextItem1",
+              "Bindings": {
+                "$id": "140",
+                "Text": {
+                  "$id": "141",
+                  "TargetPropertyName": "Text",
+                  "LineReturn": false,
+                  "Mode": 2,
+                  "RightAlign": false,
+                  "Formula": {
+                    "$id": "142",
+                    "Expression": "[DataCorePlugin.CustomExpression.CompactDelta]"
+                  }
+                }
+              }
+            },
+            {
+              "$id": "143",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+              "FontWeight": "Normal",
+              "FontStyle": "Normal",
+              "FontSize": 20.0,
+              "Text": "Gap",
+              "TextColor": "#FFFFFFFF",
+              "HorizontalAlignment": 2,
+              "VerticalAlignment": 0,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "144",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "145"
+                }
+              },
+              "Height": 39.0,
+              "Left": 1164.0,
+              "Opacity": 100.0,
+              "Position": "1164,91,0,0",
+              "Top": 91.0,
+              "Visible": true,
+              "Width": 99.0,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "53615123-3d17-4ab8-9d36-d53a0480635e",
+              "IsSelected": false,
+              "Name": "TextItem011",
+              "Bindings": {
+                "$id": "146"
+              }
+            },
+            {
+              "$id": "147",
+              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ImageItem, SimHub.Plugins",
+              "Image": "MoTeC-IC-Fuel-red-off",
+              "AutoSize": true,
+              "AutoSizeScale": 0.2,
+              "BackgroundColor": "#00FFFFFF",
+              "BlurRadius": 0.0,
+              "BorderStyle": {
+                "$id": "148",
+                "BorderColor": "#FFFFFFFF",
+                "BorderTop": 0,
+                "BorderBottom": 0,
+                "BorderLeft": 0,
+                "BorderRight": 0,
+                "CornerRadius": "0,0,0,0",
+                "RadiusTopLeft": 0,
+                "RadiusTopRight": 0,
+                "RadiusBottomLeft": 0,
+                "RadiusBottomRight": 0,
+                "Bindings": {
+                  "$id": "149"
+                }
+              },
+              "Height": 44.800000000000004,
+              "Left": 325.0,
+              "Opacity": 100.0,
+              "Position": "325,377,0,0",
+              "Top": 377.0,
+              "Visible": true,
+              "Width": 44.800000000000004,
+              "BorderBottom": 0,
+              "BorderColor": "#FFFFFFFF",
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderTop": 0,
+              "Rotation": 0.0,
+              "RenderingSkip": 0,
+              "CanOpen": false,
+              "IsFreezed": false,
+              "Id": "1f3476b7-041e-4bad-9c75-f2ff819f854f",
+              "IsSelected": false,
+              "Name": "ImageItem0",
+              "Bindings": {
+                "$id": "150"
+              }
+            }
+          ]
+        },
+        "SelectedItems": {
+          "$type": "System.Linq.Enumerable+WhereEnumerableIterator`1[[SimHub.Plugins.OutputPlugins.GraphicalDash.Models.IGDashItem, SimHub.Plugins]], System.Core",
+          "$values": [
+            {
+              "$ref": "109"
+            }
+          ]
+        },
+        "SelectedItem": {
+          "$ref": "109"
+        },
+        "RenderingSkip": 0,
+        "CanOpen": false,
+        "Id": "98036b77-7429-4f85-9d79-aca50c3deb4b",
+        "Name": "Screen1",
+        "Bindings": {
+          "$id": "151"
+        }
+      }
+    ]
+  },
+  "SelectedScreen": {
+    "$ref": "3"
+  },
+  "Images": {
+    "$id": "152",
+    "$values": [
+      {
+        "$id": "153",
+        "Name": "MoTeC-ND-11_90",
+        "Extension": ".png",
+        "Data": "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"
+      },
+      {
+        "$id": "154",
+        "Name": "MoTeC-ND-01890",
+        "Extension": ".png",
+        "Data": "iVBORw0KGgoAAAANSUhEUgAAANoAAAASCAYAAAA9psACAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMTM0A1t6AAADjElEQVRoQ+3by2oTURwG8JncZmKaZCZpOrn3fkuatmm1eEHduRBXFVrEG6gLUdGViCBUKJZuRV25E7e+gAtXvoI738IHOH4nmTnOmTnRChNs6/+DX3qhJZT5f+cMM1ONMab9Jror9he83xk2CiWS8A4MW//FTaVS0WZmZhLj4+NGrVbL4Gur2WxOT01NXXBdnJycvLi4uLjvs7e0tPR5eXmZcZ1Op2dhYWGXm5+fF+bm5jwvPdPT01t4vw0O76XUaDROcWNjY87o6KjFFYvFvEqhUOjBnxMH1UJwUKpyR4lyRBMs0UFo6+vrFrC1tTVJt9sVVldXhZWVFYlXsGDRPCih0G63hVarFYLSCiipgJKGoKTC7OysgIUiBGUWsFhIUPAvKPE+7HH1et2zG+Q4zmWU/RyccZ0ulUp+GxwK38rlcoVsNutnuyxXnjNNM4Vjpyp6kKqsB0UZclTl8ousaNtOne3omT96msqzB5niAAWlW/kSuzpakRXLwqZfwem5Uqqwc7Vmz9lqQzhTrcsqNcnExIQERRSwu4agnALKKMFZQUi1WhVwxiApl8sSFFuCnfw97HhQaM8LDjt5j23b9/L5/KprBZahw2EBaPu0RkZGnHQ6nTnhBp8Piol5ogL/IaqScRpKtcmLwncUvjvwVZ4PEB8K9+Ayy7IYVl+G48AMw2CJRILFYjF+zimKdsepsXd6+r/0zMypGdmBbo9YbDtry/j3fLYCLuVstmEXhVNWQXIyb4e0LZuhhAKKKEEpJfxYB6GgEhRUwmfDD+X9lslknvg8wux4HnpQ3vvQwa4+AeM+TQ/mreGqp1KpBJdMJkOQOIfP+cd/uggMtWiPnSr7pBvkGPgYM9leMv1L4vdeJcyem8aJvlQ65IZK0mTnjTRbN/vWDDOkmwqzMYN8Dv1QwBCULoTPbsDzeDx+3eeaBzO+HVCEgq7rfrYfOmFBEuSdP6qiPXcq7KuWJORQ+qQncfah9naAfT3B7qpo8YG2tBjrarpkSdOrkRXtlVNm3/FGhBDZGy22GVnRXuNnf6C9hBDZB02nohEybJEWjU4dCVGL9NSRLoaQw+zYXAyhy/vHB13eP8SX9+mGtYLiRrWHblj/Zzes6REsegQLw06PYEUUVck4eqiYHiqmRBBVufz6L26wqtK/yfyiGtgoUY5ogiU6iP7L4HhDoRrEQfzDNEwUSiQJliJ6TPsJbZAaWOprtZQAAAAASUVORK5CYII="
+      },
+      {
+        "$id": "155",
+        "Name": "MoTeC-IC-Fuel-red-off",
+        "Extension": ".png",
+        "Data": "iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAYAAAAaLWrhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+lpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ1dWlkOjVEMjA4OTI0OTNCRkRCMTE5MTRBODU5MEQzMTUwOEM4IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkM4QjI0MUIwOTVGNzExRTNCNzlEQTlEOUE3NzYzM0NCIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkM4QjI0MUFGOTVGNzExRTNCNzlEQTlEOUE3NzYzM0NCIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUuMSBNYWNpbnRvc2giPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyQ0I2NTIyNENDMjQ2ODExOTk0Q0FBOENBMDlCNjE3NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyRUI0MTlG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"
+      }
+    ]
+  }
+}

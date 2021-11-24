@@ -1,0 +1,10 @@
+[Text]
+X=42
+Y=7
+Color=1
+Text=([PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds]>=0?'+':'')+format([PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds],'0.00')
+FontSize=1
+Align=2
+
+[include] 
+FileName=.\DeltaLarge_ProgressBar.ini

@@ -1,0 +1,34 @@
+{
+  "OverlayLayoutParts": [
+    {
+      "DashboardName": "DashTemplates\\SimHub - Hud 1\\SimHub - Hud 1.djson",
+      "Top": 886.0,
+      "Left": 706.0,
+      "Width": 505.0,
+      "Height": 189.0,
+      "Placed": true,
+      "Transparent": false,
+      "FileName": null
+    },
+    {
+      "DashboardName": "DashTemplates\\SimHub - Accelerometer\\SimHub - Accelerometer.djson",
+      "Top": 886.0,
+      "Left": 521.0,
+      "Width": 189.0,
+      "Height": 189.0,
+      "Placed": true,
+      "Transparent": false,
+      "FileName": null
+    }
+  ],
+  "EditMode": true,
+  "HideWhenNotInRace": true,
+  "Screen": {
+    "WorkingArea": "0, 0, 1920, 1040",
+    "Primary": true,
+    "DeviceName": "\\\\.\\DISPLAY2",
+    "Bounds": "0, 0, 1920, 1080",
+    "BitsPerPixel": 32
+  },
+  "FileName": "DirtRally2"
+}

@@ -1,0 +1,6 @@
+{
+  "Assemblies": [],
+  "Code": "return DateTime.Now;",
+  "Name": "CurrentDateTime",
+  "IsCore": true
+}

@@ -1,0 +1,3 @@
+[submodule "SimLogging"]
+	path = SimLogging
+	url = https://github.com/akhurstp/Dirt-Rally-2.0-Logging.git

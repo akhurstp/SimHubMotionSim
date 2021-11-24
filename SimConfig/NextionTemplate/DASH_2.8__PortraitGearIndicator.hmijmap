@@ -1,0 +1,24 @@
+{
+  "BindingsEx": {
+    "global.picgear.pic": {
+      "Formula": {
+        "Expression": "if([DataCorePlugin.GameData.NewData.CarSettings_RPMRedLineReached],12,0) + if(isnull([DataCorePlugin.GameData.NewData.Gear],'N') == 'N',10,if(isnull([DataCorePlugin.GameData.NewData.Gear],'N') == 'R',11,isnull([DataCorePlugin.GameData.NewData.Gear],'N')))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "pic"
+    }
+  },
+  "RolesEx": {},
+  "ClickActionsEx": {},
+  "HotSpots": [],
+  "PagesMappings": [
+    {
+      "PageName": "homealt",
+      "InGame": true,
+      "Idle": true,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {},
+  "VirtualPages": []
+}

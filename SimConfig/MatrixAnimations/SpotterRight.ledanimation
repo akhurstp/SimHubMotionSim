@@ -1,0 +1,693 @@
+{
+  "Columns": 8,
+  "Rows": 8,
+  "TotalDuration": 300,
+  "Frames": [
+    {
+      "FrameId": "254eca90-f334-476b-9791-6a7a2a2dd36b",
+      "Colors": {
+        "0": {
+          "0": {
+            "X": 0,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 0,
+            "Color": "0, 0, 0"
+          },
+          "6": {
+            "X": 6,
+            "Y": 0,
+            "Color": "Red"
+          },
+          "7": {
+            "X": 7,
+            "Y": 0,
+            "Color": "Red"
+          }
+        },
+        "1": {
+          "0": {
+            "X": 0,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 1,
+            "Color": "0, 0, 0"
+          },
+          "6": {
+            "X": 6,
+            "Y": 1,
+            "Color": "0, 0, 0"
+          },
+          "7": {
+            "X": 7,
+            "Y": 1,
+            "Color": "Red"
+          }
+        },
+        "2": {
+          "0": {
+            "X": 0,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 2,
+            "Color": "0, 0, 0"
+          },
+          "7": {
+            "X": 7,
+            "Y": 2,
+            "Color": "Red"
+          }
+        },
+        "3": {
+          "0": {
+            "X": 0,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 3,
+            "Color": "0, 0, 0"
+          },
+          "7": {
+            "X": 7,
+            "Y": 3,
+            "Color": "Red"
+          }
+        },
+        "4": {
+          "0": {
+            "X": 0,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 4,
+            "Color": "0, 0, 0"
+          },
+          "7": {
+            "X": 7,
+            "Y": 4,
+            "Color": "Red"
+          }
+        },
+        "5": {
+          "0": {
+            "X": 0,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 5,
+            "Color": "0, 0, 0"
+          },
+          "7": {
+            "X": 7,
+            "Y": 5,
+            "Color": "Red"
+          }
+        },
+        "6": {
+          "0": {
+            "X": 0,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 6,
+            "Color": "0, 0, 0"
+          },
+          "6": {
+            "X": 6,
+            "Y": 6,
+            "Color": "0, 0, 0"
+          },
+          "7": {
+            "X": 7,
+            "Y": 6,
+            "Color": "Red"
+          }
+        },
+        "7": {
+          "0": {
+            "X": 0,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 7,
+            "Color": "0, 0, 0"
+          },
+          "6": {
+            "X": 6,
+            "Y": 7,
+            "Color": "Red"
+          },
+          "7": {
+            "X": 7,
+            "Y": 7,
+            "Color": "Red"
+          }
+        }
+      },
+      "FrameDuration": 200
+    },
+    {
+      "FrameId": "3f1e9848-d488-4b2a-84bf-1a96ce761de9",
+      "Colors": {
+        "0": {
+          "0": {
+            "X": 0,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 0,
+            "Color": "Transparent"
+          },
+          "7": {
+            "X": 7,
+            "Y": 0,
+            "Color": "Transparent"
+          }
+        },
+        "1": {
+          "0": {
+            "X": 0,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "7": {
+            "X": 7,
+            "Y": 1,
+            "Color": "Transparent"
+          }
+        },
+        "2": {
+          "0": {
+            "X": 0,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "7": {
+            "X": 7,
+            "Y": 2,
+            "Color": "Transparent"
+          }
+        },
+        "3": {
+          "0": {
+            "X": 0,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "7": {
+            "X": 7,
+            "Y": 3,
+            "Color": "Transparent"
+          }
+        },
+        "4": {
+          "0": {
+            "X": 0,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 4,
+            "Color": "Transparent"
+          },
+          "7": {
+            "X": 7,
+            "Y": 4,
+            "Color": "Transparent"
+          }
+        },
+        "5": {
+          "0": {
+            "X": 0,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 5,
+            "Color": "Transparent"
+          },
+          "7": {
+            "X": 7,
+            "Y": 5,
+            "Color": "Transparent"
+          }
+        },
+        "6": {
+          "0": {
+            "X": 0,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 6,
+            "Color": "Transparent"
+          },
+          "7": {
+            "X": 7,
+            "Y": 6,
+            "Color": "Transparent"
+          }
+        },
+        "7": {
+          "0": {
+            "X": 0,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "1": {
+            "X": 1,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "4": {
+            "X": 4,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "5": {
+            "X": 5,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "6": {
+            "X": 6,
+            "Y": 7,
+            "Color": "Transparent"
+          },
+          "7": {
+            "X": 7,
+            "Y": 7,
+            "Color": "Transparent"
+          }
+        }
+      },
+      "FrameDuration": 100
+    }
+  ],
+  "SelectedFrameId": "00000000-0000-0000-0000-000000000000",
+  "PenColor": "0, 0, 0"
+}

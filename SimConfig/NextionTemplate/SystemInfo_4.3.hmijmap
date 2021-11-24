@@ -1,0 +1,85 @@
+{
+  "BindingsEx": {
+    "global.txtfps.txt": {
+      "Formula": {
+        "Expression": "format(isnull([SystemInfosProvider.CurrentFrameRate],0),'00FPS')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.t5.txt": {
+      "Formula": {
+        "Expression": "format(isnull([SystemInfosProvider.MainGPUTemp],0),'0.0°')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.t4.txt": {
+      "Formula": {
+        "Expression": "format(isnull([SystemInfosProvider.MainGPULoad],0),'0.0\\\\%')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.t3.txt": {
+      "Formula": {
+        "Expression": "format(isnull([SystemInfosProvider.MainGPUFanSpeed],0),'0\\\\RPM')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.t0.txt": {
+      "Formula": {
+        "Expression": "format(isnull([SystemInfosProvider.MainCPUTemp],0),'0.0°')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.t1.txt": {
+      "Formula": {
+        "Expression": "format(isnull([SystemInfosProvider.MainCPULoad],0),'0.0\\\\%')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.t2.txt": {
+      "Formula": {
+        "Expression": "format(isnull([SystemInfosProvider.MemoryLoad],0),'0.0\\\\%')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.t6.txt": {
+      "Formula": {
+        "Expression": "format([DataCorePlugin.CustomExpression.CurrentDateTime],'HH:mm')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    }
+  },
+  "RolesEx": {},
+  "ClickActionsEx": {},
+  "HotSpots": [],
+  "PagesMappings": [
+    {
+      "PageName": "main",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": true,
+      "Skip": false
+    },
+    {
+      "PageName": "page0",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": false,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {},
+  "VirtualPages": []
+}

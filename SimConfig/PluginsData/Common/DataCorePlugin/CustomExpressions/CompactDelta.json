@@ -1,0 +1,6 @@
+{
+  "Assemblies": [],
+  "Code": "object data = value.GetPropertyValue(\"PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds\");\r\nif(data !=null){\r\n\tdouble TimeDelta = (double)data;\r\n\tstring text = string.Empty;\r\n\tif (Math.Abs(TimeDelta) <= 99)\r\n\t{\r\n\t\treturn TimeDelta.ToString(\"0.0\");\r\n\t}\r\n\telse\r\n\t{\r\n\t\treturn (int)TimeDelta >= 0 ? \"P\" : \"N\";\r\n\t}\t\r\n}\r\nreturn \"N/A\";",
+  "Name": "CompactDelta",
+  "IsCore": true
+}

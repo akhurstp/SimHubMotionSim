@@ -1,0 +1,21 @@
+{
+  "SimHubWPF.MainWindow": {
+    "length": 44,
+    "flags": 2,
+    "showCmd": 3,
+    "minPosition": {
+      "X": -32000,
+      "Y": -32000
+    },
+    "maxPosition": {
+      "X": -1,
+      "Y": -1
+    },
+    "normalPosition": {
+      "Left": 156,
+      "Top": 156,
+      "Right": 1206,
+      "Bottom": 1140
+    }
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "Columns": 4,
+  "Rows": 5,
+  "TotalDuration": 300,
+  "Frames": [
+    {
+      "FrameId": "fe094610-df33-4c53-83f5-005242f4d994",
+      "Colors": {
+        "0": {
+          "0": {
+            "X": 0,
+            "Y": 0,
+            "Color": "Red"
+          },
+          "1": {
+            "X": 1,
+            "Y": 0,
+            "Color": "Black"
+          },
+          "2": {
+            "X": 2,
+            "Y": 0,
+            "Color": "Red"
+          },
+          "3": {
+            "X": 3,
+            "Y": 0,
+            "Color": "Black"
+          }
+        },
+        "1": {
+          "0": {
+            "X": 0,
+            "Y": 1,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 1,
+            "Color": "Black"
+          }
+        },
+        "2": {
+          "0": {
+            "X": 0,
+            "Y": 2,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 2,
+            "Color": "Red"
+          }
+        },
+        "3": {
+          "0": {
+            "X": 0,
+            "Y": 3,
+            "Color": "Red"
+          },
+          "1": {
+            "X": 1,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 3,
+            "Color": "Black"
+          }
+        },
+        "4": {
+          "0": {
+            "X": 0,
+            "Y": 4,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 4,
+            "Color": "Black"
+          },
+          "2": {
+            "X": 2,
+            "Y": 4,
+            "Color": "Red"
+          },
+          "3": {
+            "X": 3,
+            "Y": 4,
+            "Color": "Black"
+          }
+        }
+      },
+      "FrameDuration": 100
+    },
+    {
+      "FrameId": "8a863acd-ec72-41da-b432-fd2bfbd847ce",
+      "Colors": {
+        "0": {
+          "0": {
+            "X": 0,
+            "Y": 0,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 0,
+            "Color": "Red"
+          },
+          "2": {
+            "X": 2,
+            "Y": 0,
+            "Color": "Black"
+          },
+          "3": {
+            "X": 3,
+            "Y": 0,
+            "Color": "Black"
+          }
+        },
+        "1": {
+          "0": {
+            "X": 0,
+            "Y": 1,
+            "Color": "Red"
+          },
+          "1": {
+            "X": 1,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 1,
+            "Color": "Red"
+          }
+        },
+        "2": {
+          "0": {
+            "X": 0,
+            "Y": 2,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 2,
+            "Color": "Black"
+          }
+        },
+        "3": {
+          "0": {
+            "X": 0,
+            "Y": 3,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 3,
+            "Color": "Black"
+          }
+        },
+        "4": {
+          "0": {
+            "X": 0,
+            "Y": 4,
+            "Color": "Red"
+          },
+          "1": {
+            "X": 1,
+            "Y": 4,
+            "Color": "Black"
+          },
+          "2": {
+            "X": 2,
+            "Y": 4,
+            "Color": "Black"
+          },
+          "3": {
+            "X": 3,
+            "Y": 4,
+            "Color": "Red"
+          }
+        }
+      },
+      "FrameDuration": 100
+    },
+    {
+      "FrameId": "74e68635-180a-4c55-89c5-f46af8ecd6bd",
+      "Colors": {
+        "0": {
+          "0": {
+            "X": 0,
+            "Y": 0,
+            "Color": "Red"
+          },
+          "1": {
+            "X": 1,
+            "Y": 0,
+            "Color": "Black"
+          },
+          "2": {
+            "X": 2,
+            "Y": 0,
+            "Color": "Black"
+          },
+          "3": {
+            "X": 3,
+            "Y": 0,
+            "Color": "Red"
+          }
+        },
+        "1": {
+          "0": {
+            "X": 0,
+            "Y": 1,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 1,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 1,
+            "Color": "Black"
+          }
+        },
+        "2": {
+          "0": {
+            "X": 0,
+            "Y": 2,
+            "Color": "Red"
+          },
+          "1": {
+            "X": 1,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 2,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 2,
+            "Color": "Black"
+          }
+        },
+        "3": {
+          "0": {
+            "X": 0,
+            "Y": 3,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "2": {
+            "X": 2,
+            "Y": 3,
+            "Color": "Transparent"
+          },
+          "3": {
+            "X": 3,
+            "Y": 3,
+            "Color": "Red"
+          }
+        },
+        "4": {
+          "0": {
+            "X": 0,
+            "Y": 4,
+            "Color": "Black"
+          },
+          "1": {
+            "X": 1,
+            "Y": 4,
+            "Color": "Red"
+          },
+          "2": {
+            "X": 2,
+            "Y": 4,
+            "Color": "Black"
+          },
+          "3": {
+            "X": 3,
+            "Y": 4,
+            "Color": "Black"
+          }
+        }
+      },
+      "FrameDuration": 100
+    }
+  ],
+  "SelectedFrameId": "00000000-0000-0000-0000-000000000000",
+  "PenColor": "Red"
+}

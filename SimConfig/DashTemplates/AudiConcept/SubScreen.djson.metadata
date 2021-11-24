@@ -1,0 +1,14 @@
+{
+  "Category": null,
+  "Title": null,
+  "Description": null,
+  "Author": null,
+  "ScreenCount": 3.0,
+  "InGameScreensIndexs": [
+    0,
+    1,
+    2
+  ],
+  "IdleScreensIndexs": [],
+  "MainPreviewIndex": 0
+}

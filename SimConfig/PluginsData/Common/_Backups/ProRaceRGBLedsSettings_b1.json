@@ -1,0 +1,117 @@
+{
+  "LastGameProfiles": {
+    "fh4": "e3ac10a1-5d36-4367-a112-a9a6a275d8eb",
+    "assettocorsacompetizione": "e3ac10a1-5d36-4367-a112-a9a6a275d8eb"
+  },
+  "LastUsedProfile": "00000000-0000-0000-0000-000000000000",
+  "GlobalBrightness": 69.200938402866086,
+  "IsTM1638": false,
+  "ForcedLedCount": -1,
+  "Profiles": [
+    {
+      "TestLedsGameData": {
+        "GearEx": 0,
+        "FuelMax": 100.0,
+        "RPMSMax": 10000.0,
+        "TurboMax": 3.5,
+        "TurnIndicatorLeftEnabled": false,
+        "TurnIndicatorRightEnabled": false,
+        "SessionBestDeltaEx": 0.0,
+        "AllTimeBestDeltaEx": 0.0,
+        "DRSEnabled": false,
+        "DRSAvailable": false,
+        "MaxRpm": 10000.0,
+        "GameRunning": true,
+        "GameName": null,
+        "FuelPercent": 0.0,
+        "Fuel": 0.0,
+        "RPMPercent": 100.0,
+        "RPMRedlineReached": false,
+        "SpeedKmh": 0.0,
+        "SpeedMph": 0.0,
+        "Turbo": 0.0,
+        "TurboPercent": 0.0,
+        "Gear": "N",
+        "IsInPitLane": false,
+        "PitLimiterOn": false,
+        "AbsEnabled": false,
+        "AbsActive": false,
+        "TCEnabled": false,
+        "TCActive": false,
+        "LowFuelAlert": false,
+        "SpotterCarLeft": false,
+        "SpotterCarRight": false,
+        "BlackFlag": false,
+        "YellowFlag": false,
+        "WhiteFlag": false,
+        "BlueFlag": false,
+        "GreenFlag": false,
+        "CarModel": null,
+        "CarStartedTime": "0001-01-01T00:00:00",
+        "SessionBestDelta": 0.0,
+        "AllTimeBestDelta": 0.0
+      },
+      "LedContainers": [
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            {
+              "StartValue": 65.0,
+              "EndValue": 0.0,
+              "NormalColor": "Lime",
+              "BlinkingColor": "Blue",
+              "UseBlinkingColor": true,
+              "LedCount": 3,
+              "SampleResult": {
+                "Width": 3,
+                "Position": 0,
+                "Columns": -1
+              }
+            },
+            {
+              "StartValue": 75.0,
+              "EndValue": 0.0,
+              "NormalColor": "Red",
+              "BlinkingColor": "Blue",
+              "UseBlinkingColor": true,
+              "LedCount": 3,
+              "SampleResult": {
+                "Width": 3,
+                "Position": 0,
+                "Columns": -1
+              }
+            },
+            {
+              "StartValue": 85.0,
+              "EndValue": 0.0,
+              "NormalColor": "Blue",
+              "BlinkingColor": "Blue",
+              "UseBlinkingColor": true,
+              "LedCount": 3,
+              "SampleResult": {
+                "Width": 3,
+                "Position": 0,
+                "Columns": -1
+              }
+            }
+          ],
+          "SegmentsCount": 3,
+          "BlinkEnabled": true,
+          "BlinkOnLastGear": false,
+          "StartPosition": 1,
+          "ContainerId": "a37fad6e-3bfc-41ae-bbc8-3e23e6d58b47",
+          "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.RPMSegmentsContainer",
+          "Description": "Show leds solid color segments based on car RPMs",
+          "IsEnabled": true
+        }
+      ],
+      "GlobalBrightness": 50.0,
+      "UseProfileBrightness": false,
+      "Error": "",
+      "LastLoaded": "0001-01-01T00:00:00",
+      "Name": "Default Profile",
+      "ProfileId": "e3ac10a1-5d36-4367-a112-a9a6a275d8eb",
+      "GameCode": null
+    }
+  ]
+}

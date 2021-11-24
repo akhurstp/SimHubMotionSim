@@ -1,0 +1,4314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GameConfigurationManager_Title" xml:space="preserve">
+    <value>Game Configuration</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetryTabTitle" xml:space="preserve">
+    <value>Telemetry</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetrySettingsSection" xml:space="preserve">
+    <value>Telemetry settings</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetrySettings_NoSettingsAvailable" xml:space="preserve">
+    <value>No telemetry settings required, just start the game and have fun !</value>
+  </data>
+  <data name="AboutPluginSDKLine1" xml:space="preserve">
+    <value>- Create new data</value>
+  </data>
+  <data name="AboutPluginSDKLine2" xml:space="preserve">
+    <value>- Create new actions</value>
+  </data>
+  <data name="AboutPluginSDKLine3" xml:space="preserve">
+    <value>- Process game data</value>
+  </data>
+  <data name="AboutPluginSDKLine4" xml:space="preserve">
+    <value>And much more !</value>
+  </data>
+  <data name="AboutPluginSDKLine5" xml:space="preserve">
+    <value>Build your own plugin using the provided C# SDK</value>
+  </data>
+  <data name="AboutPluginSdkOpenSDK" xml:space="preserve">
+    <value>OPEN SIMHUB SDK</value>
+  </data>
+  <data name="AboutSDK" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AdditionalPlugins" xml:space="preserve">
+    <value>Additional plugins</value>
+  </data>
+  <data name="AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>Are you sure to want to run without administrator privileges ? You could have game recognition problems and some features like system informations not working. You can still enable administrator privileges at any time from the SimHub settings.</value>
+  </data>
+  <data name="AdministratorPrivilegesTitle" xml:space="preserve">
+    <value>Administrator privileges</value>
+  </data>
+  <data name="AdminPrivilegesAlert" xml:space="preserve">
+    <value>To work properly SimHub requires administrator privileges, do you want to enable it now ?</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Always on top</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ApplyChangesNow" xml:space="preserve">
+    <value>Apply changes</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_OpenArduinoSetupTool" xml:space="preserve">
+    <value>Open arduino setup tool</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ScanForNewDevicesOnly" xml:space="preserve">
+    <value>Scan for new devices only</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ResetAndScanForNewDevicesNow" xml:space="preserve">
+    <value>Clear all devices and scan</value>
+  </data>
+  <data name="ArduinoHardwareSettings_CheckBox_ReadButtons" xml:space="preserve">
+    <value>Read buttons</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ArduinoDisabled" xml:space="preserve">
+    <value>Arduino disabled</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_CustomProtocol" xml:space="preserve">
+    <value>Custom protocol</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Motors" xml:space="preserve">
+    <value>Motors</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_MultipleArduinos" xml:space="preserve">
+    <value>Multiple arduinos</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NoDevicesDetected" xml:space="preserve">
+    <value>No devices detected</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_NotConnected" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RgbLeds" xml:space="preserve">
+    <value>RGB leds</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_ScanInProgress" xml:space="preserve">
+    <value>Scan in progress ...</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SerialSpeed" xml:space="preserve">
+    <value>Serial Speed</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_SingleArduino" xml:space="preserve">
+    <value>Single arduino</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Unplugged" xml:space="preserve">
+    <value>- Unplugged</value>
+  </data>
+  <data name="ArduinoHardwareSettings_LinkButton_MoreInfos" xml:space="preserve">
+    <value>More infos ...</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_NeverScanSelectedPorts" xml:space="preserve">
+    <value>Never scan selected ports</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_ScanAllSerialPorts" xml:space="preserve">
+    <value>Scan all serial ports</value>
+  </data>
+  <data name="ArduinoHardwareSettings_RadioButton_ScanOnlySelectedPorts" xml:space="preserve">
+    <value>Scan only selected ports</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_ArduinoScanSettings" xml:space="preserve">
+    <value>ARDUINO SCAN SETTINGS</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_DevicesScan" xml:space="preserve">
+    <value>DEVICES SCAN</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_MultipleArduinoSettings" xml:space="preserve">
+    <value>MULTIPLE ARDUINO SETTINGS</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_ChooseHowManyArduinosYouWantToConnectToSimhub" xml:space="preserve">
+    <value>Choose how many arduinos you want to connect to SIMHUB</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_LcdRefreshSpeed" xml:space="preserve">
+    <value>LCD refresh speed</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixFont" xml:space="preserve">
+    <value>Matrix Font</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixRedlineBlink" xml:space="preserve">
+    <value>Matrix redline blink</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_7SegGearRedlineBlink" xml:space="preserve">
+    <value>7 segment gear indicator redline blink</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MultipleUsbInfo" xml:space="preserve">
+    <value>Multiple usb will aggregate multiple arduinos as a single dash, make sure to review the multiple arduino settings below.</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_NoDevicesConfigured" xml:space="preserve">
+    <value>No devices configured</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_UploadSketchInfo" xml:space="preserve">
+    <value>Before using your arduino you must upload the sketch</value>
+  </data>
+  <data name="ArduinoScreenList_Button_NewScreen" xml:space="preserve">
+    <value>New screen</value>
+  </data>
+  <data name="ArduinoScreenList_CheckBox_EnableLivePreview" xml:space="preserve">
+    <value>Live preview</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Idle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="ArduinoScreenList_Indicator_Ingame" xml:space="preserve">
+    <value>InGame</value>
+  </data>
+  <data name="ArduinoScreenList_Label_OrderingInfo" xml:space="preserve">
+    <value>Order matters ! Use Drag'n'drop to reorder your screens | Double click to edit</value>
+  </data>
+  <data name="ArduinoScreenList_SectionTitle_ManageYourArduinoTextDisplays" xml:space="preserve">
+    <value>MANAGE YOUR ARDUINO TEXT DISPLAYS</value>
+  </data>
+  <data name="AutoDetectCurrentGame" xml:space="preserve">
+    <value>Auto detect current game</value>
+  </data>
+  <data name="AvailableProperties" xml:space="preserve">
+    <value>Available properties</value>
+  </data>
+  <data name="CarSettings_ActionPicker_DecrementRedlineValue" xml:space="preserve">
+    <value>Decrement redline value</value>
+  </data>
+  <data name="CarSettings_ActionPicker_IncrementRedlineValue" xml:space="preserve">
+    <value>Increment redline value</value>
+  </data>
+  <data name="CarSettings_CheckBox_MaxFuel" xml:space="preserve">
+    <value>Max Fuel</value>
+  </data>
+  <data name="CarSettings_CheckBox_MaxRpm" xml:space="preserve">
+    <value>Max RPM</value>
+  </data>
+  <data name="CarSettings_CheckBox_MinimumDisplayedRpm" xml:space="preserve">
+    <value>Minimum displayed RPM</value>
+  </data>
+  <data name="CarSettings_CheckBox_RedLine" xml:space="preserve">
+    <value>Red line</value>
+  </data>
+  <data name="CarSettings_Label_Auto" xml:space="preserve">
+    <value>auto</value>
+  </data>
+  <data name="CarSettings_Label_MinimumDisplayedRpmPercentOfMaxRpm" xml:space="preserve">
+    <value>Minimum displayed RPM (percent of max RPM)</value>
+  </data>
+  <data name="CarSettings_Label_RedlineChangeStepsWhenCarIsKnownRpm" xml:space="preserve">
+    <value>Redline change steps when car is known (RPM)</value>
+  </data>
+  <data name="CarSettings_Label_RedlineChangeStepsWhenCarIsNotKnownPercents" xml:space="preserve">
+    <value>Redline change steps when car is not known (percents)</value>
+  </data>
+  <data name="CarSettings_Label_RedLinePercentOfMaxRpm" xml:space="preserve">
+    <value>Red line (percent of max RPM)</value>
+  </data>
+  <data name="CarSettings_Label_ShiftLight1OffsetPercent" xml:space="preserve">
+    <value>Shift light 1 offset (percent)</value>
+  </data>
+  <data name="CarSettings_Label_ShiftLight2OffsetPercent" xml:space="preserve">
+    <value>Shift light 2 offset (percent)</value>
+  </data>
+  <data name="CarSettings_SectionTitle_CarSettingsOverrides" xml:space="preserve">
+    <value>CAR SETTINGS OVERRIDES</value>
+  </data>
+  <data name="CarSettings_SectionTitle_DefaultCarSettingsForTheCurrentGame" xml:space="preserve">
+    <value>DEFAULT CAR SETTINGS (FOR THE CURRENT GAME)</value>
+  </data>
+  <data name="Carssettings" xml:space="preserve">
+    <value>Car settings</value>
+  </data>
+  <data name="ClearLicenseButton" xml:space="preserve">
+    <value>Clear license</value>
+  </data>
+  <data name="ControlPicker_Label_PressType" xml:space="preserve">
+    <value>Press type</value>
+  </data>
+  <data name="ControlPicker_Label_WaitingForInput" xml:space="preserve">
+    <value>Waiting for input</value>
+  </data>
+  <data name="ControlPicker_WindowTitle" xml:space="preserve">
+    <value>Pick a control</value>
+  </data>
+  <data name="ControlsAndEvents" xml:space="preserve">
+    <value>Controls and events</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="ControlsEditor_LinkButton_ClickToConfigure" xml:space="preserve">
+    <value>Click to configure</value>
+  </data>
+  <data name="ControlsEditor_MenuItem_TriggerNow" xml:space="preserve">
+    <value>Trigger now</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_Alerts" xml:space="preserve">
+    <value>ALERTS</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_SevenSegmentModules" xml:space="preserve">
+    <value>SEVEN SEGMENT MODULES</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_BrightnessColumnTitle" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_Checkbox_ReverseDisplay" xml:space="preserve">
+    <value>Reverse display</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_MainIntensity" xml:space="preserve">
+    <value>Main intensity</value>
+  </data>
+  <data name="DisplaySettings_SevenSegmentModules_OrientationColumnTitle" xml:space="preserve">
+    <value>Orientation</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_ScreenDisplayAnnounce" xml:space="preserve">
+    <value>Screen display announce</value>
+  </data>
+  <data name="DonatorLicense" xml:space="preserve">
+    <value>LICENSE</value>
+  </data>
+  <data name="EnableItNow" xml:space="preserve">
+    <value>Enable it now</value>
+  </data>
+  <data name="ExitSimHub" xml:space="preserve">
+    <value>Exit SimHub</value>
+  </data>
+  <data name="FeatureIncludedInDonatorVersion" xml:space="preserve">
+    <value>Feature included in registered version</value>
+  </data>
+  <data name="GameConnected" xml:space="preserve">
+    <value>Game connected</value>
+  </data>
+  <data name="GameDisconnected" xml:space="preserve">
+    <value>Game disconnected</value>
+  </data>
+  <data name="GameList_AutomaticSetup_AdministratorPrivilegesMessage" xml:space="preserve">
+    <value>Automatic configuration is only available when running as administrator, do you want to enable it now ?</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedMessage" xml:space="preserve">
+    <value>Something has gone wrong, make sure the game was not running or try manual installation.</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationFailedTitle" xml:space="preserve">
+    <value>Configuration failed !</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulMessage" xml:space="preserve">
+    <value>You can now use {0} with SimHub.</value>
+  </data>
+  <data name="GameList_AutomaticSetup_ConfigurationSuccessfulTitle" xml:space="preserve">
+    <value>Configuration successful !</value>
+  </data>
+  <data name="GameList_Button_StopReorganize" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="GameList_Label_YouCanNowShowHideAndReorganizeGames" xml:space="preserve">
+    <value>You can now show, hide and reorganize games</value>
+  </data>
+  <data name="GameList_MenuItem_ManageShownGames" xml:space="preserve">
+    <value>Manage shown games</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItAutomatically" xml:space="preserve">
+    <value>Fix it automatically</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredFixItManually" xml:space="preserve">
+    <value>Fix it manually</value>
+  </data>
+  <data name="GameList_Ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="GameList_TelemetryNotConfiguredWarnMessage" xml:space="preserve">
+    <value>{0} telemetry is not configured</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Games</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ClearLapHistoryForTheCurrentTrackAndCar" xml:space="preserve">
+    <value>Clear lap history for the current track and car</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_CycleNextDashTemplate" xml:space="preserve">
+    <value>Cycle next dash template</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_CyclePreviousDashTemplate" xml:space="preserve">
+    <value>Cycle previous dash template</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_DiscardCurrentMapAndRedrawIt" xml:space="preserve">
+    <value>Discard current map and redraw it</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowNextDashScreen" xml:space="preserve">
+    <value>Show next dash screen</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ShowPreviousDashScreen" xml:space="preserve">
+    <value>Show previous dash screen</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionADependsOfTheDashDesign" xml:space="preserve">
+    <value>Trigger dash action A (depends of the dash design)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionBDependsOfTheDashDesign" xml:space="preserve">
+    <value>Trigger dash action B (depends of the dash design)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionCDependsOfTheDashDesign" xml:space="preserve">
+    <value>Trigger dash action C (depends of the dash design)</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_TriggerDashActionDDependsOfTheDashDesign" xml:space="preserve">
+    <value>Trigger dash action D (depends of the dash design)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_Auto" xml:space="preserve">
+    <value>AUTO</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_CreateANewLayoutAndSavesMultipleOverlaysPositions_ToolTip" xml:space="preserve">
+    <value>Create a new layout and saves multiple overlays positions</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_DashboardActionsEditDeleteDuplicate_ToolTip" xml:space="preserve">
+    <value>Dashboard actions, edit, delete, duplicate</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_More" xml:space="preserve">
+    <value>MORE</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewDashboard" xml:space="preserve">
+    <value>New dashboard</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewOverlay" xml:space="preserve">
+    <value>New overlay</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_NewOverlayLayout" xml:space="preserve">
+    <value>New overlay layout</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_OverlayActions_ToolTip" xml:space="preserve">
+    <value>Overlay actions, edit, delete, duplicate</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_SavesAllTheOppenedDashboardAndPositions_ToolTip" xml:space="preserve">
+    <value>Saves all the opened dashboard and positions</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_LASTUSED" xml:space="preserve">
+    <value>LAST USED</value>
+  </data>
+  <data name="GraphicalDashPluginList_Category_Uncategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_CycleOnlyThroughFavouritesDash" xml:space="preserve">
+    <value>Cycle only through favorites dash</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableDedicatedControls" xml:space="preserve">
+    <value>Enable dedicated controls</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableOnDashNotifications" xml:space="preserve">
+    <value>Enable on dash notifications (Redline value/Thrustmaster ffb value ....)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EngineSpeedUseDataUpdateControlExperimental" xml:space="preserve">
+    <value>Use data update control (experimental)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_FlashDashWhenRedlineIsReached" xml:space="preserve">
+    <value>Flash dash when redline is reached</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_KeepOverlayLayoutEditorMinimizedOnLayoutLoad" xml:space="preserve">
+    <value>Keep overlay layout editor minimized on layout load</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowLastUsedDashsOnTopOfTheList" xml:space="preserve">
+    <value>Show last used dashs on top of the list</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowLeaderboardGapRelativeToPlayer" xml:space="preserve">
+    <value>Show leaderboard gap relative to player (otherwise relative to leader)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_StartDashInAlwaysOnTopModeByDefault" xml:space="preserve">
+    <value>Start dash in 'always on top' mode by default</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480EnableTouchscreen" xml:space="preserve">
+    <value>Enable touchscreen</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_EnableUsbDisplay" xml:space="preserve">
+    <value>Enable display</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Usbd480FlipDisplay180" xml:space="preserve">
+    <value>Flip display (180°)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_UsePlayerCarClassLeaderboards" xml:space="preserve">
+    <value>Use player car class leaderboards (When car class is available)</value>
+  </data>
+  <data name="GraphicalDashPluginList_CloseAllButton" xml:space="preserve">
+    <value>Close all</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_PhoneTablet" xml:space="preserve">
+    <value>On phone or tablet</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SecondaryMonitor" xml:space="preserve">
+    <value>On secondary monitor</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_SpecificMonitor" xml:space="preserve">
+    <value>On specific monitor</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_USBD480Screen" xml:space="preserve">
+    <value>On USBD480 screen</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_VocoreScreen" xml:space="preserve">
+    <value>On VOCORE screen</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_AX206Screen" xml:space="preserve">
+    <value>On AX206 screen</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_CorsairNexusScreen" xml:space="preserve">
+    <value>On Corsair Nexus</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_Windowed" xml:space="preserve">
+    <value>Windowed</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_DesktopEngine" xml:space="preserve">
+    <value>DESKTOP ENGINE</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RecentUsedDashsToKeepOnTopOfTheList" xml:space="preserve">
+    <value>Recent used dashs to keep on top of the list</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RedlineFlashColor" xml:space="preserve">
+    <value>RedLine flash color :</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_RedlineFlashOpacity" xml:space="preserve">
+    <value>RedLine flash opacity :</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_TheseSettingsAppliesOnlyToDonatorEdition" xml:space="preserve">
+    <value>These settings applies only to Licensed Edition and high game data refresh speed (see SimHub settings)</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ThisOverlayIsTooLargeAlert" xml:space="preserve">
+    <value>This overlay is too large and can't be started, please split it in smaller parts</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480Brightness" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_Usbd480DisplayedDashboard" xml:space="preserve">
+    <value>Displayed dashboard</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDevice" xml:space="preserve">
+    <value>WEB DEVICE :</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebDeviceLastSeen" xml:space="preserve">
+    <value>(Last seen : {0})</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_WebEngine" xml:space="preserve">
+    <value>WEB ENGINE</value>
+  </data>
+  <data name="GraphicalDashPluginList_LinkButton_WebDeviceForget" xml:space="preserve">
+    <value>Forget</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_AllowRedlineFlash" xml:space="preserve">
+    <value>Allow Redline flash</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ConvertToOverlay" xml:space="preserve">
+    <value>Convert to overlay</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ConvertToDashboard" xml:space="preserve">
+    <value>Convert to dashboard</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DeleteDashboard" xml:space="preserve">
+    <value>Delete dashboard</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DeleteOverlay" xml:space="preserve">
+    <value>Delete overlay</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DuplicateDashboard" xml:space="preserve">
+    <value>Duplicate dashboard</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_DuplicateOverlay" xml:space="preserve">
+    <value>Duplicate overlay</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_EditDashboard" xml:space="preserve">
+    <value>Edit dashboard</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ExportDashboard" xml:space="preserve">
+    <value>Export dashboard</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_ExportOverlay" xml:space="preserve">
+    <value>Export overlay</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_GetOBSAddress" xml:space="preserve">
+    <value>Copy OBS browser address to clipboard</value>
+  </data>
+  <data name="GraphicalDashPluginList_MenuItem_UseHtmlEngine" xml:space="preserve">
+    <value>Use HTML Engine (can be more smooth)</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenInBrowser" xml:space="preserve">
+    <value>Open in browser</value>
+  </data>
+  <data name="GraphicalDashPluginList_OpenPhoneTablet" xml:space="preserve">
+    <value>Open in phone or tablet</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedFast" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedSlow" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="GraphicalDashPluginList_RadioButton_EngineSpeedVeryFast" xml:space="preserve">
+    <value>Very fast</value>
+  </data>
+  <data name="GraphicalDashPluginList_RestoreLayoutButton" xml:space="preserve">
+    <value>Restore Layout</value>
+  </data>
+  <data name="GraphicalDashPluginList_SaveLayoutButton" xml:space="preserve">
+    <value>Save Layout</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleAVAILABLEDASHBOARDS" xml:space="preserve">
+    <value>AVAILABLE DASHBOARDS</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleAVAILABLEOVERLAYS" xml:space="preserve">
+    <value>AVAILABLE OVERLAYS</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSAVEDOVERLAYLAYOUTS" xml:space="preserve">
+    <value>SAVED OVERLAY LAYOUTS</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDASHDISPLAY" xml:space="preserve">
+    <value>DASHBOARDS DISPLAY</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDEVICECONTROLS" xml:space="preserve">
+    <value>PER DEVICE CONTROLS (TABLET / PHONE ...)</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsLEADERBOARDS" xml:space="preserve">
+    <value>LEADERBOARDS</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsOVERLAYDISPLAY" xml:space="preserve">
+    <value>OVERLAYS DISPLAY</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsPERFORMANCE" xml:space="preserve">
+    <value>PERFORMANCE</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Usbd480Lcd" xml:space="preserve">
+    <value>USBD480 LCD</value>
+  </data>
+  <data name="GraphicalDashPluginList_StartButton" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemDashboards" xml:space="preserve">
+    <value>Dashboards</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemOverlays" xml:space="preserve">
+    <value>Overlays</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabItemUSBD480" xml:space="preserve">
+    <value>USBD480</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_Auto" xml:space="preserve">
+    <value>AUTO</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_DashStudioAlsoWorksInYourBrowserOrPhone" xml:space="preserve">
+    <value>Dash Studio also works in your browser or phone</value>
+  </data>
+  <data name="GraphicalDashPluginList_TextBlock_NewLayout" xml:space="preserve">
+    <value>NEW LAYOUT</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_Favourite_ToolTip" xml:space="preserve">
+    <value>Favorite</value>
+  </data>
+  <data name="GraphicalDashPluginList_ToggleButton_OpenOverlayOnStartup_ToolTip" xml:space="preserve">
+    <value>Open the overlay on startup</value>
+  </data>
+  <data name="HigherProcessPriority" xml:space="preserve">
+    <value>Higher process priority</value>
+  </data>
+  <data name="HigherProcessPriorityComment" xml:space="preserve">
+    <value>Useful for CPU intensive games, do not enable it if you don't need it</value>
+  </data>
+  <data name="Laphistory_DeleteSessionMenuItem" xml:space="preserve">
+    <value>Delete session</value>
+  </data>
+  <data name="Laphistory_RECENTSESSIONS" xml:space="preserve">
+    <value>RECENT SESSIONS</value>
+  </data>
+  <data name="Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="LoadLicenseButton" xml:space="preserve">
+    <value>Load license</value>
+  </data>
+  <data name="LogsClearLogsButton" xml:space="preserve">
+    <value>Clear logs</value>
+  </data>
+  <data name="LogsOpenLogFolderButton" xml:space="preserve">
+    <value>Open logs folder</value>
+  </data>
+  <data name="MainWindowPaneWidth" xml:space="preserve">
+    <value>190</value>
+  </data>
+  <data name="MainWindowStatusbarListeningPort" xml:space="preserve">
+    <value>Listening UDP port {0}</value>
+  </data>
+  <data name="MainWindowStatusbarUDPForwardedTo" xml:space="preserve">
+    <value>forwarded to {0}</value>
+  </data>
+  <data name="MainWindowToolbarDiscordServerLink" xml:space="preserve">
+    <value>Discord Server</value>
+  </data>
+  <data name="MainWindowToolbarLicenseStatus" xml:space="preserve">
+    <value>Status :</value>
+  </data>
+  <data name="MainWindowToolbarNewVersionAvailable" xml:space="preserve">
+    <value>New version available :</value>
+  </data>
+  <data name="MainWindowToolbarRefreshRate" xml:space="preserve">
+    <value>Refresh Rate :</value>
+  </data>
+  <data name="MainWindowToolbarWikiLink" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="MinimizeInTray" xml:space="preserve">
+    <value>Minimize in tray</value>
+  </data>
+  <data name="MoreTab" xml:space="preserve">
+    <value>More ...</value>
+  </data>
+  <data name="NewPluginDetectedMessage" xml:space="preserve">
+    <value>SimHub as detected a new plugin : {0}
+Do you want to enable it now ? You can do it at anytime from the settings</value>
+  </data>
+  <data name="NewPluginDetectedTitle" xml:space="preserve">
+    <value>New plugin detected</value>
+  </data>
+  <data name="NextionSettingsControlWPF_SectionTitle_ManageYourNextionScreens" xml:space="preserve">
+    <value>MANAGE YOUR NEXTION SCREENS</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_NextPage" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="NextionSettingsItem_ActionPicker_PreviousPage" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="NextionSettingsItem_Button_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="NextionSettingsItem_Button_EditMapping" xml:space="preserve">
+    <value>Edit Mapping</value>
+  </data>
+  <data name="NextionSettingsItem_Button_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_DebugMode" xml:space="preserve">
+    <value>Debug Mode</value>
+  </data>
+  <data name="NextionSettingsItem_CheckBox_PowerOffScreenWhenNotInGame" xml:space="preserve">
+    <value>Power Off screen when not in game</value>
+  </data>
+  <data name="NextionSettingsItem_CustomNumericUpDown_HowManyLedsAreInstalled_ToolTip" xml:space="preserve">
+    <value>How many leds are installed (arduino only)</value>
+  </data>
+  <data name="NextionSettingsItem_Label_ControlsDebouncing" xml:space="preserve">
+    <value>Controls debouncing (ms)</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Latency" xml:space="preserve">
+    <value>Latency</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Leds" xml:space="preserve">
+    <value>LEDS</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Mapping" xml:space="preserve">
+    <value>Mapping</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Nextion" xml:space="preserve">
+    <value>Nextion #</value>
+  </data>
+  <data name="NextionSettingsItem_Label_SerialPort" xml:space="preserve">
+    <value>Serial port</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="NoThanks" xml:space="preserve">
+    <value>No thanks</value>
+  </data>
+  <data name="OpenGameInstructions" xml:space="preserve">
+    <value>Open instructions</value>
+  </data>
+  <data name="OverlayEditor_AddOverlay" xml:space="preserve">
+    <value>Add overlay</value>
+  </data>
+  <data name="OverlayEditor_EditLayoutButton" xml:space="preserve">
+    <value>Edit layout</value>
+  </data>
+  <data name="OverlayEditor_HideWhenNotInRaceCheckbox" xml:space="preserve">
+    <value>Hide when not in race</value>
+  </data>
+  <data name="OverlayEditor_SaveLayoutbutton" xml:space="preserve">
+    <value>Save layout</value>
+  </data>
+  <data name="OverlayEditor_StopEdit" xml:space="preserve">
+    <value>Stop edit</value>
+  </data>
+  <data name="OverlayEditor_WaitingForGame" xml:space="preserve">
+    <value>Waiting for the game</value>
+  </data>
+  <data name="OverlayEditor_WindowedBorderlessModeAlert" xml:space="preserve">
+    <value>Make sure to configure your game in windowed or borderless mode</value>
+  </data>
+  <data name="OverlayEditor_WindowTitle" xml:space="preserve">
+    <value>Overlay Layout editor</value>
+  </data>
+  <data name="PasteLicenseButton" xml:space="preserve">
+    <value>Paste license</value>
+  </data>
+  <data name="PasteLicenseContent" xml:space="preserve">
+    <value>Paste license content :</value>
+  </data>
+  <data name="PluginDescription_AudioControlPlugin" xml:space="preserve">
+    <value>Gives access to various audio data such as FFT for bargraphs and the ability to play MP3</value>
+  </data>
+  <data name="PluginDescription_BA63Plugin" xml:space="preserve">
+    <value>Connect a Diebold Nixdorf BA63 Display</value>
+  </data>
+  <data name="PluginDescription_GmailPlugin" xml:space="preserve">
+    <value>Connect to your gmail account and get access to your last mails</value>
+  </data>
+  <data name="PluginDescription_HeadsetInfo" xml:space="preserve">
+    <value>Provide G533 battery level info (experimental)</value>
+  </data>
+  <data name="PluginDescription_JoystickPlugin" xml:space="preserve">
+    <value>Allows to read game controllers (wheel, gamepad, button box) data</value>
+  </data>
+  <data name="PluginDescription_KeyboardEmulatorPlugin" xml:space="preserve">
+    <value>Allow you to emulate key presses from any SimHub input</value>
+  </data>
+  <data name="PluginDescription_KeyboardReaderPlugin" xml:space="preserve">
+    <value>Allows to read keyboard inputs (use with caution)</value>
+  </data>
+  <data name="PluginDescription_NextionPlugin" xml:space="preserve">
+    <value>Provide support for Nextion screens</value>
+  </data>
+  <data name="PluginDescription_SystemInfoPlugin" xml:space="preserve">
+    <value>Provide System monitoring info (based on OpenHardwareMonitor API)</value>
+  </data>
+  <data name="PluginDescription_ThrustmastersPlugin" xml:space="preserve">
+    <value>Allow you to control your thrustmaster FFB ingame</value>
+  </data>
+  <data name="PluginDescription_UDPRelayPlugin" xml:space="preserve">
+    <value>The UDP Relay plugin allows to receive UDP data from a game (like codemaster) and send it to multiple targets.</value>
+  </data>
+  <data name="PluginName_AudioControlPlugin" xml:space="preserve">
+    <value>Audio Control</value>
+  </data>
+  <data name="PluginName_BA63Plugin" xml:space="preserve">
+    <value>BA63 USB Display plugin</value>
+  </data>
+  <data name="PluginName_DataCorePlugin" xml:space="preserve">
+    <value>Core Data</value>
+  </data>
+  <data name="PluginName_GmailPlugin" xml:space="preserve">
+    <value>Gmail</value>
+  </data>
+  <data name="PluginName_GraphicalDashPlugin" xml:space="preserve">
+    <value>Dash Studio</value>
+  </data>
+  <data name="PluginName_HeadsetInfo" xml:space="preserve">
+    <value>Headset Info</value>
+  </data>
+  <data name="PluginName_JoystickPlugin" xml:space="preserve">
+    <value>Controllers input</value>
+  </data>
+  <data name="PluginName_KeyboardEmulatorPlugin" xml:space="preserve">
+    <value>Keyboard Emulator</value>
+  </data>
+  <data name="PluginName_KeyboardReaderPlugin" xml:space="preserve">
+    <value>Keyboard Input</value>
+  </data>
+  <data name="PluginName_NextionPlugin" xml:space="preserve">
+    <value>Nextion display</value>
+  </data>
+  <data name="PluginName_PersistantTrackerPlugin" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="PluginName_SerialDashPlugin" xml:space="preserve">
+    <value>Arduino</value>
+  </data>
+  <data name="PluginName_ShellPlugin" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="PluginName_SystemInfoPlugin" xml:space="preserve">
+    <value>System Info</value>
+  </data>
+  <data name="PluginName_ThrustmastersPlugin" xml:space="preserve">
+    <value>Thrustmasters FFB control</value>
+  </data>
+  <data name="PluginName_UDPRelayPlugin" xml:space="preserve">
+    <value>UDP Relay</value>
+  </data>
+  <data name="PropertiesAvailablePropertiesSection" xml:space="preserve">
+    <value>AVAILABLE PROPERTIES</value>
+  </data>
+  <data name="PropertiesComputedLabel" xml:space="preserve">
+    <value>Computed</value>
+  </data>
+  <data name="PropertiesComputedLabelTooltip" xml:space="preserve">
+    <value>This property can be computed by SimHub for the current game</value>
+  </data>
+  <data name="PropertiesFilterTextBoxWatermark" xml:space="preserve">
+    <value>Properties filter ...</value>
+  </data>
+  <data name="PropertiesNcalcTesterButton" xml:space="preserve">
+    <value>Ncalc tester</value>
+  </data>
+  <data name="PropertiesNewWindowButton" xml:space="preserve">
+    <value>New window</value>
+  </data>
+  <data name="PropertiesNotSupportedLabel" xml:space="preserve">
+    <value>Not supported</value>
+  </data>
+  <data name="PropertiesNotSupportedLabelTooltip" xml:space="preserve">
+    <value>This property is not supported in the current game</value>
+  </data>
+  <data name="PropertiesPicker_TextBoxWatermark_TypeToFilter" xml:space="preserve">
+    <value>Type to filter ...</value>
+  </data>
+  <data name="PropertiesPicker_Title" xml:space="preserve">
+    <value>Property Picker</value>
+  </data>
+  <data name="PropertiesShowGameSpecificPropertiesCheckbox" xml:space="preserve">
+    <value>Show game specific properties ('rawdata')</value>
+  </data>
+  <data name="RecordToolTip" xml:space="preserve">
+    <value>Record game data for playing it later offline</value>
+  </data>
+  <data name="Replay" xml:space="preserve">
+    <value>Replay</value>
+  </data>
+  <data name="ReplayLastGameRecordButton" xml:space="preserve">
+    <value>Replay last game record</value>
+  </data>
+  <data name="RestoreSimHub" xml:space="preserve">
+    <value>Restore SimHub</value>
+  </data>
+  <data name="RunAsAdministratorOption" xml:space="preserve">
+    <value>Run as administrator</value>
+  </data>
+  <data name="RunAsAdministratorOptionComment" xml:space="preserve">
+    <value>Useful to grab all the system infos (like temperatures) or solve some game detection problems</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SettingsAccentOption" xml:space="preserve">
+    <value>Accent</value>
+  </data>
+  <data name="SettingsAdjustMinimumTyreWearOption" xml:space="preserve">
+    <value>Adjust minimum tyre wear (% from reported game data)</value>
+  </data>
+  <data name="SettingsChangeSpeedlocalPropertyUnitOption" xml:space="preserve">
+    <value>Change 'SpeedLocal' property unit</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_Brightness" xml:space="preserve">
+    <value>Brightness +</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_BrightnessMinus" xml:space="preserve">
+    <value>Brightness -</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowFirstLedLayout" xml:space="preserve">
+    <value>Show first led layout</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowFirstScreen" xml:space="preserve">
+    <value>Show first screen</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowNextLedLayout" xml:space="preserve">
+    <value>Show next led layout</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowNextScreen" xml:space="preserve">
+    <value>Show next screen</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowPreviousLedLayout" xml:space="preserve">
+    <value>Show previous led layout</value>
+  </data>
+  <data name="SettingsControlWPF_ActionPicker_ShowPreviousScreen" xml:space="preserve">
+    <value>Show previous screen</value>
+  </data>
+  <data name="SettingsControlWPF_Label_MoreActionsAvailableInControlsAndEventsControlsSection" xml:space="preserve">
+    <value>More actions available in Controls and events &gt; Controls section</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_7Segments20X4LcdControls" xml:space="preserve">
+    <value>7 segments/20x4 LCD CONTROLS</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_RgbLedsControl" xml:space="preserve">
+    <value>RGB leds control</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_DisplayAlerts" xml:space="preserve">
+    <value>Display &amp; Alerts</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Gauges" xml:space="preserve">
+    <value>Gauges</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_MyHardware" xml:space="preserve">
+    <value>My Hardware</value>
+  </data>
+  <data name="SettingsControlWPF_TabItem_Screens" xml:space="preserve">
+    <value>Screens</value>
+  </data>
+  <data name="SettingsDebugModeOption" xml:space="preserve">
+    <value>Debug mode</value>
+  </data>
+  <data name="SettingsDebugModeOptionComment" xml:space="preserve">
+    <value>Enable verbose logging, don't use it except for troubleshooting</value>
+  </data>
+  <data name="SettingsDeveloperToolsTab" xml:space="preserve">
+    <value>Developer tools</value>
+  </data>
+  <data name="SettingsDumpActionsList" xml:space="preserve">
+    <value>Dump actions list</value>
+  </data>
+  <data name="SettingsEnabledPluginsSection" xml:space="preserve">
+    <value>ENABLED PLUGINS</value>
+  </data>
+  <data name="SettingsFuelUnitOption" xml:space="preserve">
+    <value>Fuel Unit</value>
+  </data>
+  <data name="SettingsGamesTitle" xml:space="preserve">
+    <value>GAMES</value>
+  </data>
+  <data name="SettingsGameUdpPort" xml:space="preserve">
+    <value>UDP Port</value>
+  </data>
+  <data name="SettingsGapComputationModeOption" xml:space="preserve">
+    <value>Gap computation mode</value>
+  </data>
+  <data name="SettingsGeneralSection" xml:space="preserve">
+    <value>GENERAL</value>
+  </data>
+  <data name="SettingsGeneralTab" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="SettingShowGameOption" xml:space="preserve">
+    <value>Show game on homepage</value>
+  </data>
+  <data name="SettingsLangageAuthor" xml:space="preserve">
+    <value>Default language</value>
+  </data>
+  <data name="SettingsLangageOption" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="SettingsLapTrackingAndLeaderboardsSesction" xml:space="preserve">
+    <value>LAP TRACKING AND LEADERBOARDS</value>
+  </data>
+  <data name="SettingsLooknfeelSection" xml:space="preserve">
+    <value>LOOK'N'FEEL</value>
+  </data>
+  <data name="SettingsPluginsTab" xml:space="preserve">
+    <value>Plugins</value>
+  </data>
+  <data name="SettingsPreferredUnitsSection" xml:space="preserve">
+    <value>PREFERRED UNITS</value>
+  </data>
+  <data name="SettingsPressureUnitOption" xml:space="preserve">
+    <value>Pressure Unit</value>
+  </data>
+  <data name="SettingsRequiresASimhubRestart" xml:space="preserve">
+    <value>Requires a SimHub restart</value>
+  </data>
+  <data name="SettingsRestoreDefaultForwardPort" xml:space="preserve">
+    <value>Restore default forward port</value>
+  </data>
+  <data name="SettingsSpeedUnitOption" xml:space="preserve">
+    <value>Speed Unit</value>
+  </data>
+  <data name="SettingsTemperatureUnitOption" xml:space="preserve">
+    <value>Temperature Unit</value>
+  </data>
+  <data name="SettingsThemeOption" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="SettingsUseAllTimeBestWhenNoSessionBestIsAvailableOption" xml:space="preserve">
+    <value>Use all time best when no session best is available</value>
+  </data>
+  <data name="SettingsUseAllTimeBestWhenNoSessionBestIsAvailableOptionComment" xml:space="preserve">
+    <value>Allows to always get a reference time and gap in session best relative data</value>
+  </data>
+  <data name="SettingsWebServerPortOption" xml:space="preserve">
+    <value>Web Server port (TCP)</value>
+  </data>
+  <data name="SettingsWebSocketPort" xml:space="preserve">
+    <value>Web Socket port (TCP)</value>
+  </data>
+  <data name="ShowSimhubFps" xml:space="preserve">
+    <value>Show SimHub FPS</value>
+  </data>
+  <data name="ShowSimHubFpsComment" xml:space="preserve">
+    <value>Show a data update speed counter in bottom of SimHub window</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>Start Game</value>
+  </data>
+  <data name="StartMinimized" xml:space="preserve">
+    <value>Start minimized</value>
+  </data>
+  <data name="StartWithWindows" xml:space="preserve">
+    <value>Start with windows</value>
+  </data>
+  <data name="SystemLog" xml:space="preserve">
+    <value>System log</value>
+  </data>
+  <data name="ThanksForYourSupport" xml:space="preserve">
+    <value>Thanks for your support to the SimHub project,
+I hope you will enjoy it.
+
+Wotever</value>
+  </data>
+  <data name="PluginDescription_ShakeITBSV3Plugin" xml:space="preserve">
+    <value>Provide ShakeIt (tactile feedback) features for bass shakers</value>
+  </data>
+  <data name="PluginDescription_ShakeITMotorsV3Plugin" xml:space="preserve">
+    <value>Provide ShakeIt (tactile feedback) features for motors and fans</value>
+  </data>
+  <data name="PluginName_ShakeITBSV3Plugin" xml:space="preserve">
+    <value>ShakeIt Bass Shakers</value>
+  </data>
+  <data name="PluginName_ShakeITMotorsV3Plugin" xml:space="preserve">
+    <value>ShakeIt Motors</value>
+  </data>
+  <data name="UDPPort" xml:space="preserve">
+    <value>UDP port</value>
+  </data>
+  <data name="LanguageName" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="GameConfigurationManager_UDPTelemetryInfo" xml:space="preserve">
+    <value>This game uses UDP telemetry, UDP requires to choose an UDP port. Warning a single UDP port can be read by a single application at a time</value>
+  </data>
+  <data name="GameConfigurationManager_ForwardUDPInformation" xml:space="preserve">
+    <value>Forwarding UDP data will allow you to feed an additionnal application running on the same computer (127.0.0.1) or a remote computer/device, make sure to configure it on the port defined here.</value>
+  </data>
+  <data name="GameConfigurationManager_UDPForwardingTitle" xml:space="preserve">
+    <value>UDP forwarding</value>
+  </data>
+  <data name="GameConfigurationManager_AutomaticGameConfigurationTitle" xml:space="preserve">
+    <value>Automatic Game configuration</value>
+  </data>
+  <data name="GameConfigurationManager_GameIsProperlyConfiguredInfo" xml:space="preserve">
+    <value>Game is properly configured</value>
+  </data>
+  <data name="GameConfigurationManager_ConfigureGameNowButton" xml:space="preserve">
+    <value>Configure game now</value>
+  </data>
+  <data name="GameConfigurationManager_SimHubCanTConfigureTheGameInformation" xml:space="preserve">
+    <value>SimHub can't configure the game, make sure to have it installed and run it once in order to create the game config files</value>
+  </data>
+  <data name="GameConfigurationManager_ManualGameConfigurationTitle" xml:space="preserve">
+    <value>Manual Game configuration</value>
+  </data>
+  <data name="GameConfigurationManager_ThisGameRequiresAManualConfigurationInformation" xml:space="preserve">
+    <value>This Game requires a manual configuration</value>
+  </data>
+  <data name="GameConfigurationManager_LauncherActionTabTitle" xml:space="preserve">
+    <value>Launcher action</value>
+  </data>
+  <data name="GameConfigurationManager_HavingGameConnectivityIssuesInformation" xml:space="preserve">
+    <value>Having game connectivity issues ? Open the troubleshooting guide</value>
+  </data>
+  <data name="GameConfigurationManager_CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="GameConfigurationManager_GameTelemetryUDPPort" xml:space="preserve">
+    <value>Game telemetry UDP port</value>
+  </data>
+  <data name="GameConfigurationManager_ForwardUDPPacketsTo" xml:space="preserve">
+    <value>Forward UDP packets to</value>
+  </data>
+  <data name="CarSettings_LastCarUsed" xml:space="preserve">
+    <value>Last car used</value>
+  </data>
+  <data name="CarSettings_OtherCars" xml:space="preserve">
+    <value>Other cars</value>
+  </data>
+  <data name="CarSettings_ForgetAll" xml:space="preserve">
+    <value>Forget all</value>
+  </data>
+  <data name="DefaultLauncherControl_Arguments" xml:space="preserve">
+    <value>Arguments</value>
+  </data>
+  <data name="DefaultLauncherControl_DefineCustomPath" xml:space="preserve">
+    <value>Define custom path</value>
+  </data>
+  <data name="DefaultLauncherControl_LaunchUsingDefaultMethod" xml:space="preserve">
+    <value>Launch using default method (Autodetect, steam or windows store)</value>
+  </data>
+  <data name="DefaultLauncherControl_Target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="GameConfigurationManager_GameIsNotConfiguredInformation" xml:space="preserve">
+    <value>Game is not configured</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="CarSettings_Forget" xml:space="preserve">
+    <value>Forget</value>
+  </data>
+  <data name="ControlsAndEvents_EventsTabTitle" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="ControlsAndEvents_ControllersStatusTabTitle" xml:space="preserve">
+    <value>Controllers status</value>
+  </data>
+  <data name="ControlsAndEvents_ThrustmasterManagerTabTitle" xml:space="preserve">
+    <value>Thrustmaster manager</value>
+  </data>
+  <data name="ControlsAndEvents_KeyboardEmulationTabTitle" xml:space="preserve">
+    <value>Keyboard emulation</value>
+  </data>
+  <data name="JoystickPlugin_CONNECTEDCONTROLLERSTitle" xml:space="preserve">
+    <value>CONNECTED CONTROLLERS</value>
+  </data>
+  <data name="JoystickPlugin_Diagnostic" xml:space="preserve">
+    <value>Diagnostic</value>
+  </data>
+  <data name="JoystickPlugin_YouCanUseTheseControllersInTheControlsSettings" xml:space="preserve">
+    <value>You can use these controllers in the "controls" settings</value>
+  </data>
+  <data name="JoystickPlugin_ShowInputs" xml:space="preserve">
+    <value>Show inputs</value>
+  </data>
+  <data name="ControlsAndEvents_MANAGEYOURCONTROLLERSACTIONS" xml:space="preserve">
+    <value>MANAGE YOUR CONTROLLERS ACTIONS</value>
+  </data>
+  <data name="NewMapping" xml:space="preserve">
+    <value>New mapping</value>
+  </data>
+  <data name="ControlsAndEvents_MANAGEEVENTSTRIGGERS" xml:space="preserve">
+    <value>MANAGE EVENTS TRIGGERS</value>
+  </data>
+  <data name="ShakeItSettings_EffectsProfile" xml:space="preserve">
+    <value>Effects Profile</value>
+  </data>
+  <data name="ShakeITSettings_ConfigureOutputs" xml:space="preserve">
+    <value>Configure outputs</value>
+  </data>
+  <data name="ShakeITSettings_NoActiveOutputs" xml:space="preserve">
+    <value>No active outputs</value>
+  </data>
+  <data name="ShakeItSettings_EditProfile" xml:space="preserve">
+    <value>Edit profile</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager" xml:space="preserve">
+    <value>Profiles manager</value>
+  </data>
+  <data name="ShakeItSettings_AddEffect" xml:space="preserve">
+    <value>Add effect</value>
+  </data>
+  <data name="ShakeItSettings_AddGroup" xml:space="preserve">
+    <value>Add group</value>
+  </data>
+  <data name="ShakeItSettings_PasteEffect" xml:space="preserve">
+    <value>Paste effect</value>
+  </data>
+  <data name="ShakeItSettings_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="ShakeItSettings_ResetCalibration" xml:space="preserve">
+    <value>Reset calibration</value>
+  </data>
+  <data name="ShakeItSettings_ResetCarTrackCalibration" xml:space="preserve">
+    <value>Reset car/track calibration</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_AVAILABLEPROFILES" xml:space="preserve">
+    <value>AVAILABLE PROFILES</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_NEWPROFILE" xml:space="preserve">
+    <value>NEW PROFILE</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_CloneProfile" xml:space="preserve">
+    <value>Clone profile</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_DeleteProfile" xml:space="preserve">
+    <value>Delete profile</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_ImportProfile" xml:space="preserve">
+    <value>Import profile</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_ExportProfile" xml:space="preserve">
+    <value>Export profile</value>
+  </data>
+  <data name="ShakeItSettings_ProfilesManager_LOAD" xml:space="preserve">
+    <value>LOAD</value>
+  </data>
+  <data name="ShakeItSettings_SoundOutput" xml:space="preserve">
+    <value>Sound Output</value>
+  </data>
+  <data name="ShakeItSettings_MotorsOutput" xml:space="preserve">
+    <value>Motors Output</value>
+  </data>
+  <data name="ShakeItSettings_OUTPUTSELECTION" xml:space="preserve">
+    <value>OUTPUT SELECTION</value>
+  </data>
+  <data name="ShakeItSettings_ENABLEOUTPUT" xml:space="preserve">
+    <value>ENABLE OUTPUT</value>
+  </data>
+  <data name="ShakeItSettings_OpenWindowsSoundSettings" xml:space="preserve">
+    <value>Open windows sound settings</value>
+  </data>
+  <data name="ShakeItSettings_TestNow" xml:space="preserve">
+    <value>Test now</value>
+  </data>
+  <data name="ShakeItSettings_ShowPerEffectGain" xml:space="preserve">
+    <value>Show per effect gain</value>
+  </data>
+  <data name="ShakeItSettings_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ShakeItSettings_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ShakeItSettings_Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="RecordSettings_TelemetryRecordSettings" xml:space="preserve">
+    <value>Telemetry record settings</value>
+  </data>
+  <data name="RecordSettings_CaptureFPS" xml:space="preserve">
+    <value>Capture FPS :</value>
+  </data>
+  <data name="RecordSettings_StartRecording" xml:space="preserve">
+    <value>Start Recording</value>
+  </data>
+  <data name="RecordSettings_IncludeMonitorScreenshotsToReplayEXPERIMENTAL" xml:space="preserve">
+    <value>Include monitor screenshots to replay (EXPERIMENTAL)</value>
+  </data>
+  <data name="ShakeItSettings_OutputTuning" xml:space="preserve">
+    <value>Output tuning</value>
+  </data>
+  <data name="ShakeItSettings_EffectsGroup" xml:space="preserve">
+    <value>Effects group</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_RemoveEffect" xml:space="preserve">
+    <value>Remove effect</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_CloneEffect" xml:space="preserve">
+    <value>Clone effect</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_CopyEffectToClipboard" xml:space="preserve">
+    <value>Copy effect to clipboard</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_ResetEffectSettings" xml:space="preserve">
+    <value>Reset effect settings</value>
+  </data>
+  <data name="ShakeItSettings_IncreaseOverallGain" xml:space="preserve">
+    <value>Increase overall gain</value>
+  </data>
+  <data name="ShakeItSettings_DecreaseOverallGain" xml:space="preserve">
+    <value>Decrease overall gain</value>
+  </data>
+  <data name="ShakeItSettings_ConnectedXChannelsAvailable" xml:space="preserve">
+    <value>Connected ({0} channels available)</value>
+  </data>
+  <data name="ShakeItSettings_Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="ShakeItSettings_Stereo" xml:space="preserve">
+    <value>Left / Right</value>
+  </data>
+  <data name="ShakeItSettings_FrontLR" xml:space="preserve">
+    <value>Front Left / Right</value>
+  </data>
+  <data name="ShakeItSettings_RearLR" xml:space="preserve">
+    <value>Rear Left / Right</value>
+  </data>
+  <data name="ShakeItSettings_StereoFR" xml:space="preserve">
+    <value>Front / Rear</value>
+  </data>
+  <data name="ShakeItSettings_4Channels" xml:space="preserve">
+    <value>Corners</value>
+  </data>
+  <data name="ShakeItSettings_CustomChannelMapUpTo8Channels" xml:space="preserve">
+    <value>Custom channel map (up to 8 channels)</value>
+  </data>
+  <data name="ShakeItSettings_ConnectionError" xml:space="preserve">
+    <value>Connection error</value>
+  </data>
+  <data name="ShakeItSettings_XMotorsConnected" xml:space="preserve">
+    <value>{0} motors connected</value>
+  </data>
+  <data name="ShakeItSettings_ThisEffectIsNotSupportedOnTheCurrentGame" xml:space="preserve">
+    <value>This effect is not supported on the current game</value>
+  </data>
+  <data name="ShakeItSettings_EffectListHeader_EditDescription" xml:space="preserve">
+    <value>Edit description</value>
+  </data>
+  <data name="ShakeItSettings_DragEffectsHereToAddThemToTheGroup" xml:space="preserve">
+    <value>Drag effects here to add them to the group</value>
+  </data>
+  <data name="ShakeItSettings_AVAILABLEEFFECTS" xml:space="preserve">
+    <value>AVAILABLE EFFECTS</value>
+  </data>
+  <data name="ShakeItSettings_ADDALL" xml:space="preserve">
+    <value>ADD ALL</value>
+  </data>
+  <data name="ShakeItSettings_ResponseCurve" xml:space="preserve">
+    <value>Response curve</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="ShakeItSettings_EditResponseCurveInstructions" xml:space="preserve">
+    <value>Left click : Add a control point | Right click on a point : Remove control point | Mouse drag to move a point</value>
+  </data>
+  <data name="ShakeItSettings_EditResponseCurve" xml:space="preserve">
+    <value>Edit response curve</value>
+  </data>
+  <data name="SaveLCase" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="GmailPlugin_PasswordMustBeGeneratedWithTheFollowingForm" xml:space="preserve">
+    <value>Password must be generated with the following form :</value>
+  </data>
+  <data name="GmailPlugin_GeneratePassword" xml:space="preserve">
+    <value>Generate password</value>
+  </data>
+  <data name="GmailPlugin_Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="GmailPlugin_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="GmailPlugin_LastMail" xml:space="preserve">
+    <value>Last Mail :</value>
+  </data>
+  <data name="GmailPlugin_YouCanUseGmailPluginPropertiesInYourDashs" xml:space="preserve">
+    <value>You can use Gmail plugin properties in your dashs</value>
+  </data>
+  <data name="CONTROLSUpperCase" xml:space="preserve">
+    <value>CONTROLS</value>
+  </data>
+  <data name="ThrustmasterSettings_NoThrustmasterWheelFound" xml:space="preserve">
+    <value>No thrustmaster wheel found</value>
+  </data>
+  <data name="ThrustmasterSettings_SaveAndRestoreProfilesPerGame" xml:space="preserve">
+    <value>Save and restore profiles per game</value>
+  </data>
+  <data name="ThrustmasterSettings_OverallGain" xml:space="preserve">
+    <value>Overall gain</value>
+  </data>
+  <data name="ThrustmasterSettings_ConstantForce" xml:space="preserve">
+    <value>Constant force</value>
+  </data>
+  <data name="ThrustmasterSettings_PeriodicForce" xml:space="preserve">
+    <value>Periodic force</value>
+  </data>
+  <data name="ThrustmasterSettings_SpringForce" xml:space="preserve">
+    <value>Spring force</value>
+  </data>
+  <data name="ThrustmasterSettings_DamperForce" xml:space="preserve">
+    <value>Damper force</value>
+  </data>
+  <data name="ThrustmasterSettings_FromWheel" xml:space="preserve">
+    <value>From wheel</value>
+  </data>
+  <data name="ThrustmasterSettings_FromGame" xml:space="preserve">
+    <value>From game</value>
+  </data>
+  <data name="ThrustmasterSettings_PROFILES" xml:space="preserve">
+    <value>PROFILES</value>
+  </data>
+  <data name="ThrustmasterSettings_WHEELROTATION" xml:space="preserve">
+    <value>WHEEL ROTATION</value>
+  </data>
+  <data name="ThrustmasterSettings_FEEDBACK" xml:space="preserve">
+    <value>FEEDBACK</value>
+  </data>
+  <data name="ThrustmasterSettings_CENTERING" xml:space="preserve">
+    <value>CENTERING</value>
+  </data>
+  <data name="MappingPicker_Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="MappingPicker_InputMode" xml:space="preserve">
+    <value>Input mode</value>
+  </data>
+  <data name="MappingPicker_TriggerActionNow" xml:space="preserve">
+    <value>Trigger action now</value>
+  </data>
+  <data name="MappingPicker_PressInputForAutomaticSelection" xml:space="preserve">
+    <value>(Press input for automatic selection)</value>
+  </data>
+  <data name="MappingPicker_MappingPicker" xml:space="preserve">
+    <value>Mapping Picker</value>
+  </data>
+  <data name="MobileAccessAssistant_OR" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="MobileAccessAssistant_TroubleshotingTip" xml:space="preserve">
+    <value>Not working ? Make sure your firewall allows SimHub incoming connections.</value>
+  </data>
+  <data name="MobileAccessAssistant_DashStudioMobileAccess" xml:space="preserve">
+    <value>Dash Studio Mobile access</value>
+  </data>
+  <data name="MobileAccessAssistant_TypeInYourMobileBrowserTheFollowingURL" xml:space="preserve">
+    <value>Type in your mobile browser
+the following URL</value>
+  </data>
+  <data name="MobileAccessAssistant_ScanTheFollowingQRCODE" xml:space="preserve">
+    <value>Scan the following
+QR CODE</value>
+  </data>
+  <data name="ShakeItSettings_HighPassFilterHZ" xml:space="preserve">
+    <value>High pass filter (HZ)</value>
+  </data>
+  <data name="ShakeItSettings_LowPassFilterHZ" xml:space="preserve">
+    <value>Low pass filter (HZ)</value>
+  </data>
+  <data name="OverlayEditor_LayoutName" xml:space="preserve">
+    <value>Layout Name</value>
+  </data>
+  <data name="ImportDash_DashboardImport" xml:space="preserve">
+    <value>Dashboard import</value>
+  </data>
+  <data name="ImportDash_ImportIntoSimHubLibraryButton" xml:space="preserve">
+    <value>Import into SimHub library</value>
+  </data>
+  <data name="ImportDash_SIMHUBDASHSTUDIOTitle" xml:space="preserve">
+    <value>SIMHUB DASHSTUDIO</value>
+  </data>
+  <data name="ShakeItSettings_Threshold" xml:space="preserve">
+    <value>Threshold (%)</value>
+  </data>
+  <data name="ShakeItSettings_MinimumForce" xml:space="preserve">
+    <value>Minimum force (%)</value>
+  </data>
+  <data name="ShakeItSettings_ProfileName" xml:space="preserve">
+    <value>Profile Name</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="ShakeItSettings_PROFILEPROPERTIES" xml:space="preserve">
+    <value>PROFILE PROPERTIES</value>
+  </data>
+  <data name="ShakeItSettings_ENABLEEFFECT" xml:space="preserve">
+    <value>ENABLE EFFECT</value>
+  </data>
+  <data name="ShakeItSettings_DeleteEffectTitle" xml:space="preserve">
+    <value>Delete effect</value>
+  </data>
+  <data name="ShakeItSettings_DeleteEffectMessage" xml:space="preserve">
+    <value>Are you sure to want to delete this effect ?</value>
+  </data>
+  <data name="ImportDash_TheInstallWasSuccessful" xml:space="preserve">
+    <value>The install was successful</value>
+  </data>
+  <data name="ImportDash_DashAlreadyExists" xml:space="preserve">
+    <value>Dash already exists</value>
+  </data>
+  <data name="ImportDash_ThisDashboardAlreadyExistsDoYouWantToOverwriteIt" xml:space="preserve">
+    <value>This dashboard already exists, do you want to overwrite it ?</value>
+  </data>
+  <data name="ReplayManager_NoReplayAvailableYet" xml:space="preserve">
+    <value>No replay available yet</value>
+  </data>
+  <data name="ReplayManager_ReplayManager" xml:space="preserve">
+    <value>Replay Manager</value>
+  </data>
+  <data name="PropertiesCopyName" xml:space="preserve">
+    <value>Copy name</value>
+  </data>
+  <data name="PropertiesCopyValue" xml:space="preserve">
+    <value>Copy value</value>
+  </data>
+  <data name="PropertiesPlotValue" xml:space="preserve">
+    <value>Plot value</value>
+  </data>
+  <data name="GaugeSettings_ValuesUnder31HzMayNotBehaveAsExpected" xml:space="preserve">
+    <value>Values under 31Hz may not behave as expected !</value>
+  </data>
+  <data name="GaugeSettings_TACHOMETER" xml:space="preserve">
+    <value>TACHOMETER</value>
+  </data>
+  <data name="GaugeSettings_BasicSettings" xml:space="preserve">
+    <value>Basic settings</value>
+  </data>
+  <data name="GaugeSettings_HowToDoTachometerBasicCalibration" xml:space="preserve">
+    <value>How to do tachometer basic calibration ?</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxRPMOfTheTachometerIe11For11000" xml:space="preserve">
+    <value>- Set the max RPM of the tachometer (ie : 11 for 11000)</value>
+  </data>
+  <data name="GaugeSettings_DefineCylindersAccordingToYourTachometerCanBeAdjustedInSomeTachometersToo4CylindersAreRecommended" xml:space="preserve">
+    <value>- Define cylinders according to your tachometer (can be adjusted in some tachometers too, 4 cylinders are recommended)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestMaxRPMAndCheckThatTheNeedleIsCloseToTheMaxRpmTick" xml:space="preserve">
+    <value>- Click on "Test max RPM" and check that the needle is close to the max rpm tick</value>
+  </data>
+  <data name="GaugeSettings_MaxTachometerRPM" xml:space="preserve">
+    <value>Max tachometer RPM</value>
+  </data>
+  <data name="GaugeSettings_TachometerCylinders" xml:space="preserve">
+    <value>Tachometer cylinders</value>
+  </data>
+  <data name="GaugeSettings_AlwaysUseTachometerFullRange" xml:space="preserve">
+    <value>Always use tachometer full range</value>
+  </data>
+  <data name="GaugeSettings_TachometerZeroOffsetPercentOfCarMaxRPM" xml:space="preserve">
+    <value>Tachometer zero offset (percent of car max RPM)</value>
+  </data>
+  <data name="GaugeSettings_TestMaxRPM" xml:space="preserve">
+    <value>Test max RPM</value>
+  </data>
+  <data name="GaugeSettings_AdvancedCalibration" xml:space="preserve">
+    <value>Advanced calibration</value>
+  </data>
+  <data name="GaugeSettings_NeedleOffset" xml:space="preserve">
+    <value>Needle Offset</value>
+  </data>
+  <data name="GaugeSettings_TestValue" xml:space="preserve">
+    <value>Test value</value>
+  </data>
+  <data name="GaugeSettings_Test0RPM" xml:space="preserve">
+    <value> Test @ {0} RPM</value>
+  </data>
+  <data name="GaugeSettings_BOOSTGAUGE" xml:space="preserve">
+    <value>BOOST GAUGE</value>
+  </data>
+  <data name="GaugeSettings_HowToDoBoostGaugeCalibration" xml:space="preserve">
+    <value>How to do boost gauge calibration ?</value>
+  </data>
+  <data name="GaugeSettings_SetTheMinBoostValueOfTheGaugeIe09" xml:space="preserve">
+    <value>- Set the min boost value of the gauge (ie : -0.9)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostMin" xml:space="preserve">
+    <value>- Click on "test boost min"</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheMinimumOutputToMatchTheValue" xml:space="preserve">
+    <value>- Adjust the minimum output to match the value</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostZero" xml:space="preserve">
+    <value>- Click on "test boost zero"</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheZeroValueOutputToMatchTheValue" xml:space="preserve">
+    <value>- Adjust the zero value output to match the value</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxBoostValueOfTheGaugeIe18" xml:space="preserve">
+    <value>- Set the max boost value of the gauge (ie : 1.8)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestBoostMax" xml:space="preserve">
+    <value>- Click on "test boost max"</value>
+  </data>
+  <data name="GaugeSettings_AdjustTheMaximumOutputToMatchTheValue" xml:space="preserve">
+    <value>- Adjust the maximum output to match the value</value>
+  </data>
+  <data name="GaugeSettings_ClickAgainOnTestBoostMaxToDisableTestMode" xml:space="preserve">
+    <value>- Click again on "test boost max" to disable test mode</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMinimum" xml:space="preserve">
+    <value>Boost gauge minimum</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMinimumOutput" xml:space="preserve">
+    <value>Boost gauge minimum output</value>
+  </data>
+  <data name="GaugeSettings_BoostZeroOutput" xml:space="preserve">
+    <value>Boost Zero output</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMaximumPressure" xml:space="preserve">
+    <value>Boost gauge maximum pressure</value>
+  </data>
+  <data name="GaugeSettings_BoostGaugeMaximumOutput" xml:space="preserve">
+    <value>Boost gauge maximum output</value>
+  </data>
+  <data name="GaugeSettings_AlwaysUseBoostGaugeFullRange" xml:space="preserve">
+    <value>Always use boost gauge full range</value>
+  </data>
+  <data name="GaugeSettings_TestBoostMin" xml:space="preserve">
+    <value>Test boost min</value>
+  </data>
+  <data name="GaugeSettings_TestBoostZero" xml:space="preserve">
+    <value>Test boost zero</value>
+  </data>
+  <data name="GaugeSettings_TestBoostMax" xml:space="preserve">
+    <value>Test boost max</value>
+  </data>
+  <data name="GaugeSettings_SPEEDOMETERGAUGE" xml:space="preserve">
+    <value>SPEEDOMETER GAUGE</value>
+  </data>
+  <data name="GaugeSettings_HowToDoSpeedoGaugeCalibration" xml:space="preserve">
+    <value>How to do Speedo gauge calibration ?</value>
+  </data>
+  <data name="GaugeSettings_MakeSureToConfigureYourPreferredSpeedUnitInSimhubSettings" xml:space="preserve">
+    <value>- Make sure to configure your preferred speed unit in Simhub settings</value>
+  </data>
+  <data name="GaugeSettings_SetTheMinSpeedoValueOfTheGaugeIe0" xml:space="preserve">
+    <value>- Set the min Speedo value of the gauge (ie : 0)</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestSpeedoMin" xml:space="preserve">
+    <value>- Click on "test Speedo min"</value>
+  </data>
+  <data name="GaugeSettings_ClickAgainOnTestSpeedoMaxToDisableTestMode" xml:space="preserve">
+    <value>- Click again on "test Speedo max" to disable test mode</value>
+  </data>
+  <data name="GaugeSettings_ClickOnTestSpeedoMax" xml:space="preserve">
+    <value>- Click on "test Speedo max"</value>
+  </data>
+  <data name="GaugeSettings_SetTheMaxSpeedoValueOfTheGaugeIe220" xml:space="preserve">
+    <value>- Set the max Speedo value of the gauge (ie : 220)</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMinimumsSpeed" xml:space="preserve">
+    <value>Speedo gauge minimums speed</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMinimumOutput" xml:space="preserve">
+    <value>Speedo gauge minimum output</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMaximumSpeed" xml:space="preserve">
+    <value>Speedo gauge maximum speed</value>
+  </data>
+  <data name="GaugeSettings_SpeedoGaugeMaximumOutput" xml:space="preserve">
+    <value>Speedo gauge maximum output</value>
+  </data>
+  <data name="GaugeSettings_DisableOutputWhenUnderMinimumSpeed" xml:space="preserve">
+    <value>Disable output when under minimum speed</value>
+  </data>
+  <data name="GaugeSettings_TestSpeedoMin" xml:space="preserve">
+    <value>Test Speedo min</value>
+  </data>
+  <data name="GaugeSettings_TestSpeedoMax" xml:space="preserve">
+    <value>Test Speedo max</value>
+  </data>
+  <data name="GaugeSettings_FUELGAUGE" xml:space="preserve">
+    <value>FUEL GAUGE</value>
+  </data>
+  <data name="GaugeSettings_TEMPERATUREGAUGE" xml:space="preserve">
+    <value>TEMPERATURE GAUGE</value>
+  </data>
+  <data name="GameConfigurationManager_YouCanAlsoConfigureTheGameManually" xml:space="preserve">
+    <value>You can also configure the game manually :</value>
+  </data>
+  <data name="ADD" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="ShakeItSettings_ChooseEffectToAdd" xml:space="preserve">
+    <value>Choose effect to add</value>
+  </data>
+  <data name="ShakeItSettings_StoreGlobalGainInProfile" xml:space="preserve">
+    <value>Store global gain in profile</value>
+  </data>
+  <data name="ShakeItSettings_ProfileContent" xml:space="preserve">
+    <value>Profile content</value>
+  </data>
+  <data name="GameList_Button_SortAlpha" xml:space="preserve">
+    <value>Sort alpha.</value>
+  </data>
+  <data name="StartMode.GameList" xml:space="preserve">
+    <value>Game list</value>
+  </data>
+  <data name="StartMode.LastTab" xml:space="preserve">
+    <value>Last tab</value>
+  </data>
+  <data name="StartMode.SpecificPlugin" xml:space="preserve">
+    <value>Plugin</value>
+  </data>
+  <data name="PluginDescription_GraphicalDashPlugin" xml:space="preserve">
+    <value>Allows to build and run dash/overlays on monitors, phones, tablets or USBD480</value>
+  </data>
+  <data name="ShakeItSettings_GeneratedSoundGain" xml:space="preserve">
+    <value>Generated sound gain</value>
+  </data>
+  <data name="ShakeItSettings_SoundCardVolume" xml:space="preserve">
+    <value>Sound card volume</value>
+  </data>
+  <data name="ShakeItSettings_OutputFiltering" xml:space="preserve">
+    <value>Output Filtering</value>
+  </data>
+  <data name="ShakeItSettings_GlobalGainControl" xml:space="preserve">
+    <value>Global gain control</value>
+  </data>
+  <data name="SettingsAuthor" xml:space="preserve">
+    <value>Author : </value>
+  </data>
+  <data name="SettingsUIScaling" xml:space="preserve">
+    <value>UI Scaling (%)</value>
+  </data>
+  <data name="SettingsDefaultStartupPlugin" xml:space="preserve">
+    <value>Default startup plugin</value>
+  </data>
+  <data name="SettingsDefaultStartupTab" xml:space="preserve">
+    <value>Default startup tab</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_SaveAndRestoreOpenDashboards" xml:space="preserve">
+    <value>Save and restore open dashboards</value>
+  </data>
+  <data name="GraphicalDashPluginList_ConnectToSpecificScreen" xml:space="preserve">
+    <value>Connect to specific screen</value>
+  </data>
+  <data name="GraphicalDashPluginList_ScreenId" xml:space="preserve">
+    <value>Screen ID :</value>
+  </data>
+  <data name="GameConfigurationManager_IpAddress" xml:space="preserve">
+    <value>Ip address</value>
+  </data>
+  <data name="GameConfigurationManager_TelemetryMode" xml:space="preserve">
+    <value>Telemetry mode</value>
+  </data>
+  <data name="GameConfigurationManager_AddForwardTarget" xml:space="preserve">
+    <value>Add forward target</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="PluginDescription_SerialDashPlugin" xml:space="preserve">
+    <value>Arduino support for RGB leds, I2C LCD, TM1638, motor/fans boards and many more.</value>
+  </data>
+  <data name="PluginName_LapHitoryPlugin" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="PluginDescription_LapHitoryPlugin" xml:space="preserve">
+    <value>Shows lap history and statistics.</value>
+  </data>
+  <data name="SettingsSystemInfos" xml:space="preserve">
+    <value>System info</value>
+  </data>
+  <data name="UseCustomTelemetryRecordDirectory" xml:space="preserve">
+    <value>Use custom telemetry record directory</value>
+  </data>
+  <data name="TELEMETRYRECORDS" xml:space="preserve">
+    <value>TELEMETRY RECORDS</value>
+  </data>
+  <data name="PreventSimhubFocusWhenGameIsFocused" xml:space="preserve">
+    <value>Prevent SimHub from getting focus when the game is focused</value>
+  </data>
+  <data name="RGBLeds" xml:space="preserve">
+    <value>RGB Leds</value>
+  </data>
+  <data name="MANAGEYOURRGBLEDS" xml:space="preserve">
+    <value>MANAGE YOUR RGB LEDS</value>
+  </data>
+  <data name="TM1638Leds" xml:space="preserve">
+    <value>TM1638 Leds</value>
+  </data>
+  <data name="MANAGEYOURTM1638LEDS" xml:space="preserve">
+    <value>MANAGE YOUR TM1638 LEDS</value>
+  </data>
+  <data name="LowFuelAlertTriggerLaps" xml:space="preserve">
+    <value>Low fuel alert trigger (laps)</value>
+  </data>
+  <data name="RepeatLowFuelAlertEverySeconds" xml:space="preserve">
+    <value>Repeat low fuel alert every (seconds)</value>
+  </data>
+  <data name="DecrementLowFuelAlertTriggerValue" xml:space="preserve">
+    <value>Decrement low fuel alert trigger value</value>
+  </data>
+  <data name="IncrementLowFuelAlertTriggerValue" xml:space="preserve">
+    <value>Increment low fuel alert trigger value</value>
+  </data>
+  <data name="WaitingForData" xml:space="preserve">
+    <value>Waiting for data</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="GameConfig" xml:space="preserve">
+    <value>Game config.</value>
+  </data>
+  <data name="DisableOutputDuringSimHubTelemetryReplays" xml:space="preserve">
+    <value>Disable output during SimHub telemetry replays</value>
+  </data>
+  <data name="FindAGame" xml:space="preserve">
+    <value>Search game</value>
+  </data>
+  <data name="CloseInTray" xml:space="preserve">
+    <value>Close in tray</value>
+  </data>
+  <data name="ShakeItSettings_ToggleMute" xml:space="preserve">
+    <value>Toggle mute</value>
+  </data>
+  <data name="ShakeItSettings_GainChangeSteps" xml:space="preserve">
+    <value>Gain change steps (%)</value>
+  </data>
+  <data name="ShakeItSettings_UnmuteEffectsAfterSimhubRestart" xml:space="preserve">
+    <value>Unmute all muted effects after a simhub restart</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_ToggleOverlaysVisibility" xml:space="preserve">
+    <value>Toggle overlays visibility</value>
+  </data>
+  <data name="GraphicalDashPluginList_ActionPicker_OverlayLayoutRestart" xml:space="preserve">
+    <value>Restart running overlay layouts</value>
+  </data>
+  <data name="PluginName_MotionPlugin" xml:space="preserve">
+    <value>Motion</value>
+  </data>
+  <data name="PluginDescription_MotionPlugin" xml:space="preserve">
+    <value>Controls various motion systems.</value>
+  </data>
+  <data name="PluginName_CustomSerialPlugin" xml:space="preserve">
+    <value>Custom serial devices</value>
+  </data>
+  <data name="PluginDescription_CustomSerialPlugin" xml:space="preserve">
+    <value>Provide support for custom serial devices</value>
+  </data>
+  <data name="PluginName_AudioPlayPlugin" xml:space="preserve">
+    <value>Audio Control</value>
+  </data>
+  <data name="PluginDescription_AudioPlayPlugin" xml:space="preserve">
+    <value>Gives access to various audio data such as FFT for bargraphs and the ability to play MP3</value>
+  </data>
+  <data name="PluginName_MidiPlugin" xml:space="preserve">
+    <value>Midi Controllers Input</value>
+  </data>
+  <data name="PluginDescription_MidiPlugin" xml:space="preserve">
+    <value>Use midi controllers as input.</value>
+  </data>
+  <data name="CarSettings_Label_LowfuelChangeStepLaps" xml:space="preserve">
+    <value>Low fuel alert change steps (laps)</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_Vocore" xml:space="preserve">
+    <value>VOCORE</value>
+  </data>
+  <data name="PluginName_BeltTensionnerPlugin" xml:space="preserve">
+    <value>Belt tensionner</value>
+  </data>
+  <data name="PluginDescription_BeltTensionnerPlugin" xml:space="preserve">
+    <value>Provide support for belt tensionner</value>
+  </data>
+  <data name="Automatic interface restart" xml:space="preserve">
+    <value>Automatic interface restart</value>
+  </data>
+  <data name="PluginName_ShakeItWindPlugin" xml:space="preserve">
+    <value>ShakeIt Wind</value>
+  </data>
+  <data name="PluginDescription_ShakeItWindPlugin" xml:space="preserve">
+    <value>Provide ShakeIt simplified features for fans</value>
+  </data>
+  <data name="Wind_Idle_GroupTitle" xml:space="preserve">
+    <value>Idle wind</value>
+  </data>
+  <data name="Wind_Idle_GroupDescription" xml:space="preserve">
+    <value>When not in race</value>
+  </data>
+  <data name="PluginName_WebPlugin" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_AdvancedOutputOptions" xml:space="preserve">
+    <value>Advanced output options</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_IncludeOutputSettingsInProfile" xml:space="preserve">
+    <value>Include output settings in this profile (use common settings otherwise)</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_RestartInterfacesAtGameStateChange" xml:space="preserve">
+    <value>Automatically restart interfaces at game status change (Recommended when using VR headset)</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_RestartInterfacesAtHardwareChange" xml:space="preserve">
+    <value>Automatically restart interfaces when sound hardware changes (Always recommended)</value>
+  </data>
+  <data name="ShakeIt_AdvancedOptions_RestartInterfaceDescription" xml:space="preserve">
+    <value>Some VR devices will change audio settings on the fly when starting the game actually breaking ShakeIt audio. These options allows to automatically reset all audio interfaces after the game connects/disconnects or when the audio settings changes in windows. This allows to make sure the ShakeIt audio outputs are always working.</value>
+  </data>
+  <data name="TestDataEditor_UseTestData" xml:space="preserve">
+    <value>Use test data</value>
+  </data>
+  <data name="TestDataEditor_Info" xml:space="preserve">
+    <value>Warning : Test data editor does not affect any custom formula driven effects.</value>
+  </data>
+  <data name="SessionDetails_OpenTelemetry" xml:space="preserve">
+    <value>Open telemetry</value>
+  </data>
+  <data name="RemapGroup_EditLedOrder" xml:space="preserve">
+    <value>Edit led order</value>
+  </data>
+  <data name="TestDataEditor_TriggerEngineStart" xml:space="preserve">
+    <value>Trigger engine start</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="MapViewerWindow_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="MapViewerWindow_Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="MapViewerWindow_DeleteFile" xml:space="preserve">
+    <value>Delete file</value>
+  </data>
+  <data name="IntegratedLedItemEditorInfo_OpenIntegratedLedsSettings" xml:space="preserve">
+    <value>Open Integrated leds settings</value>
+  </data>
+  <data name="MonitorChoiceControl_Pick" xml:space="preserve">
+    <value>Pick</value>
+  </data>
+  <data name="EditorWindow_DeleteTouchArea" xml:space="preserve">
+    <value>Delete touch area</value>
+  </data>
+  <data name="EditorWindow_NewTouchArea" xml:space="preserve">
+    <value>New touch area</value>
+  </data>
+  <data name="EditorWindow_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="EditorWindow_NewEventTrigger" xml:space="preserve">
+    <value>New event trigger</value>
+  </data>
+  <data name="EditorWindow_DeleteEventTrigger" xml:space="preserve">
+    <value>Delete event trigger</value>
+  </data>
+  <data name="ComponentLibrary_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="ComponentLibrary_EditModel" xml:space="preserve">
+    <value>Edit model</value>
+  </data>
+  <data name="ComponentLibrary_NewModel" xml:space="preserve">
+    <value>New model</value>
+  </data>
+  <data name="DashboardEditor_ScreenProperties" xml:space="preserve">
+    <value>Screen properties</value>
+  </data>
+  <data name="DashboardEditor_Unlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="DashboardEditor_EditWidget" xml:space="preserve">
+    <value>Edit widget</value>
+  </data>
+  <data name="DashboardEditor_OpenHelp" xml:space="preserve">
+    <value>Open help</value>
+  </data>
+  <data name="KeyboardEmulator_MappingItem_AddKey" xml:space="preserve">
+    <value>Add key</value>
+  </data>
+  <data name="KeyboardEmulator_MappingItem_RemoveKey" xml:space="preserve">
+    <value>Remove key</value>
+  </data>
+  <data name="DataCore_SettingsControl_CSharpExpressions" xml:space="preserve">
+    <value>C# Expressions</value>
+  </data>
+  <data name="DataCore_SettingsControl_AddNewExpression" xml:space="preserve">
+    <value>Add new expression</value>
+  </data>
+  <data name="DashBoardEditor_Shortcuts1" xml:space="preserve">
+    <value>Arrow keys : Move selection | Alt + Arrow : Resize selection  |  Ctrl + A : Select all | Ctrl + G : New group from selection</value>
+  </data>
+  <data name="DashBoardEditor_Shortcuts2" xml:space="preserve">
+    <value>Shift : Selection rectangle | Double click on a group to temporary edit it (esc to exit) |  Ctrl + Mouse wheel To change font size of a text item</value>
+  </data>
+  <data name="NextionEditorWindow_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="NextionEditorWindow_EventTriggersAllowsYouToShowTemporaryThisPageWhenTheEventOccurs" xml:space="preserve">
+    <value>Event triggers allows you to show temporary this page when the event occurs</value>
+  </data>
+  <data name="NextionEditorWindow_Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="NextionEditorWindow_ConditionTriggerAllowsYouToShowTemporaryThisPageWhenTheConditionIsTrue" xml:space="preserve">
+    <value>Condition trigger allows you to show temporary this page when the condition is true</value>
+  </data>
+  <data name="NextionEditorWindow_OnlyAppliesToThisPage" xml:space="preserve">
+    <value>Only applies to this page</value>
+  </data>
+  <data name="NextionEditorWindow_AppliesToAllComponentsWithTheSameNameOnAllPages" xml:space="preserve">
+    <value>Applies to all components with the same name on all pages</value>
+  </data>
+  <data name="NextionEditorWindow_LeftPercentOfThePageWidth" xml:space="preserve">
+    <value>Left (% of the page width)</value>
+  </data>
+  <data name="NextionEditorWindow_TopPercentOfThePageHeight" xml:space="preserve">
+    <value>Top (% of the page height)</value>
+  </data>
+  <data name="NextionEditorWindow_WidthPercentOfThePageWidth" xml:space="preserve">
+    <value>Width (% of the page width)</value>
+  </data>
+  <data name="NextionEditorWindow_HeightPercentOfThePageHeight" xml:space="preserve">
+    <value>Height (% of the page height)</value>
+  </data>
+  <data name="NextionEditorWindow_DurationMs" xml:space="preserve">
+    <value>Duration (ms)</value>
+  </data>
+  <data name="KeyboardEmulator_MappingItem_Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="KeyboardEmulator_MappingItem_SimulatedKeys" xml:space="preserve">
+    <value>Simulated keys</value>
+  </data>
+  <data name="ReplayControls_NoDescriptionClickToEdit" xml:space="preserve">
+    <value>No description, click to edit</value>
+  </data>
+  <data name="ReplayControls_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ReplayControls_ReplayRange" xml:space="preserve">
+    <value>Replay range</value>
+  </data>
+  <data name="ReplayControls_SpeedMultiplier" xml:space="preserve">
+    <value>Speed multiplier</value>
+  </data>
+  <data name="ReplayControls_NoPictureAvailable" xml:space="preserve">
+    <value>No picture available</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_Avg" xml:space="preserve">
+    <value>Avg</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_EndPos" xml:space="preserve">
+    <value>End Pos.</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_ProviderIsNotConnected" xml:space="preserve">
+    <value>Provider is not connected</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_ProviderIsDisabled" xml:space="preserve">
+    <value>Provider is disabled</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_MediaInfoProvider" xml:space="preserve">
+    <value>Media info provider</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_CurrentTelemetryMode" xml:space="preserve">
+    <value>Current telemetry mode</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_Forces" xml:space="preserve">
+    <value>Forces</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ProcessedOutput" xml:space="preserve">
+    <value>Processed output</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeviceLog" xml:space="preserve">
+    <value>Device log</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeviceSettings" xml:space="preserve">
+    <value>Device settings</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SerialPort" xml:space="preserve">
+    <value>Serial Port</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_FeedbackSettings" xml:space="preserve">
+    <value>Feedback settings</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RawGameValue" xml:space="preserve">
+    <value>Raw game value</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_FilteredValue" xml:space="preserve">
+    <value>Filtered value</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_LeftActuatorPosition" xml:space="preserve">
+    <value>Left actuator position</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RightActuatorPosition" xml:space="preserve">
+    <value>Right actuator position</value>
+  </data>
+  <data name="NextionEditorWindow_RefreshDelayMilliseconds" xml:space="preserve">
+    <value>Refresh delay (milliseconds)</value>
+  </data>
+  <data name="NextionEditorWindow_PredefinedRole" xml:space="preserve">
+    <value>Predefined Role</value>
+  </data>
+  <data name="NextionEditorWindow_OnClick" xml:space="preserve">
+    <value>On Click</value>
+  </data>
+  <data name="NextionEditorWindow_TouchAreasDescription" xml:space="preserve">
+    <value>Touch areas allows you to define a zone on the page and trigger one action. The presence of a touch area zone will disable any other touch behaviour for this page</value>
+  </data>
+  <data name="TestDataEditor_GameStatus" xml:space="preserve">
+    <value>Game status</value>
+  </data>
+  <data name="TestDataEditor_CarModel" xml:space="preserve">
+    <value>Car model</value>
+  </data>
+  <data name="TestDataEditor_Engine" xml:space="preserve">
+    <value>Engine</value>
+  </data>
+  <data name="TestDataEditor_RPMS" xml:space="preserve">
+    <value>RPMS</value>
+  </data>
+  <data name="TestDataEditor_GEAR" xml:space="preserve">
+    <value>GEAR</value>
+  </data>
+  <data name="TestDataEditor_Pits" xml:space="preserve">
+    <value>Pits</value>
+  </data>
+  <data name="TestDataEditor_Delta" xml:space="preserve">
+    <value>Delta</value>
+  </data>
+  <data name="TestDataEditor_SessionDelta" xml:space="preserve">
+    <value>Session delta</value>
+  </data>
+  <data name="TestDataEditor_Loss" xml:space="preserve">
+    <value>Loss</value>
+  </data>
+  <data name="TestDataEditor_Gain" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="TestDataEditor_AllTimeBestDelta" xml:space="preserve">
+    <value>All time best delta</value>
+  </data>
+  <data name="TestDataEditor_Assists" xml:space="preserve">
+    <value>Assists</value>
+  </data>
+  <data name="TestDataEditor_TurnIndicators" xml:space="preserve">
+    <value>Turn indicators</value>
+  </data>
+  <data name="TestDataEditor_Flags" xml:space="preserve">
+    <value>Flags</value>
+  </data>
+  <data name="TestDataEditor_Spotter" xml:space="preserve">
+    <value>Spotter</value>
+  </data>
+  <data name="ReplayControls_To" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_S1" xml:space="preserve">
+    <value>S1</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_S2" xml:space="preserve">
+    <value>S2</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_S3" xml:space="preserve">
+    <value>S3</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_LapTime" xml:space="preserve">
+    <value>Lap time</value>
+  </data>
+  <data name="NextionEditorWindow_NoTouchAreasConfigured" xml:space="preserve">
+    <value>No touch areas configured</value>
+  </data>
+  <data name="NextionEditorWindow_NoTriggersConfigured" xml:space="preserve">
+    <value>No triggers configured</value>
+  </data>
+  <data name="NextionEditorWindow_Unavailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="DataPlotter_YMin" xml:space="preserve">
+    <value>Y Min</value>
+  </data>
+  <data name="DataPlotter_YMax" xml:space="preserve">
+    <value>Y Max</value>
+  </data>
+  <data name="DataPlotter_TotalPoints" xml:space="preserve">
+    <value>Total points</value>
+  </data>
+  <data name="BindingEditor_Binding" xml:space="preserve">
+    <value>Binding</value>
+  </data>
+  <data name="BindingEditor_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="BindingEditor_ComputedValue" xml:space="preserve">
+    <value>Computed value</value>
+  </data>
+  <data name="BindingEditor_ComputedColor" xml:space="preserve">
+    <value>Computed color</value>
+  </data>
+  <data name="BindingEditor_ScreenParameter" xml:space="preserve">
+    <value>Screen Parameter</value>
+  </data>
+  <data name="BindingEditor_RawResult" xml:space="preserve">
+    <value>Raw result</value>
+  </data>
+  <data name="BindingEditor_FormattedResult" xml:space="preserve">
+    <value>Formatted result</value>
+  </data>
+  <data name="BindingEditor_StartColor" xml:space="preserve">
+    <value>Start color</value>
+  </data>
+  <data name="BindingEditor_MiddleColor" xml:space="preserve">
+    <value>Middle Color</value>
+  </data>
+  <data name="BindingEditor_EndColor" xml:space="preserve">
+    <value>End Color</value>
+  </data>
+  <data name="BindingEditor_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="BindingEditor_NcalcFormula" xml:space="preserve">
+    <value>NCalc Formula :</value>
+  </data>
+  <data name="BindingEditor_Javascript" xml:space="preserve">
+    <value>Javascript :</value>
+  </data>
+  <data name="BindingEditor_ResultFormat" xml:space="preserve">
+    <value>Result format :</value>
+  </data>
+  <data name="SessionHistory_SessionDetails_ExportToExcel" xml:space="preserve">
+    <value>Export to excel</value>
+  </data>
+  <data name="BindingEditor_InsertFunction" xml:space="preserve">
+    <value>Insert function</value>
+  </data>
+  <data name="BindingEditor_InsertProperty" xml:space="preserve">
+    <value>Insert property</value>
+  </data>
+  <data name="BindingEditor_InsertSetting" xml:space="preserve">
+    <value>Insert setting</value>
+  </data>
+  <data name="TestDataEditor_GameRunning" xml:space="preserve">
+    <value>Game running</value>
+  </data>
+  <data name="TestDataEditor_RPMSRedlineReached" xml:space="preserve">
+    <value>RPMS redline reached</value>
+  </data>
+  <data name="TestDataEditor_LowFuelAlertRemainingLaps" xml:space="preserve">
+    <value>Low fuel alert (remaining laps)</value>
+  </data>
+  <data name="TestDataEditor_PitLimiterON" xml:space="preserve">
+    <value>Pit limiter ON</value>
+  </data>
+  <data name="TestDataEditor_IsInPitLane" xml:space="preserve">
+    <value>Is in pit lane</value>
+  </data>
+  <data name="TestDataEditor_ABSEnabled" xml:space="preserve">
+    <value>ABS enabled</value>
+  </data>
+  <data name="TestDataEditor_ABSActive" xml:space="preserve">
+    <value>ABS active</value>
+  </data>
+  <data name="TestDataEditor_TCEnabled" xml:space="preserve">
+    <value>TC enabled</value>
+  </data>
+  <data name="TestDataEditor_TCActive" xml:space="preserve">
+    <value>TC active</value>
+  </data>
+  <data name="TestDataEditor_DRSActive" xml:space="preserve">
+    <value>DRS active</value>
+  </data>
+  <data name="TestDataEditor_DRSEnabled" xml:space="preserve">
+    <value>DRS enabled</value>
+  </data>
+  <data name="TestDataEditor_LeftON" xml:space="preserve">
+    <value>Left ON</value>
+  </data>
+  <data name="TestDataEditor_RightON" xml:space="preserve">
+    <value>Right ON</value>
+  </data>
+  <data name="TestDataEditor_BlackFlag" xml:space="preserve">
+    <value>Black flag</value>
+  </data>
+  <data name="TestDataEditor_YellowFlag" xml:space="preserve">
+    <value>Yellow flag</value>
+  </data>
+  <data name="TestDataEditor_WhiteFlag" xml:space="preserve">
+    <value>White flag</value>
+  </data>
+  <data name="TestDataEditor_BlueFlag" xml:space="preserve">
+    <value>Blue flag</value>
+  </data>
+  <data name="TestDataEditor_GreenFlag" xml:space="preserve">
+    <value>Green flag</value>
+  </data>
+  <data name="TestDataEditor_CarLeft" xml:space="preserve">
+    <value>Car left</value>
+  </data>
+  <data name="TestDataEditor_CarRight" xml:space="preserve">
+    <value>Car right</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_ConvertCelciusToFahrenheit" xml:space="preserve">
+    <value>Convert Celcius to Fahrenheit.</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeviceEnabled" xml:space="preserve">
+    <value>Device enabled</value>
+  </data>
+  <data name="NextionEditorWindow_Idle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="NextionEditorWindow_InGame" xml:space="preserve">
+    <value>In Game</value>
+  </data>
+  <data name="NextionEditorWindow_Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="NextionEditorWindow_EnableOnThisPage" xml:space="preserve">
+    <value>Enable on this page</value>
+  </data>
+  <data name="BindingEditor_UseJavascript" xml:space="preserve">
+    <value>Use javascript</value>
+  </data>
+  <data name="DataPlotter_AutomaticAnticlipping" xml:space="preserve">
+    <value>Automatic anticlipping</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SetBeltModeLive" xml:space="preserve">
+    <value>Set belt mode : Live</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SetBeltModeZero" xml:space="preserve">
+    <value>Set belt mode : Zero</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SetBeltModeReleaseAll" xml:space="preserve">
+    <value>Set belt mode : Release All</value>
+  </data>
+  <data name="ReplayControls_CreateBookmark" xml:space="preserve">
+    <value>Create bookmark</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_ENABLEDPROVIDERS" xml:space="preserve">
+    <value>ENABLED PROVIDERS</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_SYSTEMMONITORINGCONFIGURATION" xml:space="preserve">
+    <value>SYSTEM MONITORING CONFIGURATION</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_MEDIAPLAYERINFORMATION" xml:space="preserve">
+    <value>MEDIA PLAYER INFORMATION</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_BELTTENSIONNERSETTINGS" xml:space="preserve">
+    <value>BELT TENSIONNER SETTINGS</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_Surge" xml:space="preserve">
+    <value>Surge</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_Sway" xml:space="preserve">
+    <value>Sway</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_MaximumTravelPercent" xml:space="preserve">
+    <value>Maximum travel (percent)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ActiveActuatorTravelSpeedHz" xml:space="preserve">
+    <value>Active actuator travel speed (hz)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_IdleActuatorTravelSpeedHz" xml:space="preserve">
+    <value>Idle actuator travel speed (hz)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeadZonePercent" xml:space="preserve">
+    <value>Dead zone (percent)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ReleasingForceCappingPercent" xml:space="preserve">
+    <value>Releasing force capping (percent)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SurgeLongitudinalForce" xml:space="preserve">
+    <value>Surge (Longitudinal force)</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_SwayLateralForce" xml:space="preserve">
+    <value>Sway (Lateral force)</value>
+  </data>
+  <data name="NextionEditorWindow_VIRTUALPAGENAME" xml:space="preserve">
+    <value>VIRTUAL PAGE NAME</value>
+  </data>
+  <data name="NextionEditorWindow_PAGEROLES" xml:space="preserve">
+    <value>PAGE ROLES</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_MaximumTravelPercent_Tooltip" xml:space="preserve">
+    <value>How much the actuator will travel from center, reduce this value if step are lost, or effects are too strong</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ActiveActuatorTravelSpeedHz_Tooltip" xml:space="preserve">
+    <value>Speed when steppers are running from telemetry data</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_IdleActuatorTravelSpeedHz_Tooltip" xml:space="preserve">
+    <value>Speed when game is not running or moving to zero or full release modes</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_DeadZonePercent_Tooltip" xml:space="preserve">
+    <value>Dead zone will remove any effects lower to this value</value>
+  </data>
+  <data name="LoggingControl_NewWindow" xml:space="preserve">
+    <value>New window</value>
+  </data>
+  <data name="LoggingControl_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="LoggingControl_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ReplayControls_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ReplayControls_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="ShakeITProfileProperties_AutocalibrationBehaviourSlipSuspensionsForCompatibleGames" xml:space="preserve">
+    <value>Autocalibration behaviour (slip, suspensions for compatible games)</value>
+  </data>
+  <data name="ShakeITProfileProperties_AutomaticCalibrationDescription" xml:space="preserve">
+    <value>Automatic calibration will learn your driving style, track and cars to smooth out the experience. You can choose here how much the autocalibration will affect the compatible effects.</value>
+  </data>
+  <data name="ShakeITProfileProperties_PredefinedCalibration" xml:space="preserve">
+    <value>Predefined calibration</value>
+  </data>
+  <data name="ShakeITProfileProperties_AutomaticCalibration" xml:space="preserve">
+    <value>Automatic calibration</value>
+  </data>
+  <data name="UDPRelaySettings_UDPRelay" xml:space="preserve">
+    <value>UDP Relay</value>
+  </data>
+  <data name="UDPRelaySettings_ApplyNow" xml:space="preserve">
+    <value>Apply now</value>
+  </data>
+  <data name="UDPRelaySettings_AddRelay" xml:space="preserve">
+    <value>Add relay</value>
+  </data>
+  <data name="UDPRelaySettings_TargetIPAdress" xml:space="preserve">
+    <value>Target IP adress</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_ReleasingForceCappingPercent_Tooltip" xml:space="preserve">
+    <value>Allows to reduce the maximum travel in the releasing direction, adjust this value as low as possible to reduce required travel from acceleration to deceleration</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Screeneditor" xml:space="preserve">
+    <value>ScreenEditor</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_ScreenName" xml:space="preserve">
+    <value>Screen name</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_IngameScreen" xml:space="preserve">
+    <value>Ingame screen</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_IdleScreen" xml:space="preserve">
+    <value>Idle screen</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_BlinkInterval" xml:space="preserve">
+    <value>Blink interval</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_PreviewAs" xml:space="preserve">
+    <value>Preview as</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_RemoveSelected" xml:space="preserve">
+    <value>Remove selected</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_PleaseSelectAPartToEdit" xml:space="preserve">
+    <value>Please select a part to edit</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_SimhubProperty" xml:space="preserve">
+    <value>SimHub Property</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_ComputedText" xml:space="preserve">
+    <value>Computed text</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_LineReturnLCD" xml:space="preserve">
+    <value>Line Return (LCD)</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_DisplayText" xml:space="preserve">
+    <value>Display text :</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_PropertyFormat" xml:space="preserve">
+    <value>Property format :</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Pick" xml:space="preserve">
+    <value>Pick</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_DisplayLength" xml:space="preserve">
+    <value>Display length :</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_RightAlign" xml:space="preserve">
+    <value>Right align</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_RawPropertyValue" xml:space="preserve">
+    <value>Raw property value</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_FormattedPropertyValue" xml:space="preserve">
+    <value>Formatted property value</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_NcalcFormula" xml:space="preserve">
+    <value>NCalc Formula :</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_ResultFormat" xml:space="preserve">
+    <value>Result format :</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_RawResult" xml:space="preserve">
+    <value>Raw result</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_FormattedResult" xml:space="preserve">
+    <value>Formatted result</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_AnnounceText" xml:space="preserve">
+    <value>Announce text</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ControlPicker_AvalableInputPluginsYouCanManageThemFromSimhubSettings" xml:space="preserve">
+    <value>Avalable input plugins (You can manage them from simhub settings)</value>
+  </data>
+  <data name="DashboardEditor_HideLabels" xml:space="preserve">
+    <value>Hide labels</value>
+  </data>
+  <data name="DashboardEditor_ShowBoxes" xml:space="preserve">
+    <value>Show boxes</value>
+  </data>
+  <data name="DashboardEditor_PressFToFocusEditor" xml:space="preserve">
+    <value>Press F7 to focus editor</value>
+  </data>
+  <data name="DashboardEditor_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="DashboardEditor_ComponentIsLocked" xml:space="preserve">
+    <value>Component is locked</value>
+  </data>
+  <data name="DashboardEditor_ThisItemIsAWidget" xml:space="preserve">
+    <value>This item is a widget</value>
+  </data>
+  <data name="DashboardEditor_ThisItemHaveDocumentation" xml:space="preserve">
+    <value>This item have documentation</value>
+  </data>
+  <data name="DashboardEditor_Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="DashboardEditor_Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="DashboardEditor_Crop" xml:space="preserve">
+    <value>Crop</value>
+  </data>
+  <data name="DashboardEditor_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="DashboardEditor_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="DashboardEditor_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="DashboardEditor_ShowOnScreenControlsOnDashHover" xml:space="preserve">
+    <value>Show on screen controls on dash hover</value>
+  </data>
+  <data name="DashboardEditor_OverlayDashWillStartInOverlayModeByDefault" xml:space="preserve">
+    <value>Overlay dash (will start in overlay mode by default)</value>
+  </data>
+  <data name="DashboardEditor_EnableClickThroughWhenInOverlayMode" xml:space="preserve">
+    <value>Enable click-through when in overlay mode</value>
+  </data>
+  <data name="DashboardEditor_AllowDashboardMessagingOverlay" xml:space="preserve">
+    <value>Allow dashboard messaging overlay</value>
+  </data>
+  <data name="DashboardEditor_Game" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="DashboardEditor_Idle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="DashboardEditor_Pit" xml:space="preserve">
+    <value>Pit</value>
+  </data>
+  <data name="DashboardEditor_AddScreen" xml:space="preserve">
+    <value>Add Screen</value>
+  </data>
+  <data name="DashboardEditor_AddImage" xml:space="preserve">
+    <value>Add image</value>
+  </data>
+  <data name="DashboardEditor_PasteImage" xml:space="preserve">
+    <value>Paste image</value>
+  </data>
+  <data name="DashboardEditor_Saving" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="USBDisplaySettings_OffWhileNotInGame" xml:space="preserve">
+    <value>Off while not in game</value>
+  </data>
+  <data name="USBDisplaySettings_ShowingIdleDash" xml:space="preserve">
+    <value>Showing idle dash</value>
+  </data>
+  <data name="USBDisplaySettings_SearchingDevice" xml:space="preserve">
+    <value>Searching device ...</value>
+  </data>
+  <data name="USBDisplaySettings_DeviceNotFoundTryingAgain" xml:space="preserve">
+    <value>Device not found, trying again ...</value>
+  </data>
+  <data name="USBDisplaySettings_DisplayRefreshRateLimitFPS" xml:space="preserve">
+    <value>Display refresh rate limit (FPS)</value>
+  </data>
+  <data name="USBDisplaySettings_SimplifiedTouchModeLeftRightPageChange" xml:space="preserve">
+    <value>Simplified touch mode (left/right page change)</value>
+  </data>
+  <data name="USBDisplaySettings_AdvancedTouchModeUseDefinedDashInputs" xml:space="preserve">
+    <value>Advanced touch mode (use defined dash inputs)</value>
+  </data>
+  <data name="USBDisplaySettings_IdleBehaviourWhenGameIsNotRunning" xml:space="preserve">
+    <value>Idle behaviour (when game is not running)</value>
+  </data>
+  <data name="USBDisplaySettings_PowerOff" xml:space="preserve">
+    <value>Power off</value>
+  </data>
+  <data name="USBDisplaySettings_IdleDashboard" xml:space="preserve">
+    <value>Idle dashboard</value>
+  </data>
+  <data name="USBDisplaySettings_DeviceNotFoundYetHaveYouInstalledTheDriver" xml:space="preserve">
+    <value>Device not found yet, have you installed the driver ?</value>
+  </data>
+  <data name="USBDisplaySettings_DriverInstallationGuide" xml:space="preserve">
+    <value>Driver installation guide</value>
+  </data>
+  <data name="ReplayControls_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="ReplayControls_Bookmarks" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
+  <data name="NextionEditorWindow_File" xml:space="preserve">
+    <value>_File</value>
+  </data>
+  <data name="NextionEditorWindow_ImportLegacyIniMapping" xml:space="preserve">
+    <value>Import legacy .ini mapping</value>
+  </data>
+  <data name="NextionEditorWindow_Save" xml:space="preserve">
+    <value>_Save</value>
+  </data>
+  <data name="NextionEditorWindow_Exit" xml:space="preserve">
+    <value>_Exit</value>
+  </data>
+  <data name="NextionEditorWindow_CreateNewVirtualPage" xml:space="preserve">
+    <value>Create new virtual page</value>
+  </data>
+  <data name="NextionEditorWindow_DeleteVirtualPage" xml:space="preserve">
+    <value>Delete virtual page</value>
+  </data>
+  <data name="NextionEditorWindow_MoveUp" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="NextionEditorWindow_MoveDown" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="DashboardEditor_File" xml:space="preserve">
+    <value>_File</value>
+  </data>
+  <data name="DashboardEditor_Save" xml:space="preserve">
+    <value>_Save</value>
+  </data>
+  <data name="DashboardEditor_Edit" xml:space="preserve">
+    <value>_Edit</value>
+  </data>
+  <data name="DashboardEditor_Copy" xml:space="preserve">
+    <value>_Copy</value>
+  </data>
+  <data name="DashboardEditor_Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="DashboardEditor_Paste" xml:space="preserve">
+    <value>_Paste</value>
+  </data>
+  <data name="DashboardEditor_Widgets" xml:space="preserve">
+    <value>Widgets</value>
+  </data>
+  <data name="DashboardEditor_RunDashboard" xml:space="preserve">
+    <value>Run dashboard</value>
+  </data>
+  <data name="DashboardEditor_Windowed" xml:space="preserve">
+    <value>_Windowed</value>
+  </data>
+  <data name="DashboardEditor_SecondaryMonitor" xml:space="preserve">
+    <value>_Secondary monitor</value>
+  </data>
+  <data name="DashboardEditor_Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="DashboardEditor_DeleteImage" xml:space="preserve">
+    <value>Delete image</value>
+  </data>
+  <data name="DashboardEditor_ReplaceImage" xml:space="preserve">
+    <value>Replace image</value>
+  </data>
+  <data name="DashboardEditor_ExportImage" xml:space="preserve">
+    <value>Export image</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_SaveBindingPreset" xml:space="preserve">
+    <value>Save Binding preset</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_LoadBindingPreset" xml:space="preserve">
+    <value>Load Binding preset</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_LockComponents" xml:space="preserve">
+    <value>Lock components</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_Copy" xml:space="preserve">
+    <value>_Copy</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_CopyStyle" xml:space="preserve">
+    <value>Copy Style</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_PasteTextStyle" xml:space="preserve">
+    <value>Paste Text Style</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_PasteBackgroundColor" xml:space="preserve">
+    <value>Paste background color</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_PasteBorderStyle" xml:space="preserve">
+    <value>Paste border style</value>
+  </data>
+  <data name="DashStudioEditorSelectionAdorner_Text" xml:space="preserve">
+    <value>Text :</value>
+  </data>
+  <data name="UDPRelaySettings_Explanation" xml:space="preserve">
+    <value>Some games can't send data to multiple applications, this relay plugin allows to configure a relay between the game and one or more applications including simhub, you can map a same source port to multiple targets</value>
+  </data>
+  <data name="WindProfileControl_CheckBox_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="WindProfileControl_CheckBox_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="WindProfileControl_CheckBox_Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="WindProfileControl_SliderTitle_LeftRightCurvingEffectWhenAvailable" xml:space="preserve">
+    <value>Left/Right curving effect (when available)</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_SerialPort" xml:space="preserve">
+    <value>Serial port</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_Baudrate" xml:space="preserve">
+    <value>Baudrate</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_SettingsAreCurrentlyFreezed" xml:space="preserve">
+    <value>Settings are currently freezed</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_MessageAfterDeviceConnect" xml:space="preserve">
+    <value>Message after device connect</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_UpdateMessages" xml:space="preserve">
+    <value>Update messages</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_MessageBeforeDeviceDisconnect" xml:space="preserve">
+    <value>Message before device disconnect</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_CheckBox_EnableRTS" xml:space="preserve">
+    <value>Enable RTS</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_CheckBox_EnableDTR" xml:space="preserve">
+    <value>Enable DTR</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_CheckBox_LogIncomingData" xml:space="preserve">
+    <value>Log incoming data</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_CheckBox_AutomaticReconnect" xml:space="preserve">
+    <value>Automatic reconnect</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_AfterConnectWaitDelayMs" xml:space="preserve">
+    <value>After connect wait delay (ms)</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Title_ExportAndImport" xml:space="preserve">
+    <value>Export and import</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Title_IncomingSerialData" xml:space="preserve">
+    <value>Incoming serial data</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_AddNewMessage" xml:space="preserve">
+    <value>Add new message</value>
+  </data>
+  <data name="Constants_OKUppercase" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Constants_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Constants_CancelUpperCase" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="Constants_Disconnected" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="Constants_Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="WindMainSetting_TabHeader_WindProfile" xml:space="preserve">
+    <value>Wind profile</value>
+  </data>
+  <data name="WindMainSetting_TabHeader_OutputConfiguration" xml:space="preserve">
+    <value>Output configuration</value>
+  </data>
+  <data name="Constants_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Constants_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Constants_Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Constants_Disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="Constants_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Constants_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Constants_Connecting" xml:space="preserve">
+    <value>Connecting</value>
+  </data>
+  <data name="Constants_Minimum" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="Constants_Maximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="Constants_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Constants_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Constants_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_RunAtStartupOnSecondaryMonitor" xml:space="preserve">
+    <value>Run at startup on secondary monitor</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_RunAtStartupOnThirdMonitor" xml:space="preserve">
+    <value>Run at startup on third monitor</value>
+  </data>
+  <data name="GraphicalDashPluginList_DashMenu_OnThirdMonitor" xml:space="preserve">
+    <value>On third monitor</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_NEWYouCanNowAutomaticallyDownloadPrebuiltTrackLayoutsDoYouWantToEnableItNow" xml:space="preserve">
+    <value>NEW ! You can now automatically download prebuilt track layouts. Do you want to enable it now ?</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ByEnablingThisServiceYourOwnLayoutRecordsWillBeAnonymouslySharedToImproveTheLayoutDatabaseYouCanDisableThisOptionWheneverYouWantInTheDashStudioSettings" xml:space="preserve">
+    <value>By enabling this service, your own layout records will be anonymously shared to improve the layout database. You can disable this option whenever you want in the dash studio settings.</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_ShowOnlyFavorites" xml:space="preserve">
+    <value>Only favorites</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_TRACKLAYOUTRECORDING" xml:space="preserve">
+    <value>TRACK LAYOUT RECORDING</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_LocalTrackLayout" xml:space="preserve">
+    <value>Local track layout</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_TrackLayoutAreRecordedBasedOnYourOwnValidLaps" xml:space="preserve">
+    <value>Track layout are recorded based on your own valid laps.</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_UseQualityScoringToAutomaticallyRegenerateTheLayoutIfRequired" xml:space="preserve">
+    <value>Use quality scoring to automatically regenerate the layout if required.</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_EXPERIMENTALOnlineTrackLayout" xml:space="preserve">
+    <value>EXPERIMENTAL : Online track layout</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_UseOnlineMaps" xml:space="preserve">
+    <value>Use online maps</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ByEnablingThisOptionYourOwnTrackLayoutRecordsWillBeSharedToEnrichTheLayoutDatabase" xml:space="preserve">
+    <value>By enabling this option your own track layout records will be shared to enrich the layout database.</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_ThisFeatureIsExperimentalAndCanBeDisabledOrRemovedAtAnyTimeWithoutNotice" xml:space="preserve">
+    <value>This feature is experimental and can be disabled or removed at any time without notice.</value>
+  </data>
+  <data name="GraphicalDashPluginList_Label_SourcePriority" xml:space="preserve">
+    <value>Source priority</value>
+  </data>
+  <data name="GraphicalDashPluginList_Link_ClearAllMapsLocalAndOnlineForTheCurrentGame" xml:space="preserve">
+    <value>Clear all maps (local and online for the current game)</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_ETSATSMap" xml:space="preserve">
+    <value>ETS2/ATS Map</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_MONITORSOPTIONS" xml:space="preserve">
+    <value>MONITORS OPTIONS</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_SecondaryMonitorSelection" xml:space="preserve">
+    <value>Secondary monitor selection</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_ThirdMonitorSelection" xml:space="preserve">
+    <value>Third monitor selection</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_VOCORE" xml:space="preserve">
+    <value>VOCORE</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_LEDMODULES" xml:space="preserve">
+    <value>LED MODULES</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_AX206" xml:space="preserve">
+    <value>AX206</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_AX206LCD" xml:space="preserve">
+    <value>AX206 LCD</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_CorsairNexus" xml:space="preserve">
+    <value>Corsair Nexus</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_CorsairNexusLCD" xml:space="preserve">
+    <value>Corsair Nexus LCD</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_ESP" xml:space="preserve">
+    <value>ESP32</value>
+  </data>
+  <data name="Constants_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Constants_Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="Constants_Gear" xml:space="preserve">
+    <value>Gear</value>
+  </data>
+  <data name="SettingsPanel_SectionTitle_SOUNDS" xml:space="preserve">
+    <value>SOUNDS</value>
+  </data>
+  <data name="SettingsPanel_SectionTitle_GAMEVOLUMECONTROL" xml:space="preserve">
+    <value>GAME VOLUME CONTROL</value>
+  </data>
+  <data name="SettingsPanel_Control_IncrementGameVolume" xml:space="preserve">
+    <value>Increment game volume</value>
+  </data>
+  <data name="SettingsPanel_Control_DecrementGameVolume" xml:space="preserve">
+    <value>Decrement game volume</value>
+  </data>
+  <data name="SettingsPanel_SectionTitle_SYSTEMVOLUMECONTROL" xml:space="preserve">
+    <value>SYSTEM VOLUME CONTROL</value>
+  </data>
+  <data name="SettingsPanel_Control_IncrementSystemVolume" xml:space="preserve">
+    <value>Increment system volume</value>
+  </data>
+  <data name="SettingsPanel_Control_DecrementSystemVolume" xml:space="preserve">
+    <value>Decrement system volume</value>
+  </data>
+  <data name="SettingsPanel_Button_RestoreGameConfigurationAlerts" xml:space="preserve">
+    <value>Restore game configuration alerts</value>
+  </data>
+  <data name="SettingsPanel_Button_DumpThreadStacks" xml:space="preserve">
+    <value>Dump thread stacks</value>
+  </data>
+  <data name="GameList_Label_ThisGameRequiresToEnableTelemetryManually" xml:space="preserve">
+    <value>This game requires to enable telemetry manually</value>
+  </data>
+  <data name="GameList_Button_OpenConfigurationInstructions" xml:space="preserve">
+    <value>Open configuration instructions</value>
+  </data>
+  <data name="GameList_Button_ThanksIDidIt" xml:space="preserve">
+    <value>Thanks, I did it</value>
+  </data>
+  <data name="Constants_SimHub" xml:space="preserve">
+    <value>SimHub</value>
+  </data>
+  <data name="SettingsPanel_SelectionTitle_FuelComputationMode" xml:space="preserve">
+    <value>Fuel computation mode</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_SimhubSoundsActionVolume" xml:space="preserve">
+    <value>Simhub sounds action volume</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_GameVolumeChangeControls" xml:space="preserve">
+    <value>Game volume change controls</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_GameVolumeChangeSteps" xml:space="preserve">
+    <value>Game volume change steps</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_SystemVolumeChangeControls" xml:space="preserve">
+    <value>System volume change controls</value>
+  </data>
+  <data name="SettingsPanel_SettingsDescription_SystemVolumeChangeSteps" xml:space="preserve">
+    <value>System volume change steps</value>
+  </data>
+  <data name="RGBProfilePropertiesCommon_CheckBox_StoreLedsBrightnessInProfile" xml:space="preserve">
+    <value>Store leds brightness in profile</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_ImportAnimation" xml:space="preserve">
+    <value>Import animation</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_ExportAnimation" xml:space="preserve">
+    <value>Export animation</value>
+  </data>
+  <data name="RGBAnimationEditor_Label_FrameDuration" xml:space="preserve">
+    <value>Frame duration</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_ApplyDurationForAllFrames" xml:space="preserve">
+    <value>Apply duration for all frames</value>
+  </data>
+  <data name="RGBAnimationEditor_Link_AddFrame" xml:space="preserve">
+    <value>Add frame</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_NewFont" xml:space="preserve">
+    <value>New font</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_LoadFont" xml:space="preserve">
+    <value>Load font</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_SaveFont" xml:space="preserve">
+    <value>Save font</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_SaveAs" xml:space="preserve">
+    <value>Save as</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_ImportLegacyFont" xml:space="preserve">
+    <value>Import legacy font</value>
+  </data>
+  <data name="MatrixfontEditor_CheckBox_IncludeGearCharset" xml:space="preserve">
+    <value>Include 8*8 Gear charset</value>
+  </data>
+  <data name="MatrixfontEditor_CheckBox_IncludeASCIICharset" xml:space="preserve">
+    <value>Include ASCII charset</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_ApplyWidthToAllCharacters" xml:space="preserve">
+    <value>Apply width to all characters</value>
+  </data>
+  <data name="MatrixfontEditor_MenuItem_ApplyHeightToAllCharacters" xml:space="preserve">
+    <value>Apply height to all characters</value>
+  </data>
+  <data name="MatrixfontEditor_Label_Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="MatrixfontEditor_Label_Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_GaugeMinimum" xml:space="preserve">
+    <value>Gauge minimum</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_GaugeMaximum" xml:space="preserve">
+    <value>Gauge maximum</value>
+  </data>
+  <data name="PWMGaugeSettings_CheckBox_ManualPositionTest" xml:space="preserve">
+    <value>Manual position test</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_CurrentPWMOutput" xml:space="preserve">
+    <value>Current PWM output :</value>
+  </data>
+  <data name="PWMGaugeSettings_Label_CurrentValueDisplayed" xml:space="preserve">
+    <value>Current value displayed :</value>
+  </data>
+  <data name="SupportedGamePicker_Label_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="SupportedGamePicker_Label_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Constants_SimHubUpperCase" xml:space="preserve">
+    <value>SIMHUB</value>
+  </data>
+  <data name="RecordSettings_WindowTitle_RecordSettings" xml:space="preserve">
+    <value>Record settings</value>
+  </data>
+  <data name="RGBGlobalBrightnessSlider_Label_LowBrightnessCouloursMayNotRenderAsExpected" xml:space="preserve">
+    <value>Low brightness : coulours may not render as expected.</value>
+  </data>
+  <data name="KeyboardEmulatorSettings_SectionTitle_SIMHUBINPUTSTOKEYSCONFIGURATION" xml:space="preserve">
+    <value>SIMHUB INPUTS TO KEYS CONFIGURATION</value>
+  </data>
+  <data name="KeyboardEmulatorSettings_Label_YouCanConfigureHereKeypressSimulations" xml:space="preserve">
+    <value>You can configure here keypress simulations</value>
+  </data>
+  <data name="KeyboardEmulatorSettings_Button_AddMapping" xml:space="preserve">
+    <value>Add mapping</value>
+  </data>
+  <data name="ShakeItToneOutput_Title_Frequencies" xml:space="preserve">
+    <value>Frequencies</value>
+  </data>
+  <data name="ShakeItToneOutput_Label_BasedOn" xml:space="preserve">
+    <value>Based on</value>
+  </data>
+  <data name="ShakeItToneOutput_Label_BaseEffectFrequencyHz" xml:space="preserve">
+    <value>Base effect frequency (Hz)</value>
+  </data>
+  <data name="ShakeItToneOutput_CheckBox_HighEffectFrequencyHz" xml:space="preserve">
+    <value>High effect frequency (Hz)</value>
+  </data>
+  <data name="ShakeItToneOutput_Title_EffectPriority" xml:space="preserve">
+    <value>Effect priority</value>
+  </data>
+  <data name="ShakeItToneOutput_Label_HighPriorityModeSuspendsOtherNonHighPriorityEffectsWhileThisEffectIsOccuring" xml:space="preserve">
+    <value>High priority mode suspends other non high priority effects while this effect is occuring</value>
+  </data>
+  <data name="ShakeItToneOutput_Label_HighPriority" xml:space="preserve">
+    <value>High priority</value>
+  </data>
+  <data name="ShakeItToneOutput_Title_Effects" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="ShakeItToneOutput_CheckBox_WhiteNoiseHz" xml:space="preserve">
+    <value>White noise (+/- Hz)</value>
+  </data>
+  <data name="ShakeItToneOutput_CheckBox_DelayMs" xml:space="preserve">
+    <value>Delay (ms)</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Title_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Label_ExportOutputValueAsAProperty" xml:space="preserve">
+    <value>Export output value as a property</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Label_PropertyName" xml:space="preserve">
+    <value>Property name</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Label_DisableOutput" xml:space="preserve">
+    <value>Disable output</value>
+  </data>
+  <data name="ShakeItSoundProfileSettings_Label_UseSeparateOutputChannelsSettings" xml:space="preserve">
+    <value>Use separate output channels settings</value>
+  </data>
+  <data name="ShakeItSoundProfileSettings_Label_SettingsName" xml:space="preserve">
+    <value>Settings name</value>
+  </data>
+  <data name="ShakeItRPMBankOutput_Title_Generator" xml:space="preserve">
+    <value>Generator</value>
+  </data>
+  <data name="ShakeItRPMBankOutput_Label_EngineGeneratorMode" xml:space="preserve">
+    <value>Engine generator mode</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_FrontLeft" xml:space="preserve">
+    <value>Front left</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_RearLeft" xml:space="preserve">
+    <value>Rear left</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_FrontRight" xml:space="preserve">
+    <value>Front right</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_RearRight" xml:space="preserve">
+    <value>Rear right</value>
+  </data>
+  <data name="ShakeItEffectCustom_Label_FormulasMustReturnAValueFromTo" xml:space="preserve">
+    <value>Formulas must return a value from 0 to 100</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Title_Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Label_EffectFrequency" xml:space="preserve">
+    <value>Effect frequency</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Title_EffectPriority" xml:space="preserve">
+    <value>Effect priority</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Label_HighPriorityModeSuspendsOtherNonHighPriorityEffectsWhileThisEffectIsOccuring" xml:space="preserve">
+    <value>High priority mode suspends other non high priority effects while this effect is occuring</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Label_HighPriority" xml:space="preserve">
+    <value>High priority</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_Title_Effects" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="ShakeItSingleToneOutput_CheckBox_DelayMs" xml:space="preserve">
+    <value>Delay (ms)</value>
+  </data>
+  <data name="ShakeItEffectMissedGear_Label_GearControllerInput" xml:space="preserve">
+    <value>Gear {0} controller input</value>
+  </data>
+  <data name="ShakeItEffectMissedGear_Label_ControllerStatus" xml:space="preserve">
+    <value>Controller status :</value>
+  </data>
+  <data name="ShakeItEffectMissedGear_Label_GearEngaged" xml:space="preserve">
+    <value>Gear engaged</value>
+  </data>
+  <data name="ShakeItEffectMissedGear_Label_GearNotEngaged" xml:space="preserve">
+    <value>Gear not engaged</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_DetectionMode" xml:space="preserve">
+    <value>Detection mode</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_GearEngagingDebouncingDelayMs" xml:space="preserve">
+    <value>Gear engaging debouncing delay (ms)</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_GearEngagingDebouncingRemovesTheDoubleKickWhenTheGearGetsEngagedAShortTimeAfterBeingDisengagedWithManualCarsForInstance" xml:space="preserve">
+    <value>Gear engaging debouncing removes the double "kick" when the gear gets engaged a short time after being disengaged (with manual cars for instance).</value>
+  </data>
+  <data name="ShakeItEffectGearShift_CheckBox_ModulateEffectGainBasedOnRPM" xml:space="preserve">
+    <value>Modulate effect gain based on RPM</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_MinimumEffectRPMSPercent" xml:space="preserve">
+    <value>Minimum effect RPMS (%)</value>
+  </data>
+  <data name="ShakeItEffectGearShift_Label_MaximumEffectRPMSPercent" xml:space="preserve">
+    <value>Maximum effect RPMS (%)</value>
+  </data>
+  <data name="ShakeItEffectGForce_Label_EffectLowForceMS" xml:space="preserve">
+    <value>Effect low force (m/s²)</value>
+  </data>
+  <data name="ShakeItEffectGForce_Label_EffectHighForceMS" xml:space="preserve">
+    <value>Effect high force (m/s²)</value>
+  </data>
+  <data name="ShakeItEffectGForce_Label_EffectHighForceMaxGPercent" xml:space="preserve">
+    <value>Effect high force (Max G %)</value>
+  </data>
+  <data name="ShakeItEffectGForce_Label_Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="ShakeItEffectRoadTexture_Label_EffectLowForceKmH" xml:space="preserve">
+    <value>Effect low force (km/h)</value>
+  </data>
+  <data name="ShakeItEffectRoadTexture_Label_EffectHighForceKmH" xml:space="preserve">
+    <value>Effect high force (km/h)</value>
+  </data>
+  <data name="ShakeItEffectRoadTexture_Label_SimulatedRoadGrainPercent" xml:space="preserve">
+    <value>Simulated road grain (%)</value>
+  </data>
+  <data name="ShakeItEffectSpeed_Label_EffectLowForceKmH" xml:space="preserve">
+    <value>Effect low force (km/h)</value>
+  </data>
+  <data name="ShakeItEffectSpeed_Label_EffectHighForceKmH" xml:space="preserve">
+    <value>Effect high force (km/h)</value>
+  </data>
+  <data name="ShakeItEffectSpeed_Label_EffectHighForceMaxSpeedPercent" xml:space="preserve">
+    <value>Effect high force (Max speed %)</value>
+  </data>
+  <data name="ShakeItEffectSpeed_Label_Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_SoundPitchOffset" xml:space="preserve">
+    <value>Sound Pitch offset</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_LowerFreq" xml:space="preserve">
+    <value>Lower Freq.</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_HigherFreq" xml:space="preserve">
+    <value>Higher Freq.</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_EngineLoadSensitivity" xml:space="preserve">
+    <value>Engine load sensitivity</value>
+  </data>
+  <data name="ShakeItEffectRPMSound_Label_CutOffFrequencyHz" xml:space="preserve">
+    <value>Cut off frequency (Hz)</value>
+  </data>
+  <data name="ShakeItEffectWheelsImpact_Label_AutoCalibrationSensitivity" xml:space="preserve">
+    <value>Auto-calibration sensitivity</value>
+  </data>
+  <data name="ShakeItEffectWheelsRumble_Label_MaxRumbleSpeedKmH" xml:space="preserve">
+    <value>Max rumble speed (km/h)</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_Label_TriggerWhenBrakePedalReachesPercent" xml:space="preserve">
+    <value>Trigger when brake pedal reaches (%)</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_Label_LockOnlyIsNotSupportedForTheCurrentGame" xml:space="preserve">
+    <value>Lock only is not supported for the current game</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_Label_LockSensibility" xml:space="preserve">
+    <value>Lock Sensibility</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_WindPower" xml:space="preserve">
+    <value>Wind power</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_CheckBox_Mute" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_CheckBox_RunOnlyWhenInRace" xml:space="preserve">
+    <value>Run only when in race</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_MuteToggleControl" xml:space="preserve">
+    <value>Mute toggle control</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_IncrementWind" xml:space="preserve">
+    <value>Increment wind</value>
+  </data>
+  <data name="ShakeItEffectStaticWind_Label_DecrementWind" xml:space="preserve">
+    <value>Decrement wind</value>
+  </data>
+  <data name="ShakeItEffectWheelsVibration_Label_AutoCalibrationSensitivity" xml:space="preserve">
+    <value>Auto-calibration sensitivity</value>
+  </data>
+  <data name="ShakeItEffectWheelsVibration_Label_AutoThresholdSensitivity" xml:space="preserve">
+    <value>Auto-threshold sensitivity</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_EffectLowForceKmH" xml:space="preserve">
+    <value>Effect low force (km/h)</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_EffectHighForceKmH" xml:space="preserve">
+    <value>Effect high force (km/h)</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_EffectHighForceMaxSpeedPercent" xml:space="preserve">
+    <value>Effect high force (Max speed %)</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_CheckBox_OnlyGenerateInTurns" xml:space="preserve">
+    <value>Only generate in turns</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_CurvingSensibilityWhenAvailable" xml:space="preserve">
+    <value>Curving sensibility (when available)</value>
+  </data>
+  <data name="ShakeItEffectSpeedCurving_Label_Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="ShakeItEffectWheelsSlip_CheckBox_TriggerWhenBrakePedalReachesPercent" xml:space="preserve">
+    <value>Trigger when brake pedal reaches (%)</value>
+  </data>
+  <data name="ShakeItEffectWheelsSlip_CheckBox_TriggerWhenThrottleReachesPercent" xml:space="preserve">
+    <value>Trigger when throttle reaches (%)</value>
+  </data>
+  <data name="ShakeItEffectWheelsSlip_Label_MuteWhenAWheelLockEffectIsCurrentlyActive" xml:space="preserve">
+    <value>Mute when a wheel lock effect is currently active</value>
+  </data>
+  <data name="Constants_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Constants_High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="Constants_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="RBGAnimationStandaloneEditor_Label_Columns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="RBGAnimationStandaloneEditor_Label_Rows" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="ShakeItV3Settings_TabHeader_SoundOutput" xml:space="preserve">
+    <value>Sound Output</value>
+  </data>
+  <data name="ShakeItV3Settings_Control_ResetCalibration" xml:space="preserve">
+    <value>Reset calibration</value>
+  </data>
+  <data name="SettingsCollectionEditControl_Link_AddCheckbox" xml:space="preserve">
+    <value>Add checkbox</value>
+  </data>
+  <data name="SettingsCollectionEditControl_Link_AddSlider" xml:space="preserve">
+    <value>Add slider</value>
+  </data>
+  <data name="SettingsCollectionEditControl_Link_AddGroup" xml:space="preserve">
+    <value>Add group</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_BT" xml:space="preserve">
+    <value>BT</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_GearMatrix" xml:space="preserve">
+    <value>Gear Matrix</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RGBMatrix" xml:space="preserve">
+    <value>RGB Matrix</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_Health" xml:space="preserve">
+    <value>Health:</value>
+  </data>
+  <data name="ArduinoAlertsSettings_Label_ScreenDisplayAnnounce" xml:space="preserve">
+    <value>Screen display announce</value>
+  </data>
+  <data name="ArduinoAlertsSettings_Label_LowFuelAlert" xml:space="preserve">
+    <value>Low fuel alert</value>
+  </data>
+  <data name="ArduinoAlertsSettings_Label_RepeatLowFuelAlert" xml:space="preserve">
+    <value>Repeat Low fuel alert</value>
+  </data>
+  <data name="NextionEditorWindow_GroupHeader_Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="NextionEditorWindow_GroupHeader_Components" xml:space="preserve">
+    <value>Components</value>
+  </data>
+  <data name="NextionEditorWindow_GroupHeader_Properties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_GroupHeader_Modules" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_GroupHeader_Elements" xml:space="preserve">
+    <value>Elements</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_GroupHeader_ElementProperties" xml:space="preserve">
+    <value>Element properties</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_GroupHeader_Definition" xml:space="preserve">
+    <value>Definition</value>
+  </data>
+  <data name="DashboardEditor_GroupHeader_Components" xml:space="preserve">
+    <value>Components</value>
+  </data>
+  <data name="DashboardEditor_GroupHeader_DashboardProperties" xml:space="preserve">
+    <value>Dashboard properties</value>
+  </data>
+  <data name="DashboardEditor_GroupHeader_DashboardScreens" xml:space="preserve">
+    <value>Dashboard screens</value>
+  </data>
+  <data name="DashboardEditor_GroupHeader_Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="DataPlotter_GroupHeader_YAxis" xml:space="preserve">
+    <value>Y axis</value>
+  </data>
+  <data name="DataPlotter_GroupHeader_XAxis" xml:space="preserve">
+    <value>X axis</value>
+  </data>
+  <data name="ArduinoAlertsSettings_GroupHeader_Alerts" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="RGBEffectCustomStatusContainerEditor_Label_EnabledDefaultTrue" xml:space="preserve">
+    <value>Enabled (default true)</value>
+  </data>
+  <data name="RGBEffectCustomStatusContainerEditor_Label_Blinking" xml:space="preserve">
+    <value>Blinking</value>
+  </data>
+  <data name="RGBEffectFuelContainerEditor_Label_Fuelmode" xml:space="preserve">
+    <value>FuelMode :</value>
+  </data>
+  <data name="RGBEffectCustomGradientContainerEditor_Label_EnabledDefaultTrue" xml:space="preserve">
+    <value>Enabled (default true)</value>
+  </data>
+  <data name="RGBEffectCustomGradientContainerEditor_Label_ValueFormula" xml:space="preserve">
+    <value>Value formula</value>
+  </data>
+  <data name="RGBEffectCustomGradientContainerEditor_Label_Blinking" xml:space="preserve">
+    <value>Blinking</value>
+  </data>
+  <data name="RGBEffectDeltaContainerEditor_Label_DeltaMode" xml:space="preserve">
+    <value>Delta Mode :</value>
+  </data>
+  <data name="RGBEffectSpeedLimiterAnimationEditor_Label_AnimationMode" xml:space="preserve">
+    <value>Animation Mode :</value>
+  </data>
+  <data name="RGBEffectTurboContainerEditor_Label_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="RGBEffectTurboContainerEditor_Label_TurboMode" xml:space="preserve">
+    <value>Turbo mode :</value>
+  </data>
+  <data name="RGBEffectSpeedContainerEditor_Label_SpeedMode" xml:space="preserve">
+    <value>Speed Mode :</value>
+  </data>
+  <data name="RGBEffectRPMContainerEditor_Label_RPMMode" xml:space="preserve">
+    <value>RPM Mode :</value>
+  </data>
+  <data name="RGBEffectBehaviorContentStacking_Label_ContentStacking" xml:space="preserve">
+    <value>Content stacking :</value>
+  </data>
+  <data name="RGBEffectGroupCarStartedGroup_Label_ActiveFor" xml:space="preserve">
+    <value>Active for</value>
+  </data>
+  <data name="RGBEffectGroupCarStartedGroup_Label_MsAfterCarStart" xml:space="preserve">
+    <value>Ms after car start</value>
+  </data>
+  <data name="RGBEffectGroupCustomConditionalGroup_Label_Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="RGBEffectGroupCarModelGroup_Label_CarModel" xml:space="preserve">
+    <value>Car model</value>
+  </data>
+  <data name="RGBEffectGroupRemapGroupEditor_WindowTitle_RecordSettings" xml:space="preserve">
+    <value>Record settings</value>
+  </data>
+  <data name="RGBEffectGroupRemapGroupEditor_Label_DragAndDropLedsToReorderThem" xml:space="preserve">
+    <value>Drag and drop leds to reorder them</value>
+  </data>
+  <data name="RGBEffectGroupScrollGroup_Label_AnimationMode" xml:space="preserve">
+    <value>Animation mode</value>
+  </data>
+  <data name="RGBEffectGroupScrollGroup_Label_StepDuration" xml:space="preserve">
+    <value>Step duration</value>
+  </data>
+  <data name="RGBEffectGroupPatternGroup_Label_Keep" xml:space="preserve">
+    <value>Keep</value>
+  </data>
+  <data name="RGBEffectGroupPatternGroup_Label_LedsThenClear" xml:space="preserve">
+    <value>leds, then clear</value>
+  </data>
+  <data name="RGBEffectBehaviorLedStartPosition_Label_StartPosition" xml:space="preserve">
+    <value>Start position</value>
+  </data>
+  <data name="RGBEffectBehaviorLedCount_Label_LedCount" xml:space="preserve">
+    <value>Led count</value>
+  </data>
+  <data name="RGBEffectBehaviorLedIncludeProfileEditor_Label_IncludedProfile" xml:space="preserve">
+    <value>Included profile</value>
+  </data>
+  <data name="RGBEffectBehaviorLedIncludeProfileEditor_Link_OrAddEffect" xml:space="preserve">
+    <value>or add effect</value>
+  </data>
+  <data name="RGBEffectBehaviorLedIncludeProfileEditor_Link_AddEffect" xml:space="preserve">
+    <value>Add effect</value>
+  </data>
+  <data name="RGBEffectBehaviorLedGroupEditor_Link_OrAddEffect" xml:space="preserve">
+    <value>or add effect</value>
+  </data>
+  <data name="RGBEffectBehaviorLedGroupEditor_Link_AddEffect" xml:space="preserve">
+    <value>Add effect</value>
+  </data>
+  <data name="RGBLedsAnimationEditor_Label_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RGBLedListHeader_MenuItem_OpenAllChilds" xml:space="preserve">
+    <value>Open all childs</value>
+  </data>
+  <data name="RGBLedListHeader_MenuItem_CloseAllChilds" xml:space="preserve">
+    <value>Close all childs</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_Label_Segments" xml:space="preserve">
+    <value>Segments</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_Label_LedCount" xml:space="preserve">
+    <value>Led count</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_Label_StartRPMPercent" xml:space="preserve">
+    <value>Start RPM (%)</value>
+  </data>
+  <data name="RGBEffectLedsRpmsSegmentsEditor_CheckBox_RedlineColor" xml:space="preserve">
+    <value>Redline Color</value>
+  </data>
+  <data name="Constants_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Constants_COLORUppercase" xml:space="preserve">
+    <value>COLOR</value>
+  </data>
+  <data name="RGBMatrixEffectSpotterEditor_Label_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RGBMatrixEffectSpotterEditor_CheckBox_ClearBackgroundWhenCarIsSpottedLeftOrRight" xml:space="preserve">
+    <value>Clear background when car is spotted left or right</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_Label_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_Label_Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_Label_RedlineColor" xml:space="preserve">
+    <value>Redline color</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_CheckBox_RedlineBlink" xml:space="preserve">
+    <value>Redline Blink</value>
+  </data>
+  <data name="RGBMatrixEffectLedsGearEditor_Label_BlinkDelay" xml:space="preserve">
+    <value>Blink delay</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_Label_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_Label_EnabledFlagsWhenSupportedByTheCurrentGame" xml:space="preserve">
+    <value>Enabled flags (when supported by the current game)</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_CheckBox_BlueFlag" xml:space="preserve">
+    <value>Blue flag</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_CheckBox_BlackFlag" xml:space="preserve">
+    <value>Black flag</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_CheckBox_YellowFlag" xml:space="preserve">
+    <value>Yellow flag</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_CheckBox_WhiteFlag" xml:space="preserve">
+    <value>White flag</value>
+  </data>
+  <data name="RGBMatrixEffectLedsFlagsEditor_CheckBox_GreenFlag" xml:space="preserve">
+    <value>Green flag</value>
+  </data>
+  <data name="BeltTensionner_SliderTitle_MaximumAccelerationMS" xml:space="preserve">
+    <value>Maximum acceleration (m/s²)</value>
+  </data>
+  <data name="BeltTensionner_SliderTitle_Linearity" xml:space="preserve">
+    <value>Linearity</value>
+  </data>
+  <data name="BeltTensionner_SliderTitle_SmoothingSamples" xml:space="preserve">
+    <value>Smoothing samples</value>
+  </data>
+  <data name="SettingsControlWPF_TabHeader_RGBMatrix" xml:space="preserve">
+    <value>RGB Matrix</value>
+  </data>
+  <data name="SettingsControlWPF_SectionTitle_MANAGEYOURRGBMatrix" xml:space="preserve">
+    <value>MANAGE YOUR RGB Matrix</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="NextionSettingsItem_Label_MissingMappingFileHmijmap" xml:space="preserve">
+    <value>Missing mapping file (.hmijmap) !</value>
+  </data>
+  <data name="NextionSettingsItem_Link_ReadHelp" xml:space="preserve">
+    <value>Read help</value>
+  </data>
+  <data name="NextionSettingsItem_Label_Misc" xml:space="preserve">
+    <value>Misc.</value>
+  </data>
+  <data name="NextionSettingsItem_Label_RGBLedsArduinoProMicro" xml:space="preserve">
+    <value>RGB leds (arduino pro micro)</value>
+  </data>
+  <data name="NextionSettingsItem_Button_EditLedLayout" xml:space="preserve">
+    <value>Edit led layout</value>
+  </data>
+  <data name="RGBMatrixMatrixStartPosition_Label_StartPositionX" xml:space="preserve">
+    <value>Start position X</value>
+  </data>
+  <data name="RGBMatrixMatrixStartPosition_Label_StartPositionY" xml:space="preserve">
+    <value>Start position Y</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Label_Hz" xml:space="preserve">
+    <value>Hz.</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_SectionTitle_MANAGEYOURCUSTOMSERIALDEVICES" xml:space="preserve">
+    <value>MANAGE YOUR CUSTOM SERIAL DEVICES</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Button_AddNewSerialDevice" xml:space="preserve">
+    <value>Add new serial device</value>
+  </data>
+  <data name="ShakeItAudioOutputSettings_Label_ThisOutputIsYourCurrentWindowsDefaultOutputItSStronglyRecommandedToUseADedicatedOutputSoundCard" xml:space="preserve">
+    <value>This output is your current windows default output, it's strongly recommanded to use a dedicated output/sound card.</value>
+  </data>
+  <data name="RGBLedsAnimationEditor_Label_Animation" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="RGBLedsEditorPosition_Label_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_EffectSpatialization" xml:space="preserve">
+    <value>Effect spatialization</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_EffectSettings" xml:space="preserve">
+    <value>Effect settings</value>
+  </data>
+  <data name="ShakeItEffectEditor_Title_ResponseFilter" xml:space="preserve">
+    <value>Response filter</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_LiveEffects" xml:space="preserve">
+    <value>Live effects</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_Algorythm" xml:space="preserve">
+    <value>Algorythm</value>
+  </data>
+  <data name="ShakeItEffectEditor_Label_Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="ShakeItGammaFilter_Label_InputGain" xml:space="preserve">
+    <value>Input Gain</value>
+  </data>
+  <data name="ShakeItGammaFilter_Label_GammaFactor" xml:space="preserve">
+    <value>Gamma Factor</value>
+  </data>
+  <data name="ShakeItGammaFilter_Label_Threshold" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="ShakeItGammaFilter_Label_MinimumForce" xml:space="preserve">
+    <value>Minimum force</value>
+  </data>
+  <data name="shakeItEffectControls_Label_MuteToggleControl" xml:space="preserve">
+    <value>Mute toggle control</value>
+  </data>
+  <data name="shakeItEffectControls_Label_IncrementGain" xml:space="preserve">
+    <value>Increment gain</value>
+  </data>
+  <data name="shakeItEffectControls_Label_DecrementGain" xml:space="preserve">
+    <value>Decrement gain</value>
+  </data>
+  <data name="shakeItEffectControls_Label_GainChangeStepsPercent" xml:space="preserve">
+    <value>Gain change steps (%)</value>
+  </data>
+  <data name="NextionTyresWearRoleEditor_CheckBox_AppendPercentPercentSymbol" xml:space="preserve">
+    <value>Append percent (%) symbol</value>
+  </data>
+  <data name="NextionTyresTempRoleEditor_Label_TemperatureType" xml:space="preserve">
+    <value>Temperature type</value>
+  </data>
+  <data name="NextionTyresTempRoleEditor_CheckBox_AppendDegreesSymbol" xml:space="preserve">
+    <value>Append degrees symbol</value>
+  </data>
+  <data name="NextionGearRoleEditor_CheckBox_ChangeTextColorAtRedline" xml:space="preserve">
+    <value>Change text color at redline</value>
+  </data>
+  <data name="NextionGearRoleEditor_Label_RedlineTextColor" xml:space="preserve">
+    <value>Redline text color</value>
+  </data>
+  <data name="SettingsBuilderControl_Link_ToggleEditMode" xml:space="preserve">
+    <value>Toggle edit mode</value>
+  </data>
+  <data name="SettingsBuilderControl_Label_NoSettingsDefined" xml:space="preserve">
+    <value>No settings defined</value>
+  </data>
+  <data name="Constants_SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="Constants_ReverseSelection" xml:space="preserve">
+    <value>Reverse selection</value>
+  </data>
+  <data name="Constants_DeleteSelection" xml:space="preserve">
+    <value>Delete selection</value>
+  </data>
+  <data name="Constants_Tyre" xml:space="preserve">
+    <value>Tyre</value>
+  </data>
+  <data name="SystemInfo_MediaExternalSettingsControl_Label_CoverImagePath" xml:space="preserve">
+    <value>Cover image path</value>
+  </data>
+  <data name="SystemInfo_MediaExternalSettingsControl_Label_MetadataFilePathTitleAndArtist" xml:space="preserve">
+    <value>Metadata file path (Title and artist)</value>
+  </data>
+  <data name="SystemInfo_MediaExternalSettingsControl_Label_MetadataPattern" xml:space="preserve">
+    <value>Metadata pattern</value>
+  </data>
+  <data name="DashstudioImagePicker_Label_ClickToPickImage" xml:space="preserve">
+    <value>Click to pick image</value>
+  </data>
+  <data name="Constants_Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="SettingsBuilderPropertyEditor_Link_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="SettingsBuilderPropertyEditor_Label_Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="ImportDash_CheckBox_InstallDashboardFontsRequiresASimhubRestart" xml:space="preserve">
+    <value>Install dashboard fonts (requires a simhub restart)</value>
+  </data>
+  <data name="SettingsBuilderPropertyEditor_Label_PropertyName" xml:space="preserve">
+    <value>Property Name</value>
+  </data>
+  <data name="ThrustmasterSettings_Control_IncreaseOverallGain" xml:space="preserve">
+    <value>Increase overall gain</value>
+  </data>
+  <data name="ThrustmasterSettings_Control_DecreaseOverallGain" xml:space="preserve">
+    <value>Decrease overall gain</value>
+  </data>
+  <data name="ThrustmasterSettings_Label_GainChangesSteps" xml:space="preserve">
+    <value>Gain changes steps</value>
+  </data>
+  <data name="NextionSettingsControlWPF_Label_NextionRequiresEnExternalEditor" xml:space="preserve">
+    <value>Nextion requires en external editor</value>
+  </data>
+  <data name="Constants_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Constants_Behaviour" xml:space="preserve">
+    <value>Behaviour</value>
+  </data>
+  <data name="Constants_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Constants_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="NextionEditor_Label_PrecisionDecimals" xml:space="preserve">
+    <value>Precision (decimals)</value>
+  </data>
+  <data name="Constants_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ShakeItArduinoStatus_Label_ArduinoPluginDisabled" xml:space="preserve">
+    <value>Arduino plugin disabled</value>
+  </data>
+  <data name="ArduinoScreenList_Label_ActiveScreen" xml:space="preserve">
+    <value>Active screen</value>
+  </data>
+  <data name="Section_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ImagePicker_SectionTitle_PickAnImage" xml:space="preserve">
+    <value>Pick an image</value>
+  </data>
+  <data name="DashStudioComponentLibrary_GroupHeader_Library" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="RGBEffectBehaviorContentStacking_ToggleButton_LeftToRight" xml:space="preserve">
+    <value>Left to right</value>
+  </data>
+  <data name="RGBEffectBehaviorContentStacking_ToggleButton_Layered" xml:space="preserve">
+    <value>Layered</value>
+  </data>
+  <data name="ShakeItToneOutput_ToggleButton_Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="ShakeItToneOutput_ToggleButton_Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="ImagePicker_ToggleButton_DashboardLibrary" xml:space="preserve">
+    <value>Dashboard library</value>
+  </data>
+  <data name="ImagePicker_ToggleButton_CommonLibrary" xml:space="preserve">
+    <value>Common library</value>
+  </data>
+  <data name="DashStudioUsbLedModuleSettings_Label_SearchingDevice" xml:space="preserve">
+    <value>Searching device ...</value>
+  </data>
+  <data name="Constants_Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_Calibration" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_AutocalibrationBehaviourSlipSuspensionsForCompatibleGames" xml:space="preserve">
+    <value>Autocalibration behaviour (slip, suspensions for compatible games)</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_PredefinedCalibration" xml:space="preserve">
+    <value>Predefined calibration</value>
+  </data>
+  <data name="ShakeItEffectsListMain_Label_AutomaticCalibration" xml:space="preserve">
+    <value>Automatic calibration</value>
+  </data>
+  <data name="FunctionPicker_WindowTitle_NcalcFunctionsList" xml:space="preserve">
+    <value>NCalc Functions list</value>
+  </data>
+  <data name="DashStudioMonitorOptionsControl_CheckBox_AutostartDashboardAtSimhubStartup" xml:space="preserve">
+    <value>Autostart dashboard at SimHub startup</value>
+  </data>
+  <data name="NextionBindingList_Label_Unset" xml:space="preserve">
+    <value>Unset</value>
+  </data>
+  <data name="ScreenPickerDialog_WindowTitle_ChooseTargetScreen" xml:space="preserve">
+    <value>Choose target screen</value>
+  </data>
+  <data name="ArduinoScreenEditor_Label_LINERETURN" xml:space="preserve">
+    <value>LINE RETURN</value>
+  </data>
+  <data name="RGBEffectFuelContainerEditor_RadioButton_Liters" xml:space="preserve">
+    <value>Liters</value>
+  </data>
+  <data name="RGBEffectDeltaContainerEditor_RadioButton_SessionBest" xml:space="preserve">
+    <value>Session best</value>
+  </data>
+  <data name="RGBEffectDeltaContainerEditor_RadioButton_AllTimeBest" xml:space="preserve">
+    <value>All time best</value>
+  </data>
+  <data name="RGBEffectSpeedLimiterAnimationEditor_RadioButton_TwoColorsAnimation" xml:space="preserve">
+    <value>Two colors animation</value>
+  </data>
+  <data name="RGBEffectSpeedLimiterAnimationEditor_RadioButton_AlternatingPlainColors" xml:space="preserve">
+    <value>Alternating plain colors</value>
+  </data>
+  <data name="RGBEffectTurboContainerEditor_RadioButton_Bars" xml:space="preserve">
+    <value>Bars</value>
+  </data>
+  <data name="RGBEffectSpeedContainerEditor_RadioButton_Kmh" xml:space="preserve">
+    <value>Kmh</value>
+  </data>
+  <data name="RGBEffectSpeedContainerEditor_RadioButton_Mph" xml:space="preserve">
+    <value>Mph</value>
+  </data>
+  <data name="RGBEffectRPMContainerEditor_RadioButton_RPM" xml:space="preserve">
+    <value>RPM</value>
+  </data>
+  <data name="RGB_RadioButton_EnabledWhenGameIsRunning" xml:space="preserve">
+    <value>Enabled when game is running</value>
+  </data>
+  <data name="RGB_RadioButton_EnabledWhenGameIsNotRunning" xml:space="preserve">
+    <value>Enabled when game is not running</value>
+  </data>
+  <data name="RGBEffectBehaviorLedDualStateBlinking_RadioButton_SimpleDelay" xml:space="preserve">
+    <value>Simple delay</value>
+  </data>
+  <data name="RGBEffectBehaviorLedDualStateBlinking_RadioButton_OnOffDelay" xml:space="preserve">
+    <value>On/off delay</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_RadioButton_UseLockOnly" xml:space="preserve">
+    <value>Use lock only</value>
+  </data>
+  <data name="ShakeItEffectWheelsLock_RadioButton_UseLockAndSlip" xml:space="preserve">
+    <value>Use lock and slip</value>
+  </data>
+  <data name="ShakeItRPMBankOutput_RadioButton_Basic" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="ShakeItRPMBankOutput_RadioButton_Grainy" xml:space="preserve">
+    <value>Grainy</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RadioButton_LiveTelemetry" xml:space="preserve">
+    <value>Live telemetry</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RadioButton_Zero" xml:space="preserve">
+    <value>Zero</value>
+  </data>
+  <data name="BeltTensionnerPluginUI_RadioButton_ReleaseAll" xml:space="preserve">
+    <value>Release all</value>
+  </data>
+  <data name="Constants_AutomaticShort" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Constants_ManualShort" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="ShakeItSimpleGammaNoiseFilter_Label_RandomizationPercent" xml:space="preserve">
+    <value>Randomization (%)</value>
+  </data>
+  <data name="ShakeItSimpleGammaFilter_Label_GammaFactor" xml:space="preserve">
+    <value>Gamma Factor</value>
+  </data>
+  <data name="ShakeItPulseFilter_Label_PulseDurationMs" xml:space="preserve">
+    <value>Pulse duration (ms)</value>
+  </data>
+  <data name="ShakeItPulseFilter_Label_FreeVersionIsLimitedToMsPulsesMinimum" xml:space="preserve">
+    <value>Free version is limited to 100ms pulses minimum</value>
+  </data>
+  <data name="ShakeItAudioOutputStatus_MenuItem_OpenInANewWindow" xml:space="preserve">
+    <value>Open in a new window</value>
+  </data>
+  <data name="ShakeItBuiltInMapMono_Label_Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="SplineResponseCurveEditor_Label_CurveSmoothing" xml:space="preserve">
+    <value>Curve smoothing</value>
+  </data>
+  <data name="Constants_Controls" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="Constants_Percent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="GraphicalDashPluginList_Button_EditDeviceControls" xml:space="preserve">
+    <value>Edit device controls</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsGENERALCONTROLS" xml:space="preserve">
+    <value>GENERAL CONTROLS</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitleSettingsDEFAULTDASHBOARDCONTROLS" xml:space="preserve">
+    <value>DEFAULT DASHBOARD CONTROLS</value>
+  </data>
+  <data name="BitmapDisplayControls_Title" xml:space="preserve">
+    <value>DEVICE CONTROLS</value>
+  </data>
+  <data name="USBDisplaySettings_Label_NativeLEDModuleSettings" xml:space="preserve">
+    <value>Native LED module settings</value>
+  </data>
+  <data name="USBDisplaySettings_LedsBrightness" xml:space="preserve">
+    <value>Leds brightness</value>
+  </data>
+  <data name="SettingsPanel_Link_EditTranslation" xml:space="preserve">
+    <value>Edit translation</value>
+  </data>
+  <data name="ShakeItEffectEditor_Link_TestOutput" xml:space="preserve">
+    <value>Test output</value>
+  </data>
+  <data name="SystemInfosProviderSettingsEditor_Link_Configure" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="NextionSettingsControlWPF_Link_Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="NextionSettingsControlWPF_Link_MoreInfos" xml:space="preserve">
+    <value>More infos ...</value>
+  </data>
+  <data name="GraphicalDashPluginList_Link_ClearMapsAndRedownloadItTheNextTimeRequiresASimhubRestart" xml:space="preserve">
+    <value>Clear maps and redownload it the next time (requires a Simhub restart)</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_ExportSettings" xml:space="preserve">
+    <value>Export settings</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_ImportSettings" xml:space="preserve">
+    <value>Import settings</value>
+  </data>
+  <data name="CustomSerial_DeviceSettings_Link_FreezeUnfreezeSettings" xml:space="preserve">
+    <value>Freeze/Unfreeze settings</value>
+  </data>
+  <data name="Constants_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="TestDataButton_Link_OpenTestDataEditor" xml:space="preserve">
+    <value>Open test data editor</value>
+  </data>
+  <data name="KeyboardEmulatorKey_PressKey" xml:space="preserve">
+    <value>Press key or key combination to assign ...</value>
+  </data>
+  <data name="KeyboardEmulatorKey_ClickToAssign" xml:space="preserve">
+    <value>Click to assign...</value>
+  </data>
+  <data name="DashboardEditor_CreateNewWidgetMenuItem" xml:space="preserve">
+    <value>Create new widget ...</value>
+  </data>
+  <data name="DashboardEditor_CreateNewWidgetFromSelectionMenuItem" xml:space="preserve">
+    <value>Create new widget from selection ...</value>
+  </data>
+  <data name="FormulaPicker_Watermark_ClickEditToSetFormula" xml:space="preserve">
+    <value>Click edit to set formula</value>
+  </data>
+  <data name="ShakeItExportOutputToPropery_Watermark_PropertyName" xml:space="preserve">
+    <value>Property name</value>
+  </data>
+  <data name="ShakeItSoundProfileSettings_Watermark_SettingsName" xml:space="preserve">
+    <value>Settings name</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Watermark_DisplayText" xml:space="preserve">
+    <value>Display text</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Watermark_PressPickToChooseProperty" xml:space="preserve">
+    <value>Press pick to choose property ...</value>
+  </data>
+  <data name="ArduinoTextScreenEditor_Watermark_TypeAnAnnounceTextOrLeaveEmptyForNoAnnounce" xml:space="preserve">
+    <value>Type an announce text or leave empty for no announce...</value>
+  </data>
+  <data name="Constants_SearchNameOrText" xml:space="preserve">
+    <value>Search name or text</value>
+  </data>
+  <data name="SettingsPanel_Link_TranslationMoreInfos" xml:space="preserve">
+    <value>More info about translations</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_THIRDPARTYCUSTOMARDUINOFEATURES" xml:space="preserve">
+    <value>THIRD PARTY DEVICES</value>
+  </data>
+  <data name="DisplaySettings_Label_Nerzhul_GearIndicatorSupport" xml:space="preserve">
+    <value>Nerzhul gear indicator support</value>
+  </data>
+  <data name="DisplaySettings_CheckBox_Nerzhul_EnableGearIndicatorSupport" xml:space="preserve">
+    <value>Enable Nerzhul gear indicator support</value>
+  </data>
+  <data name="DisplaySettings_CheckBox_Nerzhul__EnableRedlineBlinking" xml:space="preserve">
+    <value>Enable redline blinking</value>
+  </data>
+  <data name="USBDisplaySettings_LabelStringFormat_ConnectedModel" xml:space="preserve">
+    <value>Connected model : {0}</value>
+  </data>
+  <data name="NewPlugins_WindowTitle_Newplugins" xml:space="preserve">
+    <value>NewPlugins</value>
+  </data>
+  <data name="NewPlugins_SectionTitle_NewPluginsHaveBeenDetected" xml:space="preserve">
+    <value>New plugins have been detected !</value>
+  </data>
+  <data name="NewPlugins_Label_PleaseSelectThePluginsYouWantToEnableNow" xml:space="preserve">
+    <value>Please select the plugins you want to enable now.</value>
+  </data>
+  <data name="NewPlugins_Label_ChangedYourMindYouCanAlsoManageEnabledPluginsAnytimeFromTheSimhubSettings" xml:space="preserve">
+    <value>Changed your mind ? You can also manage enabled plugins anytime from the simhub settings.</value>
+  </data>
+  <data name="ChangeGameSplash_Label_ActivatingGame" xml:space="preserve">
+    <value>Activating game ...</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_HorizontalMirror" xml:space="preserve">
+    <value>Horizontal mirror</value>
+  </data>
+  <data name="RGBAnimationEditor_MenuItem_VerticalMirror" xml:space="preserve">
+    <value>Vertical mirror</value>
+  </data>
+  <data name="RGBMatrixEffectSpotterEditor_Label_Style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="RGBMatrixMatrixStartPosition_Label_StartPositionM" xml:space="preserve">
+    <value>Matrix start position</value>
+  </data>
+  <data name="RGBMatrixSettings_HardwareSettings" xml:space="preserve">
+    <value>Hardware settings</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RGBMatrixRotation" xml:space="preserve">
+    <value>RGB Matrix rotation</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_RGBMatrixContent" xml:space="preserve">
+    <value>RGB Matrix content</value>
+  </data>
+  <data name="DisplaySettings_TextBlock_MatrixBrightness" xml:space="preserve">
+    <value>Matrix brightness</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixOrientation" xml:space="preserve">
+    <value>Matrix orientation</value>
+  </data>
+  <data name="ArduinoHardwareSettings_TextBlock_MatrixClearOutOfGame" xml:space="preserve">
+    <value>Clear when out of game (otherwise show as neutral)</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_7SegmentsModules" xml:space="preserve">
+    <value>7 segments modules</value>
+  </data>
+  <data name="ImagePicker_SectionTitle_ChooseAFont" xml:space="preserve">
+    <value>Choose a font</value>
+  </data>
+  <data name="FontSearchTextBoxWatermark" xml:space="preserve">
+    <value>Search fonts ...</value>
+  </data>
+  <data name="ImagePicker_Label_Abcabc" xml:space="preserve">
+    <value>ABCabc123!@#$</value>
+  </data>
+  <data name="ImagePicker_Label_UsedDashboardFonts" xml:space="preserve">
+    <value>Used dashboard fonts</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_SingleColorMatrixGearIndicator" xml:space="preserve">
+    <value>SINGLE COLOR MATRIX GEAR INDICATOR</value>
+  </data>
+  <data name="DisplaySettings_SectionTitle_7SegmentsGearIndicator" xml:space="preserve">
+    <value>SEVEN SEGMENTS GEAR INDICATOR</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_TIPOrderMattersYouCanReorderArduinosByDraggingThemUsing" xml:space="preserve">
+    <value>TIP : Order matters ! You can reorder arduinos by dragging them using</value>
+  </data>
+  <data name="ArduinoHardwareSettings_SectionTitle_SingleArduinoSettings" xml:space="preserve">
+    <value>SINGLE ARDUINO SETTINGS</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Button_ForgetThisDevice" xml:space="preserve">
+    <value>Forget this device</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_MutipleArduinoModeWillAggregateAllArduinosAsItWasASingleBiggerDeviceInThisModeIndexesAreReservedForTheAboveFeaturesSegmentModulesMotorsAndRgbLeds" xml:space="preserve">
+    <value>Mutiple arduino mode will aggregate all arduinos as it was a single bigger device. In this mode indexes are reserved for the 3 above features (7 segment modules, motors, and rgb leds).</value>
+  </data>
+  <data name="ArduinoHardwareSettings_Label_BasedOnTheCurrentDefinitionThisArduinoModulesAreAccessibleFromTheFollowingIndexes" xml:space="preserve">
+    <value>Based on the current definition this arduino modules are accessible from the following indexes :</value>
+  </data>
+  <data name="WindProfileControl_GroupTitle_SpeedBasedWind" xml:space="preserve">
+    <value>Speed based wind</value>
+  </data>
+  <data name="ArduinoHardwareSettings_GroupTitle_DeviceSettings" xml:space="preserve">
+    <value>Device settings</value>
+  </data>
+  <data name="ArduinoHardwareSettings_GroupTitle_DeviceModulesAutomaticallyUpdatedWhenDeviceIsConnectedBasedOnRealDeviceValues" xml:space="preserve">
+    <value>Device modules (automatically updated when device is connected based on real device values)</value>
+  </data>
+  <data name="WindMainSetting_Title_IdleWindControls" xml:space="preserve">
+    <value>Idle Wind controls</value>
+  </data>
+  <data name="WindMainSetting_Title_SpeedBasedWindControls" xml:space="preserve">
+    <value>Speed Based Wind controls</value>
+  </data>
+  <data name="WindProfileControl_Title_WindPower" xml:space="preserve">
+    <value>Wind power</value>
+  </data>
+  <data name="WindProfileControl_SliderTitle_WindPower" xml:space="preserve">
+    <value>Idle wind power</value>
+  </data>
+  <data name="WindProfileControl_Title_TargetIdleWindChannels" xml:space="preserve">
+    <value>Target idle wind channels</value>
+  </data>
+  <data name="WindProfileControl_SliderTitle_DefaultMaxSpeedAutomaticallyAdjustedBasedOnActualMaxSpeed" xml:space="preserve">
+    <value>Default max speed (automatically adjusted based on actual max speed)</value>
+  </data>
+  <data name="WindProfileControl_Title_LeftRightWindCurving" xml:space="preserve">
+    <value>Left/right wind curving</value>
+  </data>
+  <data name="GraphicalDashPluginList_CheckBox_Portrait" xml:space="preserve">
+    <value>Portrait mode</value>
+  </data>
+  <data name="GraphicalDashPluginList_TabHeader_TSS" xml:space="preserve">
+    <value>TSS</value>
+  </data>
+  <data name="GraphicalDashPluginList_SectionTitle_TSSLCD" xml:space="preserve">
+    <value>Turing Smart Screen LCD</value>
+  </data>
+  <data name="ReplayControls_MenuItem_PreviewEnabled" xml:space="preserve">
+    <value>Preview enabled</value>
+  </data>
+  <data name="WindMainSetting_Label_NoSettingsCenterChannelWillBeUsedAsHSRFanOutput" xml:space="preserve">
+    <value>No settings: Center channel will be used as HSR Fan output</value>
+  </data>
+  <data name="WindMainSetting_Title_GlobalControls" xml:space="preserve">
+    <value>Global controls</value>
+  </data>
+  <data name="WindMainSetting_Control_SwitchWindActivation" xml:space="preserve">
+    <value>Switch wind activation</value>
+  </data>
+  <data name="WindMainSetting_SliderTitle_IncrementDecrementSteps" xml:space="preserve">
+    <value>Increment / Decrement steps</value>
+  </data>
+  <data name="WindMainSetting_Control_IncreaseCurrentWindModeEffectGain" xml:space="preserve">
+    <value>Increase current wind mode effect gain</value>
+  </data>
+  <data name="WindMainSetting_Control_DecreaseCurrentWindModeEffectGain" xml:space="preserve">
+    <value>Decrease current wind mode effect gain</value>
+  </data>
+  <data name="WindMainSetting_Control_SwitchCurrentWindModeActivation" xml:space="preserve">
+    <value>Switch current wind mode activation</value>
+  </data>
+  <data name="WindMainSetting_Control_IncreaseEffectGain" xml:space="preserve">
+    <value>Increase effect gain</value>
+  </data>
+  <data name="WindMainSetting_Control_DecreaseEffectGain" xml:space="preserve">
+    <value>Decrease effect gain</value>
+  </data>
+  <data name="WindMainSetting_Control_SwitchStaticWindActivation" xml:space="preserve">
+    <value>Switch static wind activation</value>
+  </data>
+  <data name="WindMainSetting_Control_SwitchSpeedBasedWindActivation" xml:space="preserve">
+    <value>Switch speed based wind activation</value>
+  </data>
+  <data name="WindProfileControl_Label_CockpitVentilationModeApplyWindPowerRangeMinimumAsSoonAsEngineOrIgnitionAreONOtherwiseKeepTheFanOFFAsLongAsYouAreNotMoving" xml:space="preserve">
+    <value>Cockpit ventilation mode : Apply wind power range 'minimum' as soon as engine or ignition are ON, otherwise keep the fan OFF as long as you are not moving</value>
+  </data>
+  <data name="WindProfileControl_Label_CockpitModeIsNotAvailableWhenThePowerRangeMinimumIsSetToZero" xml:space="preserve">
+    <value>Cockpit mode is not available when the power range 'minimum' is set to zero.</value>
+  </data>
+  <data name="ControlPicker_Label_ThereAreSomeExistingActionsBoundToThisControl" xml:space="preserve">
+    <value>There are some existing actions bound to this control</value>
+  </data>
+  <data name="PluginName_SerialPortMonitorPlugin" xml:space="preserve">
+    <value>Serial port notifier</value>
+  </data>
+  <data name="PluginDescription_SerialPortMonitorPlugin" xml:space="preserve">
+    <value>Shows a notification when a serial port is added or removed, allowing you to easily keep track of what’s been plugged in and out.</value>
+  </data>
+  <data name="WindMainSetting_Title_CurrentActiveModeControls" xml:space="preserve">
+    <value>Current active mode controls</value>
+  </data>
+  <data name="WindProfileControl_RangeSliderTitle_SpeedBasedWindPowerRange" xml:space="preserve">
+    <value>Speed based wind power range</value>
+  </data>
+</root>

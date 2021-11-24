@@ -1,0 +1,83 @@
+{
+  "LastGameProfiles": {
+    "ats": "b1f6d835-0dbe-472c-a63f-1e6cdefb7d0b"
+  },
+  "LastUsedProfile": "00000000-0000-0000-0000-000000000000",
+  "IncrementSteps": 5,
+  "OutputSettings": {
+    "ArduinoOutput": {
+      "ChannelMappings": [
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        }
+      ],
+      "IsEnabled": false
+    },
+    "HRSFanOutput": {
+      "IsEnabled": false
+    }
+  },
+  "IsEnabled": true,
+  "Profiles": [
+    {
+      "GlobalGain": 100,
+      "StaticWindSettings": {
+        "Gain": 100,
+        "IsEnabled": false,
+        "UseLeftChannel": true,
+        "UseRightChannel": true,
+        "UseCenterChannel": true,
+        "EnableInRace": false,
+        "IsActive": true
+      },
+      "DynamicWindSettings": {
+        "MaxGain": 100.0,
+        "MinGain": 0.0,
+        "CockpitMode": false,
+        "UseCurving": true,
+        "Curvature": 50,
+        "GammaFactor": 10.0,
+        "IsEnabled": true,
+        "MaximumSpeed": 200.0
+      },
+      "Error": "",
+      "LastLoaded": "0001-01-01T00:00:00",
+      "Name": "Default profile",
+      "ProfileId": "b1f6d835-0dbe-472c-a63f-1e6cdefb7d0b",
+      "GameCode": null
+    }
+  ]
+}

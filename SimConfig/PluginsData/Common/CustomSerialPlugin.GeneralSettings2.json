@@ -1,0 +1,44 @@
+{
+  "Devices": [
+    {
+      "AutomaticReconnect": true,
+      "SerialPortName": "COM3",
+      "StartupDelayMs": 0,
+      "IsConnecting": false,
+      "IsEnabled": true,
+      "LogIncomingData": false,
+      "IsConnected": true,
+      "BaudRate": 115200,
+      "UpdateMessages": [
+        {
+          "Message": {
+            "Expression": "'{ROLL:' + [OrientationRoll] + ',PITCH:' + [OrientationPitch] + ',YAW:' + [OrientationYaw] + '}\\n'",
+            "SimpleOperationProp": null
+          },
+          "IsEnabled": true,
+          "MaximumFrequency": 60
+        }
+      ],
+      "OnConnectMessage": {
+        "Expression": "'game:connected'",
+        "SimpleOperationProp": null
+      },
+      "OnDisconnectMessage": {
+        "Expression": "'game:disconnected'",
+        "SimpleOperationProp": null
+      },
+      "DtrEnable": false,
+      "RtsEnable": false,
+      "EditorExpanded": true,
+      "Name": "Custom Serial device",
+      "Description": "ESP32 Motion Simulator",
+      "LastErrorDate": "0001-01-01T00:00:00",
+      "LastErrorMessage": null,
+      "IsFreezed": false,
+      "SettingsBuilder": {
+        "Settings": [],
+        "IsEditMode": false
+      }
+    }
+  ]
+}

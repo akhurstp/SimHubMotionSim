@@ -1,0 +1,9 @@
+{
+  "Relays": [
+    {
+      "SourcePort": 20777,
+      "TargetAdress": "127.0.0.1",
+      "TargetPort": 20778
+    }
+  ]
+}

@@ -1,0 +1,1348 @@
+{
+  "Hash": "eeb0190d56e3bc497fdf426c525a16b7",
+  "InputPlugins": null,
+  "UserPlugins": [
+    {
+      "Key": ".\\SimHub.Plugins.AudioControl.dll",
+      "Value": "SimHub.Plugins.AudioControl.AudioControlPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.Dash.SerialDashPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.BeltTensionner.BeltTensionnerPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.InputPlugins.JoystickPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.InputPlugins.KeyboardReaderPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.InputPlugins.MIDI.MidiPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.BA63.BA63Plugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.UDPRelay.UDPRelayPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.Thrustmaster.ThrustmastersPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.ShakeItWind.ShakeItWindPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.Gmail.GmailPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITBSV3Plugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITMotorsV3Plugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.SerialPortMonitor.SerialPortMonitorPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.PersistantTracker.LapHitoryPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.Logitech.HeadsetInfo"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.KeyboardEmulator.dll",
+      "Value": "SimHub.Plugins.KeyboardEmulator.KeyboardEmulatorPlugin"
+    }
+  ],
+  "CorePlugins": [
+    {
+      "Key": ".\\SimHub.Plugins.AudioControl.dll",
+      "Value": "SimHub.Plugins.AudioControl.AudioPlayPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.SystemInfosProvider"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.Shell.ShellPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.PersistantTracker.PersistantTrackerPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.DataCore.DataCorePlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.Web.dll",
+      "Value": "SimHub.Plugins.Web.WebPlugin"
+    }
+  ],
+  "Readers": [
+    {
+      "Key": ".\\GSIReader.dll",
+      "Value": "GSIReader.Dota2.Dota2ManagerDiscovery"
+    },
+    {
+      "Key": ".\\GSIReader.dll",
+      "Value": "GSIReader.CSGO.CSGOManagerDiscovery"
+    },
+    {
+      "Key": ".\\OmsiReader.dll",
+      "Value": "OmsiReader.OMSI2ManagerDiscovery"
+    },
+    {
+      "Key": ".\\WarThunder.dll",
+      "Value": "WarThunder.WarThunderReaderDiscovery"
+    }
+  ],
+  "MainMenu": [
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.Dash.SerialDashPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.OutputPlugins.BeltTensionner.BeltTensionnerPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.UDPRelay.UDPRelayPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.ShakeItWind.ShakeItWindPlugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITBSV3Plugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITMotorsV3Plugin"
+    },
+    {
+      "Key": ".\\SimHub.Plugins.dll",
+      "Value": "SimHub.Plugins.DataPlugins.PersistantTracker.LapHitoryPlugin"
+    }
+  ],
+  "AdditionalCaches": {
+    "SimHub.Plugins.DataPlugins.SystemInfosProvider": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.SystemInfo.HWinfoPlugin"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.SystemInfo.Aida64Plugin"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.SystemInfo.AfterburnerPlugin"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.SystemInfo.SystemInfoPlugin"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITBSV3Plugin": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.ABSActiveEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.AccelerationGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.LateralGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearMissedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.JumpContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.LocalizedSpeedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RPMSoundEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.TCActiveEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsLockContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.CustomEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.DecelerationGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearGrindingContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.StaticWindContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.VirtualABSEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RoadTextureContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RPMContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsRumbleContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsVibrationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsImpactContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.SpeedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsSlipContainer"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITMotorsV3Plugin": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.ABSActiveEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.AccelerationGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.LateralGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearMissedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.JumpContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.LocalizedSpeedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RPMSoundEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.TCActiveEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsLockContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.CustomEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.DecelerationGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearGrindingContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.StaticWindContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.VirtualABSEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RoadTextureContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RPMContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsRumbleContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsVibrationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsImpactContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.SpeedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsSlipContainer"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.RGBDriver.Utilities.LedContainerJsonConverter": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomGradientContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.FuelContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.RPMSegmentsContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.RPMContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.SpeedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.StaticColorContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.AnimationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.TurboContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.UnknownContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.AbsActiveContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.DrsAvailableContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.AbsOnContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.DrsOnContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.LowFuelRemainingLapsAlertContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.GearContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpeedLimiterAnimationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpeedLimiterContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpotterCarLeftContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpotterCarRightContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.TCActiveContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.TCOnContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.TurnIndicatorLeftContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.TurnIndicatorRightContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Gap.DeltaContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.BrightnessGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.MirrorGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.RemapGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.CustomConditionalGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.CurrentGameGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarModelGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarStatedGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarInPitLaneGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarSpeedLimiterGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameRunningGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameNotRunningGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.KeepXOfYGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.ScrollGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.GreenFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.BlueFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.RedlineReachedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.BlackFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.WhiteFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.YellowFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Base.IncludeProfileGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Base.GroupContainer"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.RGBDriver.RGBLedsDriver": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomGradientContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.FuelContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.RPMSegmentsContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.RPMContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.SpeedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.StaticColorContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.AnimationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.TurboContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.UnknownContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.AbsActiveContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.DrsAvailableContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.AbsOnContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.DrsOnContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.LowFuelRemainingLapsAlertContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.GearContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpeedLimiterAnimationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpeedLimiterContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpotterCarLeftContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpotterCarRightContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.TCActiveContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.TCOnContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.TurnIndicatorLeftContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.TurnIndicatorRightContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Gap.DeltaContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.BrightnessGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.MirrorGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.RemapGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.CustomConditionalGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.CurrentGameGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarModelGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarStatedGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarInPitLaneGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameCarSpeedLimiterGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameRunningGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.GameNotRunningGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.KeepXOfYGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Groups.ScrollGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.GreenFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.BlueFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.RedlineReachedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.BlackFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.WhiteFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Flags.YellowFlagContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Base.IncludeProfileGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Base.GroupContainer"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.RGBMatrixDriver.Utilities.LedContainerJsonConverter": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.FlagsContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.GearContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.SpotterContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.AnimationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.CurrentGameGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.CustomConditionalGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameCarInPitLaneGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameCarModelGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameCarSpeedLimiterGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameCarStatedGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameNotRunningGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameRunningGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Base.GroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Base.IncludeProfileGroupContainer"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.RGBMatrixDriver.RGBMatrixDriver": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.FlagsContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.GearContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.SpotterContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.AnimationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.CurrentGameGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.CustomConditionalGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameCarInPitLaneGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameCarModelGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameCarSpeedLimiterGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameCarStatedGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameNotRunningGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Groups.GameRunningGroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Base.GroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.RGBMatrixDriver.MatrixContainers.Base.IncludeProfileGroupContainer"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.ShakeItV3.Utilities.OutputManagerJsonConverter": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.Settings.Vibrations.VibrationOutputManager"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.Settings.Audio.SoundOutputManager"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.ShakeItV3.Utilities.EffectsContainerJsonConverter": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.ABSActiveEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.AccelerationGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.LateralGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GroupContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearMissedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.JumpContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.LocalizedSpeedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RPMSoundEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.TCActiveEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsLockContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.CustomEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.DecelerationGforceContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearGrindingContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.StaticWindContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.VirtualABSEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.GearEffectContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RoadTextureContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.RPMContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsRumbleContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsVibrationContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsImpactContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.SpeedContainer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.EffectsContainers.WheelsSlipContainer"
+      }
+    ],
+    "SimHub.Plugins.DataPlugins.ShakeItV3.Utilities.OutputsJsonConverter": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.Outputs.Vibration.VibrationOutput"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.Outputs.Audio.RpmBankOutput"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.Outputs.Audio.SingleToneOutput"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.DataPlugins.ShakeItV3.Outputs.Audio.ToneOutput"
+      }
+    ],
+    "SimHub.Plugins.OutputPlugins.GraphicalDash.DashboardEditor": [
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Screen"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ButtonItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RPMGaugeItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ImageFromFileItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ImageFromUrlItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.LapDeltaOverviewItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.MediaCoverItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ShiftLightItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ToggleImageItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.DebugItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ETSMap"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.GeneratedMapItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.GeneratedStaticMapItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.LeaderBoardItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ChartItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RadarItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.DialGaugeItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.GaugeNeedleItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.GradientItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.CircularGaugeItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.LinearShadeItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ProgressBarItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.WidgetItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.EllipseItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.GaugeImageItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.ImageItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.MapItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.VerticalLinearGaugeItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.LinearGaugeItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.IntegratedLedItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.WebPageItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.OutlinedTextItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.GameNotification"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentLastLap"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentBestLap"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentNameText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentPositionText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentCurrentLapText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentCarModelText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentCarNumberText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentCarClassText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentGap"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentDelta"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderboardOpponentIRating"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LeaderBoardBackground"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.OilPressureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.OilTemperatureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.PersonalBestLapTime"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreTemperatureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreWearText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreBackLeftPressureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreBackLeftWearText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreBackRightPressureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreBackRightWearText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreFrontLeftPressureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreFrontLeftWearText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreFrontRightPressureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreFrontRightWearText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyrePressureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.WaterTemperatureText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.BestLapTime"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.ComputerCPULoadText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.ComputerMemoryLoadText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.CurrentLapTime"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.FuelCapacityText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.FuelText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.FuelRemainingLapsText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.FuelLastLapText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.FuelLiterPerLapsText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.GearText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LapText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LiveDeltaToBestText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LastLapTime"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LastSectorTime"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.CurrentLapSectorTime"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.LastLapSectorTime"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.BestLapSectorTime"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.RacePositionText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.RPMText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TimeText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreBackLeftTempText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreBackRightTempText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreFrontLeftTempText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.TyreFrontRightTempText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.SpeedText"
+      },
+      {
+        "Key": ".\\SimHub.Plugins.dll",
+        "Value": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.BuiltIn.Base.DRSStatusItem"
+      }
+    ]
+  }
+}

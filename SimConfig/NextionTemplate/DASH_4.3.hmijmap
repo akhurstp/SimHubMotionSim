@@ -1,0 +1,783 @@
+{
+  "BindingsEx": {
+    "global.fft1.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_1])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft2.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_2])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft3.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_3])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft4.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_4])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft5.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_5])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft6.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_6])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft7.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_7])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft8.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_8])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft9.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_9])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fft10.val": {
+      "Formula": {
+        "Expression": "progress(0.5,1,[AudioControlPlugin.AudioFFT_Range_10])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.audiol.val": {
+      "Formula": {
+        "Expression": "[AudioControlPlugin.AudioPeakLeft]*100"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.audior.val": {
+      "Formula": {
+        "Expression": "[AudioControlPlugin.AudioPeakRight]*100"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.clock.txt": {
+      "Formula": {
+        "Expression": "format([DataCorePlugin.CustomExpression.CurrentDateTime],'HH:mm:ss')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.rpmbar.val": {
+      "Formula": {
+        "Expression": "min(100,max(0,isnull([serialdashplugin.computedrpmpercent],0)))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "val"
+    },
+    "global.rpmbar.ppic": {
+      "Formula": {
+        "Expression": "if(blink('rpm',200,[serialdashplugin.computedrpmpercent]>[serialdashplugin.blinktriggerratio]),8,7)"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "ppic"
+    },
+    "global.rpmbar.bpic": {
+      "Formula": {
+        "Expression": "if(blink('rpm2',250,isnull([DataCorePlugin.GameRawData.Graphics.isInPitLane],false)),8,6)"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "bpic"
+    },
+    "global.speed.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.SpeedLocal],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.turbobar.val": {
+      "Formula": {
+        "Expression": "min(100,max(0,isnull([serialdashplugin.computedturbopercent],0)))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.gear.txt": {
+      "Formula": {
+        "Expression": "isnull([DataCorePlugin.GameData.NewData.Gear],'N')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.gear.pco": {
+      "Formula": {
+        "Expression": "if([SerialDashPlugin.ComputedRPMPercent]>[SerialDashPlugin.BlinkTriggerRatio],63488,65535)"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "pco"
+    },
+    "global.rpm.txt": {
+      "Formula": {
+        "Expression": "format(max(0,isnull([datacoreplugin.gamedata.newdata.rpms],0)),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.delta.txt": {
+      "Formula": {
+        "Expression": "(isnull([PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds],0) >=0?'+':'')+format(isnull([PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds],0) ,'0.00')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.deltapbl.val": {
+      "Formula": {
+        "Expression": "100-progress(0,1,isnull([persistanttrackerplugin.AllTimeBestLiveDeltaProgressSeconds],0))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.deltapbr.val": {
+      "Formula": {
+        "Expression": "progress(0,-1,isnull([persistanttrackerplugin.AllTimeBestLiveDeltaProgressSeconds],0))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.laptime.txt": {
+      "Formula": {
+        "Expression": "format([DataCorePlugin.GameData.NewData.CurrentLapTime],'m\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.bestlaptime.txt": {
+      "Formula": {
+        "Expression": "replace(format([PersistantTrackerPlugin.AllTimeBest],'m\\\\:ss\\\\:fff'),'0:00:000','-:--:--')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.lastlaptime.txt": {
+      "Formula": {
+        "Expression": "replace(format([PersistantTrackerPlugin.PreviousLap_00],'m\\\\:ss\\\\:fff'),'0:00:000','-:--:--')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.lastlapdel.txt": {
+      "Formula": {
+        "Expression": "replace(format(isnull([PersistantTrackerPlugin.PreviousLap_00_DeltaToBest],0),'0.000'),'0.000','Best')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.tfltemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([datacoreplugin.gamedata.newdata.tyrecoretemperature1],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.tfrtemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([datacoreplugin.gamedata.newdata.tyrecoretemperature2],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.tbltemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([datacoreplugin.gamedata.newdata.tyrecoretemperature3],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.tbrtemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([datacoreplugin.gamedata.newdata.tyrecoretemperature4],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "laphistory.l1.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_00],'m\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del1.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_00_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_00_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l2.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_01],'m\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del2.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_01_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_01_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l3.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_02],'m\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del3.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_02_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_02_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l4.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_03],'m\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del4.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_03_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_03_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l5.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_04],'m\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del5.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_04_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_04_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "telemetry.rpmgraph.plot0": {
+      "Formula": {
+        "Expression": "isnull([SerialDashPlugin.ComputedRPMPercent],0)/100*80"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "telemetry.turbograph.plot0": {
+      "Formula": {
+        "Expression": "isnull([SerialDashPlugin.ComputedTurboPercent],0)/100*80"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "printer.tmpbed.txt": {
+      "Formula": {
+        "Expression": "format(isnull([OctoPrintPlugin.BedActual],0),'0.0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "printer.tmphotend.txt": {
+      "Formula": {
+        "Expression": "format(isnull([OctoPrintPlugin.Tool0Actual],0),'0.0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "printer.progressper.txt": {
+      "Formula": {
+        "Expression": "format(isnull([OctoPrintPlugin.JobProgressCompletion],0),'0.0')+'%'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "printer.remtime.txt": {
+      "Formula": {
+        "Expression": "isnull([OctoPrintPlugin.JobProgressPrintTimeLeft],'')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "gamevolumechanged.icon.pic": {
+      "Formula": {
+        "Expression": "13"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "gamevolumechanged.icon.vis": {
+      "Formula": {
+        "Expression": "1"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "gamevolumechanged.line1.txt": {
+      "Formula": {
+        "Expression": "'GAME VOLUME'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "gamevolumechanged.line2.txt": {
+      "Formula": {
+        "Expression": "format([DataCorePlugin.GameVolume],'0')+'%'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "rpmalerttriggerchanged.icon.pic": {
+      "Formula": {
+        "Expression": "12"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "rpmalerttriggerchanged.icon.vis": {
+      "Formula": {
+        "Expression": "1"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "rpmalerttriggerchanged.line1.txt": {
+      "Formula": {
+        "Expression": "'RPM ALERT'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "rpmalerttriggerchanged.line2.txt": {
+      "Formula": {
+        "Expression": "format([SerialDashPlugin.BlinkTriggerRatio],'0.0')+'%'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "sessionstarted.line1.txt": {
+      "Formula": {
+        "Expression": "'GOOD LUCK !'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "sessionstarted.icon.pic": {
+      "Formula": {
+        "Expression": "13"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "sessionstarted.icon.vis": {
+      "Formula": {
+        "Expression": "1"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "newlap.line1.txt": {
+      "Formula": {
+        "Expression": "'New lap'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "newlap.line2.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_00],'m\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "newlap.line3.txt": {
+      "Formula": {
+        "Expression": "format(isnull([PersistantTrackerPlugin.PreviousLap_00_DeltaToBest],0),'0.000')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "newlap.icon.pic": {
+      "Formula": {
+        "Expression": "13"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "newlap.icon.vis": {
+      "Formula": {
+        "Expression": "1"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "sessionbestlap.line1.txt": {
+      "Formula": {
+        "Expression": "'AT. Best lap'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "sessionbestlap.line2.txt": {
+      "Formula": {
+        "Expression": "''"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "sessionbestlap.line3.txt": {
+      "Formula": {
+        "Expression": "''"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "sessionbestlap.icon.pic": {
+      "Formula": {
+        "Expression": "13"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "sessionbestlap.icon.vis": {
+      "Formula": {
+        "Expression": "1"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.mrpmbar2.val": {
+      "Formula": {
+        "Expression": "PROGRESS(36,100, [DataCorePlugin.GameData.NewData.CarSettings_CurrentDisplayedRPMPercent])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "val"
+    },
+    "global.mrpmbar1.val": {
+      "Formula": {
+        "Expression": "PROGRESS(0,36, [DataCorePlugin.GameData.NewData.CarSettings_CurrentDisplayedRPMPercent])"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "val"
+    }
+  },
+  "RolesEx": {},
+  "ClickActionsEx": {
+    "system.back": "back",
+    "system.volp": "DataCorePlugin.IncrementSystemVolume",
+    "system.volm": "DataCorePlugin.DecrementSystemVolume"
+  },
+  "HotSpots": [
+    {
+      "X": 50,
+      "Y": 50,
+      "W": 50,
+      "H": 100,
+      "Action": "nextpage",
+      "Pages": [
+        "idle",
+        "homealt",
+        "laphistory",
+        "telemetry",
+        "tyres",
+        "printer",
+        "virtmessage",
+        "gamevolumechanged",
+        "rpmalerttriggerchanged",
+        "sessionstarted",
+        "newlap",
+        "sessionbestlap",
+        "alltimebestlap"
+      ]
+    },
+    {
+      "X": 0,
+      "Y": 0,
+      "W": 50,
+      "H": 100,
+      "Action": "previouspage",
+      "Pages": [
+        "idle",
+        "homealt",
+        "laphistory",
+        "telemetry",
+        "tyres",
+        "printer",
+        "virtmessage",
+        "gamevolumechanged",
+        "rpmalerttriggerchanged",
+        "sessionstarted",
+        "newlap",
+        "sessionbestlap",
+        "alltimebestlap"
+      ]
+    },
+    {
+      "X": 0,
+      "Y": 0,
+      "W": 100,
+      "H": 32,
+      "Action": "goto:settings",
+      "Pages": [
+        "idle",
+        "homealt",
+        "laphistory",
+        "telemetry",
+        "tyres",
+        "printer",
+        "virtmessage",
+        "gamevolumechanged",
+        "rpmalerttriggerchanged",
+        "sessionstarted",
+        "newlap",
+        "sessionbestlap",
+        "alltimebestlap"
+      ]
+    }
+  ],
+  "PagesMappings": [
+    {
+      "PageName": "idle",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": true,
+      "Skip": false
+    },
+    {
+      "PageName": "homealt",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "laphistory",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "telemetry",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "tyres",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "printer",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": true,
+      "Skip": false
+    },
+    {
+      "PageName": "system",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": true,
+      "Skip": true
+    },
+    {
+      "PageName": "virtmessage",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": false,
+      "Skip": true
+    },
+    {
+      "PageName": "gamevolumechanged",
+      "EventMappings": [
+        {
+          "EventName": "DataCorePlugin.GameVolumeChanged",
+          "Duration": 3000
+        }
+      ],
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": false,
+      "Skip": true
+    },
+    {
+      "PageName": "rpmalerttriggerchanged",
+      "EventMappings": [
+        {
+          "EventName": "serialdashplugin.blinktriggerratiochanged",
+          "Duration": 3000
+        }
+      ],
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": false,
+      "Skip": true
+    },
+    {
+      "PageName": "sessionstarted",
+      "EventMappings": [
+        {
+          "EventName": "DataCorePlugin.GameStarted",
+          "Duration": 3000
+        }
+      ],
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": false,
+      "Skip": true
+    },
+    {
+      "PageName": "newlap",
+      "EventMappings": [
+        {
+          "EventName": "DataCorePlugin.NewValidLap",
+          "Duration": 3000
+        }
+      ],
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": false,
+      "Skip": true
+    },
+    {
+      "PageName": "sessionbestlap",
+      "EventMappings": [
+        {
+          "EventName": "PersistantTrackerPlugin.NewSessionBest",
+          "Duration": 1500
+        }
+      ],
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": false,
+      "Skip": true
+    },
+    {
+      "PageName": "alltimebestlap",
+      "EventMappings": [
+        {
+          "EventName": "PersistantTrackerPlugin.NewAllTimeBest",
+          "Duration": 1500
+        }
+      ],
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": false,
+      "Skip": true
+    },
+    {
+      "PageName": "settings",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": true,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {
+    "global.rpm": 50,
+    "global.delta": 25,
+    "global.deltapbl": 25,
+    "global.deltapbr": 25,
+    "global.laptime": 50,
+    "telemetry.rpmgraph": 30,
+    "telemetry.turbograph": 30
+  },
+  "VirtualPages": [
+    {
+      "PageBase": "virtmessage",
+      "PageName": "gamevolumechanged"
+    },
+    {
+      "PageBase": "virtmessage",
+      "PageName": "rpmalerttriggerchanged"
+    },
+    {
+      "PageBase": "virtmessage",
+      "PageName": "sessionstarted"
+    },
+    {
+      "PageBase": "virtmessage",
+      "PageName": "newlap"
+    },
+    {
+      "PageBase": "virtmessage",
+      "PageName": "sessionbestlap"
+    },
+    {
+      "PageBase": "virtmessage",
+      "PageName": "alltimebestlap"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Arduino",
+    "ClassName": "SimHub.Plugins.OutputPlugins.Dash.SerialDashPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Arduino support for RGB leds, I2C LCD, TM1638, motor/fans boards and many more."
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Audio Control",
+    "ClassName": "SimHub.Plugins.AudioControl.AudioControlPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Gives access to various audio data such as FFT for bargraphs and the ability to play MP3"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "BA63 USB Display plugin",
+    "ClassName": "SimHub.Plugins.DataPlugins.BA63.BA63Plugin",
+    "Author": "Wotever",
+    "IsEnabled": false,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Connect a Diebold Nixdorf BA63 Display"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Belt tensionner",
+    "ClassName": "SimHub.Plugins.OutputPlugins.BeltTensionner.BeltTensionnerPlugin",
+    "Author": "Wotever",
+    "IsEnabled": false,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Provide support for belt tensionner"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Controllers input",
+    "ClassName": "SimHub.Plugins.InputPlugins.JoystickPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Allows to read game controllers (wheel, gamepad, button box) data"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Custom serial devices",
+    "ClassName": "SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Provide support for custom serial devices"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Dash Studio",
+    "ClassName": "SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Allows to build and run dash/overlays on monitors, phones, tablets or USBD480"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Gmail",
+    "ClassName": "SimHub.Plugins.DataPlugins.Gmail.GmailPlugin",
+    "Author": "Wotever",
+    "IsEnabled": false,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Connect to your gmail account and get access to your last mails"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Headset Info",
+    "ClassName": "SimHub.Plugins.DataPlugins.Logitech.HeadsetInfo",
+    "Author": "Wotever",
+    "IsEnabled": false,
+    "IsDirty": false,
+    "IsCertified": false,
+    "Description": "Provide G533 battery level info (experimental)"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Keyboard Emulator",
+    "ClassName": "SimHub.Plugins.KeyboardEmulator.KeyboardEmulatorPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Allow you to emulate key presses from any SimHub input"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Keyboard Input",
+    "ClassName": "SimHub.Plugins.InputPlugins.KeyboardReaderPlugin",
+    "Author": "Wotever",
+    "IsEnabled": false,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Allows to read keyboard inputs (use with caution)"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Midi Controllers Input",
+    "ClassName": "SimHub.Plugins.InputPlugins.MIDI.MidiPlugin",
+    "Author": "Wotever",
+    "IsEnabled": false,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Use midi controllers as input."
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Nextion display",
+    "ClassName": "SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Provide support for Nextion screens"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Serial port notifier",
+    "ClassName": "SimHub.Plugins.DataPlugins.SerialPortMonitor.SerialPortMonitorPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Shows a notification when a serial port is added or removed, allowing you to easily keep track of what’s been plugged in and out."
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "ShakeIt Bass Shakers",
+    "ClassName": "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITBSV3Plugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Provide ShakeIt (tactile feedback) features for bass shakers"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "ShakeIt Motors",
+    "ClassName": "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITMotorsV3Plugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Provide ShakeIt (tactile feedback) features for motors and fans"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "ShakeIt Wind",
+    "ClassName": "SimHub.Plugins.DataPlugins.ShakeItWind.ShakeItWindPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Provide ShakeIt simplified features for fans"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Statistics",
+    "ClassName": "SimHub.Plugins.DataPlugins.PersistantTracker.LapHitoryPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Shows lap history and statistics."
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "Thrustmasters FFB control",
+    "ClassName": "SimHub.Plugins.DataPlugins.Thrustmaster.ThrustmastersPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": true,
+    "Description": "Allow you to control your thrustmaster FFB ingame"
+  },
+  {
+    "AllowNonCertified": true,
+    "Allowed": true,
+    "Name": "UDP Relay",
+    "ClassName": "SimHub.Plugins.DataPlugins.UDPRelay.UDPRelayPlugin",
+    "Author": "Wotever",
+    "IsEnabled": true,
+    "IsDirty": false,
+    "IsCertified": false,
+    "Description": "The UDP Relay plugin allows to receive UDP data from a game (like codemaster) and send it to multiple targets."
+  }
+]

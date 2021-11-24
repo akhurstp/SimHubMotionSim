@@ -1,0 +1,187 @@
+{
+  "BindingsEx": {
+    "global.rpmbar.val": {
+      "Formula": {
+        "Expression": "round([DataCorePlugin.GameData.NewData.CarSettings_CurrentDisplayedRPMPercent]/12,0)*100/12"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "val"
+    },
+    "global.fuel.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.Fuel],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.water.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.WaterTemperature],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.oil.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.OilTemperature],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.pos.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.Position],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.lap.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.CurrentLap],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.gear.txt": {
+      "Formula": {
+        "Expression": "isnull([DataCorePlugin.GameData.NewData.Gear],'N')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.gear.pco": {
+      "Formula": {
+        "Expression": "if([SerialDashPlugin.ComputedRPMPercent]>[SerialDashPlugin.BlinkTriggerRatio],65003,65003)"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.rpm.txt": {
+      "Formula": {
+        "Expression": "format(max(0,isnull([datacoreplugin.gamedata.newdata.rpms],0)),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.delta.txt": {
+      "Formula": {
+        "Expression": "(isnull([PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds],0) >=0?'+':'')+format(isnull([PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds],0) ,'0.00')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.laptime.txt": {
+      "Formula": {
+        "Expression": "replace(format([DataCorePlugin.GameData.NewData.CurrentLapTime],'mm\\\\:ss\\\\:fff'),'00:00:000','--:--:---')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.bestlaptime.txt": {
+      "Formula": {
+        "Expression": "replace(format([PersistantTrackerPlugin.AllTimeBest],'mm\\\\:ss\\\\:fff'),'00:00:00','--:--:---')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.tfltemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.TyreTemperatureFrontLeft],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.tfrtemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.TyreTemperatureFrontRight],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.tbltemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.TyreTemperatureRearLeft],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.tbrtemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.TyreTemperatureRearRight],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.brakefl.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.BrakeTemperatureFrontLeft],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.brakefr.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.BrakeTemperatureFrontRight],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.brakerl.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.BrakeTemperatureRearLeft],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.brakerr.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.BrakeTemperatureRearRight],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    }
+  },
+  "RolesEx": {},
+  "ClickActionsEx": {},
+  "HotSpots": [],
+  "PagesMappings": [
+    {
+      "PageName": "idle",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": true,
+      "Skip": false
+    },
+    {
+      "PageName": "main",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "laphistory",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "tyres",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {},
+  "VirtualPages": []
+}

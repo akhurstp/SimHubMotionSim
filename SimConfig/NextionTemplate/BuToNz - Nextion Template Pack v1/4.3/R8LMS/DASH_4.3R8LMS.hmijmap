@@ -1,0 +1,271 @@
+{
+  "BindingsEx": {
+    "global.rpmbar.val": {
+      "Formula": {
+        "Expression": "round([DataCorePlugin.GameData.NewData.CarSettings_CurrentDisplayedRPMPercent] / 10,0)*10"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "val"
+    },
+    "global.speed.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.SpeedLocal],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.fuel.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.Fuel],0),'0.0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.water.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.WaterTemperature],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.oil.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.OilTemperature],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.pos.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.Position],0),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.gear.txt": {
+      "Formula": {
+        "Expression": "isnull([DataCorePlugin.GameData.NewData.Gear],'N')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.gear.pco": {
+      "Formula": {
+        "Expression": "if([SerialDashPlugin.ComputedRPMPercent]>[SerialDashPlugin.BlinkTriggerRatio],0,0)"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.rpm.txt": {
+      "Formula": {
+        "Expression": "format(max(0,isnull([datacoreplugin.gamedata.newdata.rpms],0)),'0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.delta.txt": {
+      "Formula": {
+        "Expression": "(isnull([PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds],0) >=0?'+':'')+format(isnull([PersistantTrackerPlugin.AllTimeBestLiveDeltaSeconds],0) ,'0.0')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.deltapbl.val": {
+      "Formula": {
+        "Expression": "100-progress(0,1,isnull([persistanttrackerplugin.AllTimeBestLiveDeltaProgressSeconds],0))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.deltapbr.val": {
+      "Formula": {
+        "Expression": "progress(0,-1,isnull([persistanttrackerplugin.AllTimeBestLiveDeltaProgressSeconds],0))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.laptime.txt": {
+      "Formula": {
+        "Expression": "replace(format([DataCorePlugin.GameData.NewData.CurrentLapTime],'m\\\\:ss\\\\:ff'),'0:00:00','-:--:--')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.bestlaptime.txt": {
+      "Formula": {
+        "Expression": "replace(format([PersistantTrackerPlugin.AllTimeBest],'m\\\\:ss\\\\:ff'),'0:00:00','-:--:--')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": "txt"
+    },
+    "global.tfltemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([datacoreplugin.gamedata.newdata.tyrecoretemperature1],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.tfrtemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([datacoreplugin.gamedata.newdata.tyrecoretemperature2],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.tbltemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([datacoreplugin.gamedata.newdata.tyrecoretemperature3],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.tbrtemp.txt": {
+      "Formula": {
+        "Expression": "format(isnull([datacoreplugin.gamedata.newdata.tyrecoretemperature4],1),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.brakefl.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.BrakeTemperatureFrontLeft],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.brakefr.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.BrakeTemperatureFrontRight],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.brakerl.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.BrakeTemperatureRearLeft],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "global.brakerr.txt": {
+      "Formula": {
+        "Expression": "format(isnull([DataCorePlugin.GameData.NewData.BrakeTemperatureRearRight],0),'0')+'°'"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l1.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_00],'mm\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del1.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_00_DeltaToBest]==0,'',format(isnull;([PersistantTrackerPlugin.PreviousLap_00_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l2.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_01],'mm\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del2.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_01_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_01_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l3.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_02],'mm\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del3.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_02_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_02_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l4.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_03],'mm\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del4.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_03_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_03_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.l5.txt": {
+      "Formula": {
+        "Expression": "format([PersistantTrackerPlugin.PreviousLap_04],'mm\\\\:ss\\\\:fff')"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    },
+    "laphistory.del5.txt": {
+      "Formula": {
+        "Expression": "if([PersistantTrackerPlugin.PreviousLap_04_DeltaToBest]==0,'',format(isnull([PersistantTrackerPlugin.PreviousLap_04_DeltaToBest],0),'0.000'))"
+      },
+      "Mode": 2,
+      "TargetPropertyName": null
+    }
+  },
+  "RolesEx": {},
+  "ClickActionsEx": {},
+  "HotSpots": [],
+  "PagesMappings": [
+    {
+      "PageName": "idle",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": false,
+      "Idle": true,
+      "Skip": false
+    },
+    {
+      "PageName": "main",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "laphistory",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "tyres",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {},
+  "VirtualPages": []
+}

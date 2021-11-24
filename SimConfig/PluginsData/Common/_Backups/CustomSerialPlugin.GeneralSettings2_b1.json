@@ -1,0 +1,84 @@
+{
+  "Devices": [
+    {
+      "AutomaticReconnect": true,
+      "SerialPortName": "None",
+      "StartupDelayMs": 0,
+      "IsConnecting": false,
+      "IsEnabled": false,
+      "LogIncomingData": false,
+      "IsConnected": false,
+      "BaudRate": 115200,
+      "UpdateMessages": [
+        {
+          "Message": {
+            "Expression": "'ROLL:' + [OrientationRoll]",
+            "SimpleOperationProp": null
+          },
+          "IsEnabled": true,
+          "MaximumFrequency": 60
+        },
+        {
+          "Message": {
+            "Expression": "'PITCH:' + [OrientationPitch]",
+            "SimpleOperationProp": null
+          },
+          "IsEnabled": true,
+          "MaximumFrequency": 60
+        },
+        {
+          "Message": {
+            "Expression": "'HEAVE:' + [AccelerationHeave]",
+            "SimpleOperationProp": null
+          },
+          "IsEnabled": true,
+          "MaximumFrequency": 60
+        },
+        {
+          "Message": {
+            "Expression": "'YAW:' + [OrientationYaw]",
+            "SimpleOperationProp": null
+          },
+          "IsEnabled": true,
+          "MaximumFrequency": 60
+        },
+        {
+          "Message": {
+            "Expression": "'SWAY:' + [AccelerationSway]",
+            "SimpleOperationProp": null
+          },
+          "IsEnabled": true,
+          "MaximumFrequency": 60
+        },
+        {
+          "Message": {
+            "Expression": "'SURGE:' + [AccelerationSurge]",
+            "SimpleOperationProp": null
+          },
+          "IsEnabled": true,
+          "MaximumFrequency": 60
+        }
+      ],
+      "OnConnectMessage": {
+        "Expression": "'game:connected'",
+        "SimpleOperationProp": null
+      },
+      "OnDisconnectMessage": {
+        "Expression": "'game:disconnected'",
+        "SimpleOperationProp": null
+      },
+      "DtrEnable": false,
+      "RtsEnable": false,
+      "EditorExpanded": false,
+      "Name": "Custom Serial device",
+      "Description": "ESP32 Motion Simulator",
+      "LastErrorDate": "0001-01-01T00:00:00",
+      "LastErrorMessage": null,
+      "IsFreezed": false,
+      "SettingsBuilder": {
+        "Settings": [],
+        "IsEditMode": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SimHub</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SimHub">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=720, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="/FontFaces.css">
+    <link rel="stylesheet" href="/cc.css">
+    <!--<script src="/iosfix.js"></script>-->
+</head>
+<body>
+    <div id="rotate-button-div"><div id="rotate-button"><div></div></div></div>
+    <div id="speed-limit"></div>
+    <div id="map-text"></div>
+
+    <div id="mymap" class="mymap"></div>
+    <div class="progress" style="display:none">
+        <h1>Loading template</h1>
+        <ul class="progresslist"></ul>
+    </div>
+
+    <div id="progressOverlay" class="overlay">
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <div class="overlay-inner-content">
+                <img src="/assets/simhub.png" />
+                <div style="color:white; font-family: Tahoma; font-size:25px;font-family: 'Sui Generis Free'" id="loadingLabel"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="innerwrapper">
+            <div id="message" style="background-color:rgba(0,0,0,0.8);  margin-top:5px; padding:0px  20px 20px 20px;Height:60px; opacity:0">
+                <div id="messagetitle">Title</div>
+                <div style="width:500px">
+                    <div id="messagepb" style="position:absolute;width:500px;height:35px; background:gray;opacity:0.8;">
+                        <div style="background:#2196F3!important;height:35px;width:20%" id="pbvalue"></div>
+
+                    </div>
+                    <div id="messagevalue" style="position:absolute;width:500px;margin-top:-3px" class="sub">Sub Title</div>
+
+                </div>
+            </div>
+            <div id="controls2" style="background-color:transparent; border-radius:0px 0px 5px 5px; margin-top:-2px; padding:0px  20px 20px 20px; opacity:0">
+
+                <div id="cwrap" style="background-color:rgba(255,255,255,128); border-radius:0px 0px 5px 5px; margin-top:-2px; padding:-2px;overflow:hidden">
+                    <div>
+                        <table style="margin-top:20px" align="center" accesskey="">
+                            <tr>
+                                <td id="fsbutton">
+                                    <div style="margin: 0px 10px 0px 0px">
+                                        <img class="cbutton" id="goFS2" style="width:40px; padding:5px;border-radius:5px;opacity:0.8;" src="/assets/full-screen-icon-11807.png" />
+                                        <div class="noselect" style="text-align:center; font-family: Tahoma, Verdana, Segoe, sans-serif;font-size:10px; ">Fullscreen</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="margin: 0px 10px 0px 0px">
+                                        <img class="cbutton" id="reload2" style="width:40px; background-color:white; padding:5px;border-radius:5px;opacity:0.8;" src="/assets/refresh.png" />
+                                        <div class="noselect" style="text-align:center; font-family: Tahoma, Verdana, Segoe, sans-serif;font-size:10px; ">Reload</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="margin: 0px 10px 0px 0px">
+                                        <img class="cbutton" id="back2" style="width:40px; background-color:white; padding:5px;border-radius:5px;opacity:0.8;" src="/assets/list.png" />
+                                        <div class="noselect" style="text-align:center; font-family: Tahoma, Verdana, Segoe, sans-serif;font-size:10px; ">Back</div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="margin: 0px 0px 0px 0px">
+                                        <img class="cbutton" id="prevscreen" style="width:40px; background-color:white; padding:5px;border-radius:5px;opacity:0.8;" src="/assets/left.png" />
+                                        <div class="noselect" style="text-align:center; font-family: Tahoma, Verdana, Segoe, sans-serif;font-size:10px; ">Prev. page</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div margin: 0px 10px 0px 0px">
+                                        <img class="cbutton" id="nextscreen" style="width:40px; background-color:white; padding:5px;border-radius:5px;opacity:0.8;" src="/assets/right.png" />
+                                        <div class="noselect" style="text-align:center; font-family: Tahoma, Verdana, Segoe, sans-serif;font-size:10px; ">Next page</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="mobilehelp" style="display:none;background:#c5e0fe; padding:5px;">
+                        <div style="margin:2px auto  5px auto;text-align:center; font-family: Tahoma, Verdana, Segoe, sans-serif;font-size:10px; ">Swipe up or down to toggle controls</div>
+                        <div style="margin:-5px auto  5px auto;text-align:center; font-family: Tahoma, Verdana, Segoe, sans-serif;font-size:10px; ">Swipe left or right to change page</div>
+                    </div>
+                </div>
+            </div>
+
+            <div style"display:none" id="dragcontrols"></div>
+
+            <div class="maincontainer" id="fill" style="display:none">
+            </div>
+
+            <div class="redline" style="position:absolute;top:0;bottom:0;right:0;left:0;background-color:rgba(255,0,0,0.3);display:none;pointer-events: none;"></div>
+
+            <div class="reconnectMessage" style="display:none" id="reconnect"><Span style="background:white;padding:10px 20px;border-radius:10px;border:4px solid black;font-family:tahoma">Reconnecting</Span></div>
+        </div>
+    </div>
+
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
+    <!--Script references. -->
+    <!--Reference the jQuery library. -->
+    <script src="/Scripts/jquery-3.1.1.min.js"></script>
+    <!--<script src="/converters.js"></script>-->
+    <script src="/mapwrapper.js"></script>
+
+    <script src="/jquery.touchwipe.1.1.1.js"></script>
+    <script src="/NoSleep.js"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+    <script type="text/javascript">
+
+        function GetCurrentTemplate() {
+            var hash = window.location.hash.substring(1);
+
+            if (hash.indexOf("|nocontrols") >= 0) {
+                $("#controls").removeClass("forcevisible").hide();
+                $("#controls2").removeClass("forcevisible").hide();
+            }
+
+            var d = hash.split("|");
+            return d[0];
+        }
+
+        document.getElementById("loadingLabel").innerHTML = "Loading " + decodeURI(GetCurrentTemplate()).replace(/\+/g, " ");
+    </script>
+
+    <script src="/converters.js"></script>
+    <script src="/cc.js"></script>
+
+
+</body>
+</html>

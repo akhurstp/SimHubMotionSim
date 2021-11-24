@@ -1,0 +1,44 @@
+{
+  "Devices": [
+    {
+      "AutomaticReconnect": false,
+      "SerialPortName": "None",
+      "StartupDelayMs": 0,
+      "IsConnecting": false,
+      "IsEnabled": false,
+      "LogIncomingData": false,
+      "IsConnected": false,
+      "BaudRate": 115200,
+      "UpdateMessages": [
+        {
+          "Message": {
+            "Expression": "",
+            "SimpleOperationProp": null
+          },
+          "IsEnabled": true,
+          "MaximumFrequency": 60
+        }
+      ],
+      "OnConnectMessage": {
+        "Expression": "",
+        "SimpleOperationProp": null
+      },
+      "OnDisconnectMessage": {
+        "Expression": "",
+        "SimpleOperationProp": null
+      },
+      "DtrEnable": true,
+      "RtsEnable": true,
+      "EditorExpanded": false,
+      "Name": "Custom Serial device",
+      "Description": "Serial device",
+      "LastErrorDate": "0001-01-01T00:00:00",
+      "LastErrorMessage": null,
+      "IsFreezed": false,
+      "SettingsBuilder": {
+        "Settings": [],
+        "IsEditMode": false
+      }
+    }
+  ]
+}
